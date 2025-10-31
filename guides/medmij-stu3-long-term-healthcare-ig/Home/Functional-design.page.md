@@ -103,7 +103,7 @@ Niet alle zibs die in de BgLZ+ uitgewisseld worden zijn bij elke bronlevernacier
 
 ### Ontwerp granulair uitwisselen 
 
-{{render:Granulair_LZ.png}}
+{{render: guides/medmij-stu3-long-term-healthcare-ig/images/Granulair_LZ.png}}
 
 
 #### Patient journey aanvullende gegevensset langdurige zorg  
@@ -241,13 +241,10 @@ Tabel 3 Transactiegroep
 
 ### Activity diagram 
 
- 
-{{render:Activity diagram.png}}
+{{render: guides/medmij-stu3-long-term-healthcare-ig/images/Activity diagram.png}}
 
 
-
-
- ### Weergave richtlijn
+### Weergave richtlijn
 
 #### Scope weergave richtlijn 
 - Het betreft een richtlijn. PGO-leveranciers hebben zelf de keuze of zij (delen van de ) richtlijn toepassen voor de weergave van langdurige zorggevens.
@@ -258,11 +255,7 @@ De richtlijn geeft handvatten voor:
 - De richtlijn geeft géén handvatten voor de vormgeving (kleur, vorm, lettertype, etc.) van langdurige zorggegevens. 
 
 ### Inhoud weergaverichtlijn
-De weergave richtlijnen voor de langdurige zorggegevens zijn [weergaverichtlijn](https://medmij.atlassian.net/wiki/spaces/IER/pages/361168897/Alpha+0.0.1+-+Weergaverichtlijn+Langdurige+Zorg) 
-
- 
-
-
+De weergave richtlijnen voor de langdurige zorggegevens zijn [weergaverichtlijn](https://medmij.atlassian.net/wiki/spaces/IER/pages/361168897/Alpha+0.0.1+-+Weergaverichtlijn+Langdurige+Zorg)
 
 ## Release notes
 
