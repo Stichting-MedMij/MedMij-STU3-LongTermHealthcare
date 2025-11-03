@@ -1,0 +1,6 @@
+title: MedMij STU3 BgLZ IG 1.0.0-beta.1
+description: FHIR IG for MedMij BgLZ.
+version: 1.0.0-beta.1
+style-root: project
+style-name: MedMij
+numbered-headings: true
