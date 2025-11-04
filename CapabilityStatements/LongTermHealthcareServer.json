@@ -1,0 +1,204 @@
+{
+    "resourceType": "CapabilityStatement",
+    "id": "LongTermHealthcare-Server",
+    "url": "http://medmij.nl/fhir/CapabilityStatement/LongTermHealthcare-servercapabilities",
+    "name": "LongTermHealthcareServer",
+    "status": "active",
+    "date": "2025-11-04",
+    "publisher": "Medmij",
+    "contact": [
+        {
+            "name": "MedMij",
+            "telecom": [
+                {
+                    "system": "email",
+                    "value": "info@medmij.nl",
+                    "use": "work"
+                }
+            ]
+        }
+    ],
+    "description": "This CapabilityStatement describes the minimal requirements for a server to expose long-term healthcare information based on the Dutch Health and Care Information models (Dutch: Zorginformatiebouwsteen or ZIB), release 2017.",
+    "purpose": "This CapabilityStatement is informative in nature and does not represent the minimum or maximum set of capabilities the client or server should support. The aim is to design the CapabilityStatement as complete as possible, however for the exact set of capabilities the implementation guide of the corresponding information standard should be consulted.",
+    "copyright": "Copyright and related rights waived via CC0, https://creativecommons.org/publicdomain/zero/1.0/. This does not apply to information from third parties, for example a medical terminology system. The implementer alone is responsible for identifying and obtaining any necessary licenses or authorizations to utilize third party IP in connection with the specification or otherwise.",
+    "kind": "requirements",
+    "fhirVersion": "3.0.2",
+    "format": [
+        "xml",
+        "json"
+    ],
+    "profile": [
+        {
+            "reference": "http://fhir.nl/fhir/StructureDefinition/nl-core-patient",
+            "display": "nl-core-patient"
+        },
+        {
+            "reference": "http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner",
+            "display": "nl-core-practitioner"
+        },
+        {
+            "reference": "http://fhir.nl/fhir/StructureDefinition/nl-core-practitionerrole",
+            "display": "nl-core-practitionerrole"
+        },
+        {
+            "reference": "http://fhir.nl/fhir/StructureDefinition/nl-core-organization",
+            "display": "nl-core-organization"
+        },
+        {
+            "reference": "http://nictiz.nl/fhir/StructureDefinition/zib-Payer",
+            "display": "zib-Payer"
+        },
+        {
+            "reference": "http://nictiz.nl/fhir/StructureDefinition/eOverdracht-Encounter",
+            "display": "eOverdracht-Encounter"
+        },
+        {
+            "reference": "http://nictiz.nl/fhir/StructureDefinition/zib-BloodPressure",
+            "display": "zib-BloodPressure"
+        },
+        {
+            "reference": "http://nictiz.nl/fhir/StructureDefinition/zib-BodyWeight",
+            "display": "zib-BodyWeight"
+        },
+        {
+            "reference": "http://nictiz.nl/fhir/StructureDefinition/zib-BodyHeight",
+            "display": "zib-BodyHeight"
+        },
+        {
+            "reference": "http://nictiz.nl/fhir/StructureDefinition/zib-Alert",
+            "display": "zib-Alert"
+        },
+        {
+            "reference": "http://nictiz.nl/fhir/StructureDefinition/zib-LivingSituation",
+            "display": "zib-LivingSituation"
+        },
+        {
+            "reference": "http://nictiz.nl/fhir/StructureDefinition/zib-NutritionAdvice",
+            "display": "zib-NutritionAdvice"
+        },
+        {
+            "reference": "http://nictiz.nl/fhir/StructureDefinition/zib-BodyTemperature",
+            "display": "zib-BodyTemperature"
+        },
+        {
+            "reference": "http://nictiz.nl/fhir/StructureDefinition/zib-FluidBalance",
+            "display": "zib-FluidBalance"
+        },
+        {
+            "reference": "http://nictiz.nl/fhir/StructureDefinition/zib-Respiration",
+            "display": "zib-Respiration"
+        },
+        {
+            "reference": "http://nictiz.nl/fhir/StructureDefinition/zib-PulseRate",
+            "display": "zib-PulseRate"
+        },
+        {
+            "reference": "https://nuts.nl/fhir/StructureDefinition/nl-core-nursingreport",
+            "display": "nl-core-nursingreport"
+        }
+    ],
+    "rest": [
+        {
+            "mode": "server",
+            "resource": [
+                {
+                    "type": "Patient",
+                    "interaction": [
+                        {
+                            "code": "search-type"
+                        }
+                    ]
+                },
+                {
+                    "type": "Observation",
+                    "interaction": [
+                        {
+                            "code": "search-type"
+                        }
+                    ],
+                    "searchParam": [
+                        {
+                            "name": "code"
+                        }
+                    ]
+                },
+                {
+                    "type": "Coverage",
+                    "interaction": [
+                        {
+                            "code": "search-type"
+                        }
+                    ]
+                },
+                {
+                    "type": "Encounter",
+                    "interaction": [
+                        {
+                            "code": "search-type"
+                        }
+                    ],
+                    "searchParam": [
+                        {
+                            "name": "date"
+                        }
+                    ]
+                },
+                {
+                    "type": "Flag",
+                    "interaction": [
+                        {
+                            "code": "search-type"
+                        }
+                    ]
+                },
+                {
+                    "type": "NutritionOrder",
+                    "interaction": [
+                        {
+                            "code": "search-type"
+                        }
+                    ]
+                },
+                {
+                    "type": "PractitionerRole",
+                    "supportedProfile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-practitionerrole"
+                    ],
+                    "documentation": "This is a secondary resource that needs to be resolvable, either by supporting a `read` interaction or explicitly including it in the Bundle.",
+                    "interaction": [
+                        {
+                            "code": "read",
+                            "documentation": "If the server always includes this (secondary) resource in the Bundle, support of the `read` interaction is optional."
+                        }
+                    ]
+                },
+                {
+                    "type": "Practitioner",
+                    "supportedProfile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner"
+                    ],
+                    "documentation": "This is a secondary resource that needs to be resolvable, either by supporting a `read` interaction or explicitly including it in the Bundle.",
+                    "interaction": [
+                        {
+                            "code": "read",
+                            "documentation": "If the server always includes this (secondary) resource in the Bundle, support of the `read` interaction is optional."
+                        }
+                    ]
+                },
+                {
+                    "type": "Organization",
+                    "supportedProfile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-organization"
+                    ],
+                    "documentation": "This is a secondary resource that needs to be resolvable, either by supporting a `read` interaction or explicitly including it in the Bundle.",
+                    "interaction": [
+                        {
+                            "code": "read",
+                            "documentation": "If the server always includes this (secondary) resource in the Bundle, support of the `read` interaction is optional."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
