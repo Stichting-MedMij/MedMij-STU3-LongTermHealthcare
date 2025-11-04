@@ -118,7 +118,8 @@
                     ],
                     "searchParam": [
                         {
-                            "name": "code"
+                            "name": "code",
+                            "type": "token"
                         }
                     ]
                 },
@@ -139,7 +140,8 @@
                     ],
                     "searchParam": [
                         {
-                            "name": "date"
+                            "name": "date",
+                            "type": "date"
                         }
                     ]
                 },
