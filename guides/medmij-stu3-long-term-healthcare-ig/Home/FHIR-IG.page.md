@@ -9,7 +9,7 @@ topic: TO
 
 ## Introduction 
 
-This Implementation Guide (IG) provides the technical specification of the additional exchange of long-term healthcare information (Dutch: Basisgegevens Langdurige Zorg or BgLZ) based on a selection of Dutch Health Care Information Models.  The “expansion” of the long-term information standard is in first instance focused on Health Care Information Models of the information standard minimal eOverdracht version 4.0   The information standard minimal eOverdracht as published by Nictiz does not yet include a patient use case, this may change in the future. Up until then, the patient use case will be published by MedMij under the definition of additional dataset long-term care.  
+This Implementation Guide (IG) provides the technical specification of the Basic Long-term Healthcare Data Exchange+ (Dutch: Basisgegevens Langdurige Zorg+ or BgLZ+) standard based on a selection of Dutch Health Care Information Models. The “expansion” of the long-term information standard is in first instance focused on Health Care Information Models of the information standard minimal eOverdracht version 4.0   The information standard minimal eOverdracht as published by Nictiz does not yet include a patient use case, this may change in the future. Up until then, the patient use case will be published by MedMij under the definition of Basic Long-term Healthcare Data Exchange+.  
 
 This IG is a technical counterpart of the functional design. The FHIR version used for this IG is HL7 FHIR STU3. This implementation guide assumes that the reader is familiar with this FHIR version.  
 
@@ -27,11 +27,11 @@ Apart from this document, the guidelines as specified in general FHIR Implementa
 
 ## Boundaries and relationships 
 
-This FHIR IG includes use cases for the exchange of the additional dataset long-term care data between health care providers (e.g. nurses) and patients e.g. in a Personal Health Record setting (PHR). In this Implementation Guide we focus op exchange of healthcare data between an healthcare povider to a Personal Health Record (PHR) or in Dutch: persoonlijke gezondheidsomgeving or PGO. 
+This FHIR IG includes use cases for the exchange of the Basic Long-term Healthcare Data Exchange+ data between health care providers (e.g. nurses) and patients e.g. in a Personal Health Record setting (PHR). In this Implementation Guide we focus op exchange of healthcare data between an healthcare povider to a Personal Health Record (PHR) or in Dutch: persoonlijke gezondheidsomgeving or PGO. 
 
 This IG guide assumes that a PHR is able to connect with a XIS. It does not provide information on finding the right source system nor does it provide information about security. These infrastructure and interface specifications are described in the ['MedMij Afsprakenstelsel'](https://afsprakenstelsel.medmij.nl/). 
 
-The additional dataset long term care information exchange is overlapping with other standards such as the Basic Long-term care (BgLZ). The additional dataset long term care uses the same HCIM based FHIR profiles for exchanging information as used in other standards.  
+The Basic Long-term Healthcare Data Exchange+ is overlapping with other standards such as the Basic Long-term Healthcare Data Exchange. The Basic Long-term Healthcare Data Exchange+ uses the same HCIM based FHIR profiles for exchanging information as used in other standards.  
 
  
 
