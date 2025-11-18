@@ -101,7 +101,7 @@ The returned data to the PHR should conform to the profiles listed in the table 
             <td>Payer</td>
             <td> Coverage </td>
             <td> <a href="https://simplifier.net/resolve?target=simplifier&canonical=http://nictiz.nl/fhir/StructureDefinition/zib-Payer&scope=nictiz.fhir.nl.stu3.zib2017@2.2.18">Payer</a> </td>
-            <td class="monospace"> GET [base]/Coverage</td>
+            <td class="monospace"> GET [base] coverage</td>
         </tr>
         <tr>
             <td>2</td>
@@ -117,7 +117,7 @@ The returned data to the PHR should conform to the profiles listed in the table 
             <td>BloodPressure </td>
             <td>Observation</td>
             <td><a href="https://simplifier.net/resolve?target=simplifier&canonical=http://nictiz.nl/fhir/StructureDefinition/zib-BloodPressure&scope=nictiz.fhir.nl.stu3.zib2017@2.2.18">BloodPressure </td>
-            <td class="monospace">GET [base]/Observation?code=http://loinc.org|85354-9  </td>
+            <td class="monospace">GET [base]/ Observation?code=http://loinc.org|85354-9  </td>
         </tr>
         <tr>
             <td>4</td>
@@ -125,7 +125,7 @@ The returned data to the PHR should conform to the profiles listed in the table 
             <td>BodyWeigth </td>
             <td>Observation</td>
             <td><a href="https://simplifier.net/resolve?target=simplifier&canonical=http://nictiz.nl/fhir/StructureDefinition/zib-BodyWeight&scope=nictiz.fhir.nl.stu3.zib2017@2.2.18">BodyWeight </td>
-            <td class="monospace">GET [base]/Observation?code=http://loinc.org|29463-7  </td>
+            <td class="monospace">GET [base]/ Observation?code=http://loinc.org|29463-7  </td>
         </tr>
         <tr>
             <td>5</td>
@@ -133,7 +133,7 @@ The returned data to the PHR should conform to the profiles listed in the table 
             <td>BodyHeight </td>
             <td>Observation</td>
             <td><a href="https://simplifier.net/resolve?target=simplifier&canonical=http://nictiz.nl/fhir/StructureDefinition/zib-BodyHeight&scope=nictiz.fhir.nl.stu3.zib2017@2.2.18">BodyHeight </td>
-            <td class="monospace">GET [base]/Observation?code=http://loinc.org|8302-2 </td>
+            <td class="monospace">GET [base]/ Observation?code=http://loinc.org|8302-2 </td>
         </tr>
         <tr>
             <td>6</td>
@@ -157,7 +157,7 @@ The returned data to the PHR should conform to the profiles listed in the table 
             <td>NutritionAdvice </td>
             <td>NutritionOrder</td>
             <td><a href="https://simplifier.net/resolve?target=simplifier&canonical=http://nictiz.nl/fhir/StructureDefinition/zib-NutritionAdvice&scope=nictiz.fhir.nl.stu3.zib2017@2.2.18">NutritionAdvice </td>
-            <td class="monospace">GET [base]/NutritionOrder </td>
+            <td class="monospace">GET [base]/ NutritionOrder </td>
         </tr>
             <tr>
             <td>9</td>
