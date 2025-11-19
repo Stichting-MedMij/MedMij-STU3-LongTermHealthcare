@@ -162,30 +162,33 @@ Tabel 3 Transactiegroep
 
 | Transactiegroep | Transactie | Systeemrolcode | Systeem | Bedrijfsrol | 
 | --- | --- | --- | --- | --- |  
-| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Contact | LZ-ENCv3.1R-FHIR | PGO | Patiënt | 
-| Verzamelen BgLZ+ | Beschikbaar stellen Granulair gegeven Contact| LZ-ENCv3.1B-FHIR | XIS | Zorgaanbieder | 
-| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Betaler | LZ-PAYv3.1R-FHIR | PGO | Patiënt | 
-| Verzamelen BgLZ+ | Beschikbaar stellen Granulair gegeven Betaler| LZ-PAYv3.1B-FHIR  | XIS | Zorgaanbieder | 
-| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Lichaamsgewicht | LZ-BWv3.1R-FHIR   | PGO | Patiënt | 
-| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Lichaamsgewicht| LZ-BWv3.1B-FHIR  | XIS | Zorgaanbieder | 
-| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Lichaamslengte | LZ-BHv3.1R-FHIR  | PGO | Patiënt | 
-| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Lichaamslengte| LZ-BWv3.1B-FHIR | XIS | Zorgaanbieder | 
-| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Bloeddruk | LZ-BPv3.1R-FHIR   | PGO | Patiënt | 
-| Verzamelen BgLZ+ | Beschikbaar stellen Granulair gegeven Bloeddruk| LZ-BPv3.1R-FHIR  | XIS | Zorgaanbieder | 
-| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Alert | LZ-BPv3.1R-FHIR  | PGO | Patiënt | 
-| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Alert| [NTB]  | XIS | Zorgaanbieder | 
-| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Voedingsadvies | [NTB]   | PGO | Patiënt | 
-| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Voedingsadvies| [NTB]  | XIS | Zorgaanbieder | 
-| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Woonsituatie | [NTB]   | PGO | Patiënt | 
-| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Woonsituatie|[NTB] | XIS | Zorgaanbieder | 
-| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Lichaamstemperatuur | [NTB] | PGO | Patiënt | 
-| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Lichaamstemperatuur|[NTB] | XIS | Zorgaanbieder | 
-| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Vochtbalans | [NTB]   | PGO | Patiënt | 
-| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Vochtbalans|[NTB] | XIS | Zorgaanbieder | 
-| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Ademhaling | [NTB]   | PGO | Patiënt | 
-| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Ademhaling|[NTB] | XIS | Zorgaanbieder | 
-| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Polsfrequentie | [NTB]   | PGO | Patiënt | 
-| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Polsfrequentie|[NTB] | XIS | Zorgaanbieder |
+| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Bloeddruk |  BP-v3.1R-FHIR  | PGO | Patiënt | 
+| Verzamelen BgLZ+ | Beschikbaar stellen Granulair gegeven Bloeddruk|  BP-v3.1B-FHIR  | XIS | Zorgaanbieder | 
+| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Lichaamslengte | BH-v3.1R-FHIR  | PGO | Patiënt | 
+| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Lichaamslengte| BH-v3.1B-FHIR | XIS | Zorgaanbieder | 
+| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Lichaamsgewicht | BW-v3.1R-FHIR   | PGO | Patiënt | 
+| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Lichaamsgewicht| BW-v3.1B-FHIR  | XIS | Zorgaanbieder | 
+| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Alert | BP-v3.1R-FHIR  | PGO | Patiënt | 
+| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Alert| BP-v3.1B-FHIR  | XIS | Zorgaanbieder | 
+| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Voedingsadvies | NA-v3.1R-FHIR  | PGO | Patiënt | 
+| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Voedingsadvies| NA-v3.1B-FHIR  | XIS | Zorgaanbieder | 
+| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Woonsituatie |  LS-v3.1R-FHIR  | PGO | Patiënt | 
+| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Woonsituatie|LS-v3.1B-FHIR | XIS | Zorgaanbieder | 
+| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Betaler | PAY-v3.1R-FHIR | PGO | Patiënt | 
+| Verzamelen BgLZ+ | Beschikbaar stellen Granulair gegeven Betaler| PAY-v3.1B-FHIR  | XIS | Zorgaanbieder | 
+| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Contact | ENC-v3.1R-FHIR | PGO | Patiënt | 
+| Verzamelen BgLZ+ | Beschikbaar stellen Granulair gegeven Contact| ENC-v3.1B-FHIR | XIS | Zorgaanbieder | 
+| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Lichaamstemperatuur | BT-v3.1R-FHIR | PGO | Patiënt | 
+| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Lichaamstemperatuur|BT-v3.1B-FHIR | XIS | Zorgaanbieder | 
+| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Vochtbalans | FB-v1.0R-FHIR  | PGO | Patiënt | 
+| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Vochtbalans|FB-v1.0R-FHIR | XIS | Zorgaanbieder | 
+| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Ademhaling | RES-v3.1R-FHIR  | PGO | Patiënt | 
+| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Ademhaling|RES-v3.1B-FHIR | XIS | Zorgaanbieder | 
+| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Polsfrequentie | PR-v3.1R-FHIR  | PGO | Patiënt | 
+| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Polsfrequentie|PR-v3.1R-FHIR| XIS | Zorgaanbieder |
+| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Dagrapportage | NR-v3.1R-FHIR  | PGO | Patiënt | 
+| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Dagrapportage| NR-v3.1R-FHIR | XIS | Zorgaanbieder |
+
 
 ### Activity diagram 
 
