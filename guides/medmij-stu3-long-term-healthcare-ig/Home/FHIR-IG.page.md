@@ -2,7 +2,7 @@
 topic: TO
 ---
  
-# Technisch ontwerp 
+# Technical design
 
 ## Introduction 
 
@@ -28,9 +28,9 @@ This IG guide assumes that a PHR is able to connect with a XIS. It does not prov
 
 The Basic Long-term Healthcare Data Exchange+ is overlapping with other standards such as the Basic Long-term Healthcare Data Exchange. The Basic Long-term Healthcare Data Exchange+ uses the same HCIM based FHIR profiles for exchanging information as used in other standards.
 
-## Use cases 
+## Use case: Retrieve BgLZ+ information
 
-The use cases in this IG are based as much as possible on the specifications described in the [Nictiz information standard Minimale eOverdracht](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.02/FHIR_BGLZ).
+The use cases in this IG are based as much as possible on the specifications described in the [Nictiz information standard Minimale eOverdracht](https://informatiestandaarden.nictiz.nl/wiki/vpk:V4.0_Opbouw_eOverdracht_algemeen). The information standard eOverdracht can be found on the landing page [Nictiz eOverdracht](https://informatiestandaarden.nictiz.nl/wiki/Landingspagina_Verpleegkundige_Zorg). 
 
 We are not using the infrastructure profiles since we do not transfer messages between healthcare providers. In this Implementation Guide we focus op exchange of healthcare data between an healthcare povider to a Personal Health Record (PHR) or in Dutch: persoonlijke gezondheidsomgeving or PGO.  
  
