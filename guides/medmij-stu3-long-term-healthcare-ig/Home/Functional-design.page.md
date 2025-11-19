@@ -2,7 +2,7 @@
 topic: FO
 ---
 
-# Functioneel ontwerp 
+# Functioneel ontwerp
 
 ## Algemeen 
 
@@ -71,21 +71,22 @@ Naast de BgLZ gaan er meer gegevens granulair beschikbaar worden gesteld, verder
 
 | Standaard| Zorginformatiebouwsteen|
 | --- | --- |
-| Minimale eOverdracht Volwassenen | zib Contact | 
-| Minimale eOverdracht Volwassenen | zib Betaler | 
-| Minimale eOverdracht Volwassenen | zib Lichaamsgewicht | 
-| Minimale eOverdracht Volwassenen | zib Lichaamslengte | 
 | Minimale eOverdracht Volwassenen | zib Bloeddruk | 
+| Minimale eOverdracht Volwassenen | zib Lichaamslengte | 
+| Minimale eOverdracht Volwassenen | zib Lichaamsgewicht | 
 | Minimale eOverdracht Volwassenen | zib Alert | 
 | Minimale eOverdracht Volwassenen | zib Voedingsadvies | 
 | Minimale eOverdracht Volwassenen | zib Woonsituatie | 
-| BgLZ+ - Meting | zib lichaamstemperatuur | 
+| Minimale eOverdracht Volwassenen | zib Betaler | 
+| Minimale eOverdracht Volwassenen | zib Contact | 
+| BgLZ+ - Meting | zib Lichaamstemperatuur | 
 | BgLZ+ - Meting | zib Vochtbalans | 
 | BgLZ+ - Meting | zib Ademhaling | 
 | BgLZ+ - Meting | zib Polsfrequentie | 
-| BgLZ+ - Meting | CIM nl-core-nursingreport | 
+| BgLZ+ - Verslag | CIM nl-core-nursingreport | 
 
-Niet alle zibs die in de BgLZ+ uitgewisseld worden zijn bij elke bronlevernacier beschikbaar. Gezien wij een granulaire gegevensset opstellen zal het niet verplicht zijn om alle zibs uit te wisselen voor kwalificatie, dit zal per leverancier gecommuniceerd en gerapporteerd worden.
+
+Niet alle zibs die in de BgLZ+ uitgewisseld worden zijn bij elke bronleverancier beschikbaar. Gezien wij een granulaire gegevensset opstellen zal het niet verplicht zijn om alle zibs uit te wisselen voor kwalificatie, dit zal per leverancier gecommuniceerd en gerapporteerd worden.
 
 ### Ontwerp granulair uitwisselen 
 
@@ -208,10 +209,3 @@ De richtlijn geeft géén handvatten voor de vormgeving (kleur, vorm, lettertype
 ### Inhoud weergaverichtlijn
 De weergaverichtlijnen voor de langdurige zorggegevens zijn [hier](https://medmij.atlassian.net/wiki/spaces/IER/pages/361168897/Alpha+0.0.1+-+Weergaverichtlijn+Langdurige+Zorg) te vinden.
 
-## Release notes
-
-Tabel 3 Release notes
-
-| Versie | Datum |Omschrijving |
-| --- | --- | --- |
-| 1.0.0-alpha.1 | 19-02-2025| Eerste versie voor een Proof of Concept (POC)  |
