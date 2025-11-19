@@ -1,11 +1,8 @@
 ---
 topic: FO
 ---
- 
 
 # Functioneel ontwerp 
-
- 
 
 ## Algemeen 
 
@@ -22,8 +19,6 @@ De doelgroep voor deze pagina wijkt niet af van de [algemene doelgroep](https://
 ### Richtlijn & proces 
 
 Dit ontwerp is conform specificaties genoemd in [de algemene inleiding](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.01/Ontwerpen#Richtlijn) van de MedMij functionele ontwerpen. 
-
- 
 
 ### Reikwijdte 
 
@@ -43,11 +38,7 @@ Geen nadere specificatie, anders dan genoemd in [de algemene inleiding](https:
 
 Op dit moment wordt de usecase uit dit ontwerp getoetst in een Proof of Concept (PoC).
 
- 
-
 ## Usecases 
-
- 
 
 ### Algemeen 
 
@@ -62,14 +53,11 @@ In het huidige Medmij-Afsprakenstelsel is de Basisgegevensset Langdurige Zorg é
 - Kwalificatiecriteria 
 - Testscenario’s 
 
-
 Wat blijft hetzelfde? 
 
 - De zibs blijven leidend als informatiemodel 
 - De keten (bronsysteem > DVA > PGO) blijft bestaan 
 - Authenticatie, autorisatie, adressering en logging blijven conform het Medmij-afpsrakenstelsel. 
-
- 
 
 ### Doel en relevantie granulair raadplegen gegevens Langdurige zorg 
 
@@ -80,7 +68,6 @@ Het scenarioeOverdracht is voor zorgaanbieder – zorgaanbieder uitwisseling ing
 Naast de Miniale eOverdracht zibs zijn er nog metingen en een dagrapportage beschikbaar  bij de bronleverancier, ook deze zullen met de BgLZ+ granulair ontsloten worden naar de PGO.
 
 Naast de BgLZ gaan er meer gegevens granulair beschikbaar worden gesteld, verder genoemd BgLZ+. De uitbreiding betreft de zibs die vanuit de Minimale eOverdracht en metingen die beschikbaar worden gesteld. Specifiek gaat het om onderstaande zibs: 
-
 
 | Standaard| Zorginformatiebouwsteen|
 | --- | --- |
@@ -98,19 +85,15 @@ Naast de BgLZ gaan er meer gegevens granulair beschikbaar worden gesteld, verder
 | BgLZ+ - Meting | zib Polsfrequentie | 
 | BgLZ+ - Meting | CIM nl-core-nursingreport | 
 
-
 Niet alle zibs die in de BgLZ+ uitgewisseld worden zijn bij elke bronlevernacier beschikbaar. Gezien wij een granulaire gegevensset opstellen zal het niet verplicht zijn om alle zibs uit te wisselen voor kwalificatie, dit zal per leverancier gecommuniceerd en gerapporteerd worden.
 
 ### Ontwerp granulair uitwisselen 
 
 {{render: guides/medmij-stu3-long-term-healthcare-ig/images/Granulair_LZ.png}}
 
-
 #### Patient journey aanvullende gegevensset langdurige zorg  
 
-
-De patient journey beschrijft enkele momenten waarop je als patiënt zijnde inzicht kan of zou willen hebben in zijn langdurige zorggegevens
- 
+De patient journey beschrijft enkele momenten waarop je als patiënt zijnde inzicht kan of zou willen hebben in zijn langdurige zorggegevens.
 
 In de landurige zorg zijn er veel verschillende patiëntreizen te onderscheiden. Onderstaand is één patiëntreis beschreven. De eOverdracht is een use-case waarbij het gaat om eenmalige overdracht van gegevens, zoals op vastgelegd moment van overdracht. Dit is een redelijk algemene patiëntreis en toch zijn er vele andere denkbaar. In overleg met de zorgaanbieders en leveranciers zullen we later een of meer patiëntreizen uitwerken.  Er zijn eerder meer patiëntreizen beschreven, onder andere in opdracht van Platform IZO (zie document Het netwerk in de praktijk, 31-03-2022) en ook door Nictiz (Casus Kenneth van Someren -  https://informatiestandaarden.nictiz.nl/images/a/a6/Casus_Kenneth_van_Someren_MedMij.pdf).   
 
@@ -122,79 +105,51 @@ Een maand geleden is Peter getroffen door een hersenbloeding (CVA). Er wordt nu 
 
 Peter is door de vele zorgverleners die hij de afgelopen tijd heeft ontmoet het overzicht kwijtgeraakt over zijn zorg en wil hier nog eens naar kijken. Bovendien was er te weinig tijd tijdens het consult om hierover door te praten met zijn zorgverlener.  
 
-Op aanraden van zijn dochter heeft Peter nu een eigen gekozen PGO. In zijn PGO wil Peter zijn aanvullende gegevensset langdurige zorggegevens raadplegen, hij is nieuwsgierig naar deze gegevens. Zijn dochter kijkt mee, die is bij Peter op visite. Hij wil deze gegevens graag thuis inzien zonder dat hij daarvoor de zorgverlener hoeft te belasten. Bovendien hoeft hij dan zelf nergens naartoe te gaan. Hij raadpleegt via zijn PGO de betreffende zorgaanbieder waar hij onder behandeling is om zijn aanvullende gegevensset landurige zorggegevens op te halen en in te zien. Peter ziet nu zijn medische gegevens, waardoor hij meer inzicht heeft in de status van zijn gezondheid.   
-
- 
+Op aanraden van zijn dochter heeft Peter nu een eigen gekozen PGO. In zijn PGO wil Peter zijn aanvullende gegevensset langdurige zorggegevens raadplegen, hij is nieuwsgierig naar deze gegevens. Zijn dochter kijkt mee, die is bij Peter op visite. Hij wil deze gegevens graag thuis inzien zonder dat hij daarvoor de zorgverlener hoeft te belasten. Bovendien hoeft hij dan zelf nergens naartoe te gaan. Hij raadpleegt via zijn PGO de betreffende zorgaanbieder waar hij onder behandeling is om zijn aanvullende gegevensset landurige zorggegevens op te halen en in te zien. Peter ziet nu zijn medische gegevens, waardoor hij meer inzicht heeft in de status van zijn gezondheid.
 
 #### Preproces 
 
 - De cliënt beschikt over een eigen PGO dat aan de MedMij-eisen voldoet.  
-
 - De cliënt heeft toestemming gegeven voor het elektronisch uitwisselen van medische gegevens tussen het betreffende XIS/EPD en de eigen persoonlijke gezondheidsomgeving. 
-
-- Er is sprake van een dossier voor de cliënt binnen de langdurige zorg sector.  
-
- 
+- Er is sprake van een dossier voor de cliënt binnen de langdurige zorg sector.   
 
 #### Proces 
 
-- De cliënt raadpleegt de ‘bloeddruk’ in zijn of haar PGO. 
-
-- Het systeem van de cliënt (PGO) vraagt om beschikbare medische gegevens bij een XIS/EPD aan de hand van een zoekopdracht. 
-
-- Het systeem van de zorgaanbieder (XIS) stelt de anvullende gegevensset Langdurige zorg beschikbaar voor de patiënt. 
-
- 
+- De cliënt raadpleegt de ‘bloeddruk’ in zijn of haar PGO.
+- Het systeem van de cliënt (PGO) vraagt om beschikbare medische gegevens bij een XIS/EPD aan de hand van een zoekopdracht.
+- Het systeem van de zorgaanbieder (XIS) stelt de anvullende gegevensset Langdurige zorg beschikbaar voor de patiënt.
 
 #### Postproces 
 
 - In de PGO van de cliënt wordt de bloeddruk overzichtelijk en begrijpelijk getoond.  
 
-
-
-
 ### Bedrijfsrollen en UML activity diagram 
 
-Deze usecase onderscheidt twee bedrijfsrollen, namelijk de Persoon en de (Zorg)Aanbieder zoals te zien in onderstaande tabel. 
-
+Deze usecase onderscheidt twee bedrijfsrollen, namelijk de Persoon en de (Zorg)Aanbieder zoals te zien in onderstaande tabel.
  
 Tabel 1 Bedrijfsrollen 
-
  
 | Bedrijfsrol (actor) | Beschrijving bedrijfsrol |
 | --- | --- |
 | Patiënt/ Persoon | Gebruiker van de PGO |
 | (zorg)aanbieder | Gebruiker van het XIS |
+
+### Informatieoverdracht
  
-
-### Informatieoverdracht 
-
+Zowel de persoon als de (zorg)aanbieder maken ieder gebruik van een informatiesysteem:
  
-Zowel de persoon als de (zorg)aanbieder maken ieder gebruik van een informatiesysteem: 
-
- 
-- PGO (persoon) 
-
-- XIS zorginformatiesysteem  
-
- 
+- PGO (persoon)
+- XIS zorginformatiesysteem
 
 #### Systemen & Systeemrollen 
-
- 
 Deze systemen kennen ieder verschillende systeemrollen, die het uitwisselen van gegevens tussen deze systemen mogelijk maken. Hier gaat het om de aanvullende gegevensset Langdurige zorg geregistreerd bij de zorgaanbieders naar de persoon.  
-
  
-Tabel 2 Systeemrol 
-
- 
+Tabel 2 Systeemrol
 
 | Systeem | Naam Systeemrol | Systeemrolcode | Omschrijving | 
 | --- | --- | --- | --- | 
 | PGO | BgLZ+ Raadplegend | LZ-AGLZR-FHIR | Raadplegen aanvullende gegevensset Langdurige zorg gegevens bij zorgaanbieder | 
 | XIS | aanvullende gegevensset Langdurige zorg Beschikbaarstellend | MM-AGLZB-FHIR | Beschikbaar stellen aanvullende gegevensset Langdurige zorg| 
-
- 
 
 ### Transacties en Transactiegroepen 
 
@@ -203,10 +158,7 @@ Het uitwisselen van gegevens tussen de verschillende systeemrollen gebeurt op ba
 
 Voor de technische specificaties en FHIR implementation guide, zie de {{pagelink:TO, text:FHIR IG}}. 
 
-
-Tabel 3 Transactiegroep 
-
- 
+Tabel 3 Transactiegroep
 
 | Transactiegroep | Transactie | Systeemrolcode | Systeem | Bedrijfsrol | 
 | --- | --- | --- | --- | --- |  
@@ -233,29 +185,25 @@ Tabel 3 Transactiegroep
 | Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Ademhaling | [NTB]   | PGO | Patiënt | 
 | Verzamelen BgLZ+ | Beschikbaar stellen Granulair Ademhaling|[NTB] | XIS | Zorgaanbieder | 
 | Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Polsfrequentie | [NTB]   | PGO | Patiënt | 
-| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Polsfrequentie|[NTB] | XIS | Zorgaanbieder | 
-
-
- 
-
+| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Polsfrequentie|[NTB] | XIS | Zorgaanbieder |
 
 ### Activity diagram 
 
 {{render: guides/medmij-stu3-long-term-healthcare-ig/images/Activity diagram.png}}
 
+### Weergaverichtlijn
 
-### Weergave richtlijn
-
-#### Scope weergave richtlijn 
-- Het betreft een richtlijn. PGO-leveranciers hebben zelf de keuze of zij (delen van de ) richtlijn toepassen voor de weergave van langdurige zorggevens.
+#### Scope weergaverichtlijn 
+- Het betreft een richtlijn. PGO-leveranciers hebben zelf de keuze of zij (delen van de) richtlijn toepassen voor de weergave van langdurige zorggevens.
 
 De richtlijn geeft handvatten voor:
-- het gebruik van patiëntvriendelijke termen en toelichting
-- de inhoud van het overzicht van langdurige zorggegevens in de PGO
-- De richtlijn geeft géén handvatten voor de vormgeving (kleur, vorm, lettertype, etc.) van langdurige zorggegevens. 
+- het gebruik van patiëntvriendelijke termen en toelichting;
+- de inhoud van het overzicht van langdurige zorggegevens in de PGO.
+
+De richtlijn geeft géén handvatten voor de vormgeving (kleur, vorm, lettertype, etc.) van langdurige zorggegevens. 
 
 ### Inhoud weergaverichtlijn
-De weergave richtlijnen voor de langdurige zorggegevens zijn [weergaverichtlijn](https://medmij.atlassian.net/wiki/spaces/IER/pages/361168897/Alpha+0.0.1+-+Weergaverichtlijn+Langdurige+Zorg)
+De weergaverichtlijnen voor de langdurige zorggegevens zijn [hier](https://medmij.atlassian.net/wiki/spaces/IER/pages/361168897/Alpha+0.0.1+-+Weergaverichtlijn+Langdurige+Zorg) te vinden.
 
 ## Release notes
 
