@@ -12,13 +12,12 @@ This IG is a technical counterpart of the functional design. The FHIR version us
 
 Apart from this document, the guidelines as specified in general FHIR Implementation Guide apply. In particular, the reader should take note of the Use case overarching principles.  
 
-## Actors involved 
-
-|Actors||Systems||FHIR Capability Statements| 
-| 
-|Name|Description|Name|Description|Description| 
-|Patient|The user of a personal healthcare environment|PHR (Document Consumer)|Personal health record|FHIR client requirements|
-|Healthcare provider|The user of a XIS|XIS (Document Responder)|Healthcare information system|FHIR server requirements|
+## Actors involved
+| Actor | | System | | FHIR CapabilityStatement |
+| --- | --- | --- | --- | --- | --- |
+| **Name** | **Description** | **Name** | **Description** | **Name** | **Description** |
+| Patient | The user of a personal healthcare environment | PHR | Personal health record | [CapabilityStatement Retrieve](http://medmij.nl/fhir/CapabilityStatement/lz-Retrieve) | FHIR client requirements |
+| Healthcare provider | The user of a XIS | XIS | Healthcare information system | [CapabilityStatement Serve](http://medmij.nl/fhir/CapabilityStatement/lz-Serve) | FHIR server requirements |
 
 ## Boundaries and relationships 
 

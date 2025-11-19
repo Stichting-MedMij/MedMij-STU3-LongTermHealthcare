@@ -10,3 +10,5 @@
   filename: Dependencies.page.md
 - name: Test material
   filename: Test-material.page.md
+- name: Release notes
+  filename: Release-notes.page.md
