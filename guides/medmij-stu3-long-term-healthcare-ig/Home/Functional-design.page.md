@@ -143,23 +143,17 @@ Zowel de persoon als de (zorg)aanbieder maken ieder gebruik van een informatiesy
 - XIS zorginformatiesysteem
 
 #### Systemen & Systeemrollen 
-Deze systemen kennen ieder verschillende systeemrollen, die het uitwisselen van gegevens tussen deze systemen mogelijk maken. Hier gaat het om de aanvullende gegevensset Langdurige zorg geregistreerd bij de zorgaanbieders naar de persoon.  
+Deze systemen kennen ieder verschillende systeemrollen, de systeemrollen zijn per granulair gegeven in het hoofdstuk Transacties en Transactiegroepen gedefinieerd. Hier gaat het om de BgLZ+ geregistreerd bij de zorgaanbieders naar de persoon.  
  
-Tabel 2 Systeemrol
-
-| Systeem | Naam Systeemrol | Systeemrolcode | Omschrijving | 
-| --- | --- | --- | --- | 
-| PGO | BgLZ+ Raadplegend | LZ-AGLZR-FHIR | Raadplegen aanvullende gegevensset Langdurige zorg gegevens bij zorgaanbieder | 
-| XIS | aanvullende gegevensset Langdurige zorg Beschikbaarstellend | MM-AGLZB-FHIR | Beschikbaar stellen aanvullende gegevensset Langdurige zorg| 
 
 ### Transacties en Transactiegroepen 
 
 Het uitwisselen van gegevens tussen de verschillende systeemrollen gebeurt op basis van transacties. Een transactie (bijvoorbeeld een vraag- en antwoordbericht) vormt een zogeheten transactiegroep. Voor de transacties die tussen de systeemrollen plaatsvinden, wordt in ART-DECOR beschreven welke gegevenselementen en met welke kardinaliteiten de gegevens uitgewisseld worden vanuit de minimale eOverdracht. De gegevenselementen van de Minimale eOverdracht staan gepubliceerd op 
-[ART-DECOR](https://decor.nictiz.nl/decor/services/RetrieveTransaction?language=nl-NL&version=2021-05-10T09%3A35%3A29&hidecolumns=45ghi&id=2.16.840.1.113883.2.4.3.11.60.30.4.39&effectiveDate=2021-01-27T00%3A00%3A00&format=html). Daarbij hebben wij een Excel weergave opgesteld met de gehele dataset BgLZ + aanvullende gegevensset langdurige zorg voor testdoeleinden. Alle gegevens zullen granulair uitgewisseld worden, wij wisselen dus niet in bundles van gegevens uit binnen dit project echter in aparte FHIR resources.
+[ART-DECOR](https://decor.nictiz.nl/decor/services/RetrieveTransaction?language=nl-NL&version=2021-05-10T09%3A35%3A29&hidecolumns=45ghi&id=2.16.840.1.113883.2.4.3.11.60.30.4.39&effectiveDate=2021-01-27T00%3A00%3A00&format=html). Daarbij hebben wij een Excel weergave opgesteld met de gehele dataset Basisgegevensset langdurige zorg en de BgLZ+ voor testdoeleinden. Alle gegevens zullen granulair uitgewisseld worden, wij wisselen dus niet in bundles van gegevens uit binnen dit project echter in aparte FHIR resources.
 
 Voor de technische specificaties en FHIR implementation guide, zie de {{pagelink:TO, text:FHIR IG}}. 
 
-Tabel 3 Transactiegroep
+Tabel 2 Transactiegroep
 
 | Transactiegroep | Transactie | Systeemrolcode | Systeem | Bedrijfsrol | 
 | --- | --- | --- | --- | --- |  
