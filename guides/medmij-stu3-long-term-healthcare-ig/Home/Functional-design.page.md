@@ -6,7 +6,7 @@ topic: FO
 
 ## Algemeen 
 
-Dit ontwerp beschrijft de databeschikbaarheid richting de persoon voor de BgLZ+. Hierdoor kan de burger, cliënt of patiënt zijn relevante langdurige zorggegevens bekijken via de PGO om een beter en vollediger inzicht te krijgen in de eigen medische situatie.​ 
+Dit ontwerp beschrijft de databeschikbaarheid richting de persoon voor de Basisgegevens Langdurige Zorg+ (BgLZ+). Hierdoor kan de burger, cliënt of patiënt zijn relevante langdurige zorggegevens bekijken via de PGO om een beter en vollediger inzicht te krijgen in de eigen medische situatie.​ 
 
 Het doel van dit document is om de BgLZ+ beschikbaar te stellen aan een persoon (in de PGO). 
 
@@ -24,7 +24,7 @@ Dit ontwerp is conform specificaties genoemd in [de algemene inleiding](https:
 
 De reikwijdte van dit ontwerp beslaat de functionele beschrijvingen en de dataset voor de gegevensuitwisselingen die voortvloeien uit uitgevoerde langdurige zorg. 
 
-Deze eerste versie van de use case “Raadplegen BgLZ+” heeft betrekking op het raadplegen en beschikbaar stellen van zorginformatiebouwstenen die al beschikbaar zijn bij de zorgaanbieders in de XIS-systemen. De BgLZ+ is samengesteld uit de [zib-publicatie 2017](https://zibs.nl/wiki/ZIB_Publicatie_2017(NL)). Deze BgLZ+ wordt naast de Basisgegevensset Langdurige zorg (BgLZ) uitgewisseld. De BgLZ wordt in stand gehouden zoals die er nu staat, hier zullen geen wijzigingen in plaatsvinden. De BgLZ+ gaat over de extra zibs die naast de al bestaande BgLZ beschikbaar worden gesteld. 
+Deze versie van de use case “Raadplegen BgLZ+” heeft betrekking op het raadplegen en beschikbaar stellen van zorginformatiebouwstenen die al beschikbaar zijn bij de zorgaanbieders in de XIS-systemen. De BgLZ+ is samengesteld uit de [zib-publicatie 2017](https://zibs.nl/wiki/ZIB_Publicatie_2017(NL)). Deze BgLZ+ zibs worden bovenop de Basisgegevensset Langdurige zorg (BgLZ) uitgewisseld. De BgLZ wordt in stand gehouden zoals die er nu staat, hier zullen geen wijzigingen in plaatsvinden. De BgLZ+ gaat over de extra zibs die naast de al bestaande BgLZ beschikbaar worden gesteld. 
 
 ### Infrastructuur 
 
@@ -45,7 +45,7 @@ Op dit moment wordt de usecase uit dit ontwerp getoetst in een Proof of Concept 
 Een usecase is een specifieke beschrijving van een praktijksituatie in de langdurige zorg waarbij voor een concrete situatie het uitwisselen van informatie wordt beschreven aan de hand van actoren (mensen, systemen) en transacties (welke informatie wordt wanneer uitgewisseld). Een usecase is een verbijzondering van een specifiek onderdeel van het zorgproces in de langdurige zorg.   
 
 ### Granulair raadplegen aanvullende gegevensset Langdurige zorg 
-We stappen in deze Proof of Concept (PoC) af van het monolithische concept als één grote gegevensdienst,en gaan toe naar granulaire uitwisseling en kwalificatie op het niveau van afzonderlijke zibs/FHIR-profielen. 
+We stappen in deze Pilot af van het monolithische concept als één grote gegevensdienst,en gaan toe naar granulaire uitwisseling en kwalificatie op het niveau van afzonderlijke zibs/FHIR-profielen. 
  
 In het huidige Medmij-Afsprakenstelsel is de Basisgegevensset Langdurige Zorg één gegevensdienst waarin een vastgestelde set van FHIR-profielen (op basis van zibs) als geheel moet worden ondersteund. We willen met de aanvullende gegevensset langdurige zorg toe naar een situatie waarbij elke zib (en dus elk FHIR-profiel) wordt beschouwd als een losstaande gegevensdienst met een eigen: 
 
@@ -63,11 +63,11 @@ Wat blijft hetzelfde?
 
 De gegevens voor uitwisseling in eerste instantie gebaseerd op de gegevensset Minimale eOverdracht (MeO) v4.0 zie voor meer informatie over welke zibs binnen de eOverdracht in scope zijn de Nictiz wiki pagina  [algemeen overzicht van de inhoudelijke opbouw van de gehele eOverdracht.](https://informatiestandaarden.nictiz.nl/wiki/vpk:V4.0_Opbouw_eOverdracht_algemeen). Via de [landingspagina Verpleegkundige zorg](https://informatiestandaarden.nictiz.nl/wiki/Landingspagina_Verpleegkundige_Zorg) is de meest actuele eOverdracht informatiestandaard te bekijken, deze richt zich op overdracht van een patiënt/cliënt tussen zorginstellingen.
 
-Het scenarioeOverdracht is voor zorgaanbieder – zorgaanbieder uitwisseling ingericht. Deze set van gegevens worden met dit functioneel ontwerp ontsloten naar de Patiënt via de PGO. Wij zullen zoveel als mogelijk verwijzen naar de Nictiz pagina gezien de zibs van zorgaanbieder- zorgaanbieder uitwisseling ook naar de PGO ontsloten kunnen worden. 
+Het scenario eOverdracht is voor zorgaanbieder – zorgaanbieder uitwisseling ingericht. Deze set van gegevens worden met dit functioneel ontwerp ontsloten naar de Patiënt via de PGO. Wij zullen zoveel als mogelijk verwijzen naar de Nictiz pagina gezien de zibs van zorgaanbieder- zorgaanbieder uitwisseling ook naar de PGO ontsloten kunnen worden. 
 
-Naast de Miniale eOverdracht zibs zijn er nog metingen en een dagrapportage beschikbaar  bij de bronleverancier, ook deze zullen met de BgLZ+ granulair ontsloten worden naar de PGO.
+Naast de Miniale eOverdracht zibs zijn er nog extra metingen en een dagrapportage (nl-core-nursingreport) beschikbaar bij de bronleverancier, ook deze zullen met de BgLZ+ granulair ontsloten worden naar de PGO.
 
-Naast de BgLZ gaan er meer gegevens granulair beschikbaar worden gesteld, verder genoemd BgLZ+. De uitbreiding betreft de zibs die vanuit de Minimale eOverdracht en metingen die beschikbaar worden gesteld. Specifiek gaat het om onderstaande zibs: 
+Naast de BgLZ gaan er meer gegevens granulair beschikbaar worden gesteld, verder genoemd BgLZ+. Specifiek gaat het om onderstaande zibs: 
 
 | Standaard| Zorginformatiebouwsteen|
 | --- | --- |
