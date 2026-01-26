@@ -24,7 +24,7 @@ Dit ontwerp is conform specificaties genoemd in [de algemene inleiding](https:
 
 De reikwijdte van dit ontwerp beslaat de functionele beschrijvingen en de dataset voor de gegevensuitwisselingen die voortvloeien uit uitgevoerde langdurige zorg. 
 
-Deze versie van de use case “Raadplegen BgLZ+” heeft betrekking op het raadplegen en beschikbaar stellen van zorginformatiebouwstenen die al beschikbaar zijn bij de zorgaanbieders in de XIS-systemen. De BgLZ+ is samengesteld uit de [zib-publicatie 2017](https://zibs.nl/wiki/ZIB_Publicatie_2017(NL)). Deze BgLZ+ zibs worden bovenop de Basisgegevensset Langdurige zorg (BgLZ) uitgewisseld. De BgLZ wordt in stand gehouden zoals die er nu staat, hier zullen geen wijzigingen in plaatsvinden. De BgLZ+ gaat over de extra zibs die naast de al bestaande BgLZ beschikbaar worden gesteld. 
+Deze versie van de gegevensdiensten “Raadplegen BgLZ+” heeft betrekking op het raadplegen en beschikbaar stellen van zorginformatiebouwstenen die al beschikbaar zijn bij de zorgaanbieders in de XIS-systemen. De BgLZ+ is samengesteld uit de [zib-publicatie 2017](https://zibs.nl/wiki/ZIB_Publicatie_2017(NL)). De BgLZ+ zibs worden bovenop de Basisgegevensset Langdurige zorg (BgLZ) uitgewisseld. De BgLZ wordt in stand gehouden zoals die er nu staat, hier zullen geen wijzigingen in plaatsvinden. De BgLZ+ gaat over de extra zibs die naast de al bestaande BgLZ beschikbaar worden gesteld. De BgLZ zibs zijn te vinden via [ART DECOR BGLZ](https://decor.nictiz.nl/ad/#/lanzo-/datasets/dataset/2.16.840.1.113883.2.4.3.11.60.58.1.1/2019-04-04T16:57:35) en de BgLZ+ zibs zijn te vinden via [ART DECOR BGLZ+](https://decor.nictiz.nl/ad/#/mm-bglzplus-/datasets/dataset)
 
 ### Infrastructuur 
 
@@ -36,7 +36,7 @@ Geen nadere specificatie, anders dan genoemd in [de algemene inleiding](https:
 
 ### Kwalificatie en testen 
 
-Op dit moment wordt de usecase uit dit ontwerp getoetst in een Proof of Concept (PoC).
+Op dit moment wordt de usecase uit dit ontwerp getoetst in een pilot.
 
 ## Usecases 
 
@@ -45,7 +45,7 @@ Op dit moment wordt de usecase uit dit ontwerp getoetst in een Proof of Concept 
 Een usecase is een specifieke beschrijving van een praktijksituatie in de langdurige zorg waarbij voor een concrete situatie het uitwisselen van informatie wordt beschreven aan de hand van actoren (mensen, systemen) en transacties (welke informatie wordt wanneer uitgewisseld). Een usecase is een verbijzondering van een specifiek onderdeel van het zorgproces in de langdurige zorg.   
 
 ### Granulair raadplegen aanvullende gegevensset Langdurige zorg 
-We stappen in deze Pilot af van het monolithische concept als één grote gegevensdienst,en gaan toe naar granulaire uitwisseling en kwalificatie op het niveau van afzonderlijke zibs/FHIR-profielen. 
+We stappen in deze pilot af van het monolithische concept als één grote gegevensdienst,en gaan toe naar granulaire uitwisseling en kwalificatie op het niveau van afzonderlijke zibs/FHIR-profielen. 
  
 In het huidige Medmij-Afsprakenstelsel is de Basisgegevensset Langdurige Zorg één gegevensdienst waarin een vastgestelde set van FHIR-profielen (op basis van zibs) als geheel moet worden ondersteund. We willen met de aanvullende gegevensset langdurige zorg toe naar een situatie waarbij elke zib (en dus elk FHIR-profiel) wordt beschouwd als een losstaande gegevensdienst met een eigen: 
 
@@ -86,7 +86,7 @@ Naast de BgLZ gaan er meer gegevens granulair beschikbaar worden gesteld, verder
 | BgLZ+ - Verslag | CIM nl-core-nursingreport | 
 
 
-Niet alle zibs die in de BgLZ+ uitgewisseld worden zijn bij elke bronleverancier beschikbaar. Gezien wij een granulaire gegevensset opstellen zal het niet verplicht zijn om alle zibs uit te wisselen voor kwalificatie, dit zal per leverancier gecommuniceerd en gerapporteerd worden.
+Niet alle zibs die in de BgLZ+ uitgewisseld worden zijn bij elke bronleverancier beschikbaar. Gezien wij een granulaire gegevensset opstellen zal het niet verplicht zijn om alle zibs uit te wisselen voor kwalificatie, dit zal per leverancier gecommuniceerd en gerapporteerd worden. Meer informatie over granulair uitwisselen kan gevonden worden via de [MedMij STU3 Core](https://simplifier.net/guide/medmij-stu3-core-ig?version=current) pagina. Op deze pagina staan alle domeinoversteigende gegevensdiensten gepubliceerd. 
 
 ### Ontwerp granulair uitwisselen 
 
@@ -201,5 +201,5 @@ De richtlijn geeft handvatten voor:
 De richtlijn geeft géén handvatten voor de vormgeving (kleur, vorm, lettertype, etc.) van langdurige zorggegevens. 
 
 ### Inhoud weergaverichtlijn
-De weergaverichtlijnen voor de langdurige zorggegevens zijn [hier](https://medmij.atlassian.net/wiki/spaces/IER/pages/361168897/Alpha+0.0.1+-+Weergaverichtlijn+Langdurige+Zorg) te vinden.
+De weergaverichtlijnen voor de langdurige zorggegevens zijn [hier](https://medmij.atlassian.net/wiki/spaces/IER/pages/478969857/Weergaverichtlijn+Langdurige+Zorg+Beta+versie) te vinden.
 
