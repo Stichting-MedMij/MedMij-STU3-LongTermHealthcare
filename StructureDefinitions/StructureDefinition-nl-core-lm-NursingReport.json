@@ -237,7 +237,7 @@
           {
             "code": "string"
           }
-        ],
+        ]
       },
       {
         "id": "nl-core-lm-NursingReport.Performer.HealthProfessional.Specialty",
