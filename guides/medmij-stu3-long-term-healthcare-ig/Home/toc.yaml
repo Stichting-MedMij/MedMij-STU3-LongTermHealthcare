@@ -4,6 +4,8 @@
   filename: Functional-design.page.md
 - name: FHIR IG
   filename: FHIR-IG.page.md
+- name: Artifact index
+  filename: Artifact-Index
 - name: Dependencies
   filename: Dependencies.page.md
 - name: Release notes

@@ -1,0 +1,382 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "nl-core-lm-NursingReport",
+  "text": {
+    "status": "empty",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">No narrative is provided for definitional resources. A human-readable rendering can be found in the implementation guide(s) where this resource is used.</div>"
+  },
+  "url": "http://medmij.nl/fhir/StructureDefinition/nl-core-lm-NursingReport",
+  "name": "NlCoreLmNursingReport",
+  "title": "Nursing report",
+  "status": "active",
+  "publisher": "MedMij",
+  "contact": [
+    {
+      "name": "MedMij",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "info@medmij.nl",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "A report written by a nurse containing details about the patient's condition and care, as well as their clinical observations.",
+  "purpose": "This LogicalModel represents the NursingReport building block for patient use cases in the context of long-term healthcare.",
+  "copyright": "Copyright and related rights waived via CC0, https://creativecommons.org/publicdomain/zero/1.0/. This does not apply to information from third parties, for example a medical terminology system. The implementer alone is responsible for identifying and obtaining any necessary licenses or authorizations to utilize third party IP in connection with the specification or otherwise.",
+  "fhirVersion": "3.0.2",
+  "mapping": [
+    {
+      "identity": "SNOMED",
+      "name": "SNOMED CT",
+      "uri": "http://snomed.info/sct"
+    }
+  ],
+  "kind": "logical",
+  "abstract": true,
+  "type": "http://medmij.nl/fhir/StructureDefinition/nl-core-lm-NursingReport",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "differential": {
+    "element": [
+      {
+        "id": "nl-core-lm-NursingReport",
+        "path": "nl-core-lm-NursingReport",
+        "short": "Nursing report",
+        "definition": "A report written by a nurse containing details about the patient's condition and care, as well as their clinical observations.",
+        "alias": [
+          "Dagrapportage"
+        ],
+        "mapping": [
+          {
+            "identity": "SNOMED",
+            "map": "11591000146107",
+            "comment": "patiëntcontactverslag"
+          }
+        ]
+      },
+      {
+        "id": "nl-core-lm-NursingReport.ReportTitle",
+        "path": "nl-core-lm-NursingReport.ReportTitle",
+        "short": "Report title",
+        "definition": "The title of the nursing report.",
+        "alias": [
+          "RapportageTitel"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "nl-core-lm-NursingReport.ReportDateTime",
+        "path": "nl-core-lm-NursingReport.ReportDateTime",
+        "short": "Report date time",
+        "definition": "The date/time on which the nursing report is registered.",
+        "alias": [
+          "RapportageDatumTijd"
+        ],
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "nl-core-lm-NursingReport.Performer",
+        "path": "nl-core-lm-NursingReport.Performer",
+        "short": "Performer",
+        "definition": "The health professional or organization who registered the nursing report.",
+        "alias": [
+          "Uitvoerder"
+        ],
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "nl-core-lm-NursingReport.Performer.HealthProfessional",
+        "path": "nl-core-lm-NursingReport.Performer.HealthProfessional",
+        "short": "Health professional",
+        "definition": "The health professional who registered the nursing report.",
+        "alias": [
+          "Zorgverlener"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "SNOMED",
+            "map": "223366009",
+            "comment": "gezondheidszorgpersoneel"
+          }
+        ]
+      },
+      {
+        "id": "nl-core-lm-NursingReport.Performer.HealthProfessional.HealthProfessionalIdentificationNumber",
+        "path": "nl-core-lm-NursingReport.Performer.HealthProfessional.HealthProfessionalIdentificationNumber",
+        "short": "Health professional identification number",
+        "definition": "The healthcare provider identification number is a number that uniquely identifies the healthcare provider.",
+        "alias": [
+          "ZorgverlenerIdentificatienummer"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Identifier"
+          }
+        ]
+      },
+      {
+        "id": "nl-core-lm-NursingReport.Performer.HealthProfessional.NameInformation",
+        "path": "nl-core-lm-NursingReport.Performer.HealthProfessional.NameInformation",
+        "short": "Name information",
+        "definition": "Health professional's full name. If a health professional identification number is entered, it will be the name as listed in UZI, AGB or by the healthcare center.",
+        "alias": [
+          "Naamgegevens"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "nl-core-lm-NursingReport.Performer.HealthProfessional.NameInformation.FirstNames",
+        "path": "nl-core-lm-NursingReport.Performer.HealthProfessional.NameInformation.FirstNames",
+        "short": "First names",
+        "definition": "The first names of the health professional.",
+        "alias": [
+          "Voornamen"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "nl-core-lm-NursingReport.Performer.HealthProfessional.NameInformation.Initials",
+        "path": "nl-core-lm-NursingReport.Performer.HealthProfessional.NameInformation.Initials",
+        "short": "Initials",
+        "definition": "The initials of the health professional.",
+        "alias": [
+          "Initialen"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "nl-core-lm-NursingReport.Performer.HealthProfessional.NameInformation.LastName",
+        "path": "nl-core-lm-NursingReport.Performer.HealthProfessional.NameInformation.LastName",
+        "short": "Last name",
+        "definition": "The last name of the health professional.",
+        "alias": [
+          "Geslachtsnaam"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "nl-core-lm-NursingReport.Performer.HealthProfessional.NameInformation.LastName.Prefix",
+        "path": "nl-core-lm-NursingReport.Performer.HealthProfessional.NameInformation.LastName.Prefix",
+        "short": "Prefix",
+        "definition": "Prefix to the last name of the health professional.",
+        "alias": [
+          "Voorvoegsels"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "nl-core-lm-NursingReport.Performer.HealthProfessional.NameInformation.LastName.LastName",
+        "path": "nl-core-lm-NursingReport.Performer.HealthProfessional.NameInformation.LastName.LastName",
+        "short": "Last name",
+        "definition": "The last name of the health professional.",
+        "alias": [
+          "Achternaam"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+      },
+      {
+        "id": "nl-core-lm-NursingReport.Performer.HealthProfessional.Specialty",
+        "path": "nl-core-lm-NursingReport.Performer.HealthProfessional.Specialty",
+        "short": "Specialty",
+        "definition": "Health professional's medical specialty.",
+        "alias": [
+          "Specialisme"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.121.11.22--20200901000000"
+        },
+        "mapping": [
+          {
+            "identity": "SNOMED",
+            "map": "394658006",
+            "comment": "klinisch specialisme"
+          }
+        ]
+      },
+      {
+        "id": "nl-core-lm-NursingReport.Performer.HealthcareProvider",
+        "path": "nl-core-lm-NursingReport.Performer.HealthcareProvider",
+        "short": "Healthcare provider",
+        "definition": "The healthcare provider who registered the nursing report.",
+        "alias": [
+          "Zorgaanbieder"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mapping": [ 
+          {
+            "identity": "SNOMED",
+            "map": "257622000",
+            "comment": "zorginstelling"
+          }
+        ]
+      },
+      {
+        "id": "nl-core-lm-NursingReport.Performer.HealthcareProvider.HealthcareProviderIdentificationNumber",
+        "path": "nl-core-lm-NursingReport.Performer.HealthcareProvider.HealthcareProviderIdentificationNumber",
+        "short": "Healthcare provider identification number",
+        "definition": "The organization's identification number.",
+        "alias": [
+          "ZorgaanbiederIdentificatienummer"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Identifier"
+          }
+        ]
+      },
+      {
+        "id": "nl-core-lm-NursingReport.Performer.HealthcareProvider.OrganizationName",
+        "path": "nl-core-lm-NursingReport.Performer.HealthcareProvider.OrganizationName",
+        "short": "Organization name",
+        "definition": "Name of the organization. If an identification number is given, the name must match the name that corresponds to the identification number.",
+        "alias": [
+          "OrganisatieNaam"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "nl-core-lm-NursingReport.Performer.HealthcareProvider.DepartmentSpecialty",
+        "path": "nl-core-lm-NursingReport.Performer.HealthcareProvider.DepartmentSpecialty",
+        "short": "Department specialty",
+        "definition": "The specialty of the healthcare provider's department.",
+        "alias": [
+          "AfdelingSpecialisme"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.106.11.22--20240205133006"
+        }
+      },
+      {
+        "id": "nl-core-lm-NursingReport.Performer.HealthcareProvider.OrganizationType",
+        "path": "nl-core-lm-NursingReport.Performer.HealthcareProvider.OrganizationType",
+        "short": "Organization type",
+        "definition": "The type of healthcare provider.",
+        "alias": [
+          "OrganisatieType"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.17.2.3--20200901000000"
+        }
+      },
+      {
+        "id": "nl-core-lm-NursingReport.ReportContent",
+        "path": "nl-core-lm-NursingReport.ReportContent",
+        "short": "Report content",
+        "definition": "The content of the nursing report.",
+        "alias": [
+          "RapportageInhoud"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+      },
+    ]
+  }
+}
