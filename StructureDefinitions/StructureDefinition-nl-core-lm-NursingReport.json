@@ -281,7 +281,7 @@
             "code": "BackboneElement"
           }
         ],
-        "mapping": [ 
+        "mapping": [
           {
             "identity": "SNOMED",
             "map": "257622000",
