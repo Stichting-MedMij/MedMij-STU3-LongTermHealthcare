@@ -199,7 +199,7 @@
         "alias": [
           "Geslachtsnaam"
         ],
-        "min": 0,
+        "min": 1,
         "max": "1",
         "type": [
           {
@@ -231,7 +231,7 @@
         "alias": [
           "Achternaam"
         ],
-        "min": 0,
+        "min": 1,
         "max": "1",
         "type": [
           {
