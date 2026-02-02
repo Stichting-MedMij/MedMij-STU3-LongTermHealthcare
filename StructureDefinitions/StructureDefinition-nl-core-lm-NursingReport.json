@@ -29,8 +29,8 @@
   "mapping": [
     {
       "identity": "SNOMED",
-      "name": "SNOMED CT",
-      "uri": "http://snomed.info/sct"
+      "uri": "http://snomed.info/sct",
+      "name": "SNOMED CT"
     }
   ],
   "kind": "logical",
