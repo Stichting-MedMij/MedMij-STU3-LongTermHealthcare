@@ -35,7 +35,7 @@
   ],
   "kind": "logical",
   "abstract": true,
-  "type": "http://medmij.nl/fhir/StructureDefinition/nl-core-lm-NursingReport",
+  "type": "nl-core-lm-NursingReport",
   "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
   "derivation": "specialization",
   "differential": {
