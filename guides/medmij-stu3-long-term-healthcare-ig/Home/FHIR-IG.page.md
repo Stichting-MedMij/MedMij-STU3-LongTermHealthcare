@@ -8,13 +8,13 @@ topic: TO
 
 This Implementation Guide (IG) provides the technical specification of the Basic Long-term Healthcare Data Exchange+ (Dutch: Basisgegevens Langdurige Zorg+ or BgLZ+) standard based on a selection of Dutch Health Care Information Models. 
 
-This IG is positioned on top of [MedMij STU3 Core](https://simplifier.net/medmij-stu3-core). MedMij STU3 Core is the generic layer defined by MedMij which forms a foundation for all data services that are exchanged in FHIR STU3. It contains guidance and requirements on data service–overarching topics, such as granular exchange and Logical Models, and may contain FHIR artifacts that are relevant for multiple data services. In particular, MedMij STU3 Core contains granular, domain-overarching Clinical Information Models (CIM) that are reused across multiple domains.
+This IG is positioned on top of [MedMij STU3 Core](https://simplifier.net/medmij-stu3-core). MedMij STU3 Core is the generic layer defined by MedMij which forms a foundation for the granular data services that are exchanged in FHIR STU3. It contains guidance and requirements on data service–overarching topics, such as granular exchange and Logical Models, and may contain FHIR artifacts that are relevant for multiple data services. In particular, MedMij STU3 Core contains granular, domain-overarching Clinical Information Models (CIM) that are reused across multiple domains.
 
 The “expansion” of the long-term information standard is in first instance focused on Health Care Information Models of the information standard minimal eOverdracht version 4.0. The information standard minimal eOverdracht as published by Nictiz does not yet include a patient use case, this may change in the future. Up until then, the patient use case will be published by MedMij under the definition of Basic Long-term Healthcare Data Exchange+.  
 
 This IG is a technical counterpart of the functional design. The FHIR version used for this IG is HL7 FHIR STU3. This implementation guide assumes that the reader is familiar with this FHIR version.  
 
-Apart from this document, the guidelines as specified in general FHIR Implementation Guide apply. In particular, the reader should take note of the Use case overarching principles.  
+Apart from this document, the guidelines as specified in the MedMij STU3 Core FHIR Implementation Guide apply. In particular, the reader should take note of the use case overarching principles.  
 
 ## Actors involved 
 

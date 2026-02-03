@@ -12,6 +12,13 @@
     "lastUpdated": "2025-02-18T10:35:07.401+00:00",
     "profile": [
       "http://fhir.nl/fhir/StructureDefinition/nl-core-patient"
+    ],
+    "tag": [
+      {
+        "system": "urn:oid:2.16.840.1.113883.2.4.6.7", 
+        "code": "7500",
+        "display": "Thuiszorg, kruiswerk en gezinsverzorging"
+      }
     ]
   },
   "text": {

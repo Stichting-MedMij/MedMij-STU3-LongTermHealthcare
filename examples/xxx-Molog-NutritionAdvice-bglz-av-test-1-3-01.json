@@ -12,6 +12,13 @@
     "lastUpdated": "2025-03-17T09:36:27.716+00:00",
     "profile": [
       "http://nictiz.nl/fhir/StructureDefinition/zib-NutritionAdvice"
+    ],
+    "tag": [
+      {
+        "system": "urn:oid:2.16.840.1.113883.2.4.6.7", 
+        "code": "7500",
+        "display": "Thuiszorg, kruiswerk en gezinsverzorging"
+      }
     ]
   },
   "text": {
