@@ -35,34 +35,31 @@ The Basic Long-term Healthcare Data Exchange+ is overlapping with other standard
 
 ## Use case: Retrieve BgLZ+ information
 
-In this IG, BgLZ+ is provided as a combination of (1) the existing BgLZ exchange, which remains unchanged, and (2) granular exchange of an additional set of data services. Granular exchange allows the PHR to retrieve individual data services that are part of BgLZ+ through targeted search interactions, in accordance with the generic guidance and profiles defined in [MedMij STU3 Core](https://simplifier.net/medmij-stu3-core).
+In this IG, BgLZ+ is provided as a combination of (1) the existing BgLZ exchange, which remains unchanged, and (2) granular exchange of an additional set of data services. Granular exchange allows the PHR to retrieve individual data services that are part of BgLZ+ through targeted search interactions, in accordance with the generic guidance and profiles defined in [MedMij STU3 Core](https://simplifier.net/medmij-stu3-core). Exchanging BgLZ together with these granular data services is optional: implementations may choose to exchange BgLZ and the granular data services, or only the granular data services.
 
 For BgLZ+, the following data services are added for granular exchange:
 | data services| 
 | --- | 
-| [MedMij Core - Patient]{https://simplifier.net/guide/medmij-stu3-core-develop-ig/Home/Granular-Data-Service-Index/MedMij-Core-Patient.page.md?version=current} |
-| [MedMij Core - Healthcare provider]{https://simplifier.net/guide/medmij-stu3-core-develop-ig/Home/Granular-Data-Service-Index/MedMij-Core-HealthcareProvider.page.md?version=current} | 
-| [MedMij Core - Health professional]{} | 
-| [MedMij Core - Blood pressure]{} | 
-| [MedMij Core - Body weight]{} | 
-| [MedMij Core - Body height]{} | 
-| [MedMij Core - Alert]{} | 
-| [MedMij Core - Nutrition advice]{} | 
-| [MedMij Core - Body temperature]{} | 
-| [MedMij Core - Fluid balance]{} | 
-| [MedMij Core - Respiration]{} | 
-| [MedMij Core - Pulse rate]{} | 
-| [MedMij Core - Payer]{} | 
-| [Long-term Healthcare - Nursing report]{} | 
-| [Long-term Healthcare - Encounter]{} | 
- 
+| [MedMij Core - Patient]{https://simplifier.net/guide/medmij-stu3-core-develop-ig/Home/Granular-Data-Service-Index/MedMij-Core-Patient?version=1.0.0} |
+| [MedMij Core - Alert]{https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Alert?version=current} | 
+| [MedMij Core - Blood pressure]{https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-BloodPressure?version=1.0.0} | 
+| [MedMij Core - Body height]{https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-BodyHeight?version=1.0.0} | 
+| [MedMij Core - Body temperature]{https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-BodyTemperature?version=1.0.0} | 
+| [MedMij Core - Body weight]{https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-BodyWeight?version=1.0.0} | 
+| [MedMij Core - Fluid balance]{https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-FluidBalance?version=1.0.0} |
+| [MedMij Core - Living situation]{https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-LivingSituation?version=1.0.0} |
+| [MedMij Core - Nutrition advice]{https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-NutritionAdvice?version=1.0.0} | 
+| [MedMij Core - Payer]{https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Payer?version=1.0.0} | 
+| [MedMij Core - Pulse rate]{https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-PulseRate?version=1.0.0} | 
+| [MedMij Core - Respiration]{https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Respiration?version=1.0.0} | 
+
 #### PHR: request Parameters
 
-For the domain-overarching data services, the request parameters are defined in [MedMij STU3 Core](https://simplifier.net/medmij-stu3-core). This Long-term Healthcare IG only specifies additional guidance for the domain-specific data services, such as the Nursing Report and Encounter. The PHR retrieves the FHIR resources using an individual search interaction. The Nursing Report is represented as a FHIR resources with specific constraints. To obtain a patient’s Nursing Report data, the client performs a search operation using the specified query parameters, executed as an HTTP GET:
+For the domain-overarching data services, the request parameters are defined in [MedMij STU3 Core](https://simplifier.net/medmij-stu3-core). This Long-term Healthcare IG only specifies additional guidance for the domain-specific data services. The PHR retrieves the FHIR resources using an individual search interaction. The client performs a search operation using the specified query parameters, executed as an HTTP GET:
 
 GET [base]/[type]{?[parameters]} 
 
-The table below shows in the first four columns the  sections, the CIM that constitute those sections and the specific content of the addditional data long-term care. The last column shows the FHIR search queries to obtain the information. These queries and expected responses are based on StructureDefinitions listed in ([TO DO] link)
+The table below lists the sections, the CIMs that constitute those sections, and the specific content of the additional long-term care data. The last column shows the FHIR search queries to retrieve this information. At this time, only domain-overarching data services are included; these can be found on this page [MedMij STU3 Core](https://simplifier.net/medmij-stu3-core).
 
 #### XIS: Response message
 The returned data to the PHR should conform to the profiles listed in the table below.
@@ -107,20 +104,12 @@ The returned data to the PHR should conform to the profiles listed in the table 
             <tbody>
                 <tr>
                     <tr>
-                    <td>?</td>
-                    <td>CIM Dagrapportage</td>
-                    <td>Nursing Report </td>
-                    <td>Observation</td>
-                    <td><a href="https://simplifier.net/anw/nl-core-nursingreport">Nursing Report</a> </td>
-                    <td class="monospace">GET [base]/Observation?code=http://snomed.info/sct|11591000146107</td>
-                </tr>
-                <tr>
-                    <td>?</td>
-                    <td>zib Contact</td>
-                    <td>Contact</td>
-                    <td>Encounter</td>
-                    <td><a href="https://simplifier.net/resolve?target=simplifier&canonical=http://nictiz.nl/fhir/StructureDefinition/eOverdracht-Encounter&scope=nictiz.fhir.nl.stu3.eoverdracht@4.0.0">Encounter</a> </td>
-                    <td class="monospace">GET [base]/Encounter </td>
+                    <td>.</td>
+                    <td>.</td>
+                    <td>. </td>
+                    <td>.</td>
+                    <td>.</td>
+                    <td>.</td>
                 </tr>
             </tbody>
         </table>
