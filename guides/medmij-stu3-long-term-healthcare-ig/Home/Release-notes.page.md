@@ -5,9 +5,7 @@
 | Component             | Description  | Ticket    |
 | --------------------- | ------------ | --------- |
 | Functional design     | System role codes have been added in the functional design. | [DOSINZAGE1-784](https://medmij.atlassian.net/browse/DOSINZAGE1-784) |
-| Technical design     | Added MedMij STU3 Core; domain-overarching data services have been moved to this [IG](https://simplifier.net/medmij-stu3-core/~introduction),while domain-specific data services remain defined in this IG.
- | [DOSINZAGE1-806](https://medmij.atlassian.net/browse/DOSINZAGE1-806) |
-
+| Technical design      | The cross-domain data services have been moved to the [MedMij STU3 Core IG](https://simplifier.net/medmij-stu3-core-ig?version=1.0.0), while the domain-specific data services have been removed. | [DOSINZAGE1-806](https://medmij.atlassian.net/browse/DOSINZAGE1-806), [DOSINZAGE1-825](https://medmij.atlassian.net/browse/DOSINZAGE1-825) |
  
 ## 1.0.0-alpha.1
  
