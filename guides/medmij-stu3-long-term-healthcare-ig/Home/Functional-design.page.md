@@ -24,7 +24,8 @@ Dit ontwerp is conform specificaties genoemd in [de algemene inleiding](https:
 
 De reikwijdte van dit ontwerp beslaat de functionele beschrijvingen en de dataset voor de gegevensuitwisselingen die voortvloeien uit uitgevoerde langdurige zorg. 
 
-Deze versie van de gegevensdiensten “Raadplegen BgLZ+” heeft betrekking op het raadplegen en beschikbaar stellen van zorginformatiebouwstenen die al beschikbaar zijn bij de zorgaanbieders in de XIS-systemen. De BgLZ+ is samengesteld uit de [zib-publicatie 2017](https://zibs.nl/wiki/ZIB_Publicatie_2017(NL)). De BgLZ+ zibs worden bovenop de Basisgegevensset Langdurige zorg (BgLZ) uitgewisseld. De BgLZ wordt in stand gehouden zoals die er nu staat, hier zullen geen wijzigingen in plaatsvinden. De BgLZ+ gaat over de extra zibs die naast de al bestaande BgLZ beschikbaar worden gesteld. De BgLZ zibs zijn te vinden via [ART DECOR BGLZ](https://decor.nictiz.nl/ad/#/lanzo-/datasets/dataset/2.16.840.1.113883.2.4.3.11.60.58.1.1/2019-04-04T16:57:35) en de BgLZ+ zibs zijn te vinden via [ART DECOR BGLZ+](https://decor.nictiz.nl/ad/#/mm-bglzplus-/datasets/dataset)
+Deze pagina beschrijft het functioneel ontwerp voor de Basisgegevens Langdurige Zorg+ (BgLZ+). De BgLZ+ bestaat uit gegegevens die relevant zijn voor uitwisseling met patiënten en cliënten binnen de langdurige zorg via hun persoonlijke gezondheidsomgeving (PGO). Deze BgLZ+ kan samen met de Basisgegevensset Langdurige zorg (BgLZ) uitgewisseld worden. De BgLZ wordt in stand gehouden zoals die er nu staat, hier zullen geen wijzigingen in plaatsvinden. De BgLZ+ gaat over de aanvullende zibs die naast de al bestaande BgLZ verzameld kunnen worden via de PGO. De BgLZ+ zibs en cims kunnen samen met de BgLZ alsook als aparte gegevevensdiensten granulair uitgwisseld worden. We stappen in deze gegevensdienst af van het monolithische concept als één grote gegevensdienst,en gaan toe naar granulaire uitwisseling op het niveau van afzonderlijke zibs en cims/FHIR-profielen. Meer informatie over granulaire gegevensdiensten is te vinden via de [MedMij STU3 Core pagina](https://simplifier.net/guide/medmij-stu3-core-ig?version=current). 
+
 
 ### Infrastructuur 
 
@@ -34,71 +35,33 @@ Geen nadere specificatie, anders dan genoemd in de [algemene inleiding](https://
 
 Geen nadere specificatie, anders dan genoemd in [de algemene inleiding](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.02/Ontwerpen#Geografische_reikwijdte) van de MedMij functionele ontwerpen. 
 
-### Kwalificatie en testen 
+### kwalificatie en testen 
 
-Op dit moment wordt de usecase uit dit ontwerp getoetst in een pilot.
+Niet alle zibs en cims die in de BgLZ+ uitgewisseld worden zijn bij elke bronleverancier beschikbaar. Gezien wij een granulaire gegevensset opstellen zal het niet verplicht zijn om alle gegevensdiensten uit te wisselen voor kwalificatie, dit zal per leverancier gecommuniceerd en gerapporteerd worden.
 
-## Usecases 
+## Use-cases 
 
 ### Algemeen 
 
 Een usecase is een specifieke beschrijving van een praktijksituatie in de langdurige zorg waarbij voor een concrete situatie het uitwisselen van informatie wordt beschreven aan de hand van actoren (mensen, systemen) en transacties (welke informatie wordt wanneer uitgewisseld). Een usecase is een verbijzondering van een specifiek onderdeel van het zorgproces in de langdurige zorg.   
 
-### Granulair raadplegen aanvullende gegevensset Langdurige zorg 
-We stappen in deze pilot af van het monolithische concept als één grote gegevensdienst,en gaan toe naar granulaire uitwisseling en kwalificatie op het niveau van afzonderlijke zibs/FHIR-profielen. 
- 
-In het huidige Medmij-Afsprakenstelsel is de Basisgegevensset Langdurige Zorg één gegevensdienst waarin een vastgestelde set van FHIR-profielen (op basis van zibs) als geheel moet worden ondersteund. We willen met de aanvullende gegevensset langdurige zorg toe naar een situatie waarbij elke zib (en dus elk FHIR-profiel) wordt beschouwd als een losstaande gegevensdienst met een eigen: 
 
-- Specificaties (zib + bijhorende FHIR-profielen) 
-- Kwalificatiecriteria 
-- Testscenario’s 
+### Doel en relevantie granulair raadplegen BgLZ+
 
-Wat blijft hetzelfde? 
+Het voor burger, cliënt of patiënt mogelijk maken om regie te nemen op hun eigen gezondheid door inzicht te geven over de langdurige zorggegevens die over henzelf gaan. 
 
-- De zibs blijven leidend als informatiemodel 
-- De keten (bronsysteem > DVA > PGO) blijft bestaan 
-- Authenticatie, autorisatie, adressering en logging blijven conform het Medmij-afpsrakenstelsel. 
-
-### Doel en relevantie granulair raadplegen gegevens Langdurige zorg 
-
-De gegevens voor uitwisseling in eerste instantie gebaseerd op de gegevensset Minimale eOverdracht (MeO) v4.0 zie voor meer informatie over welke zibs binnen de eOverdracht in scope zijn de Nictiz wiki pagina  [algemeen overzicht van de inhoudelijke opbouw van de gehele eOverdracht.](https://informatiestandaarden.nictiz.nl/wiki/vpk:V4.0_Opbouw_eOverdracht_algemeen). Via de [landingspagina Verpleegkundige zorg](https://informatiestandaarden.nictiz.nl/wiki/Landingspagina_Verpleegkundige_Zorg) is de meest actuele eOverdracht informatiestandaard te bekijken, deze richt zich op overdracht van een patiënt/cliënt tussen zorginstellingen.
-
-Het scenario eOverdracht is voor zorgaanbieder – zorgaanbieder uitwisseling ingericht. Deze set van gegevens worden met dit functioneel ontwerp ontsloten naar de Patiënt via de PGO. Wij zullen zoveel als mogelijk verwijzen naar de Nictiz pagina gezien de zibs van zorgaanbieder- zorgaanbieder uitwisseling ook naar de PGO ontsloten kunnen worden. 
-
-Naast de Miniale eOverdracht zibs zijn er nog extra metingen en een dagrapportage (nl-core-nursingreport) beschikbaar bij de bronleverancier, ook deze zullen met de BgLZ+ granulair ontsloten worden naar de PGO.
-
-Naast de BgLZ gaan er meer gegevens granulair beschikbaar worden gesteld, verder genoemd BgLZ+. Specifiek gaat het om onderstaande zibs: 
-
-| Standaard| Zorginformatiebouwsteen|
-| --- | --- |
-| Minimale eOverdracht Volwassenen | zib Bloeddruk | 
-| Minimale eOverdracht Volwassenen | zib Lichaamslengte | 
-| Minimale eOverdracht Volwassenen | zib Lichaamsgewicht | 
-| Minimale eOverdracht Volwassenen | zib Alert | 
-| Minimale eOverdracht Volwassenen | zib Voedingsadvies | 
-| Minimale eOverdracht Volwassenen | zib Woonsituatie | 
-| Minimale eOverdracht Volwassenen | zib Betaler | 
-| Minimale eOverdracht Volwassenen | zib Contact | 
-| BgLZ+ - Meting | zib Lichaamstemperatuur | 
-| BgLZ+ - Meting | zib Vochtbalans | 
-| BgLZ+ - Meting | zib Ademhaling | 
-| BgLZ+ - Meting | zib Polsfrequentie | 
-| BgLZ+ - Verslag | CIM nl-core-nursingreport | 
-
-
-Niet alle zibs die in de BgLZ+ uitgewisseld worden zijn bij elke bronleverancier beschikbaar. Gezien wij een granulaire gegevensset opstellen zal het niet verplicht zijn om alle zibs uit te wisselen voor kwalificatie, dit zal per leverancier gecommuniceerd en gerapporteerd worden. Meer informatie over granulair uitwisselen kan gevonden worden via de [MedMij STU3 Core](https://simplifier.net/guide/medmij-stu3-core-ig?version=current) pagina. Op deze pagina staan alle domeinoversteigende gegevensdiensten gepubliceerd. 
 
 ### Ontwerp granulair uitwisselen 
 
 {{render: guides/medmij-stu3-long-term-healthcare-ig/images/Granulair_LZ.png}}
 
-#### Patient journey aanvullende gegevensset langdurige zorg  
+#### Patient journey BgLZ+   
 
 De patient journey beschrijft enkele momenten waarop je als patiënt zijnde inzicht kan of zou willen hebben in zijn langdurige zorggegevens.
 
-In de landurige zorg zijn er veel verschillende patiëntreizen te onderscheiden. Onderstaand is één patiëntreis beschreven. De eOverdracht is een use-case waarbij het gaat om eenmalige overdracht van gegevens, zoals op vastgelegd moment van overdracht. Dit is een redelijk algemene patiëntreis en toch zijn er vele andere denkbaar. In overleg met de zorgaanbieders en leveranciers zullen we later een of meer patiëntreizen uitwerken.  Er zijn eerder meer patiëntreizen beschreven, onder andere in opdracht van Platform IZO (zie document Het netwerk in de praktijk, 31-03-2022) en ook door Nictiz (Casus Kenneth van Someren -  https://informatiestandaarden.nictiz.nl/images/a/a6/Casus_Kenneth_van_Someren_MedMij.pdf).   
+In de landurige zorg zijn er veel verschillende patiëntreizen te onderscheiden. Onderstaand is één patiëntreis beschreven. Er zijn eerder meer patiëntreizen beschreven, onder andere in opdracht van Platform IZO (zie document Het netwerk in de praktijk, 31-03-2022) en ook door Nictiz (Casus Kenneth van Someren -  https://informatiestandaarden.nictiz.nl/images/a/a6/Casus_Kenneth_van_Someren_MedMij.pdf).   
 
-Hieronder een voorbeeld van patiëntreis van denkbeeldige patiënt Peter (eigenlijk spreekt men in de langdurige zorg meestal van cliënt) en de gegevensuitwisseling binnen de langdurige zorg tussen zorgaanbieder en patiënt. Gezien het voor de aanvullende gegevensset langdurige zorg uitwisseling naar de PGO betreft is onderstaand een specifieke patientreis geschetst waarbij gegevens geraadpleegt worden vanuit de PGO:  
+Hieronder een voorbeeld van patiëntreis van denkbeeldige patiënt Peter (eigenlijk spreekt men in de langdurige zorg meestal van cliënt) en de gegevensuitwisseling binnen de langdurige zorg tussen zorgaanbieder en patiënt. Gezien het langdurige zorggegevensuitwisseling naar de PGO betreft is onderstaand een specifieke patiëntreis geschetst waarbij gegevens geraadpleegd worden vanuit de PGO:  
 
 Peter is een actieve weduwnaar van 72 jaar oud. Peter heeft drie kinderen, twee zoons, een dochter en vijf kleinkinderen. Thuis had Peter al steeds meer hulp nodig, zo kan hij onder andere moeilijk zelf douchen en het bijhouden van zijn medicatie vindt hij ook lastig. Peter heeft daardoor, de afgelopen vijf jaar, veel wijkverpleging op bezoek gehad gezien hij hulp nodig had met zijn Algemene Dagelijkse Levensverrichtingen (ADL).   
 
@@ -106,7 +69,7 @@ Een maand geleden is Peter getroffen door een hersenbloeding (CVA). Er wordt nu 
 
 Peter is door de vele zorgverleners die hij de afgelopen tijd heeft ontmoet het overzicht kwijtgeraakt over zijn zorg en wil hier nog eens naar kijken. Bovendien was er te weinig tijd tijdens het consult om hierover door te praten met zijn zorgverlener.  
 
-Op aanraden van zijn dochter heeft Peter nu een eigen gekozen PGO. In zijn PGO wil Peter zijn aanvullende gegevensset langdurige zorggegevens raadplegen, hij is nieuwsgierig naar deze gegevens. Zijn dochter kijkt mee, die is bij Peter op visite. Hij wil deze gegevens graag thuis inzien zonder dat hij daarvoor de zorgverlener hoeft te belasten. Bovendien hoeft hij dan zelf nergens naartoe te gaan. Hij raadpleegt via zijn PGO de betreffende zorgaanbieder waar hij onder behandeling is om zijn aanvullende gegevensset landurige zorggegevens op te halen en in te zien. Peter ziet nu zijn medische gegevens, waardoor hij meer inzicht heeft in de status van zijn gezondheid.
+Op aanraden van zijn dochter heeft Peter nu een eigen gekozen PGO. In zijn PGO wil Peter zijn BgLZ+ zorggegevens raadplegen, hij is nieuwsgierig naar deze gegevens. Zijn dochter kijkt mee, die is bij Peter op visite. Hij wil deze gegevens graag thuis inzien zonder dat hij daarvoor de zorgverlener hoeft te belasten. Bovendien hoeft hij dan zelf nergens naartoe te gaan. Hij raadpleegt via zijn PGO de betreffende zorgaanbieder waar hij onder behandeling is om zijn BgLZ+ zorggegevens op te halen en in te zien. Peter ziet nu zijn medische gegevens, waardoor hij meer inzicht heeft in de status van zijn gezondheid.
 
 #### Preproces 
 
@@ -118,7 +81,7 @@ Op aanraden van zijn dochter heeft Peter nu een eigen gekozen PGO. In zijn PGO w
 
 - De cliënt raadpleegt de ‘bloeddruk’ in zijn of haar PGO.
 - Het systeem van de cliënt (PGO) vraagt om beschikbare medische gegevens bij een XIS/EPD aan de hand van een zoekopdracht.
-- Het systeem van de zorgaanbieder (XIS) stelt de anvullende gegevensset Langdurige zorg beschikbaar voor de patiënt.
+- Het systeem van de zorgaanbieder (XIS) stelt de BgLZ+ gegevensdienst voor bloeddruk beschikbaar voor de patiënt.
 
 #### Postproces 
 
@@ -143,51 +106,46 @@ Zowel de persoon als de (zorg)aanbieder maken ieder gebruik van een informatiesy
 - XIS zorginformatiesysteem
 
 #### Systemen & Systeemrollen 
-Deze systemen kennen ieder verschillende systeemrollen, de systeemrollen zijn per granulair gegeven in het hoofdstuk Transacties en Transactiegroepen gedefinieerd. Hier gaat het om de BgLZ+ geregistreerd bij de zorgaanbieders naar de persoon.  
+Deze systemen kennen ieder verschillende systeemrollen, die het uitwisselen van gegevens tussen deze systemen mogelijk maken. Hier gaat het om de BgLZ+ geregistreerd bij de zorgaanbieders naar de persoon. Er is per granulaire gegevensdienst een systeemrol opgesteld. Deze systeemrollen staan beschreven in de MedMij STU3 Core pagina ofwel als het domeinspecifieke gegevens betreft zullen deze beschreven staan op deze pagina van het Functioneel ontwerp. Via tabel 2 zijn de gegevensdiensten en systeemrollen te vinden. 
  
 
 ### Transacties en Transactiegroepen 
 
-Het uitwisselen van gegevens tussen de verschillende systeemrollen gebeurt op basis van transacties. Een transactie (bijvoorbeeld een vraag- en antwoordbericht) vormt een zogeheten transactiegroep. Voor de transacties die tussen de systeemrollen plaatsvinden, wordt in ART-DECOR beschreven welke gegevenselementen en met welke kardinaliteiten de gegevens uitgewisseld worden vanuit de minimale eOverdracht. De gegevenselementen van de Minimale eOverdracht staan gepubliceerd op 
-[ART-DECOR](https://decor.nictiz.nl/decor/services/RetrieveTransaction?language=nl-NL&version=2021-05-10T09%3A35%3A29&hidecolumns=45ghi&id=2.16.840.1.113883.2.4.3.11.60.30.4.39&effectiveDate=2021-01-27T00%3A00%3A00&format=html). Daarbij hebben wij een Excel weergave opgesteld met de gehele dataset Basisgegevensset langdurige zorg en de BgLZ+ voor testdoeleinden. Alle gegevens zullen granulair uitgewisseld worden, wij wisselen dus niet in bundles van gegevens uit binnen dit project echter in aparte FHIR resources.
+Het uitwisselen van gegevens tussen de verschillende systeemrollen gebeurt op basis van transacties. Een transactie (bijvoorbeeld een vraag- en antwoordbericht) vormt een zogeheten transactiegroep. Voor de transacties die tussen de systeemrollen plaatsvinden, wordt in ART-DECOR beschreven welke gegevenselementen en met welke kardinaliteiten de gegevens uitgewisseld worden vanuit de BgLZ+. De gegevensdiensten staan gepubliceerd op [ART-DECOR](https://decor.nictiz.nl/ad/#/mm-bglzplus-/datasets/dataset/2.16.840.1.113883.2.4.3.11.60.151.1.1/2026-01-21T08:25:05). Alle gegevens zullen granulair uitgewisseld worden, wij wisselen dus niet in bundles van gegevens uit voor de BgLZ+, enkel in aparte FHIR resources. De BgLZ+ is samengesteld uit de [zib-publicatie 2017](https://zibs.nl/wiki/ZIB_Publicatie_2017(NL)) en er zijn twee profielen opgesteld voor de CIM 'Contact' met FHIR profiel 'Encounter' en CIM 'Dagrapportage' met FHIR profiel 'nl-core-nursingreport'. 
 
 Voor de technische specificaties en FHIR implementation guide, zie de {{pagelink:TO, text:FHIR IG}}. 
 
 Tabel 2 Transactiegroep
 
-| Transactiegroep | Transactie | Systeemrolcode | Systeem | Bedrijfsrol | 
+| Transactiegroep | Transactie | MedMij Core of CIM | Systeem | Bedrijfsrol | 
 | --- | --- | --- | --- | --- |  
-| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Bloeddruk |  BP-v3.1R-FHIR  | PGO | Patiënt | 
-| Verzamelen BgLZ+ | Beschikbaar stellen Granulair gegeven Bloeddruk|  BP-v3.1B-FHIR  | XIS | Zorgaanbieder | 
-| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Lichaamslengte | BH-v3.1R-FHIR  | PGO | Patiënt | 
-| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Lichaamslengte| BH-v3.1B-FHIR | XIS | Zorgaanbieder | 
-| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Lichaamsgewicht | BW-v3.1R-FHIR   | PGO | Patiënt | 
-| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Lichaamsgewicht| BW-v3.1B-FHIR  | XIS | Zorgaanbieder | 
-| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Alert | BP-v3.1R-FHIR  | PGO | Patiënt | 
-| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Alert| BP-v3.1B-FHIR  | XIS | Zorgaanbieder | 
-| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Voedingsadvies | NA-v3.1R-FHIR  | PGO | Patiënt | 
-| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Voedingsadvies| NA-v3.1B-FHIR  | XIS | Zorgaanbieder | 
-| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Woonsituatie |  LS-v3.1R-FHIR  | PGO | Patiënt | 
-| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Woonsituatie|LS-v3.1B-FHIR | XIS | Zorgaanbieder | 
-| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Betaler | PAY-v3.1R-FHIR | PGO | Patiënt | 
-| Verzamelen BgLZ+ | Beschikbaar stellen Granulair gegeven Betaler| PAY-v3.1B-FHIR  | XIS | Zorgaanbieder | 
-| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Contact | ENC-v3.1R-FHIR | PGO | Patiënt | 
-| Verzamelen BgLZ+ | Beschikbaar stellen Granulair gegeven Contact| ENC-v3.1B-FHIR | XIS | Zorgaanbieder | 
-| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Lichaamstemperatuur | BT-v3.1R-FHIR | PGO | Patiënt | 
-| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Lichaamstemperatuur|BT-v3.1B-FHIR | XIS | Zorgaanbieder | 
-| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Vochtbalans | FB-v1.0R-FHIR  | PGO | Patiënt | 
-| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Vochtbalans|FB-v1.0R-FHIR | XIS | Zorgaanbieder | 
-| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Ademhaling | RES-v3.1R-FHIR  | PGO | Patiënt | 
-| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Ademhaling|RES-v3.1B-FHIR | XIS | Zorgaanbieder | 
-| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Polsfrequentie | PR-v3.1R-FHIR  | PGO | Patiënt | 
-| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Polsfrequentie|PR-v3.1R-FHIR| XIS | Zorgaanbieder |
-| Verzamelen BgLZ+ (PULL) | Raadplegen Granulair gegeven Dagrapportage | NR-v3.1R-FHIR  | PGO | Patiënt | 
-| Verzamelen BgLZ+ | Beschikbaar stellen Granulair Dagrapportage| NR-v3.1R-FHIR | XIS | Zorgaanbieder |
+| Verzamelen MedMij Core - Alert (zib2017/STU3) 1.0.0-beta.1  (PULL) | Raadplegen Alert | [MedMij Core - Alert (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Alert?version=1.0.0) | PGO | Patiënt | 
+| Verzamelen MedMij Core - Alert (zib2017/STU3) 1.0.0-beta.1 | Beschikbaar stellen Alert| [MedMij Core - Alert (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Alert?version=1.0.0)  | XIS | Zorgaanbieder | 
+| Verzamelen MedMij Core - Bloeddruk (zib2017/STU3) 1.0.0-beta.1  (PULL) | Raadplegen Bloeddruk |  [MedMij Core - Blood pressure (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-BloodPressure?version=1.0.0) | PGO | Patiënt | 
+| Verzamelen MedMij Core - Bloeddruk (zib2017/STU3) 1.0.0-beta.1 | Beschikbaar stellen Bloeddruk| [MedMij Core - Blood pressure (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-BloodPressure?version=1.0.0) | XIS | Zorgaanbieder | 
+| Verzamelen MedMij Core - Lichaamslengte (zib2017/STU3) 1.0.0-beta.1  (PULL) | Raadplegen Lichaamslengte | [MedMij Core - Body height (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-BodyHeight?version=1.0.0)  | PGO | Patiënt | 
+| Verzamelen MedMij Core - Lichaamslengte (zib2017/STU3) 1.0.0-beta.1  | Beschikbaar stellen Lichaamslengte| [MedMij Core - Body height (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-BodyHeight?version=1.0.0) | XIS | Zorgaanbieder | 
+| Verzamelen MedMij Core - Lichaamstemperatuur (zib2017/STU3) 1.0.0-beta.1 (PULL) | Raadplegen Lichaamstemperatuur | [MedMij Core - Body temperature (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-BodyTemperature?version=1.0.0) | PGO | Patiënt | 
+| Verzamelen MedMij Core - Lichaamstemperatuur (zib2017/STU3) 1.0.0-beta.1 | Beschikbaar stellen Lichaamstemperatuur|[MedMij Core - Body temperature (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-BodyTemperature?version=1.0.0) | XIS | Zorgaanbieder | 
+| Verzamelen MedMij Core - Lichaamsgewicht (zib2017/STU3) 1.0.0-beta.1 (PULL) | Raadplegen Lichaamsgewicht | [MedMij Core - Body weight (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-BodyWeight?version=1.0.0)  | PGO | Patiënt | 
+| Verzamelen MedMij Core - Lichaamsgewicht (zib2017/STU3) 1.0.0-beta.1   | Beschikbaar stellen Lichaamsgewicht| [MedMij Core - Body weight (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-BodyWeight?version=1.0.0)  | XIS | Zorgaanbieder | 
+| Verzamelen MedMij Core - Vochtbalans (zib2017/STU3) 1.0.0-beta.1  (PULL) | Raadplegen Vochtbalans | [MedMij Core - Fluid balance (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-FluidBalance?version=1.0.0) | PGO | Patiënt | 
+| Verzamelen MedMij Core - Vochtbalans (zib2017/STU3) 1.0.0-beta.1  | Beschikbaar stellen Vochtbalans|[MedMij Core - Fluid balance (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-FluidBalance?version=1.0.0) | XIS | Zorgaanbieder | 
+| Verzamelen MedMij Core - Woonsituatie (zib2017/STU3) 1.0.0-beta.1  (PULL) | Raadplegen Woonsituatie |  [MedMij Core - Living situation (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-LivingSituation?version=1.0.0)  | PGO | Patiënt | 
+| Verzamelen MedMij Core - Woonsituatie (zib2017/STU3) 1.0.0-beta.1  | Beschikbaar stellen Woonsituatie|[MedMij Core - Living situation (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-LivingSituation?version=1.0.0 | XIS | Zorgaanbieder |
+| Verzamelen MedMij Core - Voedingsadvies (zib2017/STU3) 1.0.0-beta.1   (PULL) | Raadplegen Voedingsadvies | [MedMij Core - Nutrition Advice (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-NutritionAdvice?version=1.0.0)  | PGO | Patiënt | 
+| Verzamelen MedMij Core - Voedingsadvies (zib2017/STU3) 1.0.0-beta.1  | Beschikbaar stellen Voedingsadvies| [MedMij Core - Nutrition Advice (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-NutritionAdvice?version=1.0.0)  | XIS | Zorgaanbieder | 
+| Verzamelen MedMij Core - Betaler (zib2017/STU3) 1.0.0-beta.1   (PULL) | Raadplegen Betaler | [MedMij Core - Payer (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Payer?version=1.0.0) | PGO | Patiënt | 
+| Verzamelen MedMij Core - Betaler (zib2017/STU3) 1.0.0-beta.1   | Beschikbaar stellen Betaler| [MedMij Core - Payer (zib2017/STU3)](hhttps://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Payer?version=1.0.0)  | XIS | Zorgaanbieder | 
+| VVerzamelen MedMij Core - Polsfrequentie (zib2017/STU3) 1.0.0-beta.1  (PULL) | Raadplegen Polsfrequentie | [MedMij Core - Pulse rate (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-PulseRate?version=1.0.0)  | PGO | Patiënt | 
+| Verzamelen MedMij Core - Polsfrequentie (zib2017/STU3) 1.0.0-beta.1 | Beschikbaar stellen Polsfrequentie|[MedMij Core - Pulse rate (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-PulseRate?version=1.0.0)| XIS | Zorgaanbieder |
+| Verzamelen MedMij Core - Ademhaling (zib2017/STU3) 1.0.0-beta.1 (PULL) | Raadplegen Ademhaling | [MedMij Core - Respiration (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Respiration?version=1.0.0)  | PGO | Patiënt | 
+| Verzamelen MedMij Core - Ademhaling (zib2017/STU3) 1.0.0-beta.1  | Beschikbaar stellen Ademhaling|[MedMij Core - Respiration (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Respiration?version=1.0.0) | XIS | Zorgaanbieder | 
+| Verzamelen Basisgegevens Langdurige Zorg+ Contact (zib2017/STU3) 1.0.0-beta.1  (PULL) | Raadplegen Contact | BgLZplus-ENR-zib2017/STU3-1.0.0-beta.1-FHIR| PGO | Patiënt | 
+| Verzamelen Basisgegevens Langdurige Zorg+ Contact (zib2017/STU3) 1.0.0-beta.1 | BgLZplus-ENB-zib2017/STU3-1.0.0-beta.1-FHIR| XIS | Zorgaanbieder | 
+| Verzamelen Basisgegevens Langdurige Zorg+ Dagrapportage (zib2017/STU3) 1.0.0-beta.1  (PULL) | Raadplegen Dagrapportage | BgLZplus-NRR-zib2017/STU3-1.0.0-beta.1-FHIR | PGO | Patiënt | 
+| Verzamelen Basisgegevens Langdurige Zorg+ Dagrapportage (zib2017/STU3) 1.0.0-beta.1 | Beschikbaar stellen Dagrapportage| BgLZplus-NRR-zib2017/STU3-1.0.0-beta.1-FHIR| XIS | Zorgaanbieder |
 
-
-### Activity diagram 
-
-{{render: guides/medmij-stu3-long-term-healthcare-ig/images/Activity diagram.png}}
 
 ### Weergaverichtlijn
 
