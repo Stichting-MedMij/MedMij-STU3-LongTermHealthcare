@@ -2,12 +2,6 @@
   "resourceType": "Observation",
   "id": "LivingSituation-bglz-av-test-1-3",
   "meta": {
-    "extension": [
-      {
-        "url": "http://hapifhir.io/fhir/StructureDefinition/resource-meta-source",
-        "valueUri": "#34340f967cbcc0ce"
-      }
-    ],
     "versionId": "1",
     "lastUpdated": "2025-02-28T06:51:09.367+00:00",
     "profile": [

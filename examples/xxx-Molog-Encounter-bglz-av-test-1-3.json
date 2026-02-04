@@ -2,12 +2,6 @@
   "resourceType": "Encounter",
   "id": "Encounter-bglz-av-test-1-3",
   "meta": {
-    "extension": [
-      {
-        "url": "http://hapifhir.io/fhir/StructureDefinition/resource-meta-source",
-        "valueUri": "#70eb9d9383acb0c9"
-      }
-    ],
     "versionId": "3",
     "lastUpdated": "2025-03-21T08:55:28.609+00:00",
     "profile": [

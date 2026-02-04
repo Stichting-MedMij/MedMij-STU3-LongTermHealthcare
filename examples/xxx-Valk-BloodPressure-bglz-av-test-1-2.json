@@ -2,12 +2,6 @@
   "resourceType": "Observation",
   "id": "BloodPressure-bgzl-av-test-1-2",
   "meta": {
-    "extension": [
-      {
-        "url": "http://hapifhir.io/fhir/StructureDefinition/resource-meta-source",
-        "valueUri": "#9bdf4ae98861d9ec"
-      }
-    ],
     "versionId": "5",
     "lastUpdated": "2025-05-16T02:11:32.97+00:00",
     "profile": [

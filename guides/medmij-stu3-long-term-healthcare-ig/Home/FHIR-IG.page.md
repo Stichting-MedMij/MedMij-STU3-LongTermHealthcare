@@ -61,6 +61,8 @@ GET [base]/[type]{?[parameters]}
 
 The table below lists the sections, the CIMs that constitute those sections, and the specific content of the additional long-term care data. The last column shows the FHIR search queries to retrieve this information. At this time, only domain-overarching data services are included; these can be found on this page [MedMij STU3 Core](https://simplifier.net/medmij-stu3-core).
 
+The Practitioner, PractitionerRole, and Organization resources are not separate data services but secondary resources that support and contextualize the exchanged domain-overarching data services. These resources must be resolvable, either by supporting a read interaction or by being explicitly included in the Bundle. The secondary resources are described in the applicable CapabilityStatements, which are published on each data service page in [MedMij STU3 Core](https://simplifier.net/medmij-stu3-core).
+
 #### XIS: Response message
 The returned data to the PHR should conform to the profiles listed in the table below.
 

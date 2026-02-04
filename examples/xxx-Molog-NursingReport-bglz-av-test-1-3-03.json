@@ -2,12 +2,6 @@
   "resourceType": "Observation",
   "id": "NursingReport-bglz-av-test-1-3-03",
   "meta": {
-    "extension": [
-      {
-        "url": "http://hapifhir.io/fhir/StructureDefinition/resource-meta-source",
-        "valueUri": "#c1e7835ca2c8c517"
-      }
-    ],
     "versionId": "1",
     "lastUpdated": "2025-05-20T02:11:24.469+00:00",
     "profile": [
