@@ -41,7 +41,7 @@ Het overzichtsscherm van elke zib heeft dus een aparte pagina waar de datavelden
 
 {{render: guides/medmij-stu3-long-term-healthcare-ig/images/Langdurige zorg overzicht.png}}
 
-**Figuur 1 : Voorbeeld Langdurige zorg overzicht**
+**Figuur 1: Voorbeeld Langdurige zorg overzicht**
 
 Zorgorganisatie-langdurige zorg overzicht
 
@@ -49,18 +49,18 @@ Het overzichtsscherm van elke zib heeft dus een aparte tab waar de datavelden ge
 
 {{render: guides/medmij-stu3-long-term-healthcare-ig/images/Zorgorganisatie overzicht.png}} 
 
-**Figuur 2 : Voorbeeld Zorgorganisatie - langdurige zorg overzicht**
+**Figuur 2: Voorbeeld Zorgorganisatie - langdurige zorg overzicht**
 
 De acceptatiecriteria voor de overzichtsschermen van elke zib is als volgt.
 
 | Nr | Acceptatiecriteria | 
 | --- | --- | 
-| 1 | Standaard worden alle gegevens van de geraadpleegde zorgaanbieder(s) weergegeven, gesorteerd op datum van jong naar oud.  | 
-| 2 | Je kunt zoeken op (delen van) de gegevens of op informatie uit de andere datavelden in het overzichtsscherm. De gebruiker moet minimaal 3 karakters invoeren.  | 
-| 3 | Voor de datavelden in het overzichtsscherm is het mogelijk om te filteren op één of meerdere waarden.  |
-| 4 | Voor het dataveld Datum op kun je een specifieke periode selecteren.  | 
-| 5 | Alle datavelden in het overzichtsscherm zijn sorteerbaar.  | 
-| 6 | De datavelden in het overzichtsscherm zijn begrijpelijk en gebruiksvriendelijk geformuleerd. Zie de paragraaf Tabel met specificaties voor de aanbevolen termen per opgehaald dataveld.  | 
+| 1 | Standaard worden alle gegevens van de geraadpleegde zorgaanbieder(s) weergegeven, gesorteerd op datum van jong naar oud. | 
+| 2 | Je kunt zoeken op (delen van) de gegevens of op informatie uit de andere datavelden in het overzichtsscherm. De gebruiker moet minimaal 3 karakters invoeren. | 
+| 3 | Voor de datavelden in het overzichtsscherm is het mogelijk om te filteren op één of meerdere waarden. |
+| 4 | Voor het dataveld Datum op kun je een specifieke periode selecteren. | 
+| 5 | Alle datavelden in het overzichtsscherm zijn sorteerbaar. | 
+| 6 | De datavelden in het overzichtsscherm zijn begrijpelijk en gebruiksvriendelijk geformuleerd. Zie de paragraaf Tabel met specificaties voor de aanbevolen termen per opgehaald dataveld. | 
 
 #### Detailoverzicht langdurige zorg
 Dit detail scherm krijg je te zien als je een specifieke regel in het overzichtsscherm selecteert. 
@@ -69,7 +69,7 @@ Dit detail scherm krijg je te zien als je een specifieke regel in het overzichts
 
 {{render: guides/medmij-stu3-long-term-healthcare-ig/images/Detailscherm LZ.png}} 
 
-**Figuur 3 : Voorbeeld Detailoverzicht - langdurige zorg**
+**Figuur 3: Voorbeeld Detailoverzicht - langdurige zorg**
 
 ### Langdurige zorggegevens per zib
 Hieronder worden alle langdurige zorg zibs in tabel vorm weergegeven. De zorgorganisatie in het overzichtsscherm en detailscherm is alleen nodig voor scenario 1. Deze is niet nodig voor scenario 2.
@@ -85,8 +85,7 @@ Hieronder worden alle langdurige zorg zibs in tabel vorm weergegeven. De zorgorg
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel : Advies over de veilige en 
-passende lichaamsbeweging | Voorbeeldwaarde   | 
+| Geselecteerde regel: advies over de veilige en passende lichaamsbeweging | Voorbeeldwaarde | 
 | --- | --- |
 | Type contact | Thuis |
 | Begin datum | 30-03-2025 |
@@ -109,7 +108,7 @@ passende lichaamsbeweging | Voorbeeldwaarde   |
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel : Dagrapportage 15-03-2025 12:00 |  Voorbeeldwaarde  | 
+| Geselecteerde regel: Dagrapportage 15-03-2025 12:00 |  Voorbeeldwaarde | 
 | --- | --- |
 | Dagrapportage | Mevrouw vertoont toenemende stijfheid bij het opstaan en lopen. Er is sprake van fijne tremor in de rechterhand. Tijdens het ochtendcontact had zij moeite om zich verbaal uit te drukken; gebruikt korte zinnen met lange pauzes. Zelfstandig toiletbezoek is mogelijk, maar met risico op vallen. Advies: looprek binnen handbereik houden en logopedie betrekken voor spraakondersteuning. |
 | Datum | 15-03-2025 |
@@ -127,27 +126,24 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 | C(ould have) | Gewenste functionaliteit die waarde toevoegt, maar minder kritisch is en indien nodig kan worden uitgesteld. |
 | W(on't have) | Functionaliteiten die nu buiten scope zijn maar mogelijk in de toekomst worden overwogen. |
 
-| 1. Naam data item | 2. Type data item | 3. Voorbeeld | 4. Advies waar te tonen in PGO | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
-| --- | --- | --- | (a) in overzicht (b) als overzicht en detailgegeven (c) niet tonen | --- | --- | --- |
-| Contact | Rootconcept | --- | --- | --- | --- | --- |
-| Contacttype | Item | Thuis | a | Type contact of afspraak | (code = 'HH' in "codesystem Index - FHIR v5.0.0": "https://hl7.org/fhir/?utm_referrer=https%3A%2F%2Fwww.hl7.org%2F") | M |
-| ContactMet: Zorgverlener | Reference | Julia van den Bos | a | Contact met | (nl-core-practioner-eov-cert-1-1b-01) | Zorgverlener naam: M 
-
-Overige datavelden: W |
-| Locatie: Zorgaanbieder | Reference | Ijsselheem | a | Locatie | --- | M |
-| BeginDatumTijd | Item | 2025-03-30T10:20:00+00:00 | a | Begindatum en tijd | --- | M |
-| EindDatumTijd | Item | 2025-03-30T10:20:30+00:00 | a | Einddatum en tijd | --- | M |
-| RedenContact | Container | --- | --- | --- | --- | --- |
-| Toelichting RedenContact | Item | --- | b | Type contact uitleg (of Type contact Toelichting) | --- | M |
-| Contact::Probleem | Reference | --- | b | Probleem | --- | M |
-| Contact::Verrichting | Reference | --- | b | Verrichting | --- | M |
-| AfwijkendeUitslag | Item | --- | b | Afwijkende uitslag | --- | M |
-| Herkomst | Item | --- | b | Herkomst | --- | M |
-| Bestemming | Item | --- | b | Bestemming | --- | M |
+| 1. Naam data item | 2. Type data item | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
-| Dagrapportage | Rootconcept | --- | a | Dagrapportage | --- | --- |
-| ObservatieDatumTijd | Item | 2025-05-17T07:00:00+01:00 | b | Datum en Tijd| --- | M |
-| Dagverslag (ObservatieNaam) | Item | Mevrouw vertoont toenemende stijfheid bij het opstaan en lopen. Er is sprake van fijne tremor in de rechterhand. Tijdens het ochtendcontact had zij moeite om zich verbaal uit te drukken; gebruikt korte zinnen met lange pauzes. Zelfstandig toiletbezoek is mogelijk, maar met risico op vallen. Advies: looprek binnen handbereik houden en logopedie betrekken voor spraakondersteuning. | b | Dagverslag | --- | M | 
-| OberservatieMethode | Item | --- | b | Oberservatie methode | --- | M |
-| Toelichting | Item | --- | b | Toelichting | --- | M |
-| Zorgaanbieder | Reference | IJsselheem | a | Liefst geen afkortingen | Zorgorganisatie | Organisatienaam: M Overige datavelden: W |
+| **Contact** | **Rootconcept** | | | | | |
+| Contacttype | Item | Thuis | a | Type contact of afspraak | (code = 'HH' in "codesystem Index - FHIR v5.0.0": "https://hl7.org/fhir/?utm_referrer=https%3A%2F%2Fwww.hl7.org%2F") | M |
+| ContactMet: Zorgverlener | Reference | Julia van den Bos | a | Contact met | (nl-core-practioner-eov-cert-1-1b-01) | Zorgverlener naam: M <br/> Overige datavelden: W |
+| Locatie: Zorgaanbieder | Reference | Ijsselheem | a | Locatie | | M |
+| BeginDatumTijd | Item | 2025-03-30T10:20:00+00:00 | a | Begindatum en tijd | | M |
+| EindDatumTijd | Item | 2025-03-30T10:20:30+00:00 | a | Einddatum en tijd | | M |
+| **RedenContact** | **Container** | | | | | |
+| Toelichting RedenContact | Item | | b | Type contact uitleg (of Type contact Toelichting) | | M |
+| Contact::Probleem | Reference | | b | Probleem | | M |
+| Contact::Verrichting | Reference | | b | Verrichting | | M |
+| AfwijkendeUitslag | Item | | b | Afwijkende uitslag | | M |
+| Herkomst | Item | | b | Herkomst | | M |
+| Bestemming | Item | | b | Bestemming | | M |
+| **Dagrapportage** | **Rootconcept** | | a | Dagrapportage | | |
+| ObservatieDatumTijd | Item | 2025-05-17T07:00:00+01:00 | b | Datum en Tijd| | M |
+| Dagverslag (ObservatieNaam) | Item | Mevrouw vertoont toenemende stijfheid bij het opstaan en lopen. Er is sprake van fijne tremor in de rechterhand. Tijdens het ochtendcontact had zij moeite om zich verbaal uit te drukken; gebruikt korte zinnen met lange pauzes. Zelfstandig toiletbezoek is mogelijk, maar met risico op vallen. Advies: looprek binnen handbereik houden en logopedie betrekken voor spraakondersteuning. | b | Dagverslag | | M | 
+| OberservatieMethode | Item | | b | Oberservatie methode | | M |
+| Toelichting | Item | | b | Toelichting | | M |
+| Zorgaanbieder | Reference | IJsselheem | a | Liefst geen afkortingen | Zorgorganisatie | Organisatienaam: M <br/> Overige datavelden: W |
