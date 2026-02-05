@@ -24,7 +24,7 @@ Dit ontwerp is conform specificaties genoemd in [de algemene inleiding](https:
 
 De reikwijdte van dit ontwerp beslaat de functionele beschrijvingen en de dataset voor de gegevensuitwisselingen die voortvloeien uit uitgevoerde langdurige zorg. 
 
-Deze pagina beschrijft het functioneel ontwerp voor de Basisgegevens Langdurige Zorg+ (BgLZ+). De BgLZ+ bestaat uit gegegevens die relevant zijn voor uitwisseling met patiënten en cliënten binnen de langdurige zorg via hun persoonlijke gezondheidsomgeving (PGO). Deze BgLZ+ kan samen met de Basisgegevensset Langdurige zorg (BgLZ) uitgewisseld worden. De BgLZ wordt in stand gehouden zoals die er nu staat, hier zullen geen wijzigingen in plaatsvinden. De BgLZ+ gaat over de aanvullende zibs die naast de al bestaande BgLZ verzameld kunnen worden via de PGO. De BgLZ+ zibs en cims kunnen samen met de BgLZ alsook als aparte gegevevensdiensten granulair uitgwisseld worden. We stappen in deze gegevensdienst af van het monolithische concept als één grote gegevensdienst,en gaan toe naar granulaire uitwisseling op het niveau van afzonderlijke zibs en cims/FHIR-profielen. Meer informatie over granulaire gegevensdiensten is te vinden via de [MedMij STU3 Core pagina](https://simplifier.net/guide/medmij-stu3-core-ig?version=current). 
+Deze pagina beschrijft het functioneel ontwerp voor de Basisgegevens Langdurige Zorg+ (BgLZ+). De BgLZ+ bestaat uit gegegevens die relevant zijn voor uitwisseling met patiënten en cliënten binnen de langdurige zorg via hun persoonlijke gezondheidsomgeving (PGO). Deze BgLZ+ kan samen met de Basisgegevensset Langdurige zorg (BgLZ) uitgewisseld worden. De BgLZ wordt in stand gehouden zoals die er nu staat, hier zullen geen wijzigingen in plaatsvinden. De BgLZ+ gaat over de aanvullende zorginformatie bouwstenen (zibs) die naast de al bestaande BgLZ verzameld kunnen worden via de PGO. De BgLZ+ zibs en Clinical Information Models (CIM) kunnen samen met de BgLZ alsook als aparte gegevevensdiensten granulair uitgwisseld worden. We stappen in deze gegevensdienst af van het monolithische concept als één grote gegevensdienst,en gaan toe naar granulaire uitwisseling op het niveau van afzonderlijke zibs en cims/FHIR-profielen. Meer informatie over granulaire gegevensdiensten is te vinden via de [MedMij STU3 Core pagina](https://simplifier.net/guide/medmij-stu3-core-ig?version=current). 
 
 
 ### Infrastructuur 
@@ -33,7 +33,7 @@ Geen nadere specificatie, anders dan genoemd in de [algemene inleiding](https://
 
 ### Geografische reikwijdte 
 
-Geen nadere specificatie, anders dan genoemd in [de algemene inleiding](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.02/Ontwerpen#Geografische_reikwijdte) van de MedMij functionele ontwerpen. 
+Geen nadere specificatie, anders dan genoemd in [de algemene inleiding](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.02/Ontwerpen#Geografische_reikwijdte)van de MedMij functionele ontwerpen. 
 
 ### kwalificatie en testen 
 
@@ -50,10 +50,6 @@ Een usecase is een specifieke beschrijving van een praktijksituatie in de langdu
 
 Het voor burger, cliënt of patiënt mogelijk maken om regie te nemen op hun eigen gezondheid door inzicht te geven over de langdurige zorggegevens die over henzelf gaan. 
 
-
-### Ontwerp granulair uitwisselen 
-
-{{render: guides/medmij-stu3-long-term-healthcare-ig/images/Granulair_LZ.png}}
 
 #### Patient journey BgLZ+   
 
@@ -115,9 +111,9 @@ Het uitwisselen van gegevens tussen de verschillende systeemrollen gebeurt op ba
 
 Voor de technische specificaties en FHIR implementation guide, zie de {{pagelink:TO, text:FHIR IG}}. 
 
-Tabel 2 Transactiegroep
+Tabel 2 Transactiegroep voor verzamelen zibs MedMij Core 
 
-| Transactiegroep | Transactie | MedMij Core of CIM | Systeem | Bedrijfsrol | 
+| Transactiegroep | Transactie | MedMij Core | Systeem | Bedrijfsrol | 
 | --- | --- | --- | --- | --- |  
 | Verzamelen MedMij Core - Alert (zib2017/STU3) 1.0.0-beta.1  (PULL) | Raadplegen Alert | [MedMij Core - Alert (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Alert?version=1.0.0) | PGO | Patiënt | 
 | Verzamelen MedMij Core - Alert (zib2017/STU3) 1.0.0-beta.1 | Beschikbaar stellen Alert| [MedMij Core - Alert (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Alert?version=1.0.0)  | XIS | Zorgaanbieder | 
@@ -141,23 +137,13 @@ Tabel 2 Transactiegroep
 | Verzamelen MedMij Core - Polsfrequentie (zib2017/STU3) 1.0.0-beta.1 | Beschikbaar stellen Polsfrequentie|[MedMij Core - Pulse rate (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-PulseRate?version=1.0.0)| XIS | Zorgaanbieder |
 | Verzamelen MedMij Core - Ademhaling (zib2017/STU3) 1.0.0-beta.1 (PULL) | Raadplegen Ademhaling | [MedMij Core - Respiration (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Respiration?version=1.0.0)  | PGO | Patiënt | 
 | Verzamelen MedMij Core - Ademhaling (zib2017/STU3) 1.0.0-beta.1  | Beschikbaar stellen Ademhaling|[MedMij Core - Respiration (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Respiration?version=1.0.0) | XIS | Zorgaanbieder | 
+
+
+Tabel 3 Transactiegroep voor verzamelen zibs domeinspecifieke BgLZ+ CIMs 
+
+| Transactiegroep | Transactie | CIM Systeemrolcode  | Systeem | Bedrijfsrol | 
+| --- | --- | --- | --- | --- |  
 | Verzamelen Basisgegevens Langdurige Zorg+ Contact (zib2017/STU3) 1.0.0-beta.1  (PULL) | Raadplegen Contact | BgLZplus-ENR-zib2017/STU3-1.0.0-beta.1-FHIR| PGO | Patiënt | 
-| Verzamelen Basisgegevens Langdurige Zorg+ Contact (zib2017/STU3) 1.0.0-beta.1 | BgLZplus-ENB-zib2017/STU3-1.0.0-beta.1-FHIR| XIS | Zorgaanbieder | 
-| Verzamelen Basisgegevens Langdurige Zorg+ Dagrapportage (zib2017/STU3) 1.0.0-beta.1  (PULL) | Raadplegen Dagrapportage | BgLZplus-NRR-zib2017/STU3-1.0.0-beta.1-FHIR | PGO | Patiënt | 
+| Verzamelen Basisgegevens Langdurige Zorg+ Contact (zib2017/STU3) 1.0.0-beta.1 | Beschikbaarstellen Contact | BgLZplus-ENB-zib2017/STU3-1.0.0-beta.1-FHIR| XIS | Zorgaanbieder | 
+| Verzamelen Basisgegevens Langdurige Zorg+ Dagrapportage (zib2017/STU3) 1.0.0-beta.1 (PULL) | Raadplegen Dagrapportage | BgLZplus-NRR-zib2017/STU3-1.0.0-beta.1-FHIR | PGO | Patiënt | 
 | Verzamelen Basisgegevens Langdurige Zorg+ Dagrapportage (zib2017/STU3) 1.0.0-beta.1 | Beschikbaar stellen Dagrapportage| BgLZplus-NRR-zib2017/STU3-1.0.0-beta.1-FHIR| XIS | Zorgaanbieder |
-
-
-### Weergaverichtlijn
-
-#### Scope weergaverichtlijn 
-- Het betreft een richtlijn. PGO-leveranciers hebben zelf de keuze of zij (delen van de) richtlijn toepassen voor de weergave van langdurige zorggevens.
-
-De richtlijn geeft handvatten voor:
-- het gebruik van patiëntvriendelijke termen en toelichting;
-- de inhoud van het overzicht van langdurige zorggegevens in de PGO.
-
-De richtlijn geeft géén handvatten voor de vormgeving (kleur, vorm, lettertype, etc.) van langdurige zorggegevens. 
-
-### Inhoud weergaverichtlijn
-De weergaverichtlijnen voor de langdurige zorggegevens zijn [hier](https://medmij.atlassian.net/wiki/spaces/IER/pages/478969857/Weergaverichtlijn+Langdurige+Zorg+Beta+versie) te vinden.
-
