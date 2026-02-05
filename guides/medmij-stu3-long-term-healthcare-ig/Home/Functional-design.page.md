@@ -144,6 +144,6 @@ Tabel 3 Transactiegroep voor verzamelen zibs domeinspecifieke BgLZ+ CIMs
 | Transactiegroep | Transactie | CIM Systeemrolcode  | Systeem | Bedrijfsrol | 
 | --- | --- | --- | --- | --- |  
 | Verzamelen Basisgegevens Langdurige Zorg+ Contact (zib2017/STU3) 1.0.0-beta.1  (PULL) | Raadplegen Contact | BgLZplus-ENR-zib2017/STU3-1.0.0-beta.1-FHIR| PGO | Patiënt | 
-| Verzamelen Basisgegevens Langdurige Zorg+ Contact (zib2017/STU3) 1.0.0-beta.1 | Beschikbaarstellen Contact | BgLZplus-ENB-zib2017/STU3-1.0.0-beta.1-FHIR| XIS | Zorgaanbieder | 
+| Verzamelen Basisgegevens Langdurige Zorg+ Contact (zib2017/STU3) 1.0.0-beta.1 | Beschikbaar stellen Contact | BgLZplus-ENB-zib2017/STU3-1.0.0-beta.1-FHIR| XIS | Zorgaanbieder | 
 | Verzamelen Basisgegevens Langdurige Zorg+ Dagrapportage (zib2017/STU3) 1.0.0-beta.1 (PULL) | Raadplegen Dagrapportage | BgLZplus-NRR-zib2017/STU3-1.0.0-beta.1-FHIR | PGO | Patiënt | 
-| Verzamelen Basisgegevens Langdurige Zorg+ Dagrapportage (zib2017/STU3) 1.0.0-beta.1 | Beschikbaar stellen Dagrapportage| BgLZplus-NRR-zib2017/STU3-1.0.0-beta.1-FHIR| XIS | Zorgaanbieder |
+| Verzamelen Basisgegevens Langdurige Zorg+ Dagrapportage (zib2017/STU3) 1.0.0-beta.1 | Beschikbaar stellen Dagrapportage| BgLZplus-NRB-zib2017/STU3-1.0.0-beta.1-FHIR| XIS | Zorgaanbieder |
