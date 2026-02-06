@@ -5,35 +5,36 @@ topic: TO
 # Technical design
 
 ## Introduction 
+This technical design provides the technical specification of the Basic Long-term Healthcare Data Exchange+ (Dutch: Basisgegevens Langdurige Zorg+ or BgLZ+) standard based on a selection of Dutch Health Care Information Models (HCIMs).
 
-This technical design provides the technical specification of the Basic Long-term Healthcare Data Exchange+ (Dutch: Basisgegevens Langdurige Zorg+ or BgLZ+) standard based on a selection of Dutch Health Care Information Models.
+This 'expansion' of the [BgLZ](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.02/OntwerpLangdurigeZorg) information standard is initially focused on Health Care Information Models of the information standard [Minimal eOverdracht (MeO) version 4.0](https://informatiestandaarden.nictiz.nl/wiki/Landingspagina_Verpleegkundige_Zorg), which is published by Nictiz. The MeO does not yet include a patient use case, however, this may change in the future. Up until then, the patient use case will be published by MedMij under the definition of Basic Long-term Healthcare Data Exchange+.
 
-The “expansion” of the long-term information standard is in first instance focused on Health Care Information Models of the information standard minimal eOverdracht version 4.0. The information standard minimal eOverdracht as published by Nictiz does not yet include a patient use case, this may change in the future. Up until then, the patient use case will be published by MedMij under the definition of Basic Long-term Healthcare Data Exchange+.  
+This technical design is the technical counterpart of the {{pagelink: FO, text: functional design}}. The FHIR version used for this IG is STU3 (3.0.2).
 
-This IG is a technical counterpart of the functional design. The FHIR version used for this IG is HL7 FHIR STU3. This implementation guide assumes that the reader is familiar with this FHIR version.  
-
-Apart from this document, the guidelines as specified in the MedMij STU3 Core FHIR Implementation Guide apply. In particular, the reader should take note of the use case overarching principles.  
+Note that in addition to this design, the (technical) guidelines as specified in the [MedMij STU3 Core IG](https://simplifier.net/guide/medmij-stu3-core-ig?version=1.0.0) and the [MedMij FHIR IG for STU3, version 2020.02](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.02/FHIR_IG) apply, the latter of which is published by Nictiz.
 
 ## Actors involved 
 | Actor | |System | |
 | --- | --- | --- | --- |
-| Name | Description | Name |Description |
+| Name | Description | Name | Description |
 | Patient | The user of a personal healthcare environment | PHR | Personal health record |
 | Healthcare provider | The user of a XIS | XIS | Healthcare information system |
 
 **Table 1: Actors**
 
 ## Boundaries and relationships 
-This technical design includes use cases for the exchange of the Basic Long-term Healthcare Data Exchange+ data between health care providers (e.g. nurses) and patients (e.g. in a PHR setting).
+This technical design includes use cases for the exchange of long-term healthcare data (specifically, data that is part of the BgLZ+) between health care providers (e.g. nurses) and patients (e.g. in a PHR setting).
 
 This technical design assumes that a PHR is able to make a connection to the right XIS that contains the patient's information. It does not provide information on finding the right source system nor does it provide information about security. These infrastructure and interface specifications are described in the [MedMij Afsprakenstelsel](https://afsprakenstelsel.medmij.nl/).
 
-The Basic Long-term Healthcare Data Exchange+ is overlapping with other standards such as the [Basic Long-term Healthcare Data Exchange](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.02/OntwerpLangdurigeZorg). The Basic Long-term Healthcare Data Exchange+ uses the same Health Care Information Model (HCIM) based FHIR profiles for exchanging information as used in other standards.
+The BgLZ+ is related to several other information standards, since it is an expansion of the [BgLZ](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.02/OntwerpLangdurigeZorg) and has overlap with the [MeO](https://informatiestandaarden.nictiz.nl/wiki/Landingspagina_Verpleegkundige_Zorg). In particular, these standards make use of the same set of HCIM-based FHIR profiles, which are bundled in the [nictiz.fhir.nl.stu3.zib2017](https://simplifier.net/packages/nictiz.fhir.nl.stu3.zib2017) package.
 
 ## Use case: Retrieve BgLZ+ information
-In this IG, BgLZ+ is provided as a combination of (1) the existing BgLZ exchange, which remains unchanged, and (2) granular exchange of an additional set of data services. Granular exchange allows the PHR to retrieve individual data services that are part of BgLZ+ through targeted search interactions, in accordance with the generic guidance and profiles defined in [MedMij STU3 Core](https://simplifier.net/medmij-stu3-core). Exchanging BgLZ together with these granular data services is optional: implementations may choose to exchange BgLZ and the granular data services, or only the granular data services.
+The BgLZ+ information is defined and exchanged in a granular manner, which means that for each Clinical Information Model (CIM) that is part of the BgLZ+, a separate (granular) data service is defined. Granular exchange allows the PHR to retrieve individual data services that are part of BgLZ+ through targeted search interactions, in accordance with the generic guidance and profiles defined in the [MedMij STU3 Core IG](https://simplifier.net/guide/medmij-stu3-core-ig?version=1.0.0).
 
-The table below gives an overview of all granular data services that are applicable for BgLZ+.
+As the BgLZ+ is an expansion of the BgLZ, long-term healthcare data is exchanged by a combination of the BgLZ (which remains unchanged) and BgLZ+ (which consists of a set of granular data services). Note that the exchange of the BgLZ (together with the granular data services specified by the BgLZ+) is optional: implementations may choose to exchange both the BgLZ and the granular data services, or only the granular data services.
+
+The table below gives an overview of all granular data services that are applicable for BgLZ+. Note that cross-domain data services are defined in the MedMij STU3 Core IG, while domain-specific data services are defined in this IG. At this time, only cross-domain data services are included.
 
 | Id | Data service name without version (English) | Data service name without version (Dutch) | Data service version|
 | --- | --- | --- | --- |
@@ -51,14 +52,4 @@ The table below gives an overview of all granular data services that are applica
 
 **Table 2: Granular data services applicable for BgLZ+**
 
-#### PHR: request message
-For the cross-domain data services, the request parameters are defined in [MedMij STU3 Core](https://simplifier.net/medmij-stu3-core). This Long-term Healthcare IG only specifies additional guidance for the domain-specific data services. The PHR retrieves the FHIR resources using an individual search interaction. The client performs a search operation using the specified query parameters, executed as an HTTP GET:
-
-`GET [base]/[type]{?[parameters]}`
-
-The table below lists the sections, the CIMs that constitute those sections, and the specific content of the additional long-term care data. The last column shows the FHIR search queries to retrieve this information. At this time, only cross-domain data services are included; these can be found on this page [MedMij STU3 Core](https://simplifier.net/medmij-stu3-core).
-
-For the HealthProfessional and HealthcareProvider HCIMs no separate data services have been defined. Instead, the corresponding Practitioner(Role) and Organization resources are secondary resources that support and contextualize the data exchanged via the granular data services listed above. Whenever these resources are referenced from other resources, they SHALL be resolvable, either by supporting a `read` interaction or by being explicitly included in the Bundle. For each granular data service, the secondary resources that have to be supported are specified in the corresponding CapabilityStatements. For the cross-domain data services, these CapabilityStatements are included on their respective page in the [MedMij STU3 Core IG](https://simplifier.net/medmij-stu3-core-ig?version=1.0.0).
-
-#### XIS: response message
-The returned data to the PHR should conform to the profiles listed in the table below.
+The technical specifications with respect to the request message executed by the PHR and the response message of the XIS are detailed in section 1.6 of the [MedMij STU3 Core IG](https://simplifier.net/guide/medmij-stu3-core-ig?version=1.0.0).
