@@ -33,7 +33,7 @@ The BgLZ+ is related to several other information standards, since it is an expa
 As the BgLZ+ is an expansion of the BgLZ, long-term healthcare data is exchanged by a combination of the BgLZ (whose use case remains unchanged) and BgLZ+. Note that the exchange of the BgLZ is not a prerequisite for exchanging the BgLZ+: implementations may choose to exchange both the BgLZ and the BgLZ+, only the BgLZ (which is not in scope of this IG) or only the BgLZ+.
 
 ### Use case: Retrieve BgLZ+ information
-The BgLZ+ information is defined and exchanged in a granular manner, which means that for each Clinical Information Model (CIM) that is part of the BgLZ+, a separate (granular) data service is defined. Granular exchange allows the PHR to retrieve individual data services that are part of BgLZ+ through targeted search interactions, in accordance with the general guidance and profiles defined in the [MedMij STU3 Core IG](https://simplifier.net/guide/medmij-stu3-core-ig?version=1.0.0).
+The BgLZ+ information is defined and exchanged in a granular manner, which means that for each Clinical Information Model (CIM) that is part of the BgLZ+, a separate (granular) data service is defined. Granular exchange allows the PHR to retrieve individual data services that are part of BgLZ+ through targeted search interactions, in accordance with the general guidance and profiles defined in the [MedMij STU3 Core IG](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-exchange?version=1.0.0).
 
 The table below gives an overview of all granular data services that are applicable for BgLZ+. Note that cross-domain data services are defined in the MedMij STU3 Core IG, while domain-specific data services are defined in this IG. At this time, only cross-domain data services are included.
 
@@ -53,4 +53,4 @@ The table below gives an overview of all granular data services that are applica
 
 **Table 2: Granular data services applicable for BgLZ+**
 
-The technical specifications with respect to the request message executed by the PHR and the response message of the XIS are detailed in section 1.6 of the [MedMij STU3 Core IG](https://simplifier.net/guide/medmij-stu3-core-ig?version=1.0.0).
+The technical specifications with respect to the request message executed by the PHR and the response message of the XIS are detailed in section 1.6 of the [MedMij STU3 Core IG](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-exchange?version=1.0.0).
