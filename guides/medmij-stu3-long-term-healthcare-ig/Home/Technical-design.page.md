@@ -29,10 +29,11 @@ This technical design assumes that a PHR is able to make a connection to the rig
 
 The BgLZ+ is related to several other information standards, since it is an expansion of the [BgLZ](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.02/OntwerpLangdurigeZorg) and has overlap with the [MeO](https://informatiestandaarden.nictiz.nl/wiki/Landingspagina_Verpleegkundige_Zorg). In particular, these standards make use of the same set of HCIM-based FHIR profiles, which are bundled in the [nictiz.fhir.nl.stu3.zib2017](https://simplifier.net/packages/nictiz.fhir.nl.stu3.zib2017) package.
 
-## Use case: Retrieve BgLZ+ information
-The BgLZ+ information is defined and exchanged in a granular manner, which means that for each Clinical Information Model (CIM) that is part of the BgLZ+, a separate (granular) data service is defined. Granular exchange allows the PHR to retrieve individual data services that are part of BgLZ+ through targeted search interactions, in accordance with the generic guidance and profiles defined in the [MedMij STU3 Core IG](https://simplifier.net/guide/medmij-stu3-core-ig?version=1.0.0).
+## Use cases
+As the BgLZ+ is an expansion of the BgLZ, long-term healthcare data is exchanged by a combination of the BgLZ (whose use case remains unchanged) and BgLZ+. Note that the exchange of the BgLZ is not a prerequisite for exchanging the BgLZ+: implementations may choose to exchange both the BgLZ and the BgLZ+, only the BgLZ (which is not in scope of this IG) or only the BgLZ+.
 
-As the BgLZ+ is an expansion of the BgLZ, long-term healthcare data is exchanged by a combination of the BgLZ (which remains unchanged) and BgLZ+ (which consists of a set of granular data services). Note that the exchange of the BgLZ (together with the granular data services specified by the BgLZ+) is optional: implementations may choose to exchange both the BgLZ and the granular data services, or only the granular data services.
+### Use case: Retrieve BgLZ+ information
+The BgLZ+ information is defined and exchanged in a granular manner, which means that for each Clinical Information Model (CIM) that is part of the BgLZ+, a separate (granular) data service is defined. Granular exchange allows the PHR to retrieve individual data services that are part of BgLZ+ through targeted search interactions, in accordance with the general guidance and profiles defined in the [MedMij STU3 Core IG](https://simplifier.net/guide/medmij-stu3-core-ig?version=1.0.0).
 
 The table below gives an overview of all granular data services that are applicable for BgLZ+. Note that cross-domain data services are defined in the MedMij STU3 Core IG, while domain-specific data services are defined in this IG. At this time, only cross-domain data services are included.
 
