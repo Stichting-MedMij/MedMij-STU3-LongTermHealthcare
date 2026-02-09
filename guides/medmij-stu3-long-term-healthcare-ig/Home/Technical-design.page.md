@@ -5,7 +5,7 @@ topic: TO
 # Technical design
 
 ## Introduction 
-This technical design provides the technical specification of the Basic Long-term Healthcare Data Exchange+ (Dutch: Basisgegevens Langdurige Zorg+ or BgLZ+) standard. This 'expansion' of the [BgLZ](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.02/OntwerpLangdurigeZorg) information standard is initially focused on Health and Care Clinical Information Models of the information standard [Minimal eOverdracht (MeO) version 4.0](https://informatiestandaarden.nictiz.nl/wiki/Landingspagina_Verpleegkundige_Zorg), which is published by Nictiz. The MeO does not yet include a patient use case, however, this may change in the future. Up until then, the patient use case will be published by MedMij under the definition of Basic Long-term Healthcare Data Exchange+.
+This technical design provides the technical specification of the Basic Long-term Healthcare Data Exchange+ (Dutch: Basisgegevens Langdurige Zorg+ or BgLZ+) standard. This 'expansion' of the [BgLZ](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.02/OntwerpLangdurigeZorg) information standard is initially focused on Health and Care Clinical Information Models (HCIMs) of the information standard [Minimal eOverdracht (MeO) version 4.0](https://informatiestandaarden.nictiz.nl/wiki/Landingspagina_Verpleegkundige_Zorg), which is published by Nictiz. The MeO does not yet include a patient use case, however, this may change in the future. Up until then, the patient use case will be published by MedMij under the definition of Basic Long-term Healthcare Data Exchange+.
 
 This technical design is the technical counterpart of the {{pagelink: FO, text: functional design}}. The FHIR version used for this IG is STU3 (3.0.2).
 
