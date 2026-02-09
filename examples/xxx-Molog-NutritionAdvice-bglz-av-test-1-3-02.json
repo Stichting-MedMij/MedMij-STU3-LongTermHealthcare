@@ -2,16 +2,17 @@
   "resourceType": "NutritionOrder",
   "id": "NutritionAdvice-bglz-av-test-1-3-02",
   "meta": {
-    "extension": [
-      {
-        "url": "http://hapifhir.io/fhir/StructureDefinition/resource-meta-source",
-        "valueUri": "#692c843fe9effa63"
-      }
-    ],
     "versionId": "6",
     "lastUpdated": "2025-03-17T09:36:29.446+00:00",
     "profile": [
       "http://nictiz.nl/fhir/StructureDefinition/zib-NutritionAdvice"
+    ],
+    "tag": [
+      {
+        "system": "urn:oid:2.16.840.1.113883.2.4.6.7", 
+        "code": "7500",
+        "display": "Thuiszorg, kruiswerk en gezinsverzorging"
+      }
     ]
   },
   "text": {

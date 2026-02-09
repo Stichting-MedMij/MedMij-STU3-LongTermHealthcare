@@ -2,16 +2,17 @@
   "resourceType": "Patient",
   "id": "Patient-bglz-test-1-1",
   "meta": {
-    "extension": [
-      {
-        "url": "http://hapifhir.io/fhir/StructureDefinition/resource-meta-source",
-        "valueUri": "#80eaf9d6e633dd0a"
-      }
-    ],
     "versionId": "2",
     "lastUpdated": "2025-02-18T10:35:17.572+00:00",
     "profile": [
       "http://fhir.nl/fhir/StructureDefinition/nl-core-patient"
+    ],
+    "tag": [
+      {
+        "system": "urn:oid:2.16.840.1.113883.2.4.6.7", 
+        "code": "7500",
+        "display": "Thuiszorg, kruiswerk en gezinsverzorging"
+      }
     ]
   },
   "text": {
