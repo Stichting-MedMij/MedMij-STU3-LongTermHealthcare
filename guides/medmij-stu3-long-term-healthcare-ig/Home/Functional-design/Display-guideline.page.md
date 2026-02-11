@@ -88,10 +88,10 @@ Hieronder worden alle langdurige zorg zibs in tabel vorm weergegeven. De zorgorg
 | Geselecteerde regel: advies over de veilige en passende lichaamsbeweging | Voorbeeldwaarde | 
 | --- | --- |
 | Type contact | Thuis |
-| Begin datum | 30-03-2025 |
-| Begin tijd | 20:00 |
-| Eind datum | 30-03-2025 |
-| Eind tijd | 21:00 |
+| Begindatum | 30-03-2025 |
+| Begintijd | 20:00 |
+| Einddatum | 30-03-2025 |
+| Eindtijd | 21:00 |
 | Zorgverlener | Julia van den Bos |
 | Zorgorganisatie | IJsselheem |
 | Type contact uitleg | advies over veilige en passende lichaamsbeweging |
@@ -115,16 +115,237 @@ Hieronder worden alle langdurige zorg zibs in tabel vorm weergegeven. De zorgorg
 | Tijd | 12:00 |
 | Zorgorganisatie | IJsselheem |
 
+#### Bloeddruk
+
+<u>Overzichtsscherm</u>
+
+| Bloeddruk | Datum | Zorgorganisatie |
+| --- | --- | --- |
+| 160/92 mmHg | 15-03-2025 | IJsselheem |
+| 160/80 mmHg | 31-11-2024 | IJsselheem |
+
+<u>Detailscherm</u>
+
+| Geselecteerde regel: 160/92 mmHg 15-03-2025 | Voorbeeldwaarde |
+| --- | --- |
+| Meet methode | Niet-invasief |
+| Manchettype | Klein |
+| Meet locatie | Linker bovenarm |
+| Rust druk | 80 mmHg |
+| Bovendruk | 160 mmHg |
+| Onderdruk | 92 mmHg |
+| Gemiddelde bloeddruk | 109 mmHg |
+| Toelichting | mevrouw gebruikt medicatie |
+| Houding | Zittende positie |
+| Datum | 15-03-2025 |
+| Tijd | 14:45 |
+| Zorgorganisatie | IJsselheem |
+
+#### Lichaamslengte
+
+<u>Overzichtsscherm</u>
+
+| Lichaamslengte | Datum | Zorgorganisatie |
+| --- | --- | --- |
+| 160 cm | 15-03-2025 | IJsselheem |
+
+<u>Detailscherm</u>
+
+| Geselecteerde regel: Lichaamslengte 15-03-2025 | Voorbeeldwaarde |
+| --- | --- |
+| Lichaamslengte | 160 cm |
+| Datum | 15-03-2025 |
+| Tijd | 14:30 |
+| Toelichting | zonder schoenen aan |
+| Zorgorganisatie | IJsselheem |
+
+#### Lichaamsgewicht
+
+<u>Overzichtsscherm</u>
+
+| Lichaamsgewicht | Datum | Zorgorganisatie |
+| --- | --- | --- |
+| 58 kg | 15-03-2025 | IJsselheem |
+
+<u>Detailscherm</u>
+
+| Geselecteerde regel: Lichaamsgewicht 15-03-2025 | Voorbeeldwaarde |
+| --- | --- |
+| Lichaamsgewicht | 58 kg |
+| Datum | 15-03-2025 |
+| Tijd | 14:30 |
+| Kleding | Lichte kleding/ondergoed |
+| Toelichting | mevrouw is aan het aansterken |
+| Zorgorganisatie | IJsselheem |
+
+#### Alert
+
+<u>Overzichtsscherm</u>
+
+| Waarschuwing | Datum invoer | Zorgorganisatie |
+| --- | --- | --- |
+| Drager VRE | 15-03-2025 | IJsselheem |
+| Verhoogd valrisico | 10-03-2015 | IJsselheem |
+
+<u>Detailscherm</u>
+
+| Geselecteerde regel: Waarschuwing 15-03-2025 | Voorbeeldwaarde |
+| --- | --- |
+| Waarschuwing | Drager VRE |
+| Datum invoer | 15-03-2025 |
+| Zorgorganisatie | IJsselheem |
+
+#### Voedingsadvies
+
+<u>Overzichtsscherm</u>
+
+| Voedingsadvies | Consistentie | Zorgorganisatie |
+| --- | --- | --- |
+| Lactosevrij | Solide | IJsselheem |
+| Selderij | Solide | IJsselheem |
+
+<u>Detailscherm</u>
+
+| Geselecteerde regel: Waarde Lactosevrij | Voorbeeldwaarde |
+| --- | --- |
+| Voedingsadvies | Lactosevrij |
+| Consistentie | Solide |
+| Toelichting | Naar eigen zeggen: lactose-intolerant |
+| Zorgorganisatie | IJsselheem |
+
+#### Woonsituatie
+
+<u>Overzichtsscherm</u>
+
+| Woonsituatie | Woningtype | Toelichting | Zorgorganisatie |
+| --- | --- | --- | --- |
+| Woonsituatie | Aanleunwoning | Woning is op de begane grond | IJsselheem |
+
+#### Betaler
+
+<u>Overzichtsscherm</u>
+
+| Naam betaler | Zorgorganisatie |
+| --- | --- |
+| Trias | IJsselheem |
+| Menzis | IJsselheem |
+
+<u>Detailscherm</u>
+
+| Geselecteerde regel: Trias | Voorbeeldwaarde |
+| --- | --- |
+| Naam betaler | Trias |
+| Naam Bank |  |
+| Code Bank |  |
+| Rekeningnummer Bank |  |
+| Begin datum | 01-01-2025 |
+| Eind datum | 31-12-2025 |
+| Naam verzekeraar | Trias |
+| Soort verzekering | Basis verzekerd |
+| Nummer verzekerde | 12345678 |
+| Zorgorganisatie | IJsselheem |
+
+#### Lichaamstemperatuur
+
+<u>Overzichtsscherm</u>
+
+| Lichaamstemperatuur | Datum | Zorgorganisatie |
+| --- | --- | --- |
+| 37,2 graden | 15-03-2025 | IJsselheem |
+| 37,5 graden | 17-02-2025 | IJsselheem |
+
+<u>Detailscherm</u>
+
+| Geselecteerde regel: Lichaamstemperatuur 15-03-2025 | Voorbeeldwaarde |
+| --- | --- |
+| Lichaamstemperatuur | 37,2 graden |
+| Datum | 15-03-2025 |
+| Tijd | 11:00 |
+| Toelichting | een koude dag |
+| Temperatuur type | Orale temperatuur (onder de tong) |
+| Zorgorganisatie | IJsselheem |
+
+#### Vochtbalans
+
+<u>Overzichtsscherm</u>
+
+| Vochtbalans | Datum | Zorgorganisatie |
+| --- | --- | --- |
+| Vochtbalans | 15-03-2025 | IJsselheem |
+| Vochtbalans | 17-02-2025 | IJsselheem |
+
+<u>Detailscherm</u>
+
+| Geselecteerde regel: Vochtbalans 15-03-2025 | Voorbeeldwaarde |
+| --- | --- |
+| Vocht totaal inname | 1400 ML |
+| Vocht totaal uit | 1000 ML |
+| Vochtbalans datum | 15-03-2025 |
+| Vochtbalans starttijd | 11:00 |
+| Vochtbalans stoptijd | 12:00 |
+| Toelichting |  |
+| Zorgorganisatie | IJsselheem |
+
+#### Ademhaling
+
+<u>Overzichtsscherm</u>
+
+| Ademfrequentie | Datum | Zorgorganisatie |
+| --- | --- | --- |
+| 18 | 15-03-2025 | IJsselheem |
+| 15 | 15-02-2025 | IJsselheem |
+
+<u>Detailscherm</u>
+
+| Geselecteerde regel: Ademfrequentie 15-03-2025 | Voorbeeldwaarde |
+| --- | --- |
+| Ademfrequentie | 18 per min |
+| Datum | 15-03-2025 |
+| Tijd | 14:45 |
+| Ritme | Abnormaal ademhalingsritme |
+| Diepte | Normale ademhalingsdiepte |
+| Afwijkend ademhalingspatroon | Apneu |
+| Extra zuurstof toediening |  |
+| Toelichting | meneer lijkt angstig |
+| Flowrate | 2 |
+| FiO2 | 0.29 |
+| Toediening hulpmiddel | Masker |
+| ProductType | Venturi-Masker |
+| Zorgorganisatie | IJsselheem |
+
+#### Polsfrequentie
+
+<u>Overzichtsscherm</u>
+
+| Polsfrequentie | Datum | Zorgorganisatie |
+| --- | --- | --- |
+| 96 | 15-03-2025 | IJsselheem |
+| 92 | 28-11-2024 | IJsselheem |
+
+<u>Detailscherm</u>
+
+| Geselecteerde regel: 96 - 15-03-2025 | Voorbeeldwaarde |
+| --- | --- |
+| Polsfrequentie | 96 per min |
+| Datum | 15-03-2025 |
+| Tijd | 14:00 |
+| Toelichting |  |
+| PolsRegelmatigheid | Regelmatige polsslag |
+| Zorgorganisatie | IJsselheem |
+
+
 ## Tabel met specificaties
 In de tabel met specificaties staan de gegevens uit de gegevensdienst Verzamelen Basisgegevens Langdurige Zorg 3.0, die relevant zijn voor deze weergaverichtlijn weergegeven. 
 De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-methodiek. Datavelden die niet in de specificatietabel voorkomen, moeten worden beschouwd als datavelden met de letter W.
 
-| Prioriteit | Omschrijving |
+
+| **Prioriteit** | **Omschrijving** |
 | --- | --- |
 | M(ust have) | Nodig voor de basisfunctionaliteit van de toepassing en moet worden geïmplementeerd om het proces succesvol te laten verlopen. |
 | S(hould have) | Belangrijke functionaliteit die niet vereist is, maar die voordelen biedt voor gebruikers en de algehele gebruikservaring. |
 | C(ould have) | Gewenste functionaliteit die waarde toevoegt, maar minder kritisch is en indien nodig kan worden uitgesteld. |
 | W(on't have) | Functionaliteiten die nu buiten scope zijn maar mogelijk in de toekomst worden overwogen. |
+
 
 | 1. Naam data item | 2. Type data item | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -142,22 +363,25 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 | Herkomst | Item | | b | Herkomst | | M |
 | Bestemming | Item | | b | Bestemming | | M |
 
+
 | 1. Naam data item | 2. Type data item | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Dagrapportage** | **Rootconcept** | | a | Dagrapportage | | |
 | ObservatieDatumTijd | Item | 2025-05-17T07:00:00+01:00 | b | Datum en Tijd| | M |
 | Dagverslag (ObservatieNaam) | Item | Mevrouw vertoont toenemende stijfheid bij het opstaan en lopen. Er is sprake van fijne tremor in de rechterhand. Tijdens het ochtendcontact had zij moeite om zich verbaal uit te drukken; gebruikt korte zinnen met lange pauzes. Zelfstandig toiletbezoek is mogelijk, maar met risico op vallen. Advies: looprek binnen handbereik houden en logopedie betrekken voor spraakondersteuning. | b | Dagverslag | | M | 
-| OberservatieMethode | Item | | b | Oberservatie methode | | M |
+| ObservatieMethode | Item | | b | Oberservatie methode | | M |
 | Toelichting | Item | | b | Toelichting | | M |
 | Zorgaanbieder | Reference | IJsselheem | a | Liefst geen afkortingen | Zorgorganisatie | Organisatienaam: M <br/> Overige datavelden: W |
 
+
 | 1. Naam data item | 2. Type data item | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
-| **Alert** | **Rootconcept** | | a | Waarschuwing | | |
+| **Alert** | **Rootconcept** | | a | Alertnaam | | |
 |AlertNaam |Item|Drager VRE| a | Waarschuwing | (code = '431109006' in codeSystem 'SNOMED CT') | M |
 | BeginDatumTijd | Item | 2025-02-18| b | Waarschuwing actief sinds | | M |
-| AlertType | Item | | b | Type waarschuwing | (code = 74018-3' in codeSystem 'LOINC') | M |
+| AlertType | Item | | b | Type waarschuwing | (code = '74018-3' in codeSystem 'LOINC') | M |
 | Zorgaanbieder | Reference | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | organisatienaam: M Overige datavelden: W |
+
 
 | 1. Naam data item | 2. Type data item | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -175,6 +399,7 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 | Zorgaanbieder |Reference | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M
 Overige datavelden: W |
 
+
 | 1. Naam data item | 2. Type data item | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Lichaamslengte** | **Rootconcept** | | a | Lichaamslengte | | M |
@@ -184,15 +409,17 @@ Overige datavelden: W |
 | Zorgaanbieder |Reference | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M
 Overige datavelden: W |
 
+
 | 1. Naam data item | 2. Type data item | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Lichaamstemperatuur** | **Rootconcept** | | a | Lichaamstemperatuur | |  |
 | TemperatuurWaarde | Item | 38.6 | a | Lichaamstemperatuur | | M |
 | TemperatuurDatumTijd | Item | 2025-03-17T07:00:00+01:00 | a | Datum en tijd meting | | M |
 | Toelichting | Item | voeten voelen heel koud aan | b | Toelichting | | M |
-| TemperatuurType | Item | Tympanic temperature | b | Type temperatuur | (code = '415974002' in codesystem http://snomed.info/sct) | M |
+| TemperatuurType | Item | Tympanic temperature | b | Type temperatuur | (code = '415974002' in codeSystem http://snomed.info/sct) | M |
 | Zorgaanbieder |Reference | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M
 Overige datavelden: W |
+
 
 | 1. Naam data item | 2. Type data item | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -203,6 +430,7 @@ Overige datavelden: W |
 | Kleding | Item | Lichte kleding/ondergoed | b | Kleding | (code = 'MINIMAL' in codeSystem '2.16.840.1.113883.2.4.3.11.60.40.4.8.1') | M |
 | Zorgaanbieder |Reference | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M
 Overige datavelden: W |
+
 
 | 1. Naam data item | 2. Type data item | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -215,6 +443,7 @@ Overige datavelden: W |
 | Zorgaanbieder |Reference | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M
 Overige datavelden: W |
 
+
 | 1. Naam data item | 2. Type data item | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Woonsituatie** | **Rootconcept** | | a | Woonsituatie | | |
@@ -223,6 +452,7 @@ Overige datavelden: W |
 | Zorgaanbieder |Reference | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M
 Overige datavelden: W |
 
+
 | 1. Naam data item | 2. Type data item | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Voedingsadvies** | **Rootconcept** | | a | Voedingsadvies | | |
@@ -230,6 +460,7 @@ Overige datavelden: W |
 | Consistentie | Item | solide | b | Structuur van eten | | M |
 | Toelichting | Item | naar eigen zeggen lactose-intolerant | b | Toelichting | | M |
 | Zorgaanbieder | Reference | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M Overige datavelden: W |
+
 
 | 1. Naam data item | 2. Type data item | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -244,28 +475,30 @@ Overige datavelden: W |
 | **Verzekering** | **Container** |  | b | Verzekering | | |
 | BeginDatumTijd | Item | 2023-03-18 | b | Begindatum | | M |
 | EindDatumTijd | Item | 2026-03-17 | b | Einddatum | | M |
-| Verzekerings soort | Item | Basis verzekerd | b | Soort Verzekering | (code = 'B' in codeSystem '2.16.840.1.113883.2.4.3.11.60.101.5.1') | M |
+| Verzekeringssoort | Item | Basis verzekerd | b | Soort Verzekering | (code = 'B' in codeSystem '2.16.840.1.113883.2.4.3.11.60.101.5.1') | M |
 | IdentificatieNummer | Item | 3332 | b | Identificatie nummer | (in identificerend systeem: 2.16.840.1.113883.2.4.6.4) | M |
 | OrganisatieNaam | Item | Menzis | b | Naam Organisatie | | M |
 | VerzekerdeNummer | Item | 6318708200 | b | Verzekerde nummer | | M |
 | Zorgaanbieder | Reference | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M<br/>Overige datavelden: W |
 
+
 | 1. Naam data item | 2. Type data item | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Polsfrequentie** | **Rootconcept** | | a | Pols frequentie | | |
-| PolsfrequentieWaarde | Item | 67 | a | Waarde | (code /min in codesystem http://unitsofmeasure.org) | M |
+| PolsfrequentieWaarde | Item | 67 | a | Waarde | (code '/min' in codeSystem http://unitsofmeasure.org) | M |
 | PolsfrequentieDatumTijd | Item | 2024-06-03T00:00:00+02:00 | a | Datum en Tijd meting | | M |
 | Toelichting | Item | | b | Toelichting | | M |
-| PolsRegelmatigheid | Item | polsslag regelmatig | b | Polsregelmatigheid | (code 271636001 in codesystem SNOMED CT) | M |
+| PolsRegelmatigheid | Item | Regelmatige polsslag | b | PolsRegelmatigheid | (code '271636001' in codeSystem SNOMED CT) | M |
 | Zorgaanbieder | Reference | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M<br/>Overige datavelden: W |
+
 
 | 1. Naam data item | 2. Type data item | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Ademhaling** | **Rootconcept** | | a | Ademhaling | | |
-| Ademfrequentie | Item | 15 (code {breaths/min} in codesystem http://unitsofmeasure.org) | a | Adem frequentie | | M |
+| Ademfrequentie | Item | 15 (code {breaths/min} in codeSystem http://unitsofmeasure.org) | a | Adem frequentie | | M |
 | AdemhalingDatumTijd | Item | 2015-03-11T14:47:00Z | a | Datum en Tijd meting | | M |
-| Ritme | Item | Normaal ademhalingsritme | b | | (code = 5467003 in codesystem SNOMED CT) | M |
-| Diepte | Item | Normale ademhalingsdiepte | b | | (code = 301284009 in codeystem SNOMED CT) | M |
+| Ritme | Item | Normaal ademhalingsritme | b | | (code = '5467003' in codesystem SNOMED CT) | M |
+| Diepte | Item | Normale ademhalingsdiepte | b | | (code = '301284009' in codeSystem SNOMED CT) | M |
 | AfwijkendAdemhalingspatroon | Item | | b | Afwijkend Ademhalingspatroon | | M |
 | ExtraZuurstofToediening | Item | | b | Extra zuurstof toediening | | M |
 | Toelichting | Item | | b | Toelichting | | M |
