@@ -115,6 +115,23 @@ Hieronder worden alle langdurige zorg zibs in tabel vorm weergegeven. De zorgorg
 | Tijd | 12:00 |
 | Zorgorganisatie | IJsselheem |
 
+#### Alert
+
+<u>Overzichtsscherm</u>
+
+| Waarschuwing | Datum invoer | Zorgorganisatie |
+| --- | --- | --- |
+| Drager VRE | 15-03-2025 | IJsselheem |
+| Verhoogd valrisico | 10-03-2015 | IJsselheem |
+
+<u>Detailscherm</u>
+
+| Geselecteerde regel: Waarschuwing 15-03-2025 | Voorbeeldwaarde |
+| --- | --- |
+| Waarschuwing | Drager VRE |
+| Datum invoer | 15-03-2025 |
+| Zorgorganisatie | IJsselheem |
+
 #### Bloeddruk
 
 <u>Overzichtsscherm</u>
@@ -159,6 +176,27 @@ Hieronder worden alle langdurige zorg zibs in tabel vorm weergegeven. De zorgorg
 | Toelichting | zonder schoenen aan |
 | Zorgorganisatie | IJsselheem |
 
+#### Lichaamstemperatuur
+
+<u>Overzichtsscherm</u>
+
+| Lichaamstemperatuur | Datum | Zorgorganisatie |
+| --- | --- | --- |
+| 37,2 graden | 15-03-2025 | IJsselheem |
+| 37,5 graden | 17-02-2025 | IJsselheem |
+
+<u>Detailscherm</u>
+
+| Geselecteerde regel: Lichaamstemperatuur 15-03-2025 | Voorbeeldwaarde |
+| --- | --- |
+| Lichaamstemperatuur | 37,2 graden |
+| Datum | 15-03-2025 |
+| Tijd | 11:00 |
+| Toelichting | een koude dag |
+| Temperatuur type | Orale temperatuur (onder de tong) |
+| Zorgorganisatie | IJsselheem |
+
+
 #### Lichaamsgewicht
 
 <u>Overzichtsscherm</u>
@@ -178,22 +216,34 @@ Hieronder worden alle langdurige zorg zibs in tabel vorm weergegeven. De zorgorg
 | Toelichting | mevrouw is aan het aansterken |
 | Zorgorganisatie | IJsselheem |
 
-#### Alert
+#### Vochtbalans
 
 <u>Overzichtsscherm</u>
 
-| Waarschuwing | Datum invoer | Zorgorganisatie |
+| Vochtbalans | Datum | Zorgorganisatie |
 | --- | --- | --- |
-| Drager VRE | 15-03-2025 | IJsselheem |
-| Verhoogd valrisico | 10-03-2015 | IJsselheem |
+| Vochtbalans | 15-03-2025 | IJsselheem |
+| Vochtbalans | 17-02-2025 | IJsselheem |
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Waarschuwing 15-03-2025 | Voorbeeldwaarde |
+| Geselecteerde regel: Vochtbalans 15-03-2025 | Voorbeeldwaarde |
 | --- | --- |
-| Waarschuwing | Drager VRE |
-| Datum invoer | 15-03-2025 |
+| Vocht totaal inname | 1400 ML |
+| Vocht totaal uit | 1000 ML |
+| Vochtbalans datum | 15-03-2025 |
+| Vochtbalans starttijd | 11:00 |
+| Vochtbalans stoptijd | 12:00 |
+| Toelichting |  |
 | Zorgorganisatie | IJsselheem |
+
+#### Woonsituatie
+
+<u>Overzichtsscherm</u>
+
+| Woonsituatie | Woningtype | Toelichting | Zorgorganisatie |
+| --- | --- | --- | --- |
+| Woonsituatie | Aanleunwoning | Woning is op de begane grond | IJsselheem |
 
 #### Voedingsadvies
 
@@ -212,14 +262,6 @@ Hieronder worden alle langdurige zorg zibs in tabel vorm weergegeven. De zorgorg
 | Consistentie | Solide |
 | Toelichting | Naar eigen zeggen: lactose-intolerant |
 | Zorgorganisatie | IJsselheem |
-
-#### Woonsituatie
-
-<u>Overzichtsscherm</u>
-
-| Woonsituatie | Woningtype | Toelichting | Zorgorganisatie |
-| --- | --- | --- | --- |
-| Woonsituatie | Aanleunwoning | Woning is op de begane grond | IJsselheem |
 
 #### Betaler
 
@@ -245,45 +287,24 @@ Hieronder worden alle langdurige zorg zibs in tabel vorm weergegeven. De zorgorg
 | Nummer verzekerde | 12345678 |
 | Zorgorganisatie | IJsselheem |
 
-#### Lichaamstemperatuur
+#### Polsfrequentie
 
 <u>Overzichtsscherm</u>
 
-| Lichaamstemperatuur | Datum | Zorgorganisatie |
+| Polsfrequentie | Datum | Zorgorganisatie |
 | --- | --- | --- |
-| 37,2 graden | 15-03-2025 | IJsselheem |
-| 37,5 graden | 17-02-2025 | IJsselheem |
+| 96 | 15-03-2025 | IJsselheem |
+| 92 | 28-11-2024 | IJsselheem |
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Lichaamstemperatuur 15-03-2025 | Voorbeeldwaarde |
+| Geselecteerde regel: 96 - 15-03-2025 | Voorbeeldwaarde |
 | --- | --- |
-| Lichaamstemperatuur | 37,2 graden |
+| Polsfrequentie | 96 per min |
 | Datum | 15-03-2025 |
-| Tijd | 11:00 |
-| Toelichting | een koude dag |
-| Temperatuur type | Orale temperatuur (onder de tong) |
-| Zorgorganisatie | IJsselheem |
-
-#### Vochtbalans
-
-<u>Overzichtsscherm</u>
-
-| Vochtbalans | Datum | Zorgorganisatie |
-| --- | --- | --- |
-| Vochtbalans | 15-03-2025 | IJsselheem |
-| Vochtbalans | 17-02-2025 | IJsselheem |
-
-<u>Detailscherm</u>
-
-| Geselecteerde regel: Vochtbalans 15-03-2025 | Voorbeeldwaarde |
-| --- | --- |
-| Vocht totaal inname | 1400 ML |
-| Vocht totaal uit | 1000 ML |
-| Vochtbalans datum | 15-03-2025 |
-| Vochtbalans starttijd | 11:00 |
-| Vochtbalans stoptijd | 12:00 |
+| Tijd | 14:00 |
 | Toelichting |  |
+| PolsRegelmatigheid | Regelmatige polsslag |
 | Zorgorganisatie | IJsselheem |
 
 #### Ademhaling
@@ -313,26 +334,6 @@ Hieronder worden alle langdurige zorg zibs in tabel vorm weergegeven. De zorgorg
 | ProductType | Venturi-Masker |
 | Zorgorganisatie | IJsselheem |
 
-#### Polsfrequentie
-
-<u>Overzichtsscherm</u>
-
-| Polsfrequentie | Datum | Zorgorganisatie |
-| --- | --- | --- |
-| 96 | 15-03-2025 | IJsselheem |
-| 92 | 28-11-2024 | IJsselheem |
-
-<u>Detailscherm</u>
-
-| Geselecteerde regel: 96 - 15-03-2025 | Voorbeeldwaarde |
-| --- | --- |
-| Polsfrequentie | 96 per min |
-| Datum | 15-03-2025 |
-| Tijd | 14:00 |
-| Toelichting |  |
-| PolsRegelmatigheid | Regelmatige polsslag |
-| Zorgorganisatie | IJsselheem |
-
 
 ## Tabel met specificaties
 In de tabel met specificaties staan de gegevens uit de gegevensdienst Verzamelen Basisgegevens Langdurige Zorg 3.0, die relevant zijn voor deze weergaverichtlijn weergegeven. 
@@ -347,7 +348,7 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 | W(on't have) | Functionaliteiten die nu buiten scope zijn maar mogelijk in de toekomst worden overwogen. |
 
 
-| 1. Naam data item | 2. Type data item | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
+| 1. Naam data item | 2. Type data item - Id | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Contact** | **Rootconcept** | | a | Contact | | |
 | Contacttype | Item | Thuis | a | Type contact of afspraak | (code = 'HH' in "codesystem Index - FHIR v5.0.0": "https://hl7.org/fhir/?utm_referrer=https%3A%2F%2Fwww.hl7.org%2F") | M |
@@ -364,7 +365,7 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 | Bestemming | Item | | b | Bestemming | | M |
 
 
-| 1. Naam data item | 2. Type data item | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
+| 1. Naam data item | 2. Type data item - Id | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Dagrapportage** | **Rootconcept** | | a | Dagrapportage | | |
 | ObservatieDatumTijd | Item | 2025-05-17T07:00:00+01:00 | b | Datum en Tijd| | M |
@@ -374,7 +375,7 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 | Zorgaanbieder | Reference | IJsselheem | a | Liefst geen afkortingen | Zorgorganisatie | Organisatienaam: M <br/> Overige datavelden: W |
 
 
-| 1. Naam data item | 2. Type data item | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
+| 1. Naam data item | 2. Type data item - Id | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Alert** | **Rootconcept** | | a | Alertnaam | | |
 |AlertNaam |Item|Drager VRE| a | Waarschuwing | (code = '431109006' in codeSystem 'SNOMED CT') | M |
@@ -383,7 +384,7 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 | Zorgaanbieder | Reference | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | organisatienaam: M Overige datavelden: W |
 
 
-| 1. Naam data item | 2. Type data item | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
+| 1. Naam data item | 2. Type data item - Id | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Bloeddruk** | **Rootconcept** |  | a | Bloeddruk | | |
 | Meetmethode | Item | Niet-invasief | b | Methode | (code = '22762002' in codeSystem 'SNOMED CT') | M |
@@ -400,7 +401,7 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 Overige datavelden: W |
 
 
-| 1. Naam data item | 2. Type data item | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
+| 1. Naam data item | 2. Type data item - Id | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Lichaamslengte** | **Rootconcept** | | a | Lichaamslengte | | M |
 | LengteWaarde | Item | 160 cm | a | Lichaamslengte | | M |
@@ -410,7 +411,7 @@ Overige datavelden: W |
 Overige datavelden: W |
 
 
-| 1. Naam data item | 2. Type data item | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
+| 1. Naam data item | 2. Type data item - Id | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Lichaamstemperatuur** | **Rootconcept** | | a | Lichaamstemperatuur | |  |
 | TemperatuurWaarde | Item | 38.6 | a | Lichaamstemperatuur | | M |
@@ -421,7 +422,7 @@ Overige datavelden: W |
 Overige datavelden: W |
 
 
-| 1. Naam data item | 2. Type data item | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
+| 1. Naam data item | 2. Type data item - Id | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Lichaamsgewicht** | **Rootconcept** | | a | Lichaamsgewicht | |  |
 | GewichtWaarde | Item | 58 kg | a | Lichaamsgewicht | | M |
@@ -432,7 +433,7 @@ Overige datavelden: W |
 Overige datavelden: W |
 
 
-| 1. Naam data item | 2. Type data item | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
+| 1. Naam data item | 2. Type data item - Id | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Vochtbalans** | **Rootconcept** | | a | Vochtbalans | | |
 | Toelichting | Item | dehydratie | a | Vochtbalans | | M |
@@ -444,7 +445,7 @@ Overige datavelden: W |
 Overige datavelden: W |
 
 
-| 1. Naam data item | 2. Type data item | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
+| 1. Naam data item | 2. Type data item - Id | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Woonsituatie** | **Rootconcept** | | a | Woonsituatie | | |
 | Toelichting | Item | Woning is op de begane grond | b | Toelichting | | M |
@@ -453,7 +454,7 @@ Overige datavelden: W |
 Overige datavelden: W |
 
 
-| 1. Naam data item | 2. Type data item | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
+| 1. Naam data item | 2. Type data item - Id | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Voedingsadvies** | **Rootconcept** | | a | Voedingsadvies | | |
 | DieetType | Item | lactosevrij | a | Voedingsadvies | | M |
@@ -462,7 +463,7 @@ Overige datavelden: W |
 | Zorgaanbieder | Reference | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M Overige datavelden: W |
 
 
-| 1. Naam data item | 2. Type data item | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
+| 1. Naam data item | 2. Type data item - Id | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Betaler** | **Rootconcept** | | a | Verzekeraar | | |
 | **BetalerPersoon** | **Container** | | b (zie opmerkingen) | | Als verzekeraar niet aanwezig is | |
@@ -482,7 +483,7 @@ Overige datavelden: W |
 | Zorgaanbieder | Reference | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M<br/>Overige datavelden: W |
 
 
-| 1. Naam data item | 2. Type data item | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
+| 1. Naam data item | 2. Type data item - Id | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Polsfrequentie** | **Rootconcept** | | a | Pols frequentie | | |
 | PolsfrequentieWaarde | Item | 67 | a | Waarde | (code '/min' in codeSystem http://unitsofmeasure.org) | M |
@@ -492,7 +493,7 @@ Overige datavelden: W |
 | Zorgaanbieder | Reference | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M<br/>Overige datavelden: W |
 
 
-| 1. Naam data item | 2. Type data item | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
+| 1. Naam data item | 2. Type data item - Id | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Ademhaling** | **Rootconcept** | | a | Ademhaling | | |
 | Ademfrequentie | Item | 15 (code {breaths/min} in codeSystem http://unitsofmeasure.org) | a | Adem frequentie | | M |
