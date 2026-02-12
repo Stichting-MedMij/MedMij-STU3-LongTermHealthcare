@@ -1,7 +1,7 @@
 {
   "name": "medmij.fhir.nl.stu3.longtermhealthcare",
   "version": "1.0.0-beta.1",
-  "description": "Package of FHIR STU3 conformance resources for MedMij Long-term Healthcare version 1.0.0-beta.1. This package contains only the FHIR examples. There is a dependency on the corresponding zib profiles. Moreover, the nl-core-nursingreport profile can be found in a separate Simplifier project: https://simplifier.net/anw/nl-core-nursingreport.",
+  "description": "Package of FHIR STU3 conformance resources for MedMij Long-term Healthcare version 1.0.0-beta.1.",
   "author": "MedMij",
   "license": "CC0-1.0",
   "title": "FHIR implementation of Long-term Healthcare",
@@ -11,7 +11,8 @@
     }
   ],
   "dependencies": {
-    "nictiz.fhir.nl.stu3.zib2017": "2.3.0",
+    "medmij.fhir.nl.stu3.core": "1.0.0",
+    "nictiz.fhir.nl.stu3.zib2017": "2.3.2",
     "hl7.fhir.r3.core": "3.0.2"
   },
   "fhirVersions": [

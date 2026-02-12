@@ -2,16 +2,17 @@
   "resourceType": "Coverage",
   "id": "Payer-bglz-av-test-1-1",
   "meta": {
-    "extension": [
-      {
-        "url": "http://hapifhir.io/fhir/StructureDefinition/resource-meta-source",
-        "valueUri": "#771d061ecf114a40"
-      }
-    ],
     "versionId": "1",
     "lastUpdated": "2025-05-20T02:08:37.868+00:00",
     "profile": [
       "http://nictiz.nl/fhir/StructureDefinition/zib-Payer"
+    ],
+    "tag": [
+      {
+        "system": "urn:oid:2.16.840.1.113883.2.4.6.7", 
+        "code": "7500",
+        "display": "Thuiszorg, kruiswerk en gezinsverzorging"
+      }
     ]
   },
   "text": {
