@@ -372,7 +372,7 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 | W(on't have) | Functionaliteiten die nu buiten scope zijn maar mogelijk in de toekomst worden overwogen. |
 
 
-| 1. Naam data item | 2. Type data item - Id | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
+| 1. Naam data item | 2. Type data item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 6. Advies tekst weergave in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Contact** | **Rootconcept** | | a | Contact | | |
 | Contacttype | Item | Thuis | a | Type contact of afspraak | (code = 'HH' in "codesystem Index - FHIR v5.0.0": "https://hl7.org/fhir/?utm_referrer=https%3A%2F%2Fwww.hl7.org%2F") | M |
@@ -390,7 +390,7 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 
 <br/> 
 
-| 1. Naam data item | 2. Type data item - Id | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
+| 1. Naam data item | 2. Type data item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 6. Advies tekst weergave in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Dagrapportage** | **Rootconcept** | | a | Dagrapportage | | |
 | ObservatieDatumTijd | Item | 2025-05-17T07:00:00+01:00 | b | Datum en Tijd| | M |
@@ -401,7 +401,7 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 
 <br/> 
 
-| 1. Naam data item | 2. Type data item - Id | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
+| 1. Naam data item | 2. Type data item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 6. Advies tekst weergave in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Alert** | **Rootconcept** | | a | Alertnaam | | |
 |AlertNaam |Item|Drager VRE| a | Waarschuwing | (code = '431109006' in codeSystem 'SNOMED CT') | M |
@@ -411,7 +411,7 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 
 <br/> 
 
-| 1. Naam data item | 2. Type data item - Id | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
+| 1. Naam data item | 2. Type data item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 6. Advies tekst weergave in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Bloeddruk** | **Rootconcept** |  | a | Bloeddruk | | |
 | Meetmethode | Item | Niet-invasief | b | Methode | (code = '22762002' in codeSystem 'SNOMED CT') | M |
@@ -428,7 +428,7 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 
 <br/> 
 
-| 1. Naam data item | 2. Type data item - Id | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
+| 1. Naam data item | 2. Type data item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 6. Advies tekst weergave in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Lichaamslengte** | **Rootconcept** | | a | Lichaamslengte | | M |
 | LengteWaarde | Item | 160 cm | a | Lichaamslengte | | M |
@@ -438,7 +438,7 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 
 <br/> 
 
-| 1. Naam data item | 2. Type data item - Id | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
+| 1. Naam data item | 2. Type data item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 6. Advies tekst weergave in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Lichaamstemperatuur** | **Rootconcept** | | a | Lichaamstemperatuur | |  |
 | TemperatuurWaarde | Item | 38.6 | a | Lichaamstemperatuur | | M |
@@ -449,7 +449,7 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 
 <br/> 
 
-| 1. Naam data item | 2. Type data item - Id | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
+| 1. Naam data item | 2. Type data item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 6. Advies tekst weergave in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Lichaamsgewicht** | **Rootconcept** | | a | Lichaamsgewicht | |  |
 | GewichtWaarde | Item | 58 kg | a | Lichaamsgewicht | | M |
@@ -460,7 +460,7 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 
 <br/> 
 
-| 1. Naam data item | 2. Type data item - Id | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
+| 1. Naam data item | 2. Type data item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 6. Advies tekst weergave in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Vochtbalans** | **Rootconcept** | | a | Vochtbalans | | |
 | Toelichting | Item | dehydratie | a | Vochtbalans | | M |
@@ -472,7 +472,7 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 
 <br/> 
 
-| 1. Naam data item | 2. Type data item - Id | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
+| 1. Naam data item | 2. Type data item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 6. Advies tekst weergave in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Woonsituatie** | **Rootconcept** | | a | Woonsituatie | | |
 | Toelichting | Item | Woning is op de begane grond | b | Toelichting | | M |
@@ -481,7 +481,7 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 
 <br/> 
 
-| 1. Naam data item | 2. Type data item - Id | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
+| 1. Naam data item | 2. Type data item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 6. Advies tekst weergave in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Voedingsadvies** | **Rootconcept** | | a | Voedingsadvies | | |
 | DieetType | Item | lactosevrij | a | Voedingsadvies | | M |
@@ -491,7 +491,7 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 
 <br/> 
 
-| 1. Naam data item | 2. Type data item - Id | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
+| 1. Naam data item | 2. Type data item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 6. Advies tekst weergave in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Betaler** | **Rootconcept** | | a | Verzekeraar | | |
 | **BetalerPersoon** | **Container** | | b (zie opmerkingen) | | Als verzekeraar niet aanwezig is | |
@@ -512,7 +512,7 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 
 <br/> 
 
-| 1. Naam data item | 2. Type data item - Id | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
+| 1. Naam data item | 2. Type data item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 6. Advies tekst weergave in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Polsfrequentie** | **Rootconcept** | | a | Pols frequentie | | |
 | PolsfrequentieWaarde | Item | 67 | a | Waarde | (code '/min' in codeSystem http://unitsofmeasure.org) | M |
@@ -523,20 +523,20 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 
 <br/> 
 
-| 1. Naam data item | 2. Type data item - Id | 3. Voorbeeld | 4. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 5. Advies tekst weergave in PGO | 6. Opmerkingen | 7. Prioriteit (MoSCoW) |
-| --- | --- | --- | --- | --- | --- | --- |
-| **Ademhaling** | **Rootconcept** | | a | Ademhaling | | |
-| Ademfrequentie | Item - NL-CM-12.5.2 | 15 (code {breaths/min} in codeSystem http://unitsofmeasure.org) | a | Adem frequentie | | M |
-| AdemhalingDatumTijd | Item - NL-CM-12.5.4 | 2015-03-11T14:47:00Z | a | Datum en Tijd meting | | M |
-| Ritme | Item - NL-CM-12.5.5 | Normaal ademhalingsritme | b | | (code = '5467003' in codesystem SNOMED CT) | M |
-| Diepte | Item - NL-CM-12.5.6| Normale ademhalingsdiepte | b | | (code = '301284009' in codeSystem SNOMED CT) | M |
-| AfwijkendAdemhalingspatroon | Item - NL-CM-12.5.7 | | b | Afwijkend Ademhalingspatroon | | M |
-| ExtraZuurstofToediening | Item - NL-CM-12.5.12 | | b | Extra zuurstof toediening | | M |
-| Toelichting | Item - NL-CM-12.5.3 | | b | Toelichting | | M |
-| Zorgaanbieder | Reference | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M<br/>Overige datavelden: W |
-| **ToegediendeZuurstof** | **Container** - NL-CM-12.5.8 | | a | Toegediende zuurstof | | |
-| FlowRate | Item - NL-CM-12.5.10 | 2/min | a | Hoeveelheid zuurstof per minuut | | W |
-| FiO2 | Item - NL-CM-12.5.9 | 0.29 | b | Fractie zuurstof van de inademings-lucht | | W |
-| **ToedieningHulpmiddel::MedischHulpmiddel** | **Reference** - NL-CM-12.5.13 | Zuurstofmasker | | Medisch hulpmiddel | | |
-| ProductType | Item - NL-CM-2017-4 | Venturi-masker | | Producttype | | W |
-| Zorgaanbieder | Reference | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
+| 1. Naam data item | 2. Type data item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 6. Advies tekst weergave in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **Ademhaling** | **Rootconcept** | | | a | Ademhaling | | |
+| Ademfrequentie | Item | NL-CM-12.5.2 | 15 (code {breaths/min} in codeSystem http://unitsofmeasure.org) | a | Adem frequentie | | M |
+| AdemhalingDatumTijd | Item | NL-CM-12.5.4 | 2015-03-11T14:47:00Z | a | Datum en Tijd meting | | M |
+| Ritme | Item | NL-CM-12.5.5 | Normaal ademhalingsritme | b | | (code = '5467003' in codesystem SNOMED CT) | M |
+| Diepte | Item | NL-CM-12.5.6| Normale ademhalingsdiepte | b | | (code = '301284009' in codeSystem SNOMED CT) | M |
+| AfwijkendAdemhalingspatroon | Item | NL-CM-12.5.7 | | b | Afwijkend Ademhalingspatroon | | M |
+| ExtraZuurstofToediening | Item | NL-CM-12.5.12 | | b | Extra zuurstof toediening | | M |
+| Toelichting | Item | NL-CM-12.5.3 | | b | Toelichting | | M |
+| Zorgaanbieder | Reference | | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M<br/>Overige datavelden: W |
+| **ToegediendeZuurstof** | **Container** | NL-CM-12.5.8 | | a | Toegediende zuurstof | | |
+| FlowRate | Item | NL-CM-12.5.10 | 2/min | a | Hoeveelheid zuurstof per minuut | | W |
+| FiO2 | Item | NL-CM-12.5.9 | 0.29 | b | Fractie zuurstof van de inademings-lucht | | W |
+| **ToedieningHulpmiddel::MedischHulpmiddel** | **Reference** | NL-CM-12.5.13 | Zuurstofmasker | | Medisch hulpmiddel | | |
+| ProductType | Item | NL-CM-2017-4 | Venturi-masker | | Producttype | | W |
+| Zorgaanbieder | Reference | | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
