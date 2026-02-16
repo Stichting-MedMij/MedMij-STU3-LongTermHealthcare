@@ -49,11 +49,11 @@ Het voor de burger, cliënt of patiënt mogelijk maken om regie te nemen op hun 
 
 #### Patient journey BgLZ+   
 
-De patient journey beschrijft enkele momenten waarop je als patiënt zijnde inzicht kan of zou willen hebben in zijn langdurige zorggegevens.
+De patient journey beschrijft enkele momenten waarop je als patiënt inzicht kan of zou willen hebben in zijn of haar langdurige zorggegevens.
 
 In de landurige zorg zijn er veel verschillende patiëntreizen te onderscheiden. Onderstaand is één patiëntreis beschreven. Er zijn eerder meer patiëntreizen beschreven, onder andere in opdracht van Platform IZO (zie document Het netwerk in de praktijk, 31-03-2022) en ook door Nictiz (Casus Kenneth van Someren -  https://informatiestandaarden.nictiz.nl/images/a/a6/Casus_Kenneth_van_Someren_MedMij.pdf).   
 
-Hieronder een voorbeeld van patiëntreis van denkbeeldige patiënt Peter (eigenlijk spreekt men in de langdurige zorg meestal van cliënt) en de gegevensuitwisseling binnen de langdurige zorg tussen zorgaanbieder en patiënt. Gezien het langdurige zorggegevensuitwisseling naar de PGO betreft is onderstaand een specifieke patiëntreis geschetst waarbij gegevens geraadpleegd worden vanuit de PGO:  
+Hieronder een voorbeeld van patiëntreis van denkbeeldige patiënt Peter (men spreekt in de langdurige zorg meestal van cliënt) en de gegevensuitwisseling binnen de langdurige zorg tussen zorgaanbieder en patiënt. Gezien het langdurige zorggegevensuitwisseling naar de PGO betreft is onderstaand een specifieke patiëntreis geschetst waarbij gegevens geraadpleegd worden vanuit de PGO:  
 
 Peter is een actieve weduwnaar van 72 jaar oud. Peter heeft drie kinderen, twee zoons, een dochter en vijf kleinkinderen. Thuis had Peter al steeds meer hulp nodig, zo kan hij onder andere moeilijk zelf douchen en het bijhouden van zijn medicatie vindt hij ook lastig. Peter heeft daardoor, de afgelopen vijf jaar, veel wijkverpleging op bezoek gehad gezien hij hulp nodig had met zijn Algemene Dagelijkse Levensverrichtingen (ADL).   
 
