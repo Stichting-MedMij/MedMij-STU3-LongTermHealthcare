@@ -516,7 +516,7 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 | --- | --- | --- | --- | --- | --- | --- |
 | **Polsfrequentie** | **Rootconcept** | | a | Pols frequentie | | |
 | PolsfrequentieWaarde | Item | NL-CM:12.7.2| 67 | a | Waarde | (code '/min' in codeSystem http://unitsofmeasure.org) | M |
-| PolsfrequentieDatumTijd | Item | 2024-06-03T00:00:00+02:00 | a | Datum en Tijd meting | | M |
+| PolsfrequentieDatumTijd | Item | NL-CM:12.7.3 | 2024-06-03T00:00:00+02:00 | a | Datum en Tijd meting | | M |
 | Toelichting | Item | | b | Toelichting | | M |
 | PolsRegelmatigheid | Item | Regelmatige polsslag | b | PolsRegelmatigheid | (code '271636001' in codeSystem SNOMED CT) | M |
 | Zorgaanbieder | Reference | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
