@@ -7,6 +7,12 @@ topic: FO
 ## Algemeen 
 Dit ontwerp beschrijft de databeschikbaarheid richting de persoon voor de Basisgegevens Langdurige Zorg+ (BgLZ+). Hierdoor kan de persoon zijn relevante langdurigezorggegevens bekijken via de PGO om een beter en vollediger inzicht te krijgen in de eigen medische situatie.​ In het vervolg wordt de term 'patiënt' gebruikt om de persoon aan te duiden, maar hier kan ook 'cliënt' of 'burger' gelezen worden. De term 'cliënt' is gebruikelijk binnen de langdurige zorg.
 
+Dit functioneel ontwerp beschrijft de BgLZ+, die een uitbreiding vormt op de [Basisgegevensset Langdurige zorg (BgLZ)](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.02/OntwerpLangdurigeZorg). De BgLZ+ heeft betrekking op enkele aanvullende klinische informatiemodellen (Clinical Information Models, CIM's) die naast de BgLZ verzameld kunnen worden via de PGO. Deze uitbreiding van de BgLZ richt zich in eerste instantie op zorginformatiebouwstenen (zibs) uit [Publicatie 2017](https://zibs.nl/wiki/ZIB_Publicatie_2017(NL)) die onderdeel zijn van de door Nictiz gepubliceerde informatiestandaard [Minimale eOverdracht (MeO), versie 4.0](https://informatiestandaarden.nictiz.nl/wiki/Landingspagina_Verpleegkundige_Zorg).
+
+De gegevens van de BgLZ+ worden op een granulaire wijze uitgewisseld. Dit houdt in dat elke CIM binnen de BgLZ+ los opgevraagd en uitgewisseld kan worden, en dat voor elke CIM een zogenaamde granulaire gegevensdienst is gedefinieerd. Meer informatie over granulaire uitwisseling is te vinden in de [MedMij STU3 Core IG](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-exchange?version=1.0.0).
+
+Omdat de BgLZ+ een uitbreiding vormt op de BgLZ, worden de langdurigezorggegevens uitgewisseld door een combinatie van de BgLZ (waarvan de huidige usecase in stand wordt gehouden) en de BgLZ+. Merk op dat uitwisseling van de BgLZ geen vereiste is voor het uitwisselen van de BgLZ+: implementaties kunnen ervoor kiezen zowel de BgLZ als BgLZ+ uit te wisselen, alleen de BgLZ (buiten scope van deze IG) of alleen (een deel van) de BgLZ+.
+
 Merk op dat naast dit ontwerp ook de (functionele) eisen en richtlijnen beschreven in de [MedMij STU3 Core IG](https://simplifier.net/guide/medmij-stu3-core-ig?version=1.0.0) en de door Nictiz gepubliceerde [Ontwerpen MedMij, versie 2020.02](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.02/Ontwerpen) van toepassing zijn.
 
 ### Doelgroep
@@ -19,12 +25,6 @@ Dit ontwerp is conform specificaties genoemd in de [algemene inleiding](https:
 
 ### Reikwijdte
 De reikwijdte van dit ontwerp beslaat de functionele beschrijvingen en de dataset voor de gegevensuitwisselingen die voortvloeien uit uitgevoerde langdurige zorg. 
-
-Dit functioneel ontwerp beschrijft de BgLZ+, die een uitbreiding vormt op de [Basisgegevensset Langdurige zorg (BgLZ)](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.02/OntwerpLangdurigeZorg). De BgLZ+ heeft betrekking op enkele aanvullende klinische informatiemodellen (Clinical Information Models, CIM's) die naast de BgLZ verzameld kunnen worden via de PGO. Deze uitbreiding van de BgLZ richt zich in eerste instantie op zorginformatiebouwstenen (zibs) uit [Publicatie 2017](https://zibs.nl/wiki/ZIB_Publicatie_2017(NL)) die onderdeel zijn van de door Nictiz gepubliceerde informatiestandaard [Minimale eOverdracht (MeO), versie 4.0](https://informatiestandaarden.nictiz.nl/wiki/Landingspagina_Verpleegkundige_Zorg).
-
-De gegevens van de BgLZ+ worden op een granulaire wijze uitgewisseld. Dit houdt in dat elke CIM binnen de BgLZ+ los opgevraagd en uitgewisseld kan worden, en dat voor elke CIM een zogenaamde granulaire gegevensdienst is gedefinieerd. Meer informatie over granulaire uitwisseling is te vinden in de [MedMij STU3 Core IG](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-exchange?version=1.0.0).
-
-Omdat de BgLZ+ een uitbreiding vormt op de BgLZ, worden de langdurigezorggegevens uitgewisseld door een combinatie van de BgLZ (waarvan de huidige usecase in stand wordt gehouden) en de BgLZ+. Merk op dat uitwisseling van de BgLZ geen vereiste is voor het uitwisselen van de BgLZ+: implementaties kunnen ervoor kiezen zowel de BgLZ als BgLZ+ uit te wisselen, alleen de BgLZ (buiten scope van deze IG) of alleen (een deel van) de BgLZ+.
 
 ### Infrastructuur
 Geen nadere specificatie, anders dan genoemd in de [algemene inleiding](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.02/Ontwerpen#Infrastructuur) van de functionele onderwerpen binnn MedMij.
@@ -44,7 +44,7 @@ Een usecase is een specifieke beschrijving van een praktijksituatie waarbij voor
 Het doel is om het voor patiënten mogelijk te maken om regie te nemen op hun eigen gezondheid door inzicht te geven over de langdurigezorggegevens die over henzelf gaan.
 
 #### Patiëntreis BgLZ+
-Een patiëntreis beschrijft enkele momenten waarop een patiënt inzicht kan of zou willen hebben in zijn zorggegevens. In de langdurige zorg zijn er veel verschillende patiëntreizen te onderscheiden. Hieronder is één patiëntreis beschreven, maar er zijn door andere partijen meer patiëntreizen beschreven, onder andere in opdracht van Platform IZO (zie document 'Het netwerkmodel in de praktijk', 31-03-2022) en ook door Nictiz ([Casus Kenneth van Someren](https://informatiestandaarden.nictiz.nl/images/a/a6/Casus_Kenneth_van_Someren_MedMij.pdf)). De patiëntreis hieronder gaat over een denkbeeldige patiënt Peter en de uitwisseling van langdurigezorggegevens tussen zorgaanbieder en patiënt (via de PGO).
+Een patiëntreis beschrijft enkele momenten waarop een patiënt inzicht kan of zou willen hebben in zijn zorggegevens. In de langdurige zorg zijn er veel verschillende patiëntreizen te onderscheiden. Hieronder is één patiëntreis beschreven, maar er zijn door andere partijen meer patiëntreizen beschreven, onder andere in opdracht van Platform IZO (zie [Het netwerkmodel in de praktijk](https://infoizo.nl/nieuws/bericht/het-netwerkmodel-de-praktijk)) en ook door Nictiz ([Casus Kenneth van Someren](https://informatiestandaarden.nictiz.nl/images/a/a6/Casus_Kenneth_van_Someren_MedMij.pdf)). De patiëntreis hieronder gaat over een denkbeeldige patiënt Peter en de uitwisseling van langdurigezorggegevens tussen zorgaanbieder en patiënt (via de PGO).
 
 Peter is een actieve weduwnaar van 72 jaar oud. Peter heeft drie kinderen, twee zoons en een dochter, en vijf kleinkinderen. Thuis had Peter al steeds meer hulp nodig, zo kan hij onder andere moeilijk zelf douchen en het bijhouden van zijn medicatie vindt hij ook lastig. Peter heeft daardoor de afgelopen vijf jaar veel wijkverpleging op bezoek gehad, aangezien hij hulp nodig had met zijn Algemene Dagelijkse Levensverrichtingen (ADL).   
 
