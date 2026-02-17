@@ -10,6 +10,7 @@
 | Test material         | The `.meta.tag`s corresponding to the care type have been added to all test instances. | [DOSINZAGE1-825](https://medmij.atlassian.net/browse/DOSINZAGE1-825) |
 | Test material         | The test instances corresponding with the Encounter and NursingReport CIMs have been removed. | [DOSINZAGE1-825](https://medmij.atlassian.net/browse/DOSINZAGE1-825) |
 | Test material         | The wrong `.system` for `.code` *MC* has been corrected in the Practitioner instance with `.id` *Practitioner-bglz-av-test-Pinxteren*. | [DOSINZAGE1-825](https://medmij.atlassian.net/browse/DOSINZAGE1-825) |
+| Test material         | Several references that could not be resolved in the test material have been corrected. | [DOSINZAGE1-846](https://medmij.atlassian.net/browse/DOSINZAGE1-846) |
  
 ## 1.0.0-alpha.1
  
