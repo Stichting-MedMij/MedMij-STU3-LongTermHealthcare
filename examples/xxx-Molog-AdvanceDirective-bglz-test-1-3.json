@@ -51,7 +51,7 @@
   "dateTime": "2020-01-20",
   "consentingParty": [
     {
-      "reference": "RelatedPerson/nl-core-relatedperson-bgzl-test-1-3",
+      "reference": "RelatedPerson/RelatedPerson-bglz-av-test-Timmerman",
       "display": "Johan Timmerman"
     }
   ],
