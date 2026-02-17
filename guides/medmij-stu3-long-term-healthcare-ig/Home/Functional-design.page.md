@@ -5,9 +5,9 @@ topic: FO
 # Functioneel ontwerp
 
 ## Algemeen 
-Dit ontwerp beschrijft de databeschikbaarheid richting de persoon voor de Basisgegevens Langdurige Zorg+ (BgLZ+). Hierdoor kan de persoon (in het vervolg patiënt, cliënt of burger) zijn relevante langdurigezorggegevens bekijken via de PGO om een beter en vollediger inzicht te krijgen in de eigen medische situatie.​ In het vervolg wordt de term 'patiënt' gebruikt om de persoon aan te duiden, maar hier kan ook 'cliënt' of 'burger' gelezen worden. De term 'cliënt' is gebruikelijk binnen de langdurige zorg.
+Dit ontwerp beschrijft de databeschikbaarheid richting de persoon voor de Basisgegevens Langdurige Zorg+ (BgLZ+). Hierdoor kan de persoon zijn relevante langdurigezorggegevens bekijken via de PGO om een beter en vollediger inzicht te krijgen in de eigen medische situatie.​ In het vervolg wordt de term 'patiënt' gebruikt om de persoon aan te duiden, maar hier kan ook 'cliënt' of 'burger' gelezen worden. De term 'cliënt' is gebruikelijk binnen de langdurige zorg.
 
-Merk op dat naast dit ontwerp ook de (functionele) eisen en richtlijnen beschreven in de [MedMij STU3 Core IG](https://simplifier.net/guide/medmij-stu3-core-ig?version=1.0.0) en de door Nictiz gepubliceerde [Ontwerpen MedMij versie 2020.02](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.02/Ontwerpen) van toepassing zijn.
+Merk op dat naast dit ontwerp ook de (functionele) eisen en richtlijnen beschreven in de [MedMij STU3 Core IG](https://simplifier.net/guide/medmij-stu3-core-ig?version=1.0.0) en de door Nictiz gepubliceerde [Ontwerpen MedMij, versie 2020.02](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.02/Ontwerpen) van toepassing zijn.
 
 ### Doelgroep
 De doelgroep voor deze pagina wijkt niet af van de [algemene doelgroep](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.02/Ontwerpen#Doelgroep) van de functionele onderwerpen binnen MedMij. 
@@ -20,11 +20,11 @@ Dit ontwerp is conform specificaties genoemd in de [algemene inleiding](https:
 ### Reikwijdte
 De reikwijdte van dit ontwerp beslaat de functionele beschrijvingen en de dataset voor de gegevensuitwisselingen die voortvloeien uit uitgevoerde langdurige zorg. 
 
-Dit functioneel ontwerp beschrijft de BgLZ+, die een uitbreiding vormt op de [Basisgegevensset Langdurige zorg (BgLZ)](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.02/OntwerpLangdurigeZorg). De BgLZ+ heeft betrekking op enkele aanvullende klinische informatiemodellen (Clinical Information Models, CIM's) die naast de BgLZ verzameld kunnen worden via de PGO. Deze uitbreiding van de BgLZ richt zich in eerste instantie op zorginformatiebouwstenen (zibs) uit [Publicatie 2017](https://zibs.nl/wiki/ZIB_Publicatie_2017(NL)) die onderdeel zijn van de informatiestandaard [Minimale eOverdracht (MeO) versie 4.0](https://informatiestandaarden.nictiz.nl/wiki/Landingspagina_Verpleegkundige_Zorg), die door Nictiz is gepubliceerd.
+Dit functioneel ontwerp beschrijft de BgLZ+, die een uitbreiding vormt op de [Basisgegevensset Langdurige zorg (BgLZ)](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.02/OntwerpLangdurigeZorg). De BgLZ+ heeft betrekking op enkele aanvullende klinische informatiemodellen (Clinical Information Models, CIM's) die naast de BgLZ verzameld kunnen worden via de PGO. Deze uitbreiding van de BgLZ richt zich in eerste instantie op zorginformatiebouwstenen (zibs) uit [Publicatie 2017](https://zibs.nl/wiki/ZIB_Publicatie_2017(NL)) die onderdeel zijn van de door Nictiz gepubliceerde informatiestandaard [Minimale eOverdracht (MeO), versie 4.0](https://informatiestandaarden.nictiz.nl/wiki/Landingspagina_Verpleegkundige_Zorg).
 
 De gegevens van de BgLZ+ worden op een granulaire wijze uitgewisseld. Dit houdt in dat elke CIM binnen de BgLZ+ los opgevraagd en uitgewisseld kan worden, en dat voor elke CIM een zogenaamde granulaire gegevensdienst is gedefinieerd. Meer informatie over granulaire uitwisseling is te vinden in de [MedMij STU3 Core IG](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-exchange?version=1.0.0).
 
-Omdat de BgLZ+ een uitbreiding vormt op de BgLZ, worden de langdurigezorggegevens uitgewisseld door een combinatie van de BgLZ (waarvan de usecase in stand wordt gehouden zoals die op dit moment is gedefinieerd) en de BgLZ+. Merk op dat uitwisseling van de BgLZ geen vereiste is voor het uitwisselen van de BgLZ+: implementaties kunnen ervoor kiezen zowel de BgLZ als BgLZ+ uit te wisselen, alleen de BgLZ (buiten scope van deze IG) of alleen (een deel van) de BgLZ+.
+Omdat de BgLZ+ een uitbreiding vormt op de BgLZ, worden de langdurigezorggegevens uitgewisseld door een combinatie van de BgLZ (waarvan de huidige usecase in stand wordt gehouden) en de BgLZ+. Merk op dat uitwisseling van de BgLZ geen vereiste is voor het uitwisselen van de BgLZ+: implementaties kunnen ervoor kiezen zowel de BgLZ als BgLZ+ uit te wisselen, alleen de BgLZ (buiten scope van deze IG) of alleen (een deel van) de BgLZ+.
 
 ### Infrastructuur
 Geen nadere specificatie, anders dan genoemd in de [algemene inleiding](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.02/Ontwerpen#Infrastructuur) van de functionele onderwerpen binnn MedMij.
@@ -68,23 +68,23 @@ Op aanraden van zijn dochter heeft Peter nu een eigen gekozen PGO. In zijn PGO w
 - In de PGO van de patiënt worden de opgevraagde gegevens overzichtelijk en begrijpelijk getoond.  
 
 ### Bedrijfsrollen
-Deze usecase onderscheidt twee bedrijfsrollen, namelijk de Patiënt/Persoon en de Zorgaanbieder, zoals te zien in onderstaande tabel.
+Deze usecase onderscheidt twee bedrijfsrollen, namelijk de *Patiënt* en de *Zorgaanbieder*, zoals te zien in onderstaande tabel.
  
 | Bedrijfsrol (actor) | Beschrijving |
 | --- | --- |
-| Patiënt/Persoon | Gebruiker van de PGO |
+| Patiënt | Gebruiker van de PGO |
 | Zorgaanbieder | Gebruiker van het XIS |
 
 **Tabel 1: Bedrijfsrollen**
 
 ### Informatieoverdracht
-Zowel de Persoon als de Zorgaanbieder maken ieder gebruik van een informatiesysteem:
+Zowel de patiënt als de zorgaanbieder maken ieder gebruik van een informatiesysteem:
 
-- PGO (Persoon)
-- XIS (Zorgaanbieder)
+- PGO (patiënt)
+- XIS (zorgaanbieder)
 
 #### Systemen en systeemrollen
-Deze systemen kennen ieder verschillende systeemrollen, die het uitwisselen van gegevens tussen deze systemen mogelijk maken. Hier gaat het om de BgLZ+-gegevens die zijn geregistreerd bij de zorgaanbieder naar de persoon. Aangezien de BgLZ+ wordt uitgewisseld door middel van granulaire gegevensdiensten, is er per gegevensdienst een systeemrol opgesteld. De systeemrollen worden hier niet expliciet benoemd, maar zijn onderdeel van de specificatie van de individuele granulaire gegevensdiensten.
+Deze systemen kennen ieder verschillende systeemrollen, die het uitwisselen van gegevens tussen deze systemen mogelijk maken. Hier gaat het om de BgLZ+-gegevens die zijn geregistreerd bij de zorgaanbieder naar de patiënt. Aangezien de BgLZ+ wordt uitgewisseld door middel van granulaire gegevensdiensten, is er per gegevensdienst een systeemrol opgesteld. De systeemrollen worden hier niet expliciet benoemd, maar zijn onderdeel van de specificatie van de individuele granulaire gegevensdiensten.
  
 ### Transacties en transactiegroepen
 Het uitwisselen van gegevens tussen de verschillende systeemrollen gebeurt op basis van transacties. Een verzameling van transacties (bijvoorbeeld een vraag- en antwoordbericht) vormt een zogeheten transactiegroep. Voor de transacties die tussen de systeemrollen plaatsvinden, wordt in [ART-DECOR](https://decor.nictiz.nl/ad/#/mm-bglzplus-/datasets/dataset/2.16.840.1.113883.2.4.3.11.60.151.1.1/2026-01-21T08:25:05) beschreven welke gegevenselementen uitgewisseld worden binnen de BgLZ+. Voor de technische specificaties, zie het {{pagelink: TO, text: technisch ontwerp}}.
