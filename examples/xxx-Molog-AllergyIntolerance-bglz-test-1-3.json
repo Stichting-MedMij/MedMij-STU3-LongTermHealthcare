@@ -2,12 +2,6 @@
   "resourceType": "AllergyIntolerance",
   "id": "AllergyIntolerance-bglz-test-1-3",
   "meta": {
-    "extension": [
-      {
-        "url": "http://hapifhir.io/fhir/StructureDefinition/resource-meta-source",
-        "valueUri": "#413adb00d2516d11"
-      }
-    ],
     "versionId": "1",
     "lastUpdated": "2025-05-15T02:08:24.532+00:00",
     "profile": [

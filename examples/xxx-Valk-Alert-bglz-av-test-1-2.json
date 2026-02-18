@@ -2,16 +2,17 @@
   "resourceType": "Flag",
   "id": "Alert-bglz-av-test-1-2",
   "meta": {
-    "extension": [
-      {
-        "url": "http://hapifhir.io/fhir/StructureDefinition/resource-meta-source",
-        "valueUri": "#e9c98ff3aeccdc6e"
-      }
-    ],
     "versionId": "5",
     "lastUpdated": "2025-03-10T06:25:54.458+00:00",
     "profile": [
       "http://nictiz.nl/fhir/StructureDefinition/zib-Alert"
+    ],
+    "tag": [
+      {
+        "system": "urn:oid:2.16.840.1.113883.2.4.6.7", 
+        "code": "7500",
+        "display": "Thuiszorg, kruiswerk en gezinsverzorging"
+      }
     ]
   },
   "text": {
