@@ -106,17 +106,3 @@ De onderstaande tabel geeft een overzicht van alle granulaire gegevensdiensten d
 | 900000411 | [Verzamelen MedMij Core - Ademhaling (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Respiration?version=1.0.0) | 1.0.0-beta.1 |
 
 **Tabel 2: Granulaire gegevensdiensten relevant voor BgLZ+**
-
-### Weergaverichtlijn
-
-#### Scope weergaverichtlijn 
-- Het betreft een richtlijn. PGO-leveranciers hebben zelf de keuze of zij (delen van de) richtlijn toepassen voor de weergave van langdurigezorggegevens.
-
-De richtlijn geeft handvatten voor:
-- het gebruik van patiëntvriendelijke termen en toelichting;
-- de inhoud van het overzicht van langdurigezorggegevens in de PGO.
-
-De richtlijn geeft géén handvatten voor de vormgeving (kleur, vorm, lettertype, etc.) van langdurigezorggegevens. 
-
-### Inhoud weergaverichtlijn
-De weergaverichtlijn voor Langdurige Zorg is [hier](https://medmij.atlassian.net/wiki/spaces/IER/pages/478969857/Weergaverichtlijn+Langdurige+Zorg+Beta+versie) te vinden.
