@@ -1,0 +1,68 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "lz-Encounter",
+  "text": {
+    "status": "empty",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">No narrative is provided for definitional resources. A human-readable rendering can be found in the implementation guide(s) where this resource is used.</div>"
+  },
+  "url": "http://medmij.nl/fhir/StructureDefinition/lz-Encounter",
+  "name": "LzEncounter",
+  "title": "lz Encounter",
+  "status": "active",
+  "publisher": "MedMij",
+  "contact": [
+    {
+      "name": "MedMij",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "info@medmij.nl",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "An Encounter resource as defined by Long-term Healthcare, based on Dutch Health and Care Information model (Dutch: Zorginformatiebouwsteen or ZIB) Encounter v3.1(2017).\n\nThis profile differs from the [zib-Encounter](http://nictiz.nl/fhir/StructureDefinition/zib-Encounter) profile in the sense that it can be used for future encounters as well as past encounters. This aligns with zib release 2020.",
+  "purpose": "A derived profile from [zib-Encounter](http://nictiz.nl/fhir/StructureDefinition/zib-Encounter) to provide a version better suited for implementation purposes in the context of MedMij.",
+  "copyright": "Copyright and related rights waived via CC0, https://creativecommons.org/publicdomain/zero/1.0/. This does not apply to information from third parties, for example a medical terminology system. The implementer alone is responsible for identifying and obtaining any necessary licenses or authorizations to utilize third party IP in connection with the specification or otherwise.",
+  "fhirVersion": "3.0.2",
+  "mapping": [
+    {
+      "identity": "hcim-encounter-v3.1-2017EN",
+      "uri": "https://zibs.nl/wiki/Encounter-v3.1(2017EN)",
+      "name": "HCIM Encounter-v3.1(2017EN)"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Encounter",
+  "baseDefinition": "http://nictiz.nl/fhir/StructureDefinition/zib-Encounter",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Encounter.status",
+        "path": "Encounter.status",
+        "comment": "This element is implictly mapped to the zib concepts NL-CM:15.1.3 (StartDateTime) and NL-CM:15.1.4 (EndDateTime), with the exception that the StartDateTime may attain a value in the future (which functionally is a pre-adopt of zib release 2020). Unless the status is explicitly recorded, the following guidance applies:\n\n* When StartDateTime is in the future, `.status` will usually be set to _planned_.\n* When StartDateTime is in the past and EndDateTime is present and in the future, `.status` will usually be set to _in-progress_.\n* When EndDateTime is present and in the past, `.status` will usually be set to _finished_.\n* When EndDateTime is not present, this means it was a point-in-time encounter and `.status` will usually be set to _finished_.\n* When a system is unable to infer the status from the StartDateTime and EndDateTime, `.status` will be set to _unknown_.\n\nThe _unknown_ code is not to be used to convey other statuses. The _unknown_ code should be used when one of the statuses applies, but the authoring system doesn't know the current state of the procedure.\n\nThis element is labeled as a modifier because the status contains codes that mark the resource as not currently valid.",
+        "mapping": [
+          {
+            "identity": "hcim-encounter-v3.1-2017EN",
+            "map": "NL-CM:15.1.3",
+            "comment": "StartDateTime (implicit, main mapping is on `Encounter.period.start`)"
+          },
+          {
+            "identity": "hcim-encounter-v3.1-2017EN",
+            "map": "NL-CM:15.1.4",
+            "comment": "EndDateTime (implicit, main mapping is on `Encounter.period.end`)"
+          }
+        ]
+      },
+      {
+        "id": "Encounter.period.start",
+        "path": "Encounter.period.start",
+        "definition": "The date and time at which the contact took or will take place.",
+        "comment": "Note that this element may attain a value in the future (which functionally is a pre-adopt of zib release 2020), contrary to the [zib-Encounter](http://nictiz.nl/fhir/StructureDefinition/zib-Encounter) profile."
+      }
+    ]
+  }
+}
