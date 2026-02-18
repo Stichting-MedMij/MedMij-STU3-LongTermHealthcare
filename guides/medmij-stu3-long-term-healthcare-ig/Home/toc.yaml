@@ -6,6 +6,8 @@
   filename: Technical-design.page.md
 - name: Artifact index
   filename: Artifact-Index
+- name: Granular data service index
+  filename: Granular-Data-Service-Index
 - name: Dependencies
   filename: Dependencies.page.md
 - name: Release notes
