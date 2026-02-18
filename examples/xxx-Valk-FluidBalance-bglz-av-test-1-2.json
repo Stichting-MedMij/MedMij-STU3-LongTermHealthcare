@@ -2,16 +2,17 @@
   "resourceType": "Observation",
   "id": "FluidBalance-bglz-av-test-1-2",
   "meta": {
-    "extension": [
-      {
-        "url": "http://hapifhir.io/fhir/StructureDefinition/resource-meta-source",
-        "valueUri": "#c33db4ab89ecdf7a"
-      }
-    ],
     "versionId": "1",
     "lastUpdated": "2025-05-20T02:10:58.823+00:00",
     "profile": [
       "http://nictiz.nl/fhir/StructureDefinition/zib-FluidBalance"
+    ],
+    "tag": [
+      {
+        "system": "urn:oid:2.16.840.1.113883.2.4.6.7", 
+        "code": "7500",
+        "display": "Thuiszorg, kruiswerk en gezinsverzorging"
+      }
     ]
   },
   "text": {

@@ -2,16 +2,17 @@
   "resourceType": "Organization",
   "id": "Organization-bglz-av-test-Huisarts-de-Huisarts",
   "meta": {
-    "extension": [
-      {
-        "url": "http://hapifhir.io/fhir/StructureDefinition/resource-meta-source",
-        "valueUri": "#43613ed9ee2e241e"
-      }
-    ],
     "versionId": "2",
     "lastUpdated": "2025-02-28T06:58:09.74+00:00",
     "profile": [
       "http://fhir.nl/fhir/StructureDefinition/nl-core-organization"
+    ],
+    "tag": [
+      {
+        "system": "urn:oid:2.16.840.1.113883.2.4.6.7", 
+        "code": "7500",
+        "display": "Thuiszorg, kruiswerk en gezinsverzorging"
+      }
     ]
   },
   "text": {

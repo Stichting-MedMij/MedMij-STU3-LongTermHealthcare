@@ -2,16 +2,17 @@
   "resourceType": "Observation",
   "id": "LaboratoryTestResult-bglz-test-1-3",
   "meta": {
-    "extension": [
-      {
-        "url": "http://hapifhir.io/fhir/StructureDefinition/resource-meta-source",
-        "valueUri": "#936020ce2e3db74c"
-      }
-    ],
     "versionId": "1",
     "lastUpdated": "2025-02-18T10:35:07.094+00:00",
     "profile": [
       "http://nictiz.nl/fhir/StructureDefinition/zib-LaboratoryTestResult-Observation"
+    ],
+    "tag": [
+      {
+        "system": "urn:oid:2.16.840.1.113883.2.4.6.7", 
+        "code": "7500",
+        "display": "Thuiszorg, kruiswerk en gezinsverzorging"
+      }
     ]
   },
   "text": {
