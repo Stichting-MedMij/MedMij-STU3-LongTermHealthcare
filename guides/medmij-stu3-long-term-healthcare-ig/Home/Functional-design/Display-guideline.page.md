@@ -515,10 +515,10 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 | 1. Naam data item | 2. Type data item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 6. Advies tekst weergave in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |--- |
 | **Polsfrequentie** | **Rootconcept** | NL-CM:12.7.1 | | a | Pols frequentie | | |
-| PolsfrequentieWaarde | Item | NL-CM:12.7.2 | NL-CM:12.7.2| 67 | a | Waarde | (code '/min' in codeSystem http://unitsofmeasure.org) | M |
-| PolsfrequentieDatumTijd | Item | NL-CM:12.7.3 | NL-CM:12.7.3 | 2024-06-03T00:00:00+02:00 | a | Datum en Tijd meting | | M |
-| Toelichting | Item | NL-CM:12.7.4 | NL-CM:12.7.4 | b | Toelichting | | M |
-| PolsRegelmatigheid | Item | NL-CM:12.7.5 | NL-CM:12.7.5 | Regelmatige polsslag | b | PolsRegelmatigheid | (code '271636001' in codeSystem SNOMED CT) | M |
+| PolsfrequentieWaarde | Item | NL-CM:12.7.2| 67 | a | Waarde | (code '/min' in codeSystem http://unitsofmeasure.org) | M |
+| PolsfrequentieDatumTijd | Item | NL-CM:12.7.3 | 2024-06-03T00:00:00+02:00 | a | Datum en Tijd meting | | M |
+| Toelichting | Item | NL-CM:12.7.4 | | b | Toelichting | | M |
+| PolsRegelmatigheid | Item | NL-CM:12.7.5 | Regelmatige polsslag | b | PolsRegelmatigheid | (code '271636001' in codeSystem SNOMED CT) | M |
 | Zorgaanbieder | Reference | | | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
 <br/> 
