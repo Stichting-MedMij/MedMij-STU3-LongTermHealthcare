@@ -2,16 +2,17 @@
   "resourceType": "Observation",
   "id": "BloodPressure-bgzl-av-test-1-1",
   "meta": {
-    "extension": [
-      {
-        "url": "http://hapifhir.io/fhir/StructureDefinition/resource-meta-source",
-        "valueUri": "#9bdf4ae98861d9ec"
-      }
-    ],
     "versionId": "5",
     "lastUpdated": "2025-05-16T02:11:32.97+00:00",
     "profile": [
       "http://nictiz.nl/fhir/StructureDefinition/zib-BloodPressure"
+    ],
+    "tag": [
+      {
+        "system": "urn:oid:2.16.840.1.113883.2.4.6.7", 
+        "code": "7500",
+        "display": "Thuiszorg, kruiswerk en gezinsverzorging"
+      }
     ]
   },
   "text": {
