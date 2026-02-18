@@ -373,153 +373,153 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 
 
 | 1. Naam data item | 2. Type data item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 6. Advies tekst weergave in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
-| --- | --- | --- | --- | --- | --- | --- |
-| **Contact** | **Rootconcept** | | a | Contact | | |
-| Contacttype | Item | Thuis | a | Type contact of afspraak | (code = 'HH' in "codesystem Index - FHIR v5.0.0": "https://hl7.org/fhir/?utm_referrer=https%3A%2F%2Fwww.hl7.org%2F") | M |
-| ContactMet: Zorgverlener | Reference | Julia van den Bos | a | Contact met | (nl-core-practioner-eov-cert-1-1b-01) | Zorgverlener naam: M <br/> Overige datavelden: W |
-| Locatie: Zorgaanbieder | Reference | Ijsselheem | a | Locatie | | M |
-| BeginDatumTijd | Item | 2025-03-30T10:20:00+00:00 | a | Begindatum en tijd | | M |
-| EindDatumTijd | Item | 2025-03-30T10:20:30+00:00 | a | Einddatum en tijd | | M |
-| **RedenContact** | **Container** | | | | | |
-| Toelichting RedenContact | Item | | b | Type contact uitleg (of Type contact Toelichting) | | M |
-| Contact::Probleem | Reference | | b | Probleem | | M |
-| Contact::Verrichting | Reference | | b | Verrichting | | M |
-| AfwijkendeUitslag | Item | | b | Afwijkende uitslag | | M |
-| Herkomst | Item | | b | Herkomst | | M |
-| Bestemming | Item | | b | Bestemming | | M |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **Contact** | **Rootconcept** | | a | Contact | | | |
+| Contacttype | Item | NL-CM:15.1.2 | Thuis | a | Type contact of afspraak | (code = 'HH' in "codesystem Index - FHIR v5.0.0": "https://hl7.org/fhir/?utm_referrer=https%3A%2F%2Fwww.hl7.org%2F") | M |
+| ContactMet: Zorgverlener | Reference | NL-CM:15.1.7 | Julia van den Bos | a | Contact met | (nl-core-practioner-eov-cert-1-1b-01) | Zorgverlener naam: M <br/> Overige datavelden: W |
+| Locatie: Zorgaanbieder | Reference | NL-CM:15.1.8 | Ijsselheem | a | Locatie | | M |
+| BeginDatumTijd | Item | NL-CM:15.1.3 | 2025-03-30T10:20:00+00:00 | a | Begindatum en tijd | | M |
+| EindDatumTijd | Item | NL-CM:15.1.4 | 2025-03-30T10:20:30+00:00 | a | Einddatum en tijd | | M |
+| **RedenContact** | **Container** | | | | | | |
+| Toelichting RedenContact | Item | NL-CM:15.1.13 | | b | Type contact uitleg (of Type contact Toelichting) | | M |
+| Contact::Probleem | Reference | NL-CM:15.1.6 | | b | Probleem | | M |
+| Contact::Verrichting | Reference | NL-CM:15.1.11 | | b | Verrichting | | M |
+| AfwijkendeUitslag | Item | NL-CM:15.1.12 | | b | Afwijkende uitslag | | M |
+| Herkomst | Item | NL-CM:15.1.14 | | b | Herkomst | | M |
+| Bestemming | Item | NL-CM:15.1.16 | | b | Bestemming | | M |
 
 <br/> 
 
 | 1. Naam data item | 2. Type data item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 6. Advies tekst weergave in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
-| --- | --- | --- | --- | --- | --- | --- |
-| **Dagrapportage** | **Rootconcept** | | a | Dagrapportage | | |
-| ObservatieDatumTijd | Item | 2025-05-17T07:00:00+01:00 | b | Datum en Tijd| | M |
-| Dagverslag (ObservatieNaam) | Item | Mevrouw vertoont toenemende stijfheid bij het opstaan en lopen. Er is sprake van fijne tremor in de rechterhand. Tijdens het ochtendcontact had zij moeite om zich verbaal uit te drukken; gebruikt korte zinnen met lange pauzes. Zelfstandig toiletbezoek is mogelijk, maar met risico op vallen. Advies: looprek binnen handbereik houden en logopedie betrekken voor spraakondersteuning. | b | Dagverslag | | M | 
-| ObservatieMethode | Item | | b | Oberservatie methode | | M |
-| Toelichting | Item | | b | Toelichting | | M |
-| Zorgaanbieder | Reference | IJsselheem | a | Liefst geen afkortingen | Zorgorganisatie | Organisatienaam: M <br/> Overige datavelden: W |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **Dagrapportage** | **Rootconcept** | | | a | Dagrapportage | | |
+| ObservatieDatumTijd | Item | | 2025-05-17T07:00:00+01:00 | b | Datum en Tijd| | M |
+| Dagverslag (ObservatieNaam) | Item | | Mevrouw vertoont toenemende stijfheid bij het opstaan en lopen. Er is sprake van fijne tremor in de rechterhand. Tijdens het ochtendcontact had zij moeite om zich verbaal uit te drukken; gebruikt korte zinnen met lange pauzes. Zelfstandig toiletbezoek is mogelijk, maar met risico op vallen. Advies: looprek binnen handbereik houden en logopedie betrekken voor spraakondersteuning. | b | Dagverslag | | M | 
+| ObservatieMethode | Item | | | b | Oberservatie methode | | M |
+| Toelichting | Item | | | b | Toelichting | | M |
+| Zorgaanbieder | Reference | NL-CM:17.1.6 | IJsselheem | a | Liefst geen afkortingen | Zorgorganisatie | Organisatienaam: M <br/> Overige datavelden: W |
 
 <br/> 
 
 | 1. Naam data item | 2. Type data item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 6. Advies tekst weergave in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
-| --- | --- | --- | --- | --- | --- | --- |
-| **Alert** | **Rootconcept** | | a | Alertnaam | | |
-|AlertNaam |Item|Drager VRE| a | Waarschuwing | (code = '431109006' in codeSystem 'SNOMED CT') | M |
-| BeginDatumTijd | Item | 2025-02-18| b | Waarschuwing actief sinds | | M |
-| AlertType | Item | | b | Type waarschuwing | (code = '74018-3' in codeSystem 'LOINC') | M |
-| Zorgaanbieder | Reference | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | organisatienaam: M <br/> Overige datavelden: W |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **Alert** | **Rootconcept** | NL-CM:8.3.1| | a | Alertnaam | | |
+| AlertNaam |Item| NL-CM:8.3.4 | Drager VRE| a | Waarschuwing | (code = '431109006' in codeSystem 'SNOMED CT') | M |
+| BeginDatumTijd | Item | NL-CM:8.3.5 | 2025-02-18| b | Waarschuwing actief sinds | | M |
+| AlertType | Item | NL-CM:8.3.6 | | b | Type waarschuwing | (code = '74018-3' in codeSystem 'LOINC') | M |
+| Zorgaanbieder | Reference | NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | organisatienaam: M <br/> Overige datavelden: W |
 
 <br/> 
 
 | 1. Naam data item | 2. Type data item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 6. Advies tekst weergave in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
-| --- | --- | --- | --- | --- | --- | --- |
-| **Bloeddruk** | **Rootconcept** |  | a | Bloeddruk | | |
-| Meetmethode | Item | Niet-invasief | b | Methode | (code = '22762002' in codeSystem 'SNOMED CT') | M |
-| ManchetType | Item | Klein | b | Manchet type | (code = 'S' in codeSystem '2.16.840.1.113883.2.4.3.11.60.40.4.15.1') | M |
-| MeetLocatie | Item | Linker bovenarm | b | Locatie meting | (code = '368208006' in codeSystem 'SNOMED CT') | M |
-| DiastolischEindpunt | Item | | b | Hartslag bij rust  | | M |  
-| SystolischeBloeddruk | Item | 160 mmhg | a | Bovendruk | | M |
-| DiastolischeBloeddruk  | Item | 92 mmhg | a | Onderdruk | | M |
-| GemiddeldeBloeddruk  | Item | 109 mmhg | a | Gemiddelde bloeddruk | | M |
-| BloeddrukDatumTijd | Item | 2025-03-15T14:45:00+01:00 | a | Datum en Tijd | | M |
-| Toelichting | Item | mevrouw gebruikt medicatie | b | Toelichting | | M |
-| Houding | Item | Zittende positie | b | Houding | (code = '33586001' in codeSystem 'SNOMED CT') |  |
-| Zorgaanbieder |Reference | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **Bloeddruk** | **Rootconcept** | NL-CM:12.4.1 | | a | Bloeddruk | | |
+| Meetmethode | Item | NL-CM:12.4.7 | Niet-invasief | b | Methode | (code = '22762002' in codeSystem 'SNOMED CT') | M |
+| ManchetType | Item | NL-CM:12.4.9 | Klein | b | Manchet type | (code = 'S' in codeSystem '2.16.840.1.113883.2.4.3.11.60.40.4.15.1') | M |
+| MeetLocatie | Item | NL-CM:12.4.10 | Linker bovenarm | b | Locatie meting | (code = '368208006' in codeSystem 'SNOMED CT') | M |
+| DiastolischEindpunt | Item | NL-CM:12.4.8 | | b | Hartslag bij rust  | | M |  
+| SystolischeBloeddruk | Item | NL-CM:12.4.2 | 160 mmhg | a | Bovendruk | | M |
+| DiastolischeBloeddruk  | Item | NL-CM:12.4.3 | 92 mmhg | a | Onderdruk | | M |
+| GemiddeldeBloeddruk  | Item | NL-CM:12.4.4 | 109 mmhg | a | Gemiddelde bloeddruk | | M |
+| BloeddrukDatumTijd | Item | NL-CM:12.4.5 | 2025-03-15T14:45:00+01:00 | a | Datum en Tijd | | M |
+| Toelichting | Item | NL-CM:12.4.6 | mevrouw gebruikt medicatie | b | Toelichting | | M |
+| Houding | Item | NL-CM:12.4.11 | Zittende positie | b | Houding | (code = '33586001' in codeSystem 'SNOMED CT') |  |
+| Zorgaanbieder |Reference | NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
 <br/> 
 
 | 1. Naam data item | 2. Type data item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 6. Advies tekst weergave in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
-| --- | --- | --- | --- | --- | --- | --- |
-| **Lichaamslengte** | **Rootconcept** | | a | Lichaamslengte | | M |
-| LengteWaarde | Item | 160 cm | a | Lichaamslengte | | M |
-| LengteDatumTijd | Item | 2025-03-15T13:30:00+01:00 | a | Meetdatum | | M |
-| Toelichting | Item | zonder schoenen aan | b | Toelichting | | M |
-| Zorgaanbieder |Reference | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **Lichaamslengte** | **Rootconcept** | NL-CM:12.2.1 | | a | Lichaamslengte | | M |
+| LengteWaarde | Item | NL-CM:12.2.2 | 160 cm | a | Lichaamslengte | | M |
+| LengteDatumTijd | Item | NL-CM:12.2.4	| 2025-03-15T13:30:00+01:00 | a | Meetdatum | | M |
+| Toelichting | Item | NL-CM:12.2.3 | zonder schoenen aan | b | Toelichting | | M |
+| Zorgaanbieder |Reference | NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
 <br/> 
 
 | 1. Naam data item | 2. Type data item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 6. Advies tekst weergave in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
-| --- | --- | --- | --- | --- | --- | --- |
-| **Lichaamstemperatuur** | **Rootconcept** | | a | Lichaamstemperatuur | |  |
-| TemperatuurWaarde | Item | 38.6 | a | Lichaamstemperatuur | | M |
-| TemperatuurDatumTijd | Item | 2025-03-17T07:00:00+01:00 | a | Datum en tijd meting | | M |
-| Toelichting | Item | voeten voelen heel koud aan | b | Toelichting | | M |
-| TemperatuurType | Item | Tympanic temperature | b | Type temperatuur | (code = '415974002' in codeSystem http://snomed.info/sct) | M |
-| Zorgaanbieder |Reference | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
+| --- | --- | --- | --- | --- | --- | --- |--- |
+| **Lichaamstemperatuur** | **Rootconcept** | NL-CM:12.6.1 | | a | Lichaamstemperatuur | |  |
+| TemperatuurWaarde | Item | NL-CM:12.6.2 | 38.6 | a | Lichaamstemperatuur | | M |
+| TemperatuurDatumTijd | Item | NL-CM:12.6.4 | 2025-03-17T07:00:00+01:00 | a | Datum en tijd meting | | M |
+| Toelichting | Item | NL-CM:12.6.3 | voeten voelen heel koud aan | b | Toelichting | | M |
+| TemperatuurType | Item | NL-CM:12.6.5 | Tympanic temperature | b | Type temperatuur | (code = '415974002' in codeSystem http://snomed.info/sct) | M |
+| Zorgaanbieder |Reference | NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
 <br/> 
 
 | 1. Naam data item | 2. Type data item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 6. Advies tekst weergave in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
-| --- | --- | --- | --- | --- | --- | --- |
-| **Lichaamsgewicht** | **Rootconcept** | | a | Lichaamsgewicht | |  |
-| GewichtWaarde | Item | 58 kg | a | Lichaamsgewicht | | M |
-| Toelichting | Item | mevrouw is aan het aansterken | b | Toelichting | | M |
-| GewichtDatumTijd | Item | 2025-03-12T14:30:00+01:00 | a | Datum en tijd meting | | M |
-| Kleding | Item | Lichte kleding/ondergoed | b | Kleding | (code = 'MINIMAL' in codeSystem '2.16.840.1.113883.2.4.3.11.60.40.4.8.1') | M |
-| Zorgaanbieder |Reference | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
+| --- | --- | --- | --- | --- | --- | --- |--- |
+| **Lichaamsgewicht** | **Rootconcept** | NL-CM:12.1.1 | | a | Lichaamsgewicht | |  |
+| GewichtWaarde | Item | NL-CM:12.1.2 | 58 kg | a | Lichaamsgewicht | | M |
+| Toelichting | Item | NL-CM:12.1.3 | mevrouw is aan het aansterken | b | Toelichting | | M |
+| GewichtDatumTijd | Item | NL-CM:12.1.4 | 2025-03-12T14:30:00+01:00 | a | Datum en tijd meting | | M |
+| Kleding | Item | NL-CM:12.1.5 | Lichte kleding/ondergoed | b | Kleding | (code = 'MINIMAL' in codeSystem '2.16.840.1.113883.2.4.3.11.60.40.4.8.1') | M |
+| Zorgaanbieder | Reference | NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
 <br/> 
 
 | 1. Naam data item | 2. Type data item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 6. Advies tekst weergave in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
-| --- | --- | --- | --- | --- | --- | --- |
-| **Vochtbalans** | **Rootconcept** | | a | Vochtbalans | | |
-| Toelichting | Item | dehydratie | a | Vochtbalans | | M |
-| VochtTotaalIn | Item | 1400 ml | a | Totaal vocht in | | M |
-| VochtTotaalUit | Item | 1000 ml | a | Totaal vocht uit | | M |
-| VochtbalansStarttijd | Item | 2025-03-14T07:00:00+02:00 | a | Startdatum en tijd meting | | M |
-| VochtbalansStoptijd | Item | 2025-03-15T07:00:00+02:00 | a | Einddatum en tijd meting | | M |
-| Zorgaanbieder |Reference | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
+| --- | --- | --- | --- | --- | --- | --- |--- |
+| **Vochtbalans** | **Rootconcept** | NL-CM:12.15.1 | | a | Vochtbalans | | |
+| Toelichting | Item | NL-CM:12.15.6 | dehydratie | a | Vochtbalans | | M |
+| VochtTotaalIn | Item | NL-CM:12.15.4 | 1400 ml | a | Totaal vocht in | | M |
+| VochtTotaalUit | Item | NL-CM:12.15.5 | 1000 ml | a | Totaal vocht uit | | M |
+| VochtbalansStarttijd | Item | NL-CM:12.15.2 | 2025-03-14T07:00:00+02:00 | a | Startdatum en tijd meting | | M |
+| VochtbalansStoptijd | Item | NL-CM:12.15.3 | 2025-03-15T07:00:00+02:00 | a | Einddatum en tijd meting | | M |
+| Zorgaanbieder |Reference | NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
 <br/> 
 
 | 1. Naam data item | 2. Type data item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 6. Advies tekst weergave in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
-| --- | --- | --- | --- | --- | --- | --- |
-| **Woonsituatie** | **Rootconcept** | | a | Woonsituatie | | |
-| Toelichting | Item | Woning is op de begane grond | b | Toelichting | | M |
-| WoningType | Item | Aanleunwoning | b | Type woning | (code = 'AANLW' in codeSystem '2.16.840.1.113883.2.4.3.11.60.40.4.13.1') | M |
-| Zorgaanbieder |Reference | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
+| --- | --- | --- | --- | --- | --- | --- |--- |
+| **Woonsituatie** | **Rootconcept** | NL-CM:7.8.1 | | a | Woonsituatie | | |
+| Toelichting | Item | NL-CM:7.8.2 | Woning is op de begane grond | b | Toelichting | | M |
+| WoningType | Item | NL-CM:7.8.3 | Aanleunwoning | b | Type woning | (code = 'AANLW' in codeSystem '2.16.840.1.113883.2.4.3.11.60.40.4.13.1') | M |
+| Zorgaanbieder |Reference | NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
 <br/> 
 
 | 1. Naam data item | 2. Type data item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 6. Advies tekst weergave in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
-| --- | --- | --- | --- | --- | --- | --- |
-| **Voedingsadvies** | **Rootconcept** | | a | Voedingsadvies | | |
-| DieetType | Item | lactosevrij | a | Voedingsadvies | | M |
-| Consistentie | Item | solide | b | Structuur van eten | | M |
-| Toelichting | Item | naar eigen zeggen lactose-intolerant | b | Toelichting | | M |
-| Zorgaanbieder | Reference | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
+| --- | --- | --- | --- | --- | --- | --- |--- |
+| **Voedingsadvies** | **Rootconcept** | NL-CM:7.11.1 | | a | Voedingsadvies | | |
+| DieetType | Item | NL-CM:7.11.2 | lactosevrij | a | Voedingsadvies | | M |
+| Consistentie | Item | NL-CM:7.11.3 | solide | b | Structuur van eten | | M |
+| Toelichting | Item | NL-CM:7.11.4 | naar eigen zeggen lactose-intolerant | b | Toelichting | | M |
+| Zorgaanbieder | Reference | NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
 <br/> 
 
 | 1. Naam data item | 2. Type data item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 6. Advies tekst weergave in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
-| --- | --- | --- | --- | --- | --- | --- |
-| **Betaler** | **Rootconcept** | | a | Verzekeraar | | |
-| **BetalerPersoon** | **Container** | | b (zie opmerkingen) | | Als verzekeraar niet aanwezig is | |
-| BetalerNaam | Item | | b | Naam | | M |
-| **Bankgegevens** | **Container** |  | b | Bankgegevens | | |
-| BankNaam | Item | ABN AMRO | b | Naam Bank | | M |
-| Bankcode | Item | ABNANL2A | b | | | M |
-| Rekeningnummer | Item | NL91 ABNA 0417 1643 00 | b | Rekeningnummer | | M |
-| **Verzekeraar** | **Container** |  | b (zie opmerkingen) | Verzekeraar | Als betalerpersoon niet aanwezig is | |
-| **Verzekering** | **Container** |  | b | Verzekering | | |
-| BeginDatumTijd | Item | 2023-03-18 | b | Begindatum | | M |
-| EindDatumTijd | Item | 2026-03-17 | b | Einddatum | | M |
-| Verzekeringssoort | Item | Basis verzekerd | b | Soort Verzekering | (code = 'B' in codeSystem '2.16.840.1.113883.2.4.3.11.60.101.5.1') | M |
-| IdentificatieNummer | Item | 3332 | b | Identificatie nummer | (in identificerend systeem: 2.16.840.1.113883.2.4.6.4) | M |
-| OrganisatieNaam | Item | Menzis | b | Naam Organisatie | | M |
-| VerzekerdeNummer | Item | 6318708200 | b | Verzekerde nummer | | M |
-| Zorgaanbieder | Reference | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **Betaler** | **Rootconcept** | NL-CM:1.1.1 | | a | Verzekeraar | | |
+| **BetalerPersoon** | **Container** | NL-CM:1.1.2 | | b (zie opmerkingen) | | Als verzekeraar niet aanwezig is | |
+| BetalerNaam | Item | NL-CM:1.1.5 | | b | Naam | | M |
+| **Bankgegevens** | **Container** | NL-CM:1.1.4 | | b | Bankgegevens | | |
+| BankNaam | Item | NL-CM:1.1.9 | ABN AMRO | b | Naam Bank | | M |
+| Bankcode | Item | NL-CM:1.1.10 | ABNANL2A | b | | | M |
+| Rekeningnummer | Item | NL-CM:1.1.11 | NL91 ABNA 0417 1643 00 | b | Rekeningnummer | | M |
+| **Verzekeraar** | **Container** | NL-CM:1.1.3 | | b (zie opmerkingen) | Verzekeraar | Als betalerpersoon niet aanwezig is | |
+| **Verzekering** | **Container** | NL-CM:1.1.8 | | b | Verzekering | | |
+| BeginDatumTijd | Item | NL-CM:1.1.13 | 2023-03-18 | b | Begindatum | | M |
+| EindDatumTijd | Item | NL-CM:1.1.14 | 2026-03-17 | b | Einddatum | | M |
+| Verzekeringssoort | Item | NL-CM:1.1.15 | Basis verzekerd | b | Soort Verzekering | (code = 'B' in codeSystem '2.16.840.1.113883.2.4.3.11.60.101.5.1') | M |
+| IdentificatieNummer | Item | NL-CM:1.1.7 | 3332 | b | Identificatie nummer | (in identificerend systeem: 2.16.840.1.113883.2.4.6.4) | M |
+| OrganisatieNaam | Item | NL-CM:1.1.16 | Menzis | b | Naam Organisatie | | M |
+| VerzekerdeNummer | Item | NL-CM:1.1.6 | 6318708200 | b | Verzekerde nummer | | M |
+| Zorgaanbieder | Reference | NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
 <br/> 
 
 | 1. Naam data item | 2. Type data item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht <br/> (b) als overzicht en detailgegeven <br/> (c) niet tonen | 6. Advies tekst weergave in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
-| --- | --- | --- | --- | --- | --- | --- |
-| **Polsfrequentie** | **Rootconcept** | | a | Pols frequentie | | |
-| PolsfrequentieWaarde | Item | 67 | a | Waarde | (code '/min' in codeSystem http://unitsofmeasure.org) | M |
-| PolsfrequentieDatumTijd | Item | 2024-06-03T00:00:00+02:00 | a | Datum en Tijd meting | | M |
-| Toelichting | Item | | b | Toelichting | | M |
-| PolsRegelmatigheid | Item | Regelmatige polsslag | b | PolsRegelmatigheid | (code '271636001' in codeSystem SNOMED CT) | M |
-| Zorgaanbieder | Reference | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
+| --- | --- | --- | --- | --- | --- | --- |--- |
+| **Polsfrequentie** | **Rootconcept** | NL-CM:12.7.1 | | a | Pols frequentie | | |
+| PolsfrequentieWaarde | Item | NL-CM:12.7.2| 67 | a | Waarde | (code '/min' in codeSystem http://unitsofmeasure.org) | M |
+| PolsfrequentieDatumTijd | Item | NL-CM:12.7.3 | 2024-06-03T00:00:00+02:00 | a | Datum en Tijd meting | | M |
+| Toelichting | Item | NL-CM:12.7.4 | | b | Toelichting | | M |
+| PolsRegelmatigheid | Item | NL-CM:12.7.5 | Regelmatige polsslag | b | PolsRegelmatigheid | (code '271636001' in codeSystem SNOMED CT) | M |
+| Zorgaanbieder | Reference | NL-CM:17.1.6 | | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
 <br/> 
 
@@ -533,10 +533,10 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 | AfwijkendAdemhalingspatroon | Item | NL-CM-12.5.7 | | b | Afwijkend Ademhalingspatroon | | M |
 | ExtraZuurstofToediening | Item | NL-CM-12.5.12 | | b | Extra zuurstof toediening | | M |
 | Toelichting | Item | NL-CM-12.5.3 | | b | Toelichting | | M |
-| Zorgaanbieder | Reference | | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M<br/>Overige datavelden: W |
+| Zorgaanbieder | Reference | NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M<br/>Overige datavelden: W |
 | **ToegediendeZuurstof** | **Container** | NL-CM-12.5.8 | | a | Toegediende zuurstof | | |
 | FlowRate | Item | NL-CM-12.5.10 | 2/min | a | Hoeveelheid zuurstof per minuut | | W |
 | FiO2 | Item | NL-CM-12.5.9 | 0.29 | b | Fractie zuurstof van de inademings-lucht | | W |
 | **ToedieningHulpmiddel::MedischHulpmiddel** | **Reference** | NL-CM-12.5.13 | Zuurstofmasker | | Medisch hulpmiddel | | |
 | ProductType | Item | NL-CM-2017-4 | Venturi-masker | | Producttype | | W |
-| Zorgaanbieder | Reference | | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
+| Zorgaanbieder | Reference | NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
