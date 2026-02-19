@@ -23,33 +23,33 @@ De richtlijn is ontwikkeld voor gegevens die verzameld worden via de aanvullende
 
 ## Inhoud richtlijn
 Het inloggen en authentiseren bij de zorgaanbieder is niet opgenomen in deze richtlijn.
-De gebruiker gaat in de PGO naar het langdurige zorgoverzicht en/of zorgorganisatie-langdurige zorgoverzicht waar de langdurige zorg gegevens getoond worden. 
+De gebruiker gaat in de PGO naar het overzicht langdurige zorg en/of overzicht zorgorganisatie-langdurige zorg waar de langdurige zorg gegevens getoond worden. 
 
 ### Overzichtsscherm langdurige zorggegevens
 Er zijn twee weergaven gedefinieerd voor het overzicht van de langdurige zorggegevens:
-- Scenario 1: Langdurige zorgoverzicht (met alle langdurige zorggegevens van alle zorgaanbieders in één overzicht)
-- Scenario 2: Zorgorganisatie-Langdurige zorgoverzicht (met alle langdurige zorggegevens van één zorgaanbieder in één overzicht)
+- Scenario 1: Overzicht Langdurige zorg (met alle langdurige zorggegevens van alle zorgaanbieders in één overzicht)
+- Scenario 2: Overzicht Zorgorganisatie-Langdurige zorg (met alle langdurige zorggegevens van één zorgaanbieder in één overzicht)
 
 De twee scenario’s, hieronder uitgewerkt, geven weer hoe een UX design getoond kan worden. Een PGO is vrij om 1 of beide van deze scenario’s te ondersteunen. De richtlijn gaat ervan uit dat PGO’s een responsief ontwerp ondersteunen. 
 
 In deze richtlijn hebben we twee voorbeeld mockups opgenomen ter inspiratie. Daaronder hebben we elke zib apart opgenomen, niet in mockup vorm maar in tabel vorm. De twee voorbeeld mockups gaan over afspraken, maar let op, de zib “contact” is apart opgenomen in tabelvorm. 
 
 #### Voorbeeld mockup overzichtsschermen langdurige zorg
-Langdurige zorg overzicht:
+Overzicht Langdurige zorg:
 
 Het overzichtsscherm van elke zib heeft dus een aparte pagina waar de datavelden getoond worden, voor alle (langdurige zorg) zorgaanbieders.  
 
 {{render: guides/medmij-stu3-long-term-healthcare-ig/images/Langdurige zorg overzicht.png}}
 
-**Figuur 1: Voorbeeld Langdurige zorg overzicht**
+**Figuur 1: Voorbeeld Overzicht Langdurige zorg**
 
-Zorgorganisatie-langdurige zorg overzicht
+Overzicht Zorgorganisatie-langdurige zorg
 
 Het overzichtsscherm van elke zib heeft dus een aparte tab waar de datavelden getoond worden, per zorgaanbieder. 
 
 {{render: guides/medmij-stu3-long-term-healthcare-ig/images/Zorgorganisatie overzicht.png}} 
 
-**Figuur 2: Voorbeeld Zorgorganisatie - langdurige zorg overzicht**
+**Figuur 2: Voorbeeld Overzicht Zorgorganisatie - langdurige zorg**
 
 De acceptatiecriteria voor de overzichtsschermen van elke zib is als volgt.
 
@@ -235,18 +235,18 @@ Hieronder worden alle langdurige zorg zibs in tabel vorm weergegeven. De zorgorg
 
 | Vochtbalans | Datum | Zorgorganisatie |
 | --- | --- | --- |
-| Vochtbalans | 15-03-2025 | IJsselheem |
-| Vochtbalans | 17-02-2025 | IJsselheem |
+| 1400ml/ 1000ml | 15-03-2025 | IJsselheem |
+| 1600ml/1200ml | 17-02-2025 | IJsselheem |
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Vochtbalans 15-03-2025 | Voorbeeldwaarde |
+| Geselecteerde regel: 1400 ml/ 1000 ml 15-03-2025 | Voorbeeldwaarde |
 | --- | --- |
 | Vocht totaal inname | 1400 ML |
 | Vocht totaal uit | 1000 ML |
 | Vochtbalans starttijd | 11:00 |
 | Vochtbalans stoptijd | 12:00 |
-| Toelichting |  |
+| Toelichting | dehydratie |
 | Zorgorganisatie | IJsselheem |
 
 <br/> 
@@ -255,9 +255,9 @@ Hieronder worden alle langdurige zorg zibs in tabel vorm weergegeven. De zorgorg
 
 <u>Overzichtsscherm</u>
 
-| Woonsituatie | Woningtype | Toelichting | Zorgorganisatie |
-| --- | --- | --- | --- |
-| Woonsituatie | Aanleunwoning | Woning is op de begane grond | IJsselheem |
+| Woningtype | Toelichting | Zorgorganisatie |
+| --- | --- | --- |
+| Aanleunwoning | Woning is op de begane grond | IJsselheem |
 
 <br/> 
 
@@ -295,9 +295,9 @@ Hieronder worden alle langdurige zorg zibs in tabel vorm weergegeven. De zorgorg
 | Geselecteerde regel: Trias | Voorbeeldwaarde |
 | --- | --- |
 | Naam betaler | Trias |
-| Naam Bank | ING |
-| Code Bank | INGBNL2A |
-| Rekeningnummer Bank | NL85INGB0001234567 |
+| Naam Bank |   |
+| Code Bank |   |
+| Rekeningnummer Bank |   |
 | Begin datum | 01-01-2025 |
 | Eind datum | 31-12-2025 |
 | Naam verzekeraar | Trias |
