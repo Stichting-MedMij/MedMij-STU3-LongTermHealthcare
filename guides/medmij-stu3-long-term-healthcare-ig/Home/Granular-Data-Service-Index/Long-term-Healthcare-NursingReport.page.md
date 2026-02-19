@@ -17,7 +17,7 @@ topic: NursingReport
 ## Functional model
 | | |
 | --- | --- |
-| **CIM** | Nursing report (based on [ANW v2024](https://nuts-foundation.gitbook.io/bolts/anw/v2024.1#id-5.2-wegschrijven-van-informatie)) |
+| **CIM** | NursingReport (based on the [ANW v2024.1](https://nuts-foundation.gitbook.io/bolts/anw/v2024.1#id-5.2-wegschrijven-van-informatie) specification) |
 | **Functional version** | 1.0.0-beta.2 |
 
 The Logical Model is included below.

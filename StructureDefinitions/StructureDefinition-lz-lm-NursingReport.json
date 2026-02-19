@@ -8,7 +8,7 @@
   "url": "http://medmij.nl/fhir/StructureDefinition/lz-lm-NursingReport",
   "name": "LzLmNursingReport",
   "title": "Nursing report",
-  "status": "active",
+  "status": "draft",
   "publisher": "MedMij",
   "contact": [
     {
@@ -23,7 +23,7 @@
     }
   ],
   "description": "A report written by a nurse containing details about the patient's condition and care, as well as their clinical observations.",
-  "purpose": "This LogicalModel represents the NursingReport building block for patient use cases in the context of long-term healthcare.",
+  "purpose": "This LogicalModel represents the NursingReport Clinical Information Model (CIM) for patient use cases in the context of Long-term Healthcare. It is based on the [ANW v2024.1](https://nuts-foundation.gitbook.io/bolts/anw/v2024.1#id-5.2-wegschrijven-van-informatie) specification.",
   "copyright": "Copyright and related rights waived via CC0, https://creativecommons.org/publicdomain/zero/1.0/. This does not apply to information from third parties, for example a medical terminology system. The implementer alone is responsible for identifying and obtaining any necessary licenses or authorizations to utilize third party IP in connection with the specification or otherwise.",
   "fhirVersion": "3.0.2",
   "mapping": [
@@ -491,7 +491,7 @@
         "alias": [
           "RapportageInhoud"
         ],
-        "min": 0,
+        "min": 1,
         "max": "1",
         "type": [
           {
