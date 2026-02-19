@@ -373,10 +373,10 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 
 | 1. Naam data item | 2. Type data item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht en detailgegeven <br/> (b) in detailgegeven <br/> (c) niet tonen | 6. Advies tekst weergave in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Contact** | **Rootconcept** | | a | Contact | | | |
+| **Contact** | **Rootconcept** | NL-CM:15.1.1 | | a | Contact | | | 
 | Contacttype | Item | NL-CM:15.1.2 | Thuis | a | Type contact of afspraak | (code = 'HH' in "codesystem Index - FHIR v5.0.0": "https://hl7.org/fhir/?utm_referrer=https%3A%2F%2Fwww.hl7.org%2F") | M |
-| ContactMet: Zorgverlener | Reference | NL-CM:15.1.7 | Julia van den Bos | a | Contact met | (nl-core-practioner-eov-cert-1-1b-01) | Zorgverlener naam: M <br/> Overige datavelden: W |
-| Locatie: Zorgaanbieder | Reference | NL-CM:15.1.8 | Ijsselheem | a | Locatie | | M |
+| ContactMet:: Zorgverlener | Reference | NL-CM:15.1.7 | Julia van den Bos | a | Contact met |  | Zorgverlener naam: M <br/> Overige datavelden: W |
+| Locatie:: Zorgaanbieder | Reference | NL-CM:15.1.8 | Ijsselheem | a | Locatie | | M |
 | BeginDatumTijd | Item | NL-CM:15.1.3 | 2025-03-30T10:20:00+00:00 | a | Begindatum en tijd | | M |
 | EindDatumTijd | Item | NL-CM:15.1.4 | 2025-03-30T10:20:30+00:00 | a | Einddatum en tijd | | M |
 | **RedenContact** | **Container** | NL-CM:15.1.13 | | | | | |
@@ -524,5 +524,5 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 | **ToegediendeZuurstof** | **Container** | NL-CM-12.5.8 | | a | Toegediende zuurstof | | |
 | FlowRate | Item | NL-CM-12.5.10 | 2/min | a | Hoeveelheid zuurstof per minuut | | W |
 | FiO2 | Item | NL-CM-12.5.9 | 0.29 | b | Fractie zuurstof van de inademings-lucht | | W |
-| **ToedieningHulpmiddel::MedischHulpmiddel** | **Reference** | NL-CM-12.5.13 | Zuurstofmasker | | Medisch hulpmiddel | | |
-| ProductType | Item | NL-CM-2017-4 | Venturi-masker | | Producttype | (code = '428285009' in codeSystem SNOMED CT) | W |
+| **ToedieningHulpmiddel::MedischHulpmiddel** | **Reference** | NL-CM-12.5.13 | Zuurstofmasker | b | Medisch hulpmiddel | | |
+| ProductType | Item | NL-CM-2017-4 | Venturi-masker | b | Producttype | (code = '428285009' in codeSystem SNOMED CT) | W |
