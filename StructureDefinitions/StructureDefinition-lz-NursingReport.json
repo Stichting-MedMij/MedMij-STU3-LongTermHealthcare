@@ -40,19 +40,6 @@
   "differential": {
     "element": [
       {
-        "id": "Observation.extension:reportTitle",
-        "path": "Observation.extension",
-        "sliceName": "reportTitle",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": "http://medmij.nl/fhir/StructureDefinition/ext-NursingReport.Title"
-          }
-        ]
-      },
-      {
         "id": "Observation",
         "path": "Observation",
         "short": "NursingReport",
@@ -65,6 +52,19 @@
             "identity": "lz-medmij-dataset-100-beta2-20260226",
             "map": "lz-dataelement-1",
             "comment": "NursingReport"
+          }
+        ]
+      },
+      {
+        "id": "Observation.extension:reportTitle",
+        "path": "Observation.extension",
+        "sliceName": "reportTitle",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": "http://medmij.nl/fhir/StructureDefinition/ext-NursingReport.Title"
           }
         ]
       },
