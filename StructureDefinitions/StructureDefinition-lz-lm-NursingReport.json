@@ -126,6 +126,15 @@
             "code": "BackboneElement"
           }
         ],
+        "constraint": [
+          {
+            "key": "lz-lm-NursingReport-1",
+            "severity": "error",
+            "human": "At least one of HealthProfessional or HealthcareProvider is present.",
+            "expression": "HealthProfessional.exists() or HealthcareProvider.exists()",
+            "source": "http://medmij.nl/fhir/StructureDefinition/lz-lm-NursingReport"
+          }
+        ],
         "mapping": [
           {
             "identity": "lz-medmij-dataset-100-beta2-20260226",
@@ -148,6 +157,9 @@
           {
             "code": "BackboneElement"
           }
+        ],
+        "condition": [
+          "lz-lm-NursingReport-1"
         ],
         "mapping": [
           {
@@ -369,6 +381,9 @@
           {
             "code": "BackboneElement"
           }
+        ],
+        "condition": [
+          "lz-lm-NursingReport-1"
         ],
         "mapping": [
           {

@@ -101,7 +101,8 @@
             }
           ],
           "rules": "open"
-        }
+        },
+        "min": 1
       },
       {
         "id": "Observation.effective[x]:effectiveDateTime",
@@ -165,7 +166,8 @@
             }
           ],
           "rules": "open"
-        }
+        },
+        "min": 1
       },
       {
         "id": "Observation.value[x]:valueString",

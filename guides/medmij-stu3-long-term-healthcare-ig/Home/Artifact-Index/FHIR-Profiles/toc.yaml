@@ -4,3 +4,5 @@
   filename: Encounter.page.md
 - name: Nursing Report
   filename: NursingReport.page.md
+- name: Nursing Report Title
+  filename: NursingReportTitle.page.md
