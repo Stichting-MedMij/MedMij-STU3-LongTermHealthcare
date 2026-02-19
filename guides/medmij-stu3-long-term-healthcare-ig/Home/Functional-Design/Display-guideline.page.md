@@ -392,8 +392,8 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Dagrapportage** | **Rootconcept** | | | a | Dagrapportage | | |
 | ObservatieDatumTijd | Item | | 2025-05-17T07:00:00+01:00 | b | Datum en Tijd| | M |
+| Uitvoerder:: Zorgaanbieder | Reference |  | IJsselheem | b | Zorgaanbieder | | M | 
 | Dagverslag (ObservatieNaam) | Item | | Mevrouw vertoont toenemende stijfheid bij het opstaan en lopen. Er is sprake van fijne tremor in de rechterhand. Tijdens het ochtendcontact had zij moeite om zich verbaal uit te drukken; gebruikt korte zinnen met lange pauzes. Zelfstandig toiletbezoek is mogelijk, maar met risico op vallen. Advies: looprek binnen handbereik houden en logopedie betrekken voor spraakondersteuning. | b | Dagverslag | | M | 
-| ObservatieMethode | Item | | | b | Oberservatie methode | | M |
 | Toelichting | Item | | | b | Toelichting | | M |
 
 <br/> 
