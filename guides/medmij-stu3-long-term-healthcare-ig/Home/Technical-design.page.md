@@ -51,4 +51,4 @@ The table below gives an overview of all granular data services that are applica
 
 **Table 2: Granular data services applicable for BgLZ+**
 
-The technical specifications with respect to the request message executed by the PHR and the response message of the XIS are detailed in section 1.6 of the [MedMij STU3 Core IG](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-exchange?version=1.0.0).
+The technical specifications with respect to the request message executed by the PHR and the response message of the XIS are detailed in the [MedMij STU3 Core IG](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-exchange?version=1.0.0#GeneralTechnicalSpecifications).
