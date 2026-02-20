@@ -2,7 +2,7 @@
 topic: ExtNursingReportReportTitle
 ---
 
-# Nursing Report
+# Nursing Report (Report Title)
 
 <tabs>
     <tab title="Tree view" active="true">

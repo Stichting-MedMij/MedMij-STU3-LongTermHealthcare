@@ -10,7 +10,7 @@ The following FHIR profiles have been introduced for the Long-term Healthcare st
 | --- | --- | --- |
 | [Encounter](https://zibs.nl/wiki/Encounter-v3.1(2017EN)) | Encounter | {{pagelink: FHIRProfilesIndex, text: lz-Encounter, anchor: LzEncounter}} |
 | {{pagelink: LogicalModelsIndex, text: NursingReport, anchor: LzLmNursingReport}} | Observation | {{pagelink: FHIRProfilesIndex, text: lz-NursingReport, anchor: LzNursingReport}} |
-| {{pagelink: LogicalModelsIndex, text: NursingReport (ReportTitle), anchor: LzLmNursingReport}} | Extension | {{pagelink: FHIRProfilesIndex, text: lz-NursingReport.ReportTitle, anchor: LzNursingReportReportTitle}} |
+| {{pagelink: LogicalModelsIndex, text: NursingReport (ReportTitle), anchor: LzLmNursingReport}} | Extension | {{pagelink: FHIRProfilesIndex, text: ext-NursingReport.ReportTitle, anchor: LzNursingReportReportTitle}} |
 
 **Table 1: Relevant long-term healthcare-specific profiles**
 
