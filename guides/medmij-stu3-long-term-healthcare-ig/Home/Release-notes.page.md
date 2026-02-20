@@ -1,5 +1,13 @@
 # {{page-title}}
  
+## 1.0.0-beta.2
+ 
+| Component             | Description  | Ticket    |
+| --------------------- | ------------ | --------- |
+| Functional design      | The cross-domain data service Respiration has been updated to version 1.0.0-beta.2. | [DOSINZAGE1-851](https://medmij.atlassian.net/browse/DOSINZAGE1-851) |
+| Technical design       | The cross-domain data service Respiration has been updated to version 1.0.0-beta.2. | [DOSINZAGE1-851](https://medmij.atlassian.net/browse/DOSINZAGE1-851) |
+| Test material         | Several test instances corresponding with the Respiration CIM have been updated. | [DOSINZAGE1-851](https://medmij.atlassian.net/browse/DOSINZAGE1-851) |
+
 ## 1.0.0-beta.1
  
 | Component             | Description  | Ticket    |

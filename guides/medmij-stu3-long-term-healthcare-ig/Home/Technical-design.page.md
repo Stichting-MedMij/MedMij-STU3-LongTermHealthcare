@@ -47,7 +47,7 @@ The table below gives an overview of all granular data services that are applica
 | 900000405 | [Retrieve MedMij Core - Nutrition advice (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-NutritionAdvice?version=1.0.0) | Verzamelen MedMij Core - Voedingsadvies (zib2017/STU3) | 1.0.0-beta.1 |
 | 900000407 | [Retrieve MedMij Core - Payer (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Payer?version=1.0.0) | Verzamelen MedMij Core - Betaler (zib2017/STU3) | 1.0.0-beta.1 |
 | 900000412 | [Retrieve MedMij Core - Pulse rate (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-PulseRate?version=1.0.0) | Verzamelen MedMij Core - Polsfrequentie (zib2017/STU3) | 1.0.0-beta.1 |
-| 900000411 | [Retrieve MedMij Core - Respiration (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Respiration?version=1.0.0) | Verzamelen MedMij Core - Ademhaling (zib2017/STU3) | 1.0.0-beta.1 |
+| 900000411 | [Retrieve MedMij Core - Respiration (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Respiration?version=1.0.0) | Verzamelen MedMij Core - Ademhaling (zib2017/STU3) | 1.0.0-beta.2 |
 
 **Table 2: Granular data services applicable for BgLZ+**
 
