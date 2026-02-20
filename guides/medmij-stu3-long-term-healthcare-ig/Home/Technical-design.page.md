@@ -12,9 +12,9 @@ This technical design is the technical counterpart of the {{pagelink: FO, text: 
 Note that in addition to this design, the (technical) guidelines as specified in the [MedMij STU3 Core IG](https://simplifier.net/guide/medmij-stu3-core-ig?version=1.0.0) and the [MedMij FHIR IG for STU3, version 2020.02](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.02/FHIR_IG) apply, the latter of which is published by Nictiz.
 
 ## Actors involved 
-| Actor | |System | |
+| Actor | | System | |
 | --- | --- | --- | --- |
-| Name | Description | Name | Description |
+| **Name** | **Description** | **Name** | **Description** |
 | Patient | The user of a personal healthcare environment | PHR | Personal health record |
 | Healthcare provider | The user of a XIS | XIS | Healthcare information system |
 
