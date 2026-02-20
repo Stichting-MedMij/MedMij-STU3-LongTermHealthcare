@@ -12,7 +12,7 @@ This index contains all active domain-specific granular data services within Lon
     - **Data service version** - the version assigned to the data service as a whole (not to be confused with the version of the corresponding functional model or the package version of the corresponding FHIR profiles).
     - **System role(s)** - the system roles corresponding to the different transactions within each data service. Each system is of the form 'LZ-[CIM abbreviation]\[Transaction indicator\](-[Suffix])-[Data service version]-FHIR', where:
         - 'LZ' refers to Long-term Healthcare (Dutch: Langdurige Zorg);
-        - the CIM abbreviation consists of exactly two capital letters;
+        - the CIM abbreviation consists of exactly two capital letters indicating the English name of the CIM;
         - the Suffix is an optional addition, and is described in more detail [here](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-exchange?version=1.0.0#PublicationGranularDataServices);
         - the Transaction indicator is either 'R' or 'B', indicating a Retrieve (Dutch: Raadplegen) or Serve (Dutch: Beschikbaar stellen) transaction, respectively. The former transaction is intended for the PHR, while the latter is relevant for the XIS. As the corresponding transaction (group) can be derived from the system role, the transactions and transaction groups are not specified on the respective data service pages. Instead, these can be found in the [MedMij Catalogus](https://catalogus.medmij.nl/overzicht/actueel/actuele-catalogus).
     - **Relevant domain(s)** - the domains in which the granular data service is used, which is always *Long-term Healthcare* in this IG.
