@@ -27,7 +27,7 @@
     ],
     "extension": [
       {
-        "url": "http://medmij.nl/fhir/StructureDefinition/ext-NursingReport.Title",
+        "url": "http://medmij.nl/fhir/StructureDefinition/ext-NursingReport.ReportTitle",
         "valueString": "Dagrapportage"
       }
     ],

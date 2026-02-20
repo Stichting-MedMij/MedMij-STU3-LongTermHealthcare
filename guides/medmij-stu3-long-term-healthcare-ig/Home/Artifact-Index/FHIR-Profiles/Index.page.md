@@ -4,12 +4,13 @@ topic: FHIRProfilesIndex
 
 # FHIR profiles
 ## Long-term healthcare-specific profiles
-The following FHIR profiles have been introduced for Long-term Healthcare standard:
+The following FHIR profiles have been introduced for the Long-term Healthcare standard:
 
-| CIM | FHIR resource | FHIR profile |
+| CIM (concept) | FHIR resource | FHIR profile |
 | --- | --- | --- |
-| [Encounter](https://zibs.nl/wiki/Encounter-v3.1(2017EN)) | Encounter | lz-Encounter |
-| {{pagelink: LzLmNursingReport, text: NursingReport}} | Observation | lz-NursingReport |
+| [Encounter](https://zibs.nl/wiki/Encounter-v3.1(2017EN)) | Encounter | {{pagelink: FHIRProfilesIndex, text: lz-Encounter, anchor: LzEncounter}} |
+| {{pagelink: LogicalModelsIndex, text: NursingReport, anchor: LzLmNursingReport}} | Observation | {{pagelink: FHIRProfilesIndex, text: lz-NursingReport, anchor: LzNursingReport}} |
+| {{pagelink: LogicalModelsIndex, text: NursingReport (ReportTitle), anchor: LzLmNursingReport}} | Extension | {{pagelink: FHIRProfilesIndex, text: lz-NursingReport.ReportTitle, anchor: LzNursingReportReportTitle}} |
 
 **Table 1: Relevant long-term healthcare-specific profiles**
 

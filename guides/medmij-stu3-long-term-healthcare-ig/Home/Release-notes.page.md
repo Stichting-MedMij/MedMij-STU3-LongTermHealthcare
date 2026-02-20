@@ -7,7 +7,7 @@
 | Dataset                | A Logical Model corresponding to the NursingReport information model has been added. | [DOSINZAGE1-809](https://medmij.atlassian.net/browse/DOSINZAGE1-809) |
 | Functional design      | The domain-specific data services Encounter and Nursing report have been added. | [DOSINZAGE1-809](https://medmij.atlassian.net/browse/DOSINZAGE1-809) |
 | Technical design       | The domain-specific data services Encounter and Nursing report have been added. | [DOSINZAGE1-809](https://medmij.atlassian.net/browse/DOSINZAGE1-809) |
-| FHIR artifacts         | The profiles lz-Encounter, lz-NursingReport and ext-NursingReport.Title have been created and added to the IG. | [DOSINZAGE1-809](https://medmij.atlassian.net/browse/DOSINZAGE1-809) |
+| FHIR artifacts         | The profiles lz-Encounter, lz-NursingReport and ext-NursingReport.ReportTitle have been created and added to the IG. | [DOSINZAGE1-809](https://medmij.atlassian.net/browse/DOSINZAGE1-809) |
 | FHIR artifacts         | CapabilityStatements for the domain-specific data services Encounter and Nursing report have been added. | [DOSINZAGE1-809](https://medmij.atlassian.net/browse/DOSINZAGE1-809) |
 | Granular data services | The data services Encounter and Nursing report have been added. | [DOSINZAGE1-809](https://medmij.atlassian.net/browse/DOSINZAGE1-809) |
 | Test material          | Test instances corresponding with the Encounter and NursingReport CIMs have been added. | [DOSINZAGE1-809](https://medmij.atlassian.net/browse/DOSINZAGE1-809) |

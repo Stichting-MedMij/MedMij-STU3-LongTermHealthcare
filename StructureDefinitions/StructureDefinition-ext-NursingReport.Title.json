@@ -1,11 +1,11 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "ext-NursingReport.Title",
+  "id": "ext-NursingReport.ReportTitle",
   "text": {
     "status": "empty",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">No narrative is provided for definitional resources. A human-readable rendering can be found in the implementation guide(s) where this resource is used.</div>"
   },
-  "url": "http://medmij.nl/fhir/StructureDefinition/ext-NursingReport.Title",
+  "url": "http://medmij.nl/fhir/StructureDefinition/ext-NursingReport.ReportTitle",
   "name": "ExtNursingReportTitle",
   "title": "ext NursingReport.Title",
   "status": "draft",
@@ -51,7 +51,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://medmij.nl/fhir/StructureDefinition/ext-NursingReport.Title"
+        "fixedUri": "http://medmij.nl/fhir/StructureDefinition/ext-NursingReport.ReportTitle"
       },
       {
         "id": "Extension.value[x]",

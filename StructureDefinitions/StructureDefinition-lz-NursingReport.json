@@ -64,7 +64,7 @@
         "type": [
           {
             "code": "Extension",
-            "profile": "http://medmij.nl/fhir/StructureDefinition/ext-NursingReport.Title"
+            "profile": "http://medmij.nl/fhir/StructureDefinition/ext-NursingReport.ReportTitle"
           }
         ]
       },
