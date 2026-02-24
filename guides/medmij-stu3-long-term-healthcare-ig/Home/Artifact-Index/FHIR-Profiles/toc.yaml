@@ -1,0 +1,8 @@
+- name: Index
+  filename: Index.page.md
+- name: Encounter
+  filename: Encounter.page.md
+- name: Nursing Report
+  filename: NursingReport.page.md
+- name: Nursing Report (Report Title)
+  filename: NursingReportReportTitle.page.md
