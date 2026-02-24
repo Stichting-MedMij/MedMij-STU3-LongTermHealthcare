@@ -58,6 +58,7 @@
         "path": "Extension.value[x]",
         "short": "ReportTitle",
         "definition": "The title of the nursing report.",
+        "comment": "The title should be human readable and clear to the patient.",
         "alias": [
           "RapportageTitel"
         ],
