@@ -236,7 +236,7 @@ Hieronder worden alle langdurige zorg zibs in tabel vorm weergegeven. De zorgorg
 | Vochtbalans | Datum | Zorgorganisatie |
 | --- | --- | --- |
 | 1400ml/ 1000ml | 15-03-2025 | IJsselheem |
-| 1600ml/1200ml | 17-02-2025 | IJsselheem |
+| 1600ml/ 1200ml | 17-02-2025 | IJsselheem |
 
 <u>Detailscherm</u>
 
@@ -512,8 +512,8 @@ NB. In onderstaande tabel is de Reference zorgaanbieder opgenomen. Hierbij verwi
 | IdentificatieNummer | Item | NL-CM:1.1.7 | 3332 | b | Identificatie nummer | (in identificerend systeem: 2.16.840.1.113883.2.4.6.4) | M |
 | OrganisatieNaam | Item | NL-CM:1.1.16 | Menzis | b | Naam Organisatie | | M |
 | VerzekerdeNummer | Item | NL-CM:1.1.6 | 6318708200 | b | Verzekerde nummer | | M |
-| Adresgegevens | subbouwsteen | NL-CM:1.1.17 | | b | | | M |
-| Contactgegevens | subbouwsteen | NL-CM:1.1.12 |  | b | | | M |
+| Adresgegevens | Subbouwsteen | NL-CM:1.1.17 | | b | | | M |
+| Contactgegevens | Subbouwsteen | NL-CM:1.1.12 |  | b | | | M |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | b | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
 <br/> 
