@@ -22,7 +22,7 @@
       ]
     }
   ],
-  "description": "A report documenting a patient contact in a long-term healthcare nursing setting. The report can be recorded by different types of healthcare professionals and is not necessarily written by a nurse.",
+  "description": "A report documenting a patient contact in a long-term healthcare nursing setting. The report can be recorded by different types of health professionals and is not necessarily written by a nurse.",
   "purpose": "This Observation resource represents the NursingReport Clinical Information Model (CIM) for patient use cases in the context of Long-term Healthcare.\n\nThis profile is based on the [nl-core-nursingreport](https://simplifier.net/anw/nl-core-nursingreport) profile that is defined in the [ANW v2024](https://nuts-foundation.gitbook.io/bolts/anw/v2024.1#id-5.2-wegschrijven-van-informatie) specification with adjustments to provide a version better suited for implementation purposes in the context of MedMij.",
   "copyright": "Copyright and related rights waived via CC0, https://creativecommons.org/publicdomain/zero/1.0/. This does not apply to information from third parties, for example a medical terminology system. The implementer alone is responsible for identifying and obtaining any necessary licenses or authorizations to utilize third party IP in connection with the specification or otherwise.",
   "fhirVersion": "3.0.2",
@@ -43,7 +43,7 @@
         "id": "Observation",
         "path": "Observation",
         "short": "NursingReport",
-        "definition": "A report documenting a patient contact in a long-term healthcare nursing setting. The report can be recorded by different types of healthcare professionals and is not necessarily written by a nurse.",
+        "definition": "A report documenting a patient contact in a long-term healthcare nursing setting. The report can be recorded by different types of health professionals and is not necessarily written by a nurse.",
         "alias": [
           "Dagrapportage"
         ],
