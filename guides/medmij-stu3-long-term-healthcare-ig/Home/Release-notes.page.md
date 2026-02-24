@@ -6,11 +6,14 @@
 | ---------------------- | ------------ | --------- |
 | Dataset                | A Logical Model corresponding to the NursingReport information model has been added. | [DOSINZAGE1-809](https://medmij.atlassian.net/browse/DOSINZAGE1-809) |
 | Functional design      | The domain-specific data services Encounter and Nursing report have been added. | [DOSINZAGE1-809](https://medmij.atlassian.net/browse/DOSINZAGE1-809) |
+| Functional design     | The cross-domain data service Respiration has been updated to version 1.0.0-beta.2. | [DOSINZAGE1-851](https://medmij.atlassian.net/browse/DOSINZAGE1-851) |
 | Technical design       | The domain-specific data services Encounter and Nursing report have been added. | [DOSINZAGE1-809](https://medmij.atlassian.net/browse/DOSINZAGE1-809) |
+| Technical design      | The cross-domain data service Respiration has been updated to version 1.0.0-beta.2. | [DOSINZAGE1-851](https://medmij.atlassian.net/browse/DOSINZAGE1-851) |
 | FHIR artifacts         | The profiles lz-Encounter, lz-NursingReport and ext-NursingReport.ReportTitle have been created and added to the IG. | [DOSINZAGE1-809](https://medmij.atlassian.net/browse/DOSINZAGE1-809) |
 | FHIR artifacts         | CapabilityStatements for the domain-specific data services Encounter and Nursing report have been added. | [DOSINZAGE1-809](https://medmij.atlassian.net/browse/DOSINZAGE1-809) |
 | Granular data services | The data services Encounter and Nursing report have been added. | [DOSINZAGE1-809](https://medmij.atlassian.net/browse/DOSINZAGE1-809) |
 | Test material          | Test instances corresponding with the Encounter and NursingReport CIMs have been added. | [DOSINZAGE1-809](https://medmij.atlassian.net/browse/DOSINZAGE1-809) |
+| Test material         | Several test instances corresponding to the Respiration CIM have been updated. Moreover, test instances corresponding to the AdministrationDevice concept have been added. | [DOSINZAGE1-851](https://medmij.atlassian.net/browse/DOSINZAGE1-851) |
 
 ## 1.0.0-beta.1
  

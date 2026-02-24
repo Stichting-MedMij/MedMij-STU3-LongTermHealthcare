@@ -103,7 +103,7 @@ De onderstaande tabel geeft een overzicht van alle granulaire gegevensdiensten d
 | 900000405 | [Verzamelen MedMij Core - Voedingsadvies (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-NutritionAdvice?version=1.0.0) | 1.0.0-beta.1 |
 | 900000407 | [Verzamelen MedMij Core - Betaler (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Payer?version=1.0.0) | 1.0.0-beta.1 |
 | 900000412 | [Verzamelen MedMij Core - Polsfrequentie (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-PulseRate?version=1.0.0) | 1.0.0-beta.1 |
-| 900000411 | [Verzamelen MedMij Core - Ademhaling (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Respiration?version=1.0.0) | 1.0.0-beta.1 |
+| 900000411 | [Verzamelen MedMij Core - Ademhaling (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Respiration?version=1.0.0) | 1.0.0-beta.2 |
 | 900000408 | {{pagelink: Encounter, text: Verzamelen Langdurige Zorg - Contact}} | 1.0.0-beta.1 |
 | 900000413 | {{pagelink: NursingReport, text: Verzamelen Langdurige Zorg - Dagrapportage}} | 1.0.0-beta.1 |
 

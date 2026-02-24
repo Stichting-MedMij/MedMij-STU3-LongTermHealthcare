@@ -12,9 +12,9 @@ This technical design is the technical counterpart of the {{pagelink: FO, text: 
 Note that in addition to this design, the (technical) guidelines as specified in the [MedMij STU3 Core IG](https://simplifier.net/guide/medmij-stu3-core-ig?version=1.0.0) and the [MedMij FHIR IG for STU3, version 2020.02](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.02/FHIR_IG) apply, the latter of which is published by Nictiz.
 
 ## Actors involved 
-| Actor | |System | |
+| Actor | | System | |
 | --- | --- | --- | --- |
-| Name | Description | Name | Description |
+| **Name** | **Description** | **Name** | **Description** |
 | Patient | The user of a personal healthcare environment | PHR | Personal health record |
 | Healthcare provider | The user of a XIS | XIS | Healthcare information system |
 
@@ -47,10 +47,10 @@ The table below gives an overview of all granular data services that are applica
 | 900000405 | [Retrieve MedMij Core - Nutrition advice (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-NutritionAdvice?version=1.0.0) | Verzamelen MedMij Core - Voedingsadvies (zib2017/STU3) | 1.0.0-beta.1 |
 | 900000407 | [Retrieve MedMij Core - Payer (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Payer?version=1.0.0) | Verzamelen MedMij Core - Betaler (zib2017/STU3) | 1.0.0-beta.1 |
 | 900000412 | [Retrieve MedMij Core - Pulse rate (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-PulseRate?version=1.0.0) | Verzamelen MedMij Core - Polsfrequentie (zib2017/STU3) | 1.0.0-beta.1 |
-| 900000411 | [Retrieve MedMij Core - Respiration (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Respiration?version=1.0.0) | Verzamelen MedMij Core - Ademhaling (zib2017/STU3) | 1.0.0-beta.1 |
+| 900000411 | [Retrieve MedMij Core - Respiration (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Respiration?version=1.0.0) | Verzamelen MedMij Core - Ademhaling (zib2017/STU3) | 1.0.0-beta.2 |
 | 900000408 | {{pagelink: Encounter, text: Retrieve Long-term Healthcare - Encounter}} | Verzamelen Langdurige Zorg - Contact | 1.0.0-beta.1 |
 | 900000413 | {{pagelink: NursingReport, text: Retrieve Long-term Healthcare - Nursing report}} | Verzamelen Langdurige Zorg - Dagrapportage | 1.0.0-beta.1 |
 
 **Table 2: Granular data services applicable for BgLZ+**
 
-The technical specifications with respect to the request message executed by the PHR and the response message of the XIS are detailed in section 1.6 of the [MedMij STU3 Core IG](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-exchange?version=1.0.0).
+The technical specifications with respect to the request message executed by the PHR and the response message of the XIS are detailed in the [MedMij STU3 Core IG](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-exchange?version=1.0.0#GeneralTechnicalSpecifications).
