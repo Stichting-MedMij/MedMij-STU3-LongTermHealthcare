@@ -89,7 +89,7 @@ Deze systemen kennen ieder verschillende systeemrollen, die het uitwisselen van 
 ### Transacties en transactiegroepen
 Het uitwisselen van gegevens tussen de verschillende systeemrollen gebeurt op basis van transacties. Een verzameling van transacties (bijvoorbeeld een vraag- en antwoordbericht) vormt een zogeheten transactiegroep. Voor de transacties die tussen de systeemrollen plaatsvinden, wordt in [ART-DECOR](https://decor.nictiz.nl/ad/#/mm-bglzplus-/datasets/dataset/2.16.840.1.113883.2.4.3.11.60.151.1.1/2026-01-21T08:25:05) beschreven welke gegevenselementen uitgewisseld worden binnen de BgLZ+. Voor de technische specificaties, zie het {{pagelink: TD, text: technisch ontwerp}}.
 
-De onderstaande tabel geeft een overzicht van alle granulaire gegevensdiensten die van toepassing zijn voor de BgLZ+. Merk op dat de domeinoverstijgende gegevensdiensten in de MedMij STU3 Core IG worden beschreven, terwijl domeinspecifieke gegevensdiensten in deze IG worden beschreven. Op dit moment zijn er alleen domeinoverstijgende gegevensdiensten opgenomen.
+De onderstaande tabel geeft een overzicht van alle granulaire gegevensdiensten die van toepassing zijn voor de BgLZ+. Merk op dat de domeinoverstijgende gegevensdiensten in de MedMij STU3 Core IG worden beschreven, terwijl domeinspecifieke gegevensdiensten in deze IG worden beschreven.
 
 | Id | Gegevensdienstnaam zonder versie | Versie |
 | --- | --- | --- | --- |
@@ -104,6 +104,8 @@ De onderstaande tabel geeft een overzicht van alle granulaire gegevensdiensten d
 | 900000407 | [Verzamelen MedMij Core - Betaler (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Payer?version=1.0.0) | 1.0.0-beta.1 |
 | 900000412 | [Verzamelen MedMij Core - Polsfrequentie (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-PulseRate?version=1.0.0) | 1.0.0-beta.1 |
 | 900000411 | [Verzamelen MedMij Core - Ademhaling (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Respiration?version=1.0.0) | 1.0.0-beta.2 |
+| 900000408 | {{pagelink: Encounter, text: Verzamelen Langdurige Zorg - Contact}} | 1.0.0-beta.1 |
+| 900000413 | {{pagelink: NursingReport, text: Verzamelen Langdurige Zorg - Dagrapportage}} | 1.0.0-beta.1 |
 
 **Tabel 2: Granulaire gegevensdiensten relevant voor BgLZ+**
 

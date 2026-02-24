@@ -33,7 +33,7 @@ As the BgLZ+ is an expansion of the BgLZ, long-term healthcare data is exchanged
 ### Use case: Retrieve BgLZ+ information
 The BgLZ+ information is defined and exchanged in a granular manner, which means that for each Clinical Information Model (CIM) that is part of the BgLZ+, a separate (granular) data service is defined. Granular exchange allows the PHR to retrieve individual data services that are part of BgLZ+ through targeted search interactions, in accordance with the general guidance and profiles defined in the [MedMij STU3 Core IG](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-exchange?version=1.0.0).
 
-The table below gives an overview of all granular data services that are applicable for BgLZ+. Note that cross-domain data services are defined in the MedMij STU3 Core IG, while domain-specific data services are defined in this IG. At this time, only cross-domain data services are included.
+The table below gives an overview of all granular data services that are applicable for BgLZ+. Note that cross-domain data services are defined in the MedMij STU3 Core IG, while domain-specific data services are defined in this IG.
 
 | Id | Data service name without version (English) | Data service name without version (Dutch) | Data service version |
 | --- | --- | --- | --- |
@@ -48,6 +48,8 @@ The table below gives an overview of all granular data services that are applica
 | 900000407 | [Retrieve MedMij Core - Payer (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Payer?version=1.0.0) | Verzamelen MedMij Core - Betaler (zib2017/STU3) | 1.0.0-beta.1 |
 | 900000412 | [Retrieve MedMij Core - Pulse rate (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-PulseRate?version=1.0.0) | Verzamelen MedMij Core - Polsfrequentie (zib2017/STU3) | 1.0.0-beta.1 |
 | 900000411 | [Retrieve MedMij Core - Respiration (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Respiration?version=1.0.0) | Verzamelen MedMij Core - Ademhaling (zib2017/STU3) | 1.0.0-beta.2 |
+| 900000408 | {{pagelink: Encounter, text: Retrieve Long-term Healthcare - Encounter}} | Verzamelen Langdurige Zorg - Contact | 1.0.0-beta.1 |
+| 900000413 | {{pagelink: NursingReport, text: Retrieve Long-term Healthcare - Nursing report}} | Verzamelen Langdurige Zorg - Dagrapportage | 1.0.0-beta.1 |
 
 **Table 2: Granular data services applicable for BgLZ+**
 
