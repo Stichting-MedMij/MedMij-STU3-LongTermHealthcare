@@ -405,7 +405,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | 1. Naam data-item | 2. Type data-item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) in detailgegevens <br/> (c) niet tonen | 6. Advies weergavetekst in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Alert** | **Rootconcept** | NL-CM:8.3.1 | | a | Waarschuwing | | |
-| Conditie::Probleem | Item | NL-CM:8.3.3 | | a | Probleem | | | M |
+| Conditie::Probleem | Item | NL-CM:8.3.3 | | a | Probleem | | M |
 | AlertNaam |Item| NL-CM:8.3.4 | Drager VRE (code '431109006' in codesysteem 'SNOMED CT') | a | Waarschuwing | | M |
 | BeginDatumTijd | Item | NL-CM:8.3.5 | 2025-02-18 | b | Waarschuwing actief sinds | | M |
 | AlertType | Item | NL-CM:8.3.6 | Waarschuwing (code '74018-3' in codesysteem 'LOINC') | b | Type | | M |
