@@ -250,9 +250,18 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Overzichtsscherm</u>
 
-| Woningtype | Toelichting | Zorgorganisatie |
+| Woningtype | Datum | Toelichting | Zorgorganisatie |
 | --- | --- | --- |
-| Aanleunwoning | Woning is op de begane grond | IJsselheem |
+| Aanleunwoning | 15-03-2024 | Woning is op de begane grond | IJsselheem |
+
+<u>Detailscherm</u>
+
+| Geselecteerde regel: Aanleunwoning | Waarde |
+| --- | --- |
+| Woningtype | Aanleunwoning |
+| Datum | 15-03-2024 |
+| Toelichting | Woning is op de begane grond |
+| Zorgorganisatie | IJsselheem |
 
 <br/> 
 
@@ -285,19 +294,34 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 | Naam betaler/verzekeraar | Zorgorganisatie |
 | --- | --- |
 | Trias | IJsselheem |
-| Menzis | IJsselheem |
+| J.L. Teunissen | IJsselheem |
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Betaler Trias | Waarde |
+| Geselecteerde regel: betaler/verzekeraar J.L. Teunissen |  |
+|-------------------------------------------|---------------------|
+| Naam betaler | J.L. Teunissen |
+| Naam Bank | ING Bank |
+| Code Bank | INGBNL2A |
+| Rekeningnummer Bank | NL91INGB0417164300 |
+| Naam verzekeraar | |
+| Begindatum | |
+| Einddatum | |
+| Soort verzekering | |
+| Nummer verzekerde | |
+| Zorgorganisatie | |
+
+<u>Detailscherm</u>
+
+| Geselecteerde regel: betaler/verzekeraar Trias | Waarde |
 | --- | --- |
 | Naam betaler | |
 | Naam bank | |
 | Code bank | |
 | Rekeningnummer | |
+| Naam verzekeraar | Trias |
 | Begindatum | 01-01-2025 |
 | Einddatum | 31-12-2025 |
-| Naam verzekeraar | Trias |
 | Soort verzekering | Basis verzekerd |
 | Nummer verzekerde | 12345678 |
 | Zorgorganisatie | IJsselheem |
@@ -478,8 +502,9 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | 1. Naam data-item | 2. Type data-item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) in detailgegevens <br/> (c) niet tonen | 6. Advies weergavetekst in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |--- |
 | **Woonsituatie** | **Rootconcept** | NL-CM:7.8.1 | | a | Woonsituatie | | |
-| Toelichting | Item | NL-CM:7.8.2 | Woning is op de begane grond | b | Toelichting | | M |
 | WoningType | Item | NL-CM:7.8.3 | Aanleunwoning (code 'AANLW' in codesysteem '2.16.840.1.113883.2.4.3.11.60.40.4.13.1') | b | Type woning | | M |
+| DatumTijd | Item | NL-CM:0.0.14 | 15-03-2025 | a | Datum | Alleen datum, geen tijd | M Datum |
+| Toelichting | Item | NL-CM:7.8.2 | Woning is op de begane grond | b | Toelichting | | M |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | b | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
 <br/> 
