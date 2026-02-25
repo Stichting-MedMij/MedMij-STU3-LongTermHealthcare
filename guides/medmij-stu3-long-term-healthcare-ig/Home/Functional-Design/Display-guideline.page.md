@@ -30,7 +30,7 @@ Er zijn twee weergaven gedefinieerd voor het overzicht van de langdurigezorggege
 
 De twee scenario's, hieronder uitgewerkt, geven weer hoe een UX-design getoond kan worden. Een PGO is vrij om één of beide van deze scenario's te ondersteunen. De richtlijn gaat ervan uit dat PGO's een responsief ontwerp ondersteunen.
 
-In deze richtlijn hebben we twee mock-ups opgenomen ter inspiratie. Daaronder hebben we elke CIM (Clinical Information Model) apart opgenomen, niet in een mock-up, maar in tabelvorm. De twee mock-ups gaan over afspraken en corresponderen met de CIM Contact.
+In deze richtlijn zijn twee mock-ups opgenomen ter inspiratie. Daaronder is elke CIM (Clinical Information Model) apart opgenomen, niet in een mock-up, maar in tabelvorm. De twee mock-ups gaan over afspraken en corresponderen met de CIM Contact.
 
 #### Mock-ups overzichtsschermen langdurige zorg
 In het Overzicht Langdurige zorg heeft het overzichtsscherm van elke CIM een aparte pagina waar de datavelden getoond worden, voor alle zorgaanbieders (binnen de langdurige zorg).
