@@ -256,7 +256,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Aanleunwoning | Waarde |
+| Geselecteerde regel: Woonsituatie 15-03-2024 | Waarde |
 | --- | --- |
 | Woningtype | Aanleunwoning |
 | Datum | 15-03-2024 |
@@ -298,22 +298,22 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: betaler/verzekeraar J.L. Teunissen |  |
-|-------------------------------------------|---------------------|
+| Geselecteerde regel: Betaler J.L. Teunissen |  |
+| --- | --- |
 | Naam betaler | J.L. Teunissen |
-| Naam Bank | ING Bank |
-| Code Bank | INGBNL2A |
-| Rekeningnummer Bank | NL91INGB0417164300 |
+| Naam bank | ING |
+| Code bank | INGBNL2A |
+| Rekeningnummer | NL91INGB0417164300 |
 | Naam verzekeraar | |
 | Begindatum | |
 | Einddatum | |
 | Soort verzekering | |
 | Nummer verzekerde | |
-| Zorgorganisatie | |
+| Zorgorganisatie | IJsselheem |
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: betaler/verzekeraar Trias | Waarde |
+| Geselecteerde regel: Betaler Trias | Waarde |
 | --- | --- |
 | Naam betaler | |
 | Naam bank | |
@@ -404,8 +404,8 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | Contacttype | Item | NL-CM:15.1.2 | Thuis (code 'HH' in codesysteem 'ActCode') | a | Type contact of afspraak | | M |
 | ContactMet::Zorgverlener | Reference | NL-CM:15.1.7 | Julia van den Bos | a | Contact met | | Zorgverlener naam: M <br/> Overige datavelden: W |
 | Locatie::Zorgaanbieder | Reference | NL-CM:15.1.8 | IJsselheem | a | Locatie | Liefst geen afkortingen | M |
-| BeginDatumTijd | Item | NL-CM:15.1.3 | 2025-03-30T10:20:00+00:00 | a | Begindatum en -tijd | | M |
-| EindDatumTijd | Item | NL-CM:15.1.4 | 2025-03-30T10:20:30+00:00 | a | Einddatum en -tijd | | M |
+| BeginDatumTijd | Item | NL-CM:15.1.3 | 30-03-2025 10:20 | a | Begindatum en -tijd | | M |
+| EindDatumTijd | Item | NL-CM:15.1.4 | 30-03-2025 10:50 | a | Einddatum en -tijd | | M |
 | **RedenContact** | **Container** | NL-CM:15.1.13 | | | | | |
 | Probleem | Reference | NL-CM:15.1.6 | | b | Probleem | | M |
 | Verrichting | Reference | NL-CM:15.1.11 | | b | Verrichting | | M |
@@ -419,7 +419,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Dagrapportage** | **Rootconcept** | lz-dataelement-1 | | a | Dagrapportage | | |
 | RapportageTitel | Item | lz-dataelement-2 | Problemen met mobiliteit en spraak | a | Titel dagrapportage | | M |
-| RapportageDatumTijd | Item | lz-dataelement-3 | 2025-05-17T07:00:00+01:00 | a | Datum en tijd | | M |
+| RapportageDatumTijd | Item | lz-dataelement-3 | 17-05-2025 07:00 | a | Datum en tijd | | M |
 | Uitvoerder::Zorgverlener | Reference | lz-dataelement-4 | Julia van den Bos | b | Zorgverlener | | M | 
 | Uitvoerder::Zorgaanbieder | Reference | lz-dataelement-14 | IJsselheem | b | Zorgorganisatie | Liefst geen afkortingen | M | 
 | RapportageInhoud | Item | lz-dataelement-19 | Mevrouw vertoont toenemende stijfheid bij het opstaan en lopen. Er is sprake van fijne tremor in de rechterhand. Tijdens het ochtendcontact had zij moeite om zich verbaal uit te drukken; gebruikt korte zinnen met lange pauzes. Zelfstandig toiletbezoek is mogelijk, maar met risico op vallen. Advies: looprek binnen handbereik houden en logopedie betrekken voor spraakondersteuning. | b | Dagverslag | | M | 
@@ -431,7 +431,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | **Alert** | **Rootconcept** | NL-CM:8.3.1 | | a | Waarschuwing | | |
 | Conditie::Probleem | Item | NL-CM:8.3.3 | | a | Probleem | | M |
 | AlertNaam |Item| NL-CM:8.3.4 | Drager VRE (code '431109006' in codesysteem 'SNOMED CT') | a | Waarschuwing | | M |
-| BeginDatumTijd | Item | NL-CM:8.3.5 | 2025-02-18 | b | Waarschuwing actief sinds | | M |
+| BeginDatumTijd | Item | NL-CM:8.3.5 | 18-02-2025 | b | Waarschuwing actief sinds | | M |
 | AlertType | Item | NL-CM:8.3.6 | Waarschuwing (code '74018-3' in codesysteem 'LOINC') | b | Type | | M |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | b | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
@@ -447,7 +447,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | SystolischeBloeddruk | Item | NL-CM:12.4.2 | 160 mmHg | a | Bovendruk | | M |
 | DiastolischeBloeddruk | Item | NL-CM:12.4.3 | 92 mmHg | a | Onderdruk | | M |
 | GemiddeldeBloeddruk | Item | NL-CM:12.4.4 | 109 mmHg | b | Gemiddelde bloeddruk | | M |
-| BloeddrukDatumTijd | Item | NL-CM:12.4.5 | 2025-03-15T14:45:00+01:00 | a | Datum en tijd | | M |
+| BloeddrukDatumTijd | Item | NL-CM:12.4.5 | 15-03-2025 14:45 | a | Datum en tijd | | M |
 | Toelichting | Item | NL-CM:12.4.6 | mevrouw gebruikt medicatie | b | Toelichting | | M |
 | Houding | Item | NL-CM:12.4.11 | Zittende positie (code '33586001' in codesysteem 'SNOMED CT') | b | Houding | | S |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | b | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
@@ -458,7 +458,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Lichaamslengte** | **Rootconcept** | NL-CM:12.2.1 | | a | Lichaamslengte | | M |
 | LengteWaarde | Item | NL-CM:12.2.2 | 160 cm | a | Lichaamslengte | | M |
-| LengteDatumTijd | Item | NL-CM:12.2.4	| 2025-03-15T13:30:00+01:00 | a | Datum en tijd | | M |
+| LengteDatumTijd | Item | NL-CM:12.2.4 | 15-03-2025 13:30 | a | Datum en tijd | | M |
 | Toelichting | Item | NL-CM:12.2.3 | zonder schoenen aan | b | Toelichting | | M |
 | Positie | Item | NL-CM:12.2.5 | Staande positie (code '10904000' in codesysteem 'SNOMED CT') | b | Positie | | S |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | b | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
@@ -469,7 +469,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | --- | --- | --- | --- | --- | --- | --- |--- |
 | **Lichaamstemperatuur** | **Rootconcept** | NL-CM:12.6.1 | | a | Lichaamstemperatuur | | |
 | TemperatuurWaarde | Item | NL-CM:12.6.2 | 38,6 | a | Lichaamstemperatuur | | M |
-| TemperatuurDatumTijd | Item | NL-CM:12.6.4 | 2025-03-17T07:00:00+01:00 | a | Datum en tijd | | M |
+| TemperatuurDatumTijd | Item | NL-CM:12.6.4 | 17-03-2025 07:00 | a | Datum en tijd | | M |
 | Toelichting | Item | NL-CM:12.6.3 | voeten voelen heel koud aan | b | Toelichting | | M |
 | TemperatuurType | Item | NL-CM:12.6.5 | tympanische temperatuur (code '415974002' in codesysteem 'SNOMED CT') | b | Type temperatuur | | M |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | b | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
@@ -481,7 +481,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | **Lichaamsgewicht** | **Rootconcept** | NL-CM:12.1.1 | | a | Lichaamsgewicht | | |
 | GewichtWaarde | Item | NL-CM:12.1.2 | 58 kg | a | Lichaamsgewicht | | M |
 | Toelichting | Item | NL-CM:12.1.3 | mevrouw is aan het aansterken | b | Toelichting | | M |
-| GewichtDatumTijd | Item | NL-CM:12.1.4 | 2025-03-12T14:30:00+01:00 | a | Datum en tijd | | M |
+| GewichtDatumTijd | Item | NL-CM:12.1.4 | 12-03-2025 14:30 | a | Datum en tijd | | M |
 | Kleding | Item | NL-CM:12.1.5 | Lichte kleding/ondergoed (code 'MINIMAL' in codesysteem '2.16.840.1.113883.2.4.3.11.60.40.4.8.1') | b | Kleding | | M |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | b | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
@@ -493,8 +493,8 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | Toelichting | Item | NL-CM:12.15.6 | dehydratie | a | Vochtbalans | | M |
 | VochtTotaalIn | Item | NL-CM:12.15.4 | 1400 ml | a | Totaal vocht in | | M |
 | VochtTotaalUit | Item | NL-CM:12.15.5 | 1000 ml | a | Totaal vocht uit | | M |
-| VochtbalansStarttijd | Item | NL-CM:12.15.2 | 2025-03-14T07:00:00+02:00 | a | Startdatum en -tijd | | M |
-| VochtbalansStoptijd | Item | NL-CM:12.15.3 | 2025-03-15T07:00:00+02:00 | a | Einddatum en -tijd | | M |
+| VochtbalansStarttijd | Item | NL-CM:12.15.2 | 14-03-2025 07:00 | a | Startdatum en -tijd | | M |
+| VochtbalansStoptijd | Item | NL-CM:12.15.3 | 15-03-2025 07:00 | a | Einddatum en -tijd | | M |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | b | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
 <br/> 
@@ -531,8 +531,8 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | Rekeningnummer | Item | NL-CM:1.1.11 | NL85INGB0001234567 | b | Rekeningnummer | | M |
 | **Verzekeraar** | **Container** | NL-CM:1.1.3 | | b (zie opmerkingen) | Verzekeraar | Als BetalerPersoon niet aanwezig is | |
 | **Verzekering** | **Container** | NL-CM:1.1.8 | | b | Verzekering | | |
-| BeginDatumTijd | Item | NL-CM:1.1.13 | 2023-03-18 | b | Begindatum | | M |
-| EindDatumTijd | Item | NL-CM:1.1.14 | 2026-03-17 | b | Einddatum | | M |
+| BeginDatumTijd | Item | NL-CM:1.1.13 | 18-03-2023 | b | Begindatum | | M |
+| EindDatumTijd | Item | NL-CM:1.1.14 | 17-03-2026 | b | Einddatum | | M |
 | Verzekeringssoort | Item | NL-CM:1.1.15 | Basis verzekerd (code 'B' in codesysteem '2.16.840.1.113883.2.4.3.11.60.101.5.1') | b | Soort verzekering | | M |
 | IdentificatieNummer | Item | NL-CM:1.1.7 | 3332 (in identificerend systeem '2.16.840.1.113883.2.4.6.4') | b | Identificatienummer | | M |
 | OrganisatieNaam | Item | NL-CM:1.1.16 | Menzis | b | Naam organisatie | | M |
@@ -547,7 +547,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | --- | --- | --- | --- | --- | --- | --- |--- |
 | **Polsfrequentie** | **Rootconcept** | NL-CM:12.7.1 | | a | Polsfrequentie | | |
 | PolsfrequentieWaarde | Item | NL-CM:12.7.2| 67 /min | a | Waarde | | M |
-| PolsfrequentieDatumTijd | Item | NL-CM:12.7.3 | 2024-06-03T00:00:00+02:00 | a | Datum en tijd | | M |
+| PolsfrequentieDatumTijd | Item | NL-CM:12.7.3 | 03-06-2024 00:00 | a | Datum en tijd | | M |
 | Toelichting | Item | NL-CM:12.7.4 | | b | Toelichting | | M |
 | PolsRegelmatigheid | Item | NL-CM:12.7.5 | Regelmatige polsslag (code '271636001' in codesysteem 'SNOMED CT') | b | Polsregelmaat | | M |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | b | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
@@ -558,7 +558,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Ademhaling** | **Rootconcept** | | | a | Ademhaling | | |
 | Ademfrequentie | Item | NL-CM:12.5.2 | 15 /min | a | Ademfrequentie | | M |
-| AdemhalingDatumTijd | Item | NL-CM:12.5.4 | 2015-03-11T14:47:00Z | a | Datum en tijd | | M |
+| AdemhalingDatumTijd | Item | NL-CM:12.5.4 | 11-03-2015 14:47 | a | Datum en tijd | | M |
 | Ritme | Item | NL-CM:12.5.5 | Normaal ademhalingsritme (code '5467003' in codesysteem 'SNOMED CT') | b | Ritme | | M |
 | Diepte | Item | NL-CM:12.5.6| Normale ademhalingsdiepte (code '301284009' in codesysteem 'SNOMED CT') | b | Diepte | | M |
 | AfwijkendAdemhalingspatroon | Item | NL-CM:12.5.7 | Apneu (code '1023001' in codesysteem 'SNOMED CT') | b | Afwijkend ademhalingspatroon | | M |
