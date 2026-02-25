@@ -347,7 +347,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 | Extra zuurstof toediening | Nee |
 | Toelichting | meneer lijkt angstig |
 | Flowrate | 2 l/min |
-| FiO2 | 0.29 |
+| FiO2 | 0,29 |
 | Hulpmiddel bij toediening | |
 | Type hulpmiddel | |
 | Zorgorganisatie | IJsselheem |
@@ -378,8 +378,8 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | **Contact** | **Rootconcept** | NL-CM:15.1.1 | | a | Contact | | | 
 | Contacttype | Item | NL-CM:15.1.2 | Thuis | a | Type contact of afspraak | (code 'HH' in codesysteem 'ActCode') | M |
 | ContactMet::Zorgverlener | Reference | NL-CM:15.1.7 | Julia van den Bos | a | Contact met |  | Zorgverlener naam: M <br/> Overige datavelden: W |
-| Locatie::Zorgaanbieder | Reference | NL-CM:15.1.8 | IJsselheem | a | Locatie | | M |
-| BeginDatumTijd | Item | NL-CM:15.1.3 | 2025-03-30T10:20:00+00:00 | a | Begindatum/ en -tijd | | M |
+| Locatie::Zorgaanbieder | Reference | NL-CM:15.1.8 | IJsselheem | a | Locatie | Liefst geen afkortingen | M |
+| BeginDatumTijd | Item | NL-CM:15.1.3 | 2025-03-30T10:20:00+00:00 | a | Begindatum en -tijd | | M |
 | EindDatumTijd | Item | NL-CM:15.1.4 | 2025-03-30T10:20:30+00:00 | a | Einddatum en -tijd | | M |
 | **RedenContact** | **Container** | NL-CM:15.1.13 | | | | | |
 | Probleem | Reference | NL-CM:15.1.6 | | b | Probleem | | M |
@@ -395,15 +395,15 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | **Dagrapportage** | **Rootconcept** | lz-dataelement-1 | | a | Dagrapportage | | |
 | RapportageDatumTijd | Item |lz-dataelement-3 | 2025-05-17T07:00:00+01:00 | b | Datum en tijd| | M |
 | Uitvoerder::Zorgverlener | Reference | lz-dataelement-4 | Julia van den Bos | b | Zorgverlener | | M | 
-| Uitvoerder::Zorgaanbieder | Reference | lz-dataelement-14 | IJsselheem | b | Zorgorganisatie | | M | 
+| Uitvoerder::Zorgaanbieder | Reference | lz-dataelement-14 | IJsselheem | b | Zorgorganisatie | Liefst geen afkortingen | M | 
 | RapportageInhoud | Item | lz-dataelement-19 | Mevrouw vertoont toenemende stijfheid bij het opstaan en lopen. Er is sprake van fijne tremor in de rechterhand. Tijdens het ochtendcontact had zij moeite om zich verbaal uit te drukken; gebruikt korte zinnen met lange pauzes. Zelfstandig toiletbezoek is mogelijk, maar met risico op vallen. Advies: looprek binnen handbereik houden en logopedie betrekken voor spraakondersteuning. | b | Dagverslag | | M | 
 
 <br/> 
 
 | 1. Naam data-item | 2. Type data-item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) in detailgegevens <br/> (c) niet tonen | 6. Advies weergavetekst in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Alert** | **Rootconcept** | NL-CM:8.3.1| | a | Alertnaam / Probleem | | |
-| Conditie::Probleem | Item | | a | Probleem | | | M |
+| **Alert** | **Rootconcept** | NL-CM:8.3.1 | | a | Alertnaam / Probleem | | |
+| Conditie::Probleem | Item | NL-CM:8.3.3 | | a | Probleem | | | M |
 | AlertNaam |Item| NL-CM:8.3.4 | Drager VRE| a | Waarschuwing | (code '431109006' in codesysteem 'SNOMED CT') | M |
 | BeginDatumTijd | Item | NL-CM:8.3.5 | 2025-02-18| b | Waarschuwing actief sinds | | M |
 | AlertType | Item | NL-CM:8.3.6 | | b | Type waarschuwing | (code '74018-3' in codesysteem 'LOINC') | M |
@@ -415,9 +415,9 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Bloeddruk** | **Rootconcept** | NL-CM:12.4.1 | | a | Bloeddruk | | |
 | Meetmethode | Item | NL-CM:12.4.7 | Niet-invasief | b | Methode | (code '22762002' in codesysteem 'SNOMED CT') | M |
-| ManchetType | Item | NL-CM:12.4.9 | Klein | b | Manchet type | (code 'S' in codesysteem '2.16.840.1.113883.2.4.3.11.60.40.4.15.1') | M |
+| ManchetType | Item | NL-CM:12.4.9 | Klein | b | Manchettype | (code 'S' in codesysteem '2.16.840.1.113883.2.4.3.11.60.40.4.15.1') | M |
 | MeetLocatie | Item | NL-CM:12.4.10 | Linker bovenarm | b | Locatie meting | (code '368208006' in codesysteem 'SNOMED CT') | M |
-| DiastolischEindpunt | Item | NL-CM:12.4.8 | | b | Fase IV  | (code '225271000' in codesysteem 'SNOMED CT') | M |  
+| DiastolischEindpunt | Item | NL-CM:12.4.8 | Fase IV | b | Korotkofftoon | (code '225271000' in codesysteem 'SNOMED CT') | M |
 | SystolischeBloeddruk | Item | NL-CM:12.4.2 | 160 mmHg | a | Bovendruk | | M |
 | DiastolischeBloeddruk  | Item | NL-CM:12.4.3 | 92 mmHg | a | Onderdruk | | M |
 | GemiddeldeBloeddruk  | Item | NL-CM:12.4.4 | 109 mmHg | a | Gemiddelde bloeddruk | | M |
@@ -442,10 +442,10 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | 1. Naam data-item | 2. Type data-item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) in detailgegevens <br/> (c) niet tonen | 6. Advies weergavetekst in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |--- |
 | **Lichaamstemperatuur** | **Rootconcept** | NL-CM:12.6.1 | | a | Lichaamstemperatuur | |  |
-| TemperatuurWaarde | Item | NL-CM:12.6.2 | 38.6 | a | Lichaamstemperatuur | | M |
+| TemperatuurWaarde | Item | NL-CM:12.6.2 | 38,6 | a | Lichaamstemperatuur | | M |
 | TemperatuurDatumTijd | Item | NL-CM:12.6.4 | 2025-03-17T07:00:00+01:00 | a | Datum en tijd | | M |
 | Toelichting | Item | NL-CM:12.6.3 | voeten voelen heel koud aan | b | Toelichting | | M |
-| TemperatuurType | Item | NL-CM:12.6.5 | Tympanic temperature | b | Type temperatuur | (code '415974002' in codesysteem 'SNOMED CT') | M |
+| TemperatuurType | Item | NL-CM:12.6.5 | tympanische temperatuur | b | Type temperatuur | (code '415974002' in codesysteem 'SNOMED CT') | M |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | b | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
 <br/> 
@@ -495,20 +495,20 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | 1. Naam data-item | 2. Type data-item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) in detailgegevens <br/> (c) niet tonen | 6. Advies weergavetekst in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Betaler** | **Rootconcept** | NL-CM:1.1.1 | | a | Verzekeraar | | |
-| **BetalerPersoon** | **Container** | NL-CM:1.1.2 | | b (zie opmerkingen) | | Als verzekeraar niet aanwezig is | |
+| **BetalerPersoon** | **Container** | NL-CM:1.1.2 | | b (zie opmerkingen) | Betaler | Als Verzekeraar niet aanwezig is | |
 | BetalerNaam | Item | NL-CM:1.1.5 | | b | Naam | | M |
 | **Bankgegevens** | **Container** | NL-CM:1.1.4 | | b | Bankgegevens | | |
-| BankNaam | Item | NL-CM:1.1.9 | ING | b | Naam Bank | | M |
-| Bankcode | Item | NL-CM:1.1.10 | INGBNL2A | b | | | M |
+| BankNaam | Item | NL-CM:1.1.9 | ING | b | Naam bank | | M |
+| Bankcode | Item | NL-CM:1.1.10 | INGBNL2A | b | Code bank | | M |
 | Rekeningnummer | Item | NL-CM:1.1.11 | NL85INGB0001234567 | b | Rekeningnummer | | M |
-| **Verzekeraar** | **Container** | NL-CM:1.1.3 | | b (zie opmerkingen) | Verzekeraar | Als betalerpersoon niet aanwezig is | |
+| **Verzekeraar** | **Container** | NL-CM:1.1.3 | | b (zie opmerkingen) | Verzekeraar | Als BetalerPersoon niet aanwezig is | |
 | **Verzekering** | **Container** | NL-CM:1.1.8 | | b | Verzekering | | |
 | BeginDatumTijd | Item | NL-CM:1.1.13 | 2023-03-18 | b | Begindatum | | M |
 | EindDatumTijd | Item | NL-CM:1.1.14 | 2026-03-17 | b | Einddatum | | M |
-| Verzekeringssoort | Item | NL-CM:1.1.15 | Basis verzekerd | b | Soort Verzekering | (code 'B' in codesysteem '2.16.840.1.113883.2.4.3.11.60.101.5.1') | M |
-| IdentificatieNummer | Item | NL-CM:1.1.7 | 3332 | b | Identificatie nummer | (in identificerend systeem '2.16.840.1.113883.2.4.6.4') | M |
-| OrganisatieNaam | Item | NL-CM:1.1.16 | Menzis | b | Naam Organisatie | | M |
-| VerzekerdeNummer | Item | NL-CM:1.1.6 | 6318708200 | b | Verzekerde nummer | | M |
+| Verzekeringssoort | Item | NL-CM:1.1.15 | Basis verzekerd | b | Soort verzekering | (code 'B' in codesysteem '2.16.840.1.113883.2.4.3.11.60.101.5.1') | M |
+| IdentificatieNummer | Item | NL-CM:1.1.7 | 3332 | b | Identificatienummer | (in identificerend systeem '2.16.840.1.113883.2.4.6.4') | M |
+| OrganisatieNaam | Item | NL-CM:1.1.16 | Menzis | b | Naam organisatie | | M |
+| VerzekerdeNummer | Item | NL-CM:1.1.6 | 6318708200 | b | Nummer verzekerde | | M |
 | Adresgegevens | Subbouwsteen | NL-CM:1.1.17 | | b | | | M |
 | Contactgegevens | Subbouwsteen | NL-CM:1.1.12 |  | b | | | M |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | b | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
@@ -517,8 +517,8 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 
 | 1. Naam data-item | 2. Type data-item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) in detailgegevens <br/> (c) niet tonen | 6. Advies weergavetekst in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |--- |
-| **Polsfrequentie** | **Rootconcept** | NL-CM:12.7.1 | | a | Pols frequentie | | |
-| PolsfrequentieWaarde | Item | NL-CM:12.7.2| 67/min | a | Waarde | (code '/min' in codesysteem 'UCUM') | M |
+| **Polsfrequentie** | **Rootconcept** | NL-CM:12.7.1 | | a | Polsfrequentie | | |
+| PolsfrequentieWaarde | Item | NL-CM:12.7.2| 67 /min | a | Waarde | | M |
 | PolsfrequentieDatumTijd | Item | NL-CM:12.7.3 | 2024-06-03T00:00:00+02:00 | a | Datum en tijd | | M |
 | Toelichting | Item | NL-CM:12.7.4 | | b | Toelichting | | M |
 | PolsRegelmatigheid | Item | NL-CM:12.7.5 | Regelmatige polsslag | b | Polsregelmaat | (code '271636001' in codesysteem 'SNOMED CT') | M |
@@ -529,16 +529,16 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | 1. Naam data-item | 2. Type data-item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) in detailgegevens <br/> (c) niet tonen | 6. Advies weergavetekst in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Ademhaling** | **Rootconcept** | | | a | Ademhaling | | |
-| Ademfrequentie | Item | NL-CM:12.5.2 | 15/min | a | Adem frequentie | | M |
+| Ademfrequentie | Item | NL-CM:12.5.2 | 15 /min | a | Ademfrequentie | | M |
 | AdemhalingDatumTijd | Item | NL-CM:12.5.4 | 2015-03-11T14:47:00Z | a | Datum en tijd | | M |
-| Ritme | Item | NL-CM:12.5.5 | Normaal ademhalingsritme | b | | (code '5467003' in codesysteem 'SNOMED CT') | M |
-| Diepte | Item | NL-CM:12.5.6| Normale ademhalingsdiepte | b | | (code '301284009' in codesysteem 'SNOMED CT') | M |
-| AfwijkendAdemhalingspatroon | Item | NL-CM:12.5.7 | Apneu | b | Afwijkend Ademhalingspatroon | (code '1023001' in codesysteem 'SNOMED CT') | M |
-| ExtraZuurstofToediening | Item | NL-CM:12.5.12 | | b | Extra zuurstof toediening | | M |
+| Ritme | Item | NL-CM:12.5.5 | Normaal ademhalingsritme | b | Ritme | (code '5467003' in codesysteem 'SNOMED CT') | M |
+| Diepte | Item | NL-CM:12.5.6| Normale ademhalingsdiepte | b | Diepte | (code '301284009' in codesysteem 'SNOMED CT') | M |
+| AfwijkendAdemhalingspatroon | Item | NL-CM:12.5.7 | Apneu | b | Afwijkend ademhalingspatroon | (code '1023001' in codesysteem 'SNOMED CT') | M |
+| ExtraZuurstofToediening | Item | NL-CM:12.5.12 | | b | Extra zuurstoftoediening | | M |
 | Toelichting | Item | NL-CM:12.5.3 | | b | Toelichting | | M |
 | **ToegediendeZuurstof** | **Container** | NL-CM:12.5.8 | | a | Toegediende zuurstof | | |
-| FlowRate | Item | NL-CM:12.5.10 | 2/min | a | Hoeveelheid zuurstof per minuut | | W |
-| FiO2 | Item | NL-CM:12.5.9 | 0.29 | b | Fractie zuurstof van de inademings-lucht | | W |
-| ToedieningHulpmiddel::MedischHulpmiddel | Reference | NL-CM:12.5.13 | Zuurstofmasker | b | Medisch hulpmiddel | | |
+| FlowRate | Item | NL-CM:12.5.10 | 2 l/min | a | Hoeveelheid zuurstof per minuut | | W |
+| FiO2 | Item | NL-CM:12.5.9 | 0,29 | b | Fractie zuurstof van ingeademde lucht | | W |
+| ToedieningHulpmiddel::MedischHulpmiddel | Reference | NL-CM:12.5.13 | Zuurstofmasker | b | Hulpmiddel bij toediening | | |
 | ProductType | Item | NL-CM:10.1.3 | Venturi-masker | b | Type hulpmiddel | (code '428285009' in codesysteem 'SNOMED CT') | W |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | b | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
