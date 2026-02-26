@@ -476,7 +476,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | TemperatuurWaarde | Item | NL-CM:12.6.2 | 38,6 | a | Lichaamstemperatuur | | M |
 | TemperatuurDatumTijd | Item | NL-CM:12.6.4 | 17-03-2025 07:00 | a | Datum en tijd | | M |
 | Toelichting | Item | NL-CM:12.6.3 | voeten voelen heel koud aan | b | Toelichting | | M |
-| TemperatuurType | Item | NL-CM:12.6.5 | tympanische temperatuur (code '415974002' in codesysteem 'SNOMED CT') | b | Type temperatuur | | M |
+| TemperatuurType | Item | NL-CM:12.6.5 | Orale temperatuur (onder de tong) (code '415945006' in codesysteem 'SNOMED CT') | b | Type temperatuur | | M |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
 <br/> 
