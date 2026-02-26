@@ -411,7 +411,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | Locatie::Zorgaanbieder | Reference | NL-CM:15.1.8 | IJsselheem | a | Locatie | Liefst geen afkortingen | M |
 | BeginDatumTijd | Item | NL-CM:15.1.3 | 30-03-2025 10:20 | a | Begindatum en -tijd | | M |
 | EindDatumTijd | Item | NL-CM:15.1.4 | 30-03-2025 10:50 | a | Einddatum en -tijd | | M |
-| **RedenContact** | **Container** | NL-CM:15.1.13 | | | | | |
+| **RedenContact** | **Container** | NL-CM:15.1.13 | | b | Reden contact | | |
 | Probleem | Reference | NL-CM:15.1.6 | | b | Probleem | | M |
 | Verrichting | Reference | NL-CM:15.1.11 | | b | Verrichting | | M |
 | AfwijkendeUitslag | Item | NL-CM:15.1.12 | | b | Afwijkende uitslag | | M |
@@ -461,7 +461,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 
 | 1. Naam data-item | 2. Type data-item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) in detailgegevens <br/> (c) niet tonen | 6. Advies weergavetekst in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Lichaamslengte** | **Rootconcept** | NL-CM:12.2.1 | | a | Lichaamslengte | | M |
+| **Lichaamslengte** | **Rootconcept** | NL-CM:12.2.1 | | a | Lichaamslengte | | |
 | LengteWaarde | Item | NL-CM:12.2.2 | 160 cm | a | Lichaamslengte | | M |
 | LengteDatumTijd | Item | NL-CM:12.2.4 | 15-03-2025 13:30 | a | Datum en tijd | | M |
 | Toelichting | Item | NL-CM:12.2.3 | zonder schoenen aan | b | Toelichting | | M |
