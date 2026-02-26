@@ -449,8 +449,8 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | ManchetType | Item | NL-CM:12.4.9 | Klein (code 'S' in codesysteem '2.16.840.1.113883.2.4.3.11.60.40.4.15.1') | b | Manchettype | | M |
 | MeetLocatie | Item | NL-CM:12.4.10 | Linker bovenarm (code '368208006' in codesysteem 'SNOMED CT') | b | Locatie meting | | M |
 | DiastolischEindpunt | Item | NL-CM:12.4.8 | Fase IV (code '225271000' in codesysteem 'SNOMED CT') | b | Korotkofftoon | | M |
-| SystolischeBloeddruk | Item | NL-CM:12.4.2 | 160 mmHg | b | Bovendruk | | M |
-| DiastolischeBloeddruk | Item | NL-CM:12.4.3 | 92 mmHg | b | Onderdruk | | M |
+| SystolischeBloeddruk | Item | NL-CM:12.4.2 | 160 mmHg | a | Bovendruk | | M |
+| DiastolischeBloeddruk | Item | NL-CM:12.4.3 | 92 mmHg | a | Onderdruk | | M |
 | GemiddeldeBloeddruk | Item | NL-CM:12.4.4 | 109 mmHg | b | Gemiddelde bloeddruk | | M |
 | BloeddrukDatumTijd | Item | NL-CM:12.4.5 | 15-03-2025 14:45 | a | Datum en tijd | | M |
 | Toelichting | Item | NL-CM:12.4.6 | mevrouw gebruikt medicatie | b | Toelichting | | M |
