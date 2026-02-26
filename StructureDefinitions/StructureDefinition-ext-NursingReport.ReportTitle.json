@@ -1,0 +1,81 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "ext-NursingReport.ReportTitle",
+  "text": {
+    "status": "empty",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">No narrative is provided for definitional resources. A human-readable rendering can be found in the implementation guide(s) where this resource is used.</div>"
+  },
+  "url": "http://medmij.nl/fhir/StructureDefinition/ext-NursingReport.ReportTitle",
+  "name": "ExtNursingReportReportTitle",
+  "title": "ext NursingReport.ReportTitle",
+  "status": "draft",
+  "publisher": "MedMij",
+  "contact": [
+    {
+      "name": "MedMij",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "info@medmij.nl",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "An extension to provide the title of the nursing report.",
+  "purpose": "This extension represents the ReportTitle concept of the NursingReport Clinical Information Model (CIM) for patient use cases in the context of Long-term Healthcare.",
+  "copyright": "Copyright and related rights waived via CC0, https://creativecommons.org/publicdomain/zero/1.0/. This does not apply to information from third parties, for example a medical terminology system. The implementer alone is responsible for identifying and obtaining any necessary licenses or authorizations to utilize third party IP in connection with the specification or otherwise.",
+  "fhirVersion": "3.0.2",
+  "mapping": [
+    {
+      "identity": "lz-medmij-dataset-100-beta2-20260226",
+      "name": "Dataset Langdurige Zorg MedMij 1.0.0-beta.2 20260226"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "contextType": "resource",
+  "context": [
+    "Observation"
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://medmij.nl/fhir/StructureDefinition/ext-NursingReport.ReportTitle"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "short": "ReportTitle",
+        "definition": "The title of the nursing report.",
+        "comment": "The title should be human readable and clear to the patient.",
+        "alias": [
+          "RapportageTitel"
+        ],
+        "min": 1,
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "map": "lz-dataelement-2",
+            "comment": "ReportTitle"
+          }
+        ]
+      }
+    ]
+  }
+}

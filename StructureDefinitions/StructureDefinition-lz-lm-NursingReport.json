@@ -1,0 +1,534 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "lz-lm-NursingReport",
+  "text": {
+    "status": "empty",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">No narrative is provided for definitional resources. A human-readable rendering can be found in the implementation guide(s) where this resource is used.</div>"
+  },
+  "url": "http://medmij.nl/fhir/StructureDefinition/lz-lm-NursingReport",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.528.1.1023.3.4.1"
+    }
+  ],
+  "name": "LzLmNursingReport",
+  "title": "Nursing report",
+  "status": "draft",
+  "publisher": "MedMij",
+  "contact": [
+    {
+      "name": "MedMij",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "info@medmij.nl",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "A report documenting a patient contact in a long-term healthcare nursing setting. The report can be recorded by different types of health professionals and is not necessarily written by a nurse.",
+  "purpose": "This LogicalModel represents the NursingReport Clinical Information Model (CIM) for patient use cases in the context of Long-term Healthcare. It is based on the [ANW v2024.1](https://nuts-foundation.gitbook.io/bolts/anw/v2024.1#id-5.2-wegschrijven-van-informatie) specification.",
+  "copyright": "Copyright and related rights waived via CC0, https://creativecommons.org/publicdomain/zero/1.0/. This does not apply to information from third parties, for example a medical terminology system. The implementer alone is responsible for identifying and obtaining any necessary licenses or authorizations to utilize third party IP in connection with the specification or otherwise.",
+  "fhirVersion": "3.0.2",
+  "mapping": [
+    {
+      "identity": "lz-medmij-dataset-100-beta2-20260226",
+      "name": "Dataset Langdurige Zorg MedMij 1.0.0-beta.2 20260226"
+    },
+    {
+      "identity": "SNOMED",
+      "uri": "http://snomed.info/sct",
+      "name": "SNOMED CT"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "lz-lm-NursingReport",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "differential": {
+    "element": [
+      {
+        "id": "lz-lm-NursingReport",
+        "path": "lz-lm-NursingReport",
+        "short": "Nursing report",
+        "definition": "A report documenting a patient contact in a long-term healthcare nursing setting. The report can be recorded by different types of health professionals and is not necessarily written by a nurse.",
+        "alias": [
+          "Dagrapportage"
+        ],
+        "mapping": [
+          {
+            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "map": "lz-dataelement-1",
+            "comment": "NursingReport"
+          },
+          {
+            "identity": "SNOMED",
+            "map": "11591000146107",
+            "comment": "patiëntcontactverslag"
+          }
+        ]
+      },
+      {
+        "id": "lz-lm-NursingReport.ReportTitle",
+        "path": "lz-lm-NursingReport.ReportTitle",
+        "short": "Report title",
+        "definition": "The title of the nursing report.",
+        "comment": "The title should be human readable and clear to the patient.",
+        "alias": [
+          "RapportageTitel"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "map": "lz-dataelement-2",
+            "comment": "ReportTitle"
+          }
+        ]
+      },
+      {
+        "id": "lz-lm-NursingReport.ReportDateTime",
+        "path": "lz-lm-NursingReport.ReportDateTime",
+        "short": "Report date time",
+        "definition": "The date/time on which the nursing report is registered.",
+        "alias": [
+          "RapportageDatumTijd"
+        ],
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "map": "lz-dataelement-3",
+            "comment": "ReportDateTime"
+          }
+        ]
+      },
+      {
+        "id": "lz-lm-NursingReport.Performer",
+        "path": "lz-lm-NursingReport.Performer",
+        "short": "Performer",
+        "definition": "The health professional or organization who registered the nursing report.",
+        "alias": [
+          "Uitvoerder"
+        ],
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "constraint": [
+          {
+            "key": "lz-lm-NursingReport-1",
+            "severity": "error",
+            "human": "At least one of HealthProfessional or HealthcareProvider is present.",
+            "expression": "HealthProfessional.exists() or HealthcareProvider.exists()",
+            "source": "http://medmij.nl/fhir/StructureDefinition/lz-lm-NursingReport"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "map": "lz-dataelement-4",
+            "comment": "Performer"
+          }
+        ]
+      },
+      {
+        "id": "lz-lm-NursingReport.Performer.HealthProfessional",
+        "path": "lz-lm-NursingReport.Performer.HealthProfessional",
+        "short": "Health professional",
+        "definition": "The health professional who registered the nursing report.",
+        "alias": [
+          "Zorgverlener"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "condition": [
+          "lz-lm-NursingReport-1"
+        ],
+        "mapping": [
+          {
+            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "map": "lz-dataelement-5",
+            "comment": "HealthProfessional"
+          },
+          {
+            "identity": "SNOMED",
+            "map": "223366009",
+            "comment": "gezondheidszorgpersoneel"
+          }
+        ]
+      },
+      {
+        "id": "lz-lm-NursingReport.Performer.HealthProfessional.HealthProfessionalIdentificationNumber",
+        "path": "lz-lm-NursingReport.Performer.HealthProfessional.HealthProfessionalIdentificationNumber",
+        "short": "Health professional identification number",
+        "definition": "The healthcare provider identification number is a number that uniquely identifies the healthcare provider.",
+        "alias": [
+          "ZorgverlenerIdentificatienummer"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Identifier"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "map": "lz-dataelement-6",
+            "comment": "HealthProfessionalIdentificationNumber"
+          }
+        ]
+      },
+      {
+        "id": "lz-lm-NursingReport.Performer.HealthProfessional.NameInformation",
+        "path": "lz-lm-NursingReport.Performer.HealthProfessional.NameInformation",
+        "short": "Name information",
+        "definition": "Health professional's full name. If a health professional identification number is entered, it will be the name as listed in UZI, AGB or by the healthcare center.",
+        "alias": [
+          "Naamgegevens"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "map": "lz-dataelement-7",
+            "comment": "NameInformation"
+          }
+        ]
+      },
+      {
+        "id": "lz-lm-NursingReport.Performer.HealthProfessional.NameInformation.FirstNames",
+        "path": "lz-lm-NursingReport.Performer.HealthProfessional.NameInformation.FirstNames",
+        "short": "First names",
+        "definition": "The first names of the health professional.",
+        "alias": [
+          "Voornamen"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "map": "lz-dataelement-8",
+            "comment": "FirstNames"
+          }
+        ]
+      },
+      {
+        "id": "lz-lm-NursingReport.Performer.HealthProfessional.NameInformation.Initials",
+        "path": "lz-lm-NursingReport.Performer.HealthProfessional.NameInformation.Initials",
+        "short": "Initials",
+        "definition": "The initials of the health professional.",
+        "alias": [
+          "Initialen"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "map": "lz-dataelement-9",
+            "comment": "Initials"
+          }
+        ]
+      },
+      {
+        "id": "lz-lm-NursingReport.Performer.HealthProfessional.NameInformation.LastName",
+        "path": "lz-lm-NursingReport.Performer.HealthProfessional.NameInformation.LastName",
+        "short": "Last name",
+        "definition": "The last name of the health professional.",
+        "alias": [
+          "Geslachtsnaam"
+        ],
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "map": "lz-dataelement-10",
+            "comment": "LastName"
+          }
+        ]
+      },
+      {
+        "id": "lz-lm-NursingReport.Performer.HealthProfessional.NameInformation.LastName.Prefix",
+        "path": "lz-lm-NursingReport.Performer.HealthProfessional.NameInformation.LastName.Prefix",
+        "short": "Prefix",
+        "definition": "Prefix to the last name of the health professional.",
+        "alias": [
+          "Voorvoegsels"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "map": "lz-dataelement-11",
+            "comment": "Prefix"
+          }
+        ]
+      },
+      {
+        "id": "lz-lm-NursingReport.Performer.HealthProfessional.NameInformation.LastName.LastName",
+        "path": "lz-lm-NursingReport.Performer.HealthProfessional.NameInformation.LastName.LastName",
+        "short": "Last name",
+        "definition": "The last name of the health professional.",
+        "alias": [
+          "Achternaam"
+        ],
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "map": "lz-dataelement-12",
+            "comment": "LastName"
+          }
+        ]
+      },
+      {
+        "id": "lz-lm-NursingReport.Performer.HealthProfessional.Specialty",
+        "path": "lz-lm-NursingReport.Performer.HealthProfessional.Specialty",
+        "short": "Specialty",
+        "definition": "Health professional's medical specialty.",
+        "alias": [
+          "Specialisme"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSetUri": "http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.121.11.22--20200901000000"
+        },
+        "mapping": [
+          {
+            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "map": "lz-dataelement-13",
+            "comment": "Specialty"
+          },
+          {
+            "identity": "SNOMED",
+            "map": "394658006",
+            "comment": "klinisch specialisme"
+          }
+        ]
+      },
+      {
+        "id": "lz-lm-NursingReport.Performer.HealthcareProvider",
+        "path": "lz-lm-NursingReport.Performer.HealthcareProvider",
+        "short": "Healthcare provider",
+        "definition": "The healthcare provider who registered the nursing report.",
+        "alias": [
+          "Zorgaanbieder"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "condition": [
+          "lz-lm-NursingReport-1"
+        ],
+        "mapping": [
+          {
+            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "map": "lz-dataelement-14",
+            "comment": "HealthcareProvider"
+          },
+          {
+            "identity": "SNOMED",
+            "map": "257622000",
+            "comment": "zorginstelling"
+          }
+        ]
+      },
+      {
+        "id": "lz-lm-NursingReport.Performer.HealthcareProvider.HealthcareProviderIdentificationNumber",
+        "path": "lz-lm-NursingReport.Performer.HealthcareProvider.HealthcareProviderIdentificationNumber",
+        "short": "Healthcare provider identification number",
+        "definition": "The organization's identification number.",
+        "alias": [
+          "ZorgaanbiederIdentificatienummer"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Identifier"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "map": "lz-dataelement-15",
+            "comment": "HealthcareProviderIdentificationNumber"
+          }
+        ]
+      },
+      {
+        "id": "lz-lm-NursingReport.Performer.HealthcareProvider.OrganizationName",
+        "path": "lz-lm-NursingReport.Performer.HealthcareProvider.OrganizationName",
+        "short": "Organization name",
+        "definition": "Name of the organization. If an identification number is given, the name must match the name that corresponds to the identification number.",
+        "alias": [
+          "OrganisatieNaam"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "map": "lz-dataelement-16",
+            "comment": "OrganizationName"
+          }
+        ]
+      },
+      {
+        "id": "lz-lm-NursingReport.Performer.HealthcareProvider.DepartmentSpecialty",
+        "path": "lz-lm-NursingReport.Performer.HealthcareProvider.DepartmentSpecialty",
+        "short": "Department specialty",
+        "definition": "The specialty of the healthcare provider's department.",
+        "alias": [
+          "AfdelingSpecialisme"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSetUri": "http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.106.11.22--20240205133006"
+        },
+        "mapping": [
+          {
+            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "map": "lz-dataelement-17",
+            "comment": "DepartmentSpecialty"
+          }
+        ]
+      },
+      {
+        "id": "lz-lm-NursingReport.Performer.HealthcareProvider.OrganizationType",
+        "path": "lz-lm-NursingReport.Performer.HealthcareProvider.OrganizationType",
+        "short": "Organization type",
+        "definition": "The type of healthcare provider.",
+        "alias": [
+          "OrganisatieType"
+        ],
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "extensible",
+          "valueSetUri": "http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.17.2.3--20200901000000"
+        },
+        "mapping": [
+          {
+            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "map": "lz-dataelement-18",
+            "comment": "OrganizationType"
+          }
+        ]
+      },
+      {
+        "id": "lz-lm-NursingReport.ReportContent",
+        "path": "lz-lm-NursingReport.ReportContent",
+        "short": "Report content",
+        "definition": "The content of the nursing report.",
+        "alias": [
+          "RapportageInhoud"
+        ],
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "map": "lz-dataelement-19",
+            "comment": "ReportContent"
+          }
+        ]
+      }
+    ]
+  }
+}

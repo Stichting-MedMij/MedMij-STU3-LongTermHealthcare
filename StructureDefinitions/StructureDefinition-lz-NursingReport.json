@@ -1,0 +1,197 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "lz-NursingReport",
+  "text": {
+    "status": "empty",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">No narrative is provided for definitional resources. A human-readable rendering can be found in the implementation guide(s) where this resource is used.</div>"
+  },
+  "url": "http://medmij.nl/fhir/StructureDefinition/lz-NursingReport",
+  "name": "LzNursingReport",
+  "title": "lz NursingReport",
+  "status": "draft",
+  "publisher": "MedMij",
+  "contact": [
+    {
+      "name": "MedMij",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "info@medmij.nl",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "A report documenting a patient contact in a long-term healthcare nursing setting. The report can be recorded by different types of health professionals and is not necessarily written by a nurse.",
+  "purpose": "This Observation resource represents the NursingReport Clinical Information Model (CIM) for patient use cases in the context of Long-term Healthcare.\n\nThis profile is based on the [nl-core-nursingreport](https://simplifier.net/anw/nl-core-nursingreport) profile that is defined in the [ANW v2024](https://nuts-foundation.gitbook.io/bolts/anw/v2024.1#id-5.2-wegschrijven-van-informatie) specification with adjustments to provide a version better suited for implementation purposes in the context of MedMij.",
+  "copyright": "Copyright and related rights waived via CC0, https://creativecommons.org/publicdomain/zero/1.0/. This does not apply to information from third parties, for example a medical terminology system. The implementer alone is responsible for identifying and obtaining any necessary licenses or authorizations to utilize third party IP in connection with the specification or otherwise.",
+  "fhirVersion": "3.0.2",
+  "mapping": [
+    {
+      "identity": "lz-medmij-dataset-100-beta2-20260226",
+      "name": "Dataset Langdurige Zorg MedMij 1.0.0-beta.2 20260226"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://fhir.nl/fhir/StructureDefinition/nl-core-observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation",
+        "path": "Observation",
+        "short": "NursingReport",
+        "definition": "A report documenting a patient contact in a long-term healthcare nursing setting. The report can be recorded by different types of health professionals and is not necessarily written by a nurse.",
+        "alias": [
+          "Dagrapportage"
+        ],
+        "mapping": [
+          {
+            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "map": "lz-dataelement-1",
+            "comment": "NursingReport"
+          }
+        ]
+      },
+      {
+        "id": "Observation.extension:reportTitle",
+        "path": "Observation.extension",
+        "sliceName": "reportTitle",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": "http://medmij.nl/fhir/StructureDefinition/ext-NursingReport.ReportTitle"
+          }
+        ]
+      },
+      {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "11591000146107"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Observation.subject",
+        "path": "Observation.subject",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": "http://fhir.nl/fhir/StructureDefinition/nl-core-patient"
+          }
+        ]
+      },
+      {
+        "id": "Observation.effective[x]",
+        "path": "Observation.effective[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1
+      },
+      {
+        "id": "Observation.effective[x]:effectiveDateTime",
+        "path": "Observation.effective[x]",
+        "sliceName": "effectiveDateTime",
+        "short": "ReportDateTime",
+        "definition": "The date/time on which the nursing report is registered.",
+        "alias": [
+          "RapportageDatumTijd"
+        ],
+        "min": 1,
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "map": "lz-dataelement-3",
+            "comment": "ReportDateTime"
+          }
+        ]
+      },
+      {
+        "id": "Observation.performer",
+        "path": "Observation.performer",
+        "short": "Performer",
+        "definition": "The health professional or organization who registered the nursing report.",
+        "alias": [
+          "Uitvoerder"
+        ],
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": "http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner"
+          },
+          {
+            "code": "Reference",
+            "targetProfile": "http://fhir.nl/fhir/StructureDefinition/nl-core-organization"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "map": "lz-dataelement-4",
+            "comment": "Performer"
+          }
+        ]
+      },
+      {
+        "id": "Observation.value[x]",
+        "path": "Observation.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1
+      },
+      {
+        "id": "Observation.value[x]:valueString",
+        "path": "Observation.value[x]",
+        "sliceName": "valueString",
+        "short": "ReportContent",
+        "definition": "The content of the nursing report.",
+        "alias": [
+          "RapportageInhoud"
+        ],
+        "min": 1,
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "map": "lz-dataelement-19",
+            "comment": "ReportContent"
+          }
+        ]
+      }
+    ]
+  }
+}

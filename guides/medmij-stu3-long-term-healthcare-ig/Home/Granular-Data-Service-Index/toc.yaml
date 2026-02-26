@@ -1,0 +1,6 @@
+- name: Index
+  filename: Index.page.md
+- name: Retrieve Long-term Healthcare - Encounter
+  filename: Long-term-Healthcare-Encounter.page.md
+- name: Retrieve Long-term Healthcare - Nursing report
+  filename: Long-term-Healthcare-NursingReport.page.md
