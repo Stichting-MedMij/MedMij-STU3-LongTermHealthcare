@@ -1,9 +1,9 @@
 ---
 topic: Weergaverichtlijn
 ---
- 
+
 # Weergaverichtlijn
- 
+
 ## Inleiding
 Dit is de weergaverichtlijn voor gegevensdienst Basisgegevens Langdurige Zorg+ (BgLZ+).
 
@@ -47,8 +47,8 @@ In het Overzicht Zorgaanbieder - Langdurige zorg heeft het overzichtsscherm van 
 
 De acceptatiecriteria voor de overzichtsschermen van elke CIM is als volgt.
 
-| Nr | Acceptatiecriteria | 
-| --- | --- | 
+| Nr | Acceptatiecriteria |
+| --- | --- |
 | 1 | Standaard worden alle gegevens van de geraadpleegde zorgaanbieder(s) weergegeven, gesorteerd op datum van nieuw naar oud. |
 | 2 | Je kunt zoeken op (delen van) de gegevens of op informatie uit de andere datavelden in het overzichtsscherm. De gebruiker moet minimaal 3 karakters invoeren. |
 | 3 | Voor de datavelden in het overzichtsscherm is het mogelijk om te filteren op één of meerdere waarden. |
@@ -61,7 +61,7 @@ Dit detailscherm krijgt een PGO-gebruiker te zien na het selecteren van een spec
 
 #### Mock-up detailscherm langdurige zorg
 
-{{render: guides/medmij-stu3-long-term-healthcare-ig/images/Detailscherm Langdurige zorg.png}} 
+{{render: guides/medmij-stu3-long-term-healthcare-ig/images/Detailscherm Langdurige zorg.png}}
 
 **Figuur 3: Voorbeeld Detailscherm Langdurige zorg**
 
@@ -90,23 +90,23 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 | Zorgorganisatie | IJsselheem |
 | Reden contact | Advies over veilige en passende lichaamsbeweging |
 | Herkomst | Instelling voor revalidatie |
-| Bestemming | Eigen woonomgeving | 
+| Bestemming | Eigen woonomgeving |
 
-<br/> 
+<br/>
 
-#### Dagrapportage 
+#### Dagrapportage
 
 <u>Overzichtsscherm</u>
 
 | Titel dagrapportage | Datum | Tijd | Zorgorganisatie |
 | --- | --- | --- | --- |
-| Problemen met mobiliteit en spraak | 15-03-2025 | 12:00 | IJsselheem | 
-| Vermoeidheid na middagactiviteit | 14-03-2025 | 16:45 | IJsselheem | 
-| Avondverslag voor slapengaan | 07-03-2025 | 21:00 | IJsselheem | 
+| Problemen met mobiliteit en spraak | 15-03-2025 | 12:00 | IJsselheem |
+| Vermoeidheid na middagactiviteit | 14-03-2025 | 16:45 | IJsselheem |
+| Avondverslag voor slapengaan | 07-03-2025 | 21:00 | IJsselheem |
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Dagrapportage 15-03-2025 12:00 | Waarde | 
+| Geselecteerde regel: Dagrapportage 15-03-2025 12:00 | Waarde |
 | --- | --- |
 | Titel dagrapportage | Problemen met mobiliteit en spraak |
 | Dagverslag | Mevrouw vertoont toenemende stijfheid bij het opstaan en lopen. Er is sprake van fijne tremor in de rechterhand. Tijdens het ochtendcontact had zij moeite om zich verbaal uit te drukken; gebruikt korte zinnen met lange pauzes. Zelfstandig toiletbezoek is mogelijk, maar met risico op vallen. Advies: looprek binnen handbereik houden en logopedie betrekken voor spraakondersteuning. |
@@ -115,7 +115,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 | Zorgverlener | Julia van den Bos |
 | Zorgorganisatie | IJsselheem |
 
-<br/> 
+<br/>
 
 #### Alert
 
@@ -135,7 +135,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 | Type | Waarschuwing |
 | Zorgorganisatie | IJsselheem |
 
-<br/> 
+<br/>
 
 #### Bloeddruk
 
@@ -163,7 +163,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 | Houding | Zittende positie |
 | Zorgorganisatie | IJsselheem |
 
-<br/> 
+<br/>
 
 #### Lichaamslengte
 
@@ -181,10 +181,10 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 | Datum | 15-03-2025 |
 | Tijd | 14:30 |
 | Toelichting | zonder schoenen aan |
-| Positie | Staande positie | 
+| Positie | Staande positie |
 | Zorgorganisatie | IJsselheem |
 
-<br/> 
+<br/>
 
 #### Lichaamstemperatuur
 
@@ -206,7 +206,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 | Toelichting | een koude dag |
 | Zorgorganisatie | IJsselheem |
 
-<br/> 
+<br/>
 
 #### Lichaamsgewicht
 
@@ -227,7 +227,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 | Toelichting | mevrouw is aan het aansterken |
 | Zorgorganisatie | IJsselheem |
 
-<br/> 
+<br/>
 
 #### Vochtbalans
 
@@ -249,7 +249,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 | Toelichting | dehydratie |
 | Zorgorganisatie | IJsselheem |
 
-<br/> 
+<br/>
 
 #### Woonsituatie
 
@@ -268,7 +268,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 | Toelichting | Woning is op de begane grond |
 | Zorgorganisatie | IJsselheem |
 
-<br/> 
+<br/>
 
 #### Voedingsadvies
 
@@ -290,7 +290,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 | Toelichting | Naar eigen zeggen: lactose-intolerant |
 | Zorgorganisatie | IJsselheem |
 
-<br/> 
+<br/>
 
 #### Betaler
 
@@ -331,7 +331,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 | Nummer verzekerde | 12345678 |
 | Zorgorganisatie | IJsselheem |
 
-<br/> 
+<br/>
 
 #### Polsfrequentie
 
@@ -353,7 +353,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 | Polsregelmaat | Regelmatige polsslag |
 | Zorgorganisatie | IJsselheem |
 
-<br/> 
+<br/>
 
 #### Ademhaling
 
@@ -382,13 +382,13 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 | Type hulpmiddel | Venturi-masker |
 | Zorgorganisatie | IJsselheem |
 
-<br/> 
+<br/>
 
 ## <a name="TabelSpecificaties"></a> Tabel met specificaties
-In de tabel met specificaties staan de gegevens uit de gegevensdienst Verzamelen BgLZ+, die relevant zijn voor deze weergaverichtlijn, weergegeven. 
-De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-methodiek. Datavelden die niet in de specificatietabel voorkomen, moeten worden beschouwd als datavelden met de letter W. 
+In de tabel met specificaties staan de gegevens uit de gegevensdienst Verzamelen BgLZ+, die relevant zijn voor deze weergaverichtlijn, weergegeven.
+De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-methodiek. Datavelden die niet in de specificatietabel voorkomen, moeten worden beschouwd als datavelden met de letter W.
 
-<br/> 
+<br/>
 
 | **Prioriteit** | **Omschrijving** |
 | --- | --- |
@@ -405,7 +405,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 
 | 1. Naam data-item | 2. Type data-item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) in detailgegevens <br/> (c) niet tonen | 6. Advies weergavetekst in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Contact** | **Rootconcept** | NL-CM:15.1.1 | | a | Contact | | | 
+| **Contact** | **Rootconcept** | NL-CM:15.1.1 | | a | Contact | | |
 | Contacttype | Item | NL-CM:15.1.2 | Thuis (code 'HH' in codesysteem 'ActCode') | a | Type contact of afspraak | | M |
 | ContactMet::Zorgverlener | Reference | NL-CM:15.1.7 | Julia van den Bos | a | Contact met | | Zorgverlener naam: M <br/> Overige datavelden: W |
 | Locatie::Zorgaanbieder | Reference | NL-CM:15.1.8 | IJsselheem | a | Locatie | Liefst geen afkortingen | M |
@@ -418,18 +418,18 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | Herkomst | Item | NL-CM:15.1.14 | Instelling voor revalidatie (code '80522000' in codesysteem 'SNOMED CT') | b | Herkomst | | M |
 | Bestemming | Item | NL-CM:15.1.16 | Eigen woonomgeving (code '264362003' in codesysteem 'SNOMED CT') | b | Bestemming | | M |
 
-<br/> 
+<br/>
 
 | 1. Naam data-item | 2. Type data-item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) in detailgegevens <br/> (c) niet tonen | 6. Advies weergavetekst in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Dagrapportage** | **Rootconcept** | lz-dataelement-1 | | a | Dagrapportage | | |
 | RapportageTitel | Item | lz-dataelement-2 | Problemen met mobiliteit en spraak | a | Titel dagrapportage | | M |
 | RapportageDatumTijd | Item | lz-dataelement-3 | 17-05-2025 07:00 | a | Datum en tijd | | M |
-| Uitvoerder::Zorgverlener | Reference | lz-dataelement-4 | Julia van den Bos | b | Zorgverlener | | M | 
-| Uitvoerder::Zorgaanbieder | Reference | lz-dataelement-14 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | M | 
-| RapportageInhoud | Item | lz-dataelement-19 | Mevrouw vertoont toenemende stijfheid bij het opstaan en lopen. Er is sprake van fijne tremor in de rechterhand. Tijdens het ochtendcontact had zij moeite om zich verbaal uit te drukken; gebruikt korte zinnen met lange pauzes. Zelfstandig toiletbezoek is mogelijk, maar met risico op vallen. Advies: looprek binnen handbereik houden en logopedie betrekken voor spraakondersteuning. | b | Dagverslag | | M | 
+| Uitvoerder::Zorgverlener | Reference | lz-dataelement-4 | Julia van den Bos | b | Zorgverlener | | M |
+| Uitvoerder::Zorgaanbieder | Reference | lz-dataelement-14 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | M |
+| RapportageInhoud | Item | lz-dataelement-19 | Mevrouw vertoont toenemende stijfheid bij het opstaan en lopen. Er is sprake van fijne tremor in de rechterhand. Tijdens het ochtendcontact had zij moeite om zich verbaal uit te drukken; gebruikt korte zinnen met lange pauzes. Zelfstandig toiletbezoek is mogelijk, maar met risico op vallen. Advies: looprek binnen handbereik houden en logopedie betrekken voor spraakondersteuning. | b | Dagverslag | | M |
 
-<br/> 
+<br/>
 
 | 1. Naam data-item | 2. Type data-item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) in detailgegevens <br/> (c) niet tonen | 6. Advies weergavetekst in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -440,7 +440,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | AlertType | Item | NL-CM:8.3.6 | Waarschuwing (code '74018-3' in codesysteem 'LOINC') | b | Type | | M |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
-<br/> 
+<br/>
 
 | 1. Naam data-item | 2. Type data-item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) in detailgegevens <br/> (c) niet tonen | 6. Advies weergavetekst in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -457,7 +457,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | Houding | Item | NL-CM:12.4.11 | Zittende positie (code '33586001' in codesysteem 'SNOMED CT') | b | Houding | | S |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
-<br/> 
+<br/>
 
 | 1. Naam data-item | 2. Type data-item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) in detailgegevens <br/> (c) niet tonen | 6. Advies weergavetekst in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -468,7 +468,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | Positie | Item | NL-CM:12.2.5 | Staande positie (code '10904000' in codesysteem 'SNOMED CT') | b | Positie | | S |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
-<br/> 
+<br/>
 
 | 1. Naam data-item | 2. Type data-item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) in detailgegevens <br/> (c) niet tonen | 6. Advies weergavetekst in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |--- |
@@ -479,7 +479,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | TemperatuurType | Item | NL-CM:12.6.5 | Orale temperatuur (onder de tong) (code '415945006' in codesysteem 'SNOMED CT') | b | Type temperatuur | | M |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
-<br/> 
+<br/>
 
 | 1. Naam data-item | 2. Type data-item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) in detailgegevens <br/> (c) niet tonen | 6. Advies weergavetekst in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |--- |
@@ -490,7 +490,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | Kleding | Item | NL-CM:12.1.5 | Lichte kleding/ondergoed (code 'MINIMAL' in codesysteem '2.16.840.1.113883.2.4.3.11.60.40.4.8.1') | b | Kleding | | M |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
-<br/> 
+<br/>
 
 | 1. Naam data-item | 2. Type data-item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) in detailgegevens <br/> (c) niet tonen | 6. Advies weergavetekst in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |--- |
@@ -502,7 +502,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | VochtbalansStoptijd | Item | NL-CM:12.15.3 | 15-03-2025 07:00 | a | Einddatum en -tijd | | M |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
-<br/> 
+<br/>
 
 | 1. Naam data-item | 2. Type data-item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) in detailgegevens <br/> (c) niet tonen | 6. Advies weergavetekst in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |--- |
@@ -512,7 +512,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | Toelichting | Item | NL-CM:7.8.2 | Woning is op de begane grond | a | Toelichting | | M |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
-<br/> 
+<br/>
 
 | 1. Naam data-item | 2. Type data-item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) in detailgegevens <br/> (c) niet tonen | 6. Advies weergavetekst in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |--- |
@@ -523,7 +523,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | Toelichting | Item | NL-CM:7.11.4 | naar eigen zeggen lactose-intolerant | b | Toelichting | | M |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
-<br/> 
+<br/>
 
 | 1. Naam data-item | 2. Type data-item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) in detailgegevens <br/> (c) niet tonen | 6. Advies weergavetekst in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -546,7 +546,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | Contactgegevens | Subbouwsteen | NL-CM:1.1.12 | | b | | | M |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
-<br/> 
+<br/>
 
 | 1. Naam data-item | 2. Type data-item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) in detailgegevens <br/> (c) niet tonen | 6. Advies weergavetekst in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |--- |
@@ -557,7 +557,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | PolsRegelmatigheid | Item | NL-CM:12.7.5 | Regelmatige polsslag (code '271636001' in codesysteem 'SNOMED CT') | b | Polsregelmaat | | M |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
-<br/> 
+<br/>
 
 | 1. Naam data-item | 2. Type data-item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) in detailgegevens <br/> (c) niet tonen | 6. Advies weergavetekst in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
