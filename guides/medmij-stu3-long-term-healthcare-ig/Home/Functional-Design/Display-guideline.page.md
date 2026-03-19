@@ -41,7 +41,7 @@ In het Overzicht Langdurige zorg heeft het overzichtsscherm van elke CIM een apa
 
 **Figuur 1: Voorbeeld Overzicht Langdurige zorg**
 
-u>Overzicht Zorgaanbieder - Langdurige zorg</u>
+<u>Overzicht Zorgaanbieder - Langdurige zorg</u>
 
 In het Overzicht Zorgaanbieder - Langdurige zorg heeft het overzichtsscherm van elke CIM een aparte pagina waar de datavelden getoond worden, per zorgaanbieder. De in de mockup gebruikte tabs dienen enkel als voorbeeld van een mogelijke vormgeving.
 
@@ -93,8 +93,6 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 | Contact met | Julia van den Bos |
 | Zorgorganisatie | IJsselheem |
 | Reden contact | Advies over veilige en passende lichaamsbeweging |
-| Herkomst | Instelling voor revalidatie |
-| Bestemming | Eigen woonomgeving |
 
 <br/>
 
