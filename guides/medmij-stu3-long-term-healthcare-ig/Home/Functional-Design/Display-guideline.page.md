@@ -28,18 +28,22 @@ Er zijn twee weergaven gedefinieerd voor het overzicht van de langdurigezorggege
 - Scenario 1: Overzicht Langdurige zorg (met alle langdurigezorggegevens van alle zorgaanbieders in één overzicht)
 - Scenario 2: Overzicht Zorgaanbieder - Langdurige zorg (met alle langdurigezorggegevens van één zorgaanbieder in één overzicht)
 
-De twee scenario's, hieronder uitgewerkt, geven weer hoe een UX-design getoond kan worden. Een PGO is vrij om één of beide van deze scenario's te ondersteunen. De richtlijn gaat ervan uit dat PGO's een responsief ontwerp ondersteunen.
+De twee scenario's, hieronder uitgewerkt, geven weer hoe een UX-design getoond kan worden. Een PGO is vrij om één of beide van deze scenario's te ondersteunen. De richtlijn gaat ervan uit dat de PGO een responsief ontwerp ondersteunen.
 
 In deze richtlijn zijn twee mock-ups opgenomen ter inspiratie. Daaronder is elke CIM (Clinical Information Model) apart opgenomen, niet in een mock-up, maar in tabelvorm. De twee mock-ups gaan over afspraken en corresponderen met de CIM Contact.
 
-#### Mock-ups overzichtsschermen langdurige zorg
-In het Overzicht Langdurige zorg heeft het overzichtsscherm van elke CIM een aparte pagina waar de datavelden getoond worden, voor alle zorgaanbieders (binnen de langdurige zorg).
+#### Voorbeeld mockup overzichtsschermen langdurige zorg
+<u>Overzicht Langdurige zorg</u>
+
+In het Overzicht Langdurige zorg heeft het overzichtsscherm van elke CIM een aparte pagina waar de datavelden getoond worden, voor alle zorgaanbieders (binnen de langdurige zorg). 
 
 {{render: guides/medmij-stu3-long-term-healthcare-ig/images/Overzicht Langdurige zorg.png}}
 
 **Figuur 1: Voorbeeld Overzicht Langdurige zorg**
 
-In het Overzicht Zorgaanbieder - Langdurige zorg heeft het overzichtsscherm van elke CIM een aparte pagina waar de datavelden getoond worden, per zorgaanbieder.
+u>Overzicht Zorgaanbieder - Langdurige zorg</u>
+
+In het Overzicht Zorgaanbieder - Langdurige zorg heeft het overzichtsscherm van elke CIM een aparte pagina waar de datavelden getoond worden, per zorgaanbieder. De in de mockup gebruikte tabs dienen enkel als voorbeeld van een mogelijke vormgeving.
 
 {{render: guides/medmij-stu3-long-term-healthcare-ig/images/Overzicht Zorgaanbieder - Langdurige zorg.png}}
 
@@ -57,9 +61,9 @@ De acceptatiecriteria voor de overzichtsschermen van elke CIM is als volgt.
 | 6 | De datavelden in het overzichtsscherm zijn begrijpelijk en gebruiksvriendelijk geformuleerd. Zie de {{pagelink: Weergaverichtlijn, text: Tabel met specificaties, anchor: TabelSpecificaties}} voor de aanbevolen termen per opgehaald dataveld. |
 
 #### Detailscherm langdurige zorg
-Dit detailscherm krijgt een PGO-gebruiker te zien na het selecteren van een specifieke regel in het overzichtsscherm.
+Dit detailscherm krijgt een PGO-gebruiker te zien na het selecteren van een specifieke regel in het overzichtsscherm. De in de mockup weergegeven gegevens dienen uitsluitend ter demonstratie. 
 
-#### Mock-up detailscherm langdurige zorg
+#### Voorbeeld mockup detailscherm langdurige zorg
 
 {{render: guides/medmij-stu3-long-term-healthcare-ig/images/Detailscherm Langdurige zorg.png}}
 
@@ -406,17 +410,18 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | 1. Naam data-item | 2. Type data-item | 3. Id | 4. Voorbeeld | 5. Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) in detailgegevens <br/> (c) niet tonen | 6. Advies weergavetekst in PGO | 7. Opmerkingen | 8. Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Contact** | **Rootconcept** | NL-CM:15.1.1 | | a | Contact | | |
-| Contacttype | Item | NL-CM:15.1.2 | Thuis (code 'HH' in codesysteem 'ActCode') | a | Type contact of afspraak | | M |
+| Contacttype | Item | NL-CM:15.1.2 | Thuis (code 'HH' in codesysteem 'ActCode') | a | Type contact | | M |
 | ContactMet::Zorgverlener | Reference | NL-CM:15.1.7 | Julia van den Bos | a | Contact met | | Zorgverlener naam: M <br/> Overige datavelden: W |
 | Locatie::Zorgaanbieder | Reference | NL-CM:15.1.8 | IJsselheem | a | Locatie | Liefst geen afkortingen | M |
 | BeginDatumTijd | Item | NL-CM:15.1.3 | 30-03-2025 10:20 | a | Begindatum en -tijd | | M |
 | EindDatumTijd | Item | NL-CM:15.1.4 | 30-03-2025 10:50 | a | Einddatum en -tijd | | M |
 | **RedenContact** | **Container** | NL-CM:15.1.13 | | b | Reden contact | | |
-| Probleem | Reference | NL-CM:15.1.6 | | b | Probleem | | M |
-| Verrichting | Reference | NL-CM:15.1.11 | | b | Verrichting | | M |
-| AfwijkendeUitslag | Item | NL-CM:15.1.12 | | b | Afwijkende uitslag | | M |
-| Herkomst | Item | NL-CM:15.1.14 | Instelling voor revalidatie (code '80522000' in codesysteem 'SNOMED CT') | b | Herkomst | | M |
-| Bestemming | Item | NL-CM:15.1.16 | Eigen woonomgeving (code '264362003' in codesysteem 'SNOMED CT') | b | Bestemming | | M |
+| Probleem | Reference | NL-CM:15.1.6 | | b | Probleem | | W |
+| Verrichting | Reference | NL-CM:15.1.11 | | b | Verrichting | | W |
+| AfwijkendeUitslag | Item | NL-CM:15.1.12 | | b | Afwijkende uitslag | | W |
+| ToelichtingRedenContact | Item | NL-CM:15.1.17 | Advies over veilige en passende lichaamsbeweging | b | Reden contact | | M |
+| Herkomst | Item | NL-CM:15.1.14 | | b | Herkomst | | W |
+| Bestemming | Item | NL-CM:15.1.16 | | b | Bestemming | | W |
 
 <br/>
 
