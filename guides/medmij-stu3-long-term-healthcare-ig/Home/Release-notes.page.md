@@ -1,5 +1,11 @@
 # {{page-title}}
  
+## 1.0.0-rc.1
+ 
+| Component              | Description  | Ticket    |
+| ---------------------- | ------------ | --------- |
+| FHIR artifacts         | The MedMij STU3 Core dependency has been updated to version 1.1.1. | [DOSINZAGE1-928](https://medmij.atlassian.net/browse/DOSINZAGE1-928) |
+
 ## 1.0.0-beta.2
  
 | Component              | Description  | Ticket    |
