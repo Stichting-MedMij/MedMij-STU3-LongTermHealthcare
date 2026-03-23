@@ -128,7 +128,7 @@
               {
                 "system": "http://hl7.org/fhir/v3/AddressUse",
                 "code": "PST",
-                "display": "Postal Addres"
+                "display": "Postadres"
               }
             ]
           }

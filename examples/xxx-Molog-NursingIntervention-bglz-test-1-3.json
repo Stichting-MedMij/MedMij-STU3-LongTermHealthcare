@@ -33,9 +33,10 @@
   },
   "activity": [
     {
-      "outcomeCodeableConcept": [
+      "extension": [
         {
-          "text": "Het aankleden gaat nog moeilijk."
+          "url": "http://nictiz.nl/fhir/StructureDefinition/Comment",
+          "valueString": "Het aankleden gaat nog moeilijk."
         }
       ],
       "detail": {
