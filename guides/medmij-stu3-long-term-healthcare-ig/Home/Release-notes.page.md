@@ -5,6 +5,7 @@
 | Component              | Description  | Ticket    |
 | ---------------------- | ------------ | --------- |
 | Technical design       | Guidance on both patient identification, and the relation between FHIR profiles and Logical Models, has been added. | [DOSINZAGE1-927](https://medmij.atlassian.net/browse/DOSINZAGE1-927) |
+| FHIR artifacts         | The MedMij STU3 Core dependency has been updated to version 1.1.1. | [DOSINZAGE1-928](https://medmij.atlassian.net/browse/DOSINZAGE1-928) |
 
 ## 1.0.0-beta.2
 
