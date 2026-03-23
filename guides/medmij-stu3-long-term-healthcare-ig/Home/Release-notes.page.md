@@ -4,6 +4,8 @@
 
 | Component              | Description  | Ticket    |
 | ---------------------- | ------------ | --------- |
+| Functional design      | The cross-domain data service Payer has been updated to version 1.0.0-beta.2. | [DOSINZAGE1-915](https://medmij.atlassian.net/browse/DOSINZAGE1-915) |
+| Technical design       | The cross-domain data service Payer has been updated to version 1.0.0-beta.2. | [DOSINZAGE1-915](https://medmij.atlassian.net/browse/DOSINZAGE1-915) |
 | Technical design       | Guidance on both patient identification, and the relation between FHIR profiles and Logical Models, has been added. | [DOSINZAGE1-927](https://medmij.atlassian.net/browse/DOSINZAGE1-927) |
 | FHIR artifacts         | The MedMij STU3 Core dependency has been updated to version 1.1.1. | [DOSINZAGE1-928](https://medmij.atlassian.net/browse/DOSINZAGE1-928) |
 
