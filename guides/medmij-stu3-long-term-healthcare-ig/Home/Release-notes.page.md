@@ -1,7 +1,7 @@
 # {{page-title}}
 
 ## 1.0.0-rc.1
- 
+
 | Component              | Description  | Ticket    |
 | ---------------------- | ------------ | --------- |
 | Functional design      | The cross-domain data service Payer has been updated to version 1.0.0-beta.2. | [DOSINZAGE1-915](https://medmij.atlassian.net/browse/DOSINZAGE1-915) |
