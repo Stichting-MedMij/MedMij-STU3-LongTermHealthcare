@@ -1,5 +1,15 @@
 # Scenario 3
 
+This test scenario contains test data of both the BgLZ and BgLZ+ (for completeness purposes). The following CIMs are part of the BgLZ:
+- AdvanceDirective
+- AllergyIntolerance
+- LaboratoryTestResult
+- NursingIntervention
+- Problem
+- Procedure
+- TreatmentDirective
+- TreatmentObjective
+
 ## Patient data
 
 | | |
@@ -33,6 +43,96 @@
 | MultipleBirthIndicator | Nee |
 | DeathIndicator | |
 | DateOfDeath | |
+
+## Health Professional data
+
+| | |
+| --- | --- |
+| HealthProfessionalIdentificationNumber | |
+| NameInformation.FirstNames | Julia |
+| NameInformation.Initials | J. |
+| NameInformation.GivenName | Lieke |
+| NameInformation.NameUsage | Eigen geslachtsnaam (code 'NL1' from code system 'NaamGebruik') |
+| NameInformation.LastName.Prefix | van den |
+| NameInformation.LastName.LastName | Bos |
+| NameInformation.LastNamePartner.PartnerPrefix | |
+| NameInformation.LastNamePartner.PartnerLastName | |
+| Speciality | Verpleegkundigen, niet nader gespecificeerd (code '9100' from code system 'Vektis AGB-medische specialismen') |
+| AddressInformation.Street | |
+| AddressInformation.HouseNumber | |
+| AddressInformation.HouseNumberLetter | |
+| AddressInformation.HouseNumberAddition | |
+| AddressInformation.HouseNumberIndication | |
+| AddressInformation.Postcode | |
+| AddressInformation.PlaceOfResidence | |
+| AddressInformation.Municipality | |
+| AddressInformation.Country | |
+| AddressInformation.AdditionalInformation | |
+| AddressInformation.AddressType | |
+| ContactInformation.TelephoneNumbers.TelephoneNumber | |
+| ContactInformation.TelephoneNumbers.TelecomType | |
+| ContactInformation.TelephoneNumbers.NumberType | |
+| ContactInformation.EmailAddresses.EmailAddress | |
+| ContactInformation.EmailAddresses.EmailAddressType | |
+| HealthcareProvider | WijZorgen Honselerdijk |
+| HealthProfessionalRole | |
+
+## Healthcare Provider data
+
+| | |
+| --- | --- |
+| HealthProviderIdentificationNumber | 75191919 (in identifier system 'UZI register abonneenummer (URA)') |
+| OrganizationName | WijZorgen Honselerdijk |
+| OrganizationLocation | |
+| DepartmentSpeciality | Thuiszorg, kruiswerk en gezinsverzorging (code '7500' from code system 'Vektis AGB-medische specialismen') |
+| ContactInformation.TelephoneNumbers.TelephoneNumber | |
+| ContactInformation.TelephoneNumbers.TelecomType | |
+| ContactInformation.TelephoneNumbers.NumberType | |
+| ContactInformation.EmailAddresses.EmailAddress | |
+| ContactInformation.EmailAddresses.EmailAddressType | |
+| AddressInformation.Street | |
+| AddressInformation.HouseNumber | |
+| AddressInformation.HouseNumberLetter | |
+| AddressInformation.HouseNumberAddition | |
+| AddressInformation.HouseNumberIndication | |
+| AddressInformation.Postcode | |
+| AddressInformation.PlaceOfResidence | |
+| AddressInformation.Municipality | |
+| AddressInformation.Country | |
+| AddressInformation.AdditionalInformation | |
+| AddressInformation.AddressType | |
+| OrganizationType | Thuiszorg (code 'T2' from code system 'RoleCodeNL') |
+
+## Contact Person data
+
+| | |
+| --- | --- |
+| NameInformation.FirstNames | Johan |
+| NameInformation.Initials | J. |
+| NameInformation.GivenName | Han |
+| NameInformation.NameUsage | Eigen geslachtsnaam (code 'NL1' from code system 'NaamGebruik') |
+| NameInformation.LastName.Prefix | |
+| NameInformation.LastName.LastName | Timmerman |
+| NameInformation.LastNamePartner.PartnerPrefix | |
+| NameInformation.LastNamePartner.PartnerLastName | |
+| ContactInformation.TelephoneNumbers.TelephoneNumber | +31645678912 |
+| ContactInformation.TelephoneNumbers.TelecomType | Mobiel telefoonnummer (code 'MC' from code system 'AddressUse') |
+| ContactInformation.TelephoneNumbers.NumberType | |
+| ContactInformation.EmailAddresses.EmailAddress | jtimmerman@123net.nl |
+| ContactInformation.EmailAddresses.EmailAddressType | Privé e-mailadres (code 'HP' from code system 'AddressUse') |
+| AddressInformation.Street | |
+| AddressInformation.HouseNumber | |
+| AddressInformation.HouseNumberLetter | |
+| AddressInformation.HouseNumberAddition | |
+| AddressInformation.HouseNumberIndication | |
+| AddressInformation.Postcode | |
+| AddressInformation.PlaceOfResidence | |
+| AddressInformation.Municipality | |
+| AddressInformation.Country | |
+| AddressInformation.AdditionalInformation | |
+| AddressInformation.AddressType | |
+| Role | Eerste relatie/contactpersoon (code '1' from code system 'COD472-VEKT') |
+| Relationship | Zoon (code 'SONC' from code system 'RoleCode') |
 
 ## Advance Directive data
 
@@ -368,93 +468,3 @@
 | TargetValue | |
 | DesiredHealthCondition | |
 | Problem | |
-
-## Health Professional data
-
-| | |
-| --- | --- |
-| HealthProfessionalIdentificationNumber | |
-| NameInformation.FirstNames | Julia |
-| NameInformation.Initials | J. |
-| NameInformation.GivenName | Lieke |
-| NameInformation.NameUsage | Eigen geslachtsnaam (code 'NL1' from code system 'NaamGebruik') |
-| NameInformation.LastName.Prefix | van den |
-| NameInformation.LastName.LastName | Bos |
-| NameInformation.LastNamePartner.PartnerPrefix | |
-| NameInformation.LastNamePartner.PartnerLastName | |
-| Speciality | Verpleegkundigen, niet nader gespecificeerd (code '9100' from code system 'Vektis AGB-medische specialismen') |
-| AddressInformation.Street | |
-| AddressInformation.HouseNumber | |
-| AddressInformation.HouseNumberLetter | |
-| AddressInformation.HouseNumberAddition | |
-| AddressInformation.HouseNumberIndication | |
-| AddressInformation.Postcode | |
-| AddressInformation.PlaceOfResidence | |
-| AddressInformation.Municipality | |
-| AddressInformation.Country | |
-| AddressInformation.AdditionalInformation | |
-| AddressInformation.AddressType | |
-| ContactInformation.TelephoneNumbers.TelephoneNumber | |
-| ContactInformation.TelephoneNumbers.TelecomType | |
-| ContactInformation.TelephoneNumbers.NumberType | |
-| ContactInformation.EmailAddresses.EmailAddress | |
-| ContactInformation.EmailAddresses.EmailAddressType | |
-| HealthcareProvider | WijZorgen Honselerdijk |
-| HealthProfessionalRole | |
-
-## Healthcare Provider data
-
-| | |
-| --- | --- |
-| HealthProviderIdentificationNumber | 75191919 (in identifier system 'UZI register abonneenummer (URA)') |
-| OrganizationName | WijZorgen Honselerdijk |
-| OrganizationLocation | |
-| DepartmentSpeciality | Thuiszorg, kruiswerk en gezinsverzorging (code '7500' from code system 'Vektis AGB-medische specialismen') |
-| ContactInformation.TelephoneNumbers.TelephoneNumber | |
-| ContactInformation.TelephoneNumbers.TelecomType | |
-| ContactInformation.TelephoneNumbers.NumberType | |
-| ContactInformation.EmailAddresses.EmailAddress | |
-| ContactInformation.EmailAddresses.EmailAddressType | |
-| AddressInformation.Street | |
-| AddressInformation.HouseNumber | |
-| AddressInformation.HouseNumberLetter | |
-| AddressInformation.HouseNumberAddition | |
-| AddressInformation.HouseNumberIndication | |
-| AddressInformation.Postcode | |
-| AddressInformation.PlaceOfResidence | |
-| AddressInformation.Municipality | |
-| AddressInformation.Country | |
-| AddressInformation.AdditionalInformation | |
-| AddressInformation.AddressType | |
-| OrganizationType | Thuiszorg (code 'T2' from code system 'RoleCodeNL') |
-
-## Contact Person data
-
-| | |
-| --- | --- |
-| NameInformation.FirstNames | Johan |
-| NameInformation.Initials | J. |
-| NameInformation.GivenName | Han |
-| NameInformation.NameUsage | Eigen geslachtsnaam (code 'NL1' from code system 'NaamGebruik') |
-| NameInformation.LastName.Prefix | |
-| NameInformation.LastName.LastName | Timmerman |
-| NameInformation.LastNamePartner.PartnerPrefix | |
-| NameInformation.LastNamePartner.PartnerLastName | |
-| ContactInformation.TelephoneNumbers.TelephoneNumber | +31645678912 |
-| ContactInformation.TelephoneNumbers.TelecomType | Mobiel telefoonnummer (code 'MC' from code system 'AddressUse') |
-| ContactInformation.TelephoneNumbers.NumberType | |
-| ContactInformation.EmailAddresses.EmailAddress | jtimmerman@123net.nl |
-| ContactInformation.EmailAddresses.EmailAddressType | Privé e-mailadres (code 'HP' from code system 'AddressUse') |
-| AddressInformation.Street | |
-| AddressInformation.HouseNumber | |
-| AddressInformation.HouseNumberLetter | |
-| AddressInformation.HouseNumberAddition | |
-| AddressInformation.HouseNumberIndication | |
-| AddressInformation.Postcode | |
-| AddressInformation.PlaceOfResidence | |
-| AddressInformation.Municipality | |
-| AddressInformation.Country | |
-| AddressInformation.AdditionalInformation | |
-| AddressInformation.AddressType | |
-| Role | Eerste relatie/contactpersoon (code '1' from code system 'COD472-VEKT') |
-| Relationship | Zoon (code 'SONC' from code system 'RoleCode') |

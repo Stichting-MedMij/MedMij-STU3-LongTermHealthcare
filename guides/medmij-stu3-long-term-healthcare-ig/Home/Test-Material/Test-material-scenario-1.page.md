@@ -34,6 +34,65 @@
 | DeathIndicator | |
 | DateOfDeath | |
 
+## Health Professional data
+
+| | |
+| --- | --- |
+| HealthProfessionalIdentificationNumber | 88131313 (in identifier system 'Vektis AGB-zorgverlener tabel') |
+| NameInformation.FirstNames | |
+| NameInformation.Initials | W. |
+| NameInformation.GivenName | |
+| NameInformation.NameUsage | Eigen geslachtsnaam (code 'NL1' from code system 'NaamGebruik') |
+| NameInformation.LastName.Prefix | |
+| NameInformation.LastName.LastName | Bloem |
+| NameInformation.LastNamePartner.PartnerPrefix | |
+| NameInformation.LastNamePartner.PartnerLastName | |
+| Speciality | Ergotherapeuten (code '8800' from code system 'Vektis AGB-medische specialismen') |
+| AddressInformation.Street | |
+| AddressInformation.HouseNumber | |
+| AddressInformation.HouseNumberLetter | |
+| AddressInformation.HouseNumberAddition | |
+| AddressInformation.HouseNumberIndication | |
+| AddressInformation.Postcode | |
+| AddressInformation.PlaceOfResidence | |
+| AddressInformation.Municipality | |
+| AddressInformation.Country | |
+| AddressInformation.AdditionalInformation | |
+| AddressInformation.AddressType | |
+| ContactInformation.TelephoneNumbers.TelephoneNumber | |
+| ContactInformation.TelephoneNumbers.TelecomType | |
+| ContactInformation.TelephoneNumbers.NumberType | |
+| ContactInformation.EmailAddresses.EmailAddress | bloem@ergotherapie.nl |
+| ContactInformation.EmailAddresses.EmailAddressType | Zakelijk e-mailadres (code 'WP' from code system 'AddressUse') |
+| HealthcareProvider | |
+| HealthProfessionalRole | |
+
+## Healthcare Provider data
+
+| | |
+| --- | --- |
+| HealthProviderIdentificationNumber | 75131313 (in identifier system 'Vektis AGB-zorgverlener tabel') |
+| OrganizationName | ThuiszorgOrg Noord |
+| OrganizationLocation | |
+| DepartmentSpeciality | Thuiszorg, kruiswerk en gezinsverzorging (code '7500' from code system 'Vektis AGB-medische specialismen') |
+| ContactInformation.TelephoneNumbers.TelephoneNumber | |
+| ContactInformation.TelephoneNumbers.TelecomType | |
+| ContactInformation.TelephoneNumbers.NumberType | |
+| ContactInformation.EmailAddresses.EmailAddress | |
+| ContactInformation.EmailAddresses.EmailAddressType | |
+| AddressInformation.Street | |
+| AddressInformation.HouseNumber | |
+| AddressInformation.HouseNumberLetter | |
+| AddressInformation.HouseNumberAddition | |
+| AddressInformation.HouseNumberIndication | |
+| AddressInformation.Postcode | |
+| AddressInformation.PlaceOfResidence | |
+| AddressInformation.Municipality | |
+| AddressInformation.Country | |
+| AddressInformation.AdditionalInformation | |
+| AddressInformation.AddressType | |
+| OrganizationType | Thuiszorg (code 'T2' from code system 'RoleCodeNL') |
+
 ## Alert data
 
 | | |
@@ -199,62 +258,3 @@
 | AdministeredOxygen.AdministrationDevice.Laterality | |
 | AdministeredOxygen.AdministrationDevice.Location | |
 | AdministeredOxygen.AdministrationDevice.HealthProfessional | |
-
-## Health Professional data
-
-| | |
-| --- | --- |
-| HealthProfessionalIdentificationNumber | 88131313 (in identifier system 'Vektis AGB-zorgverlener tabel') |
-| NameInformation.FirstNames | |
-| NameInformation.Initials | W. |
-| NameInformation.GivenName | |
-| NameInformation.NameUsage | Eigen geslachtsnaam (code 'NL1' from code system 'NaamGebruik') |
-| NameInformation.LastName.Prefix | |
-| NameInformation.LastName.LastName | Bloem |
-| NameInformation.LastNamePartner.PartnerPrefix | |
-| NameInformation.LastNamePartner.PartnerLastName | |
-| Speciality | Ergotherapeuten (code '8800' from code system 'Vektis AGB-medische specialismen') |
-| AddressInformation.Street | |
-| AddressInformation.HouseNumber | |
-| AddressInformation.HouseNumberLetter | |
-| AddressInformation.HouseNumberAddition | |
-| AddressInformation.HouseNumberIndication | |
-| AddressInformation.Postcode | |
-| AddressInformation.PlaceOfResidence | |
-| AddressInformation.Municipality | |
-| AddressInformation.Country | |
-| AddressInformation.AdditionalInformation | |
-| AddressInformation.AddressType | |
-| ContactInformation.TelephoneNumbers.TelephoneNumber | |
-| ContactInformation.TelephoneNumbers.TelecomType | |
-| ContactInformation.TelephoneNumbers.NumberType | |
-| ContactInformation.EmailAddresses.EmailAddress | bloem@ergotherapie.nl |
-| ContactInformation.EmailAddresses.EmailAddressType | Zakelijk e-mailadres (code 'WP' from code system 'AddressUse') |
-| HealthcareProvider | |
-| HealthProfessionalRole | |
-
-## Healthcare Provider data
-
-| | |
-| --- | --- |
-| HealthProviderIdentificationNumber | 75131313 (in identifier system 'Vektis AGB-zorgverlener tabel') |
-| OrganizationName | ThuiszorgOrg Noord |
-| OrganizationLocation | |
-| DepartmentSpeciality | Thuiszorg, kruiswerk en gezinsverzorging (code '7500' from code system 'Vektis AGB-medische specialismen') |
-| ContactInformation.TelephoneNumbers.TelephoneNumber | |
-| ContactInformation.TelephoneNumbers.TelecomType | |
-| ContactInformation.TelephoneNumbers.NumberType | |
-| ContactInformation.EmailAddresses.EmailAddress | |
-| ContactInformation.EmailAddresses.EmailAddressType | |
-| AddressInformation.Street | |
-| AddressInformation.HouseNumber | |
-| AddressInformation.HouseNumberLetter | |
-| AddressInformation.HouseNumberAddition | |
-| AddressInformation.HouseNumberIndication | |
-| AddressInformation.Postcode | |
-| AddressInformation.PlaceOfResidence | |
-| AddressInformation.Municipality | |
-| AddressInformation.Country | |
-| AddressInformation.AdditionalInformation | |
-| AddressInformation.AddressType | |
-| OrganizationType | Thuiszorg (code 'T2' from code system 'RoleCodeNL') |

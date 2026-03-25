@@ -34,6 +34,97 @@
 | DeathIndicator | |
 | DateOfDeath | |
 
+## Health Professional data
+
+| | |
+| --- | --- |
+| HealthProfessionalIdentificationNumber | |
+| NameInformation.FirstNames | Nicolaas |
+| NameInformation.Initials | N. |
+| NameInformation.GivenName | Klaas |
+| NameInformation.NameUsage | Geslachtsnaam partner gevolgd door eigen geslachtsnaam (code 'NL3' from code system 'NaamGebruik') |
+| NameInformation.LastName.Prefix | van |
+| NameInformation.LastName.LastName | Pinxteren |
+| NameInformation.LastNamePartner.PartnerPrefix | de |
+| NameInformation.LastNamePartner.PartnerLastName | Mol |
+| Speciality | Huisartsen, niet nader gespecificeerd (code '0100' from code system 'Vektis AGB-medische specialismen') |
+| AddressInformation.Street | |
+| AddressInformation.HouseNumber | |
+| AddressInformation.HouseNumberLetter | |
+| AddressInformation.HouseNumberAddition | |
+| AddressInformation.HouseNumberIndication | |
+| AddressInformation.Postcode | |
+| AddressInformation.PlaceOfResidence | |
+| AddressInformation.Municipality | |
+| AddressInformation.Country | |
+| AddressInformation.AdditionalInformation | |
+| AddressInformation.AddressType | |
+| ContactInformation.TelephoneNumbers.TelephoneNumber | +31689898989 |
+| ContactInformation.TelephoneNumbers.TelecomType | Mobiel telefoonnummer (code 'MC' from code system 'AddressUse') |
+| ContactInformation.TelephoneNumbers.NumberType | |
+| ContactInformation.TelephoneNumbers.TelephoneNumber | +31203232323 |
+| ContactInformation.TelephoneNumbers.TelecomType | Vast telefoonnummer (code 'LL' from code system 'TelecomDeviceTypes') |
+| ContactInformation.TelephoneNumbers.NumberType | Zakelijk telefoonnummer (code 'WP' from code system 'AddressUse') |
+| ContactInformation.EmailAddresses.EmailAddress | klaas@huisartspraktijk.nl |
+| ContactInformation.EmailAddresses.EmailAddressType | Zakelijk e-mailadres (code 'WP' from code system 'AddressUse') |
+| HealthcareProvider | Huisarts de Huisarts |
+| HealthProfessionalRole | |
+
+## Healthcare Provider data
+
+| | |
+| --- | --- |
+| HealthProviderIdentificationNumber | 01565656 (in identifier system 'Vektis AGB-zorgverlener tabel') |
+| OrganizationName | Huisarts de Huisarts |
+| OrganizationLocation | |
+| DepartmentSpeciality | Huisartsen, niet nader gespecificeerd (code '0100' from code system 'Vektis AGB-medische specialismen') |
+| ContactInformation.TelephoneNumbers.TelephoneNumber | +31203232323 |
+| ContactInformation.TelephoneNumbers.TelecomType | Vast telefoonnummer (code 'LL' from code system 'TelecomDeviceTypes') |
+| ContactInformation.TelephoneNumbers.NumberType | Zakelijk telefoonnummer (code 'WP' from code system 'AddressUse') |
+| ContactInformation.TelephoneNumbers.TelephoneNumber | +31203232000 |
+| ContactInformation.TelephoneNumbers.TelecomType | Vast telefoonnummer (code 'LL' from code system 'TelecomDeviceTypes') |
+| ContactInformation.TelephoneNumbers.NumberType | Zakelijk telefoonnummer (code 'WP' from code system 'AddressUse') |
+| ContactInformation.EmailAddresses.EmailAddress | info@huisartspraktijk.nl |
+| ContactInformation.EmailAddresses.EmailAddressType | Zakelijk e-mailadres (code 'WP' from code system 'AddressUse') |
+| ContactInformation.EmailAddresses.EmailAddress | assistente@huisartspraktijk.nl |
+| ContactInformation.EmailAddresses.EmailAddressType | Zakelijk e-mailadres (code 'WP' from code system 'AddressUse') |
+| AddressInformation.Street | Kastanjelaan |
+| AddressInformation.HouseNumber | 100 |
+| AddressInformation.HouseNumberLetter | a |
+| AddressInformation.HouseNumberAddition | III |
+| AddressInformation.HouseNumberIndication | Bij (code 'by' from code system 'AanduidingBijHuisnummer') |
+| AddressInformation.Postcode | 4000KK |
+| AddressInformation.PlaceOfResidence | Stitswerd |
+| AddressInformation.Municipality | |
+| AddressInformation.Country | Nederland (code 'NL' from code system 'ISO 3166-1 (alpha-2)') |
+| AddressInformation.AdditionalInformation | bedrijfsgebrouw 'De Stits' |
+| AddressInformation.AddressType | Werkadres (code 'WP' from code system 'AddressUse') |
+| OrganizationType | Huisartspraktijk (zelfstandig of groepspraktijk) (code 'Z3' from code system 'RoleCodeNL') |
+
+| | |
+| --- | --- |
+| HealthProviderIdentificationNumber | 75565656 (in identifier system 'Vektis AGB-zorgverlener tabel') |
+| OrganizationName | WijkverplegingOrg Zuid |
+| OrganizationLocation | |
+| DepartmentSpeciality | Thuiszorg, kruiswerk en gezinsverzorging (code '7500' from code system 'Vektis AGB-medische specialismen') |
+| ContactInformation.TelephoneNumbers.TelephoneNumber | |
+| ContactInformation.TelephoneNumbers.TelecomType | |
+| ContactInformation.TelephoneNumbers.NumberType | |
+| ContactInformation.EmailAddresses.EmailAddress | |
+| ContactInformation.EmailAddresses.EmailAddressType | |
+| AddressInformation.Street | |
+| AddressInformation.HouseNumber | |
+| AddressInformation.HouseNumberLetter | |
+| AddressInformation.HouseNumberAddition | |
+| AddressInformation.HouseNumberIndication | |
+| AddressInformation.Postcode | |
+| AddressInformation.PlaceOfResidence | |
+| AddressInformation.Municipality | |
+| AddressInformation.Country | |
+| AddressInformation.AdditionalInformation | |
+| AddressInformation.AddressType | |
+| OrganizationType | Thuiszorg (code 'T2' from code system 'RoleCodeNL') |
+
 ## Alert data
 
 | | |
@@ -199,94 +290,3 @@
 | AdministeredOxygen.AdministrationDevice.Laterality | |
 | AdministeredOxygen.AdministrationDevice.Location | |
 | AdministeredOxygen.AdministrationDevice.HealthProfessional | |
-
-## Health Professional data
-
-| | |
-| --- | --- |
-| HealthProfessionalIdentificationNumber | |
-| NameInformation.FirstNames | Nicolaas |
-| NameInformation.Initials | N. |
-| NameInformation.GivenName | Klaas |
-| NameInformation.NameUsage | Geslachtsnaam partner gevolgd door eigen geslachtsnaam (code 'NL3' from code system 'NaamGebruik') |
-| NameInformation.LastName.Prefix | van |
-| NameInformation.LastName.LastName | Pinxteren |
-| NameInformation.LastNamePartner.PartnerPrefix | de |
-| NameInformation.LastNamePartner.PartnerLastName | Mol |
-| Speciality | Huisartsen, niet nader gespecificeerd (code '0100' from code system 'Vektis AGB-medische specialismen') |
-| AddressInformation.Street | |
-| AddressInformation.HouseNumber | |
-| AddressInformation.HouseNumberLetter | |
-| AddressInformation.HouseNumberAddition | |
-| AddressInformation.HouseNumberIndication | |
-| AddressInformation.Postcode | |
-| AddressInformation.PlaceOfResidence | |
-| AddressInformation.Municipality | |
-| AddressInformation.Country | |
-| AddressInformation.AdditionalInformation | |
-| AddressInformation.AddressType | |
-| ContactInformation.TelephoneNumbers.TelephoneNumber | +31689898989 |
-| ContactInformation.TelephoneNumbers.TelecomType | Mobiel telefoonnummer (code 'MC' from code system 'AddressUse') |
-| ContactInformation.TelephoneNumbers.NumberType | |
-| ContactInformation.TelephoneNumbers.TelephoneNumber | +31203232323 |
-| ContactInformation.TelephoneNumbers.TelecomType | Vast telefoonnummer (code 'LL' from code system 'TelecomDeviceTypes') |
-| ContactInformation.TelephoneNumbers.NumberType | Zakelijk telefoonnummer (code 'WP' from code system 'AddressUse') |
-| ContactInformation.EmailAddresses.EmailAddress | klaas@huisartspraktijk.nl |
-| ContactInformation.EmailAddresses.EmailAddressType | Zakelijk e-mailadres (code 'WP' from code system 'AddressUse') |
-| HealthcareProvider | Huisarts de Huisarts |
-| HealthProfessionalRole | |
-
-## Healthcare Provider data
-
-| | |
-| --- | --- |
-| HealthProviderIdentificationNumber | 01565656 (in identifier system 'Vektis AGB-zorgverlener tabel') |
-| OrganizationName | Huisarts de Huisarts |
-| OrganizationLocation | |
-| DepartmentSpeciality | Huisartsen, niet nader gespecificeerd (code '0100' from code system 'Vektis AGB-medische specialismen') |
-| ContactInformation.TelephoneNumbers.TelephoneNumber | +31203232323 |
-| ContactInformation.TelephoneNumbers.TelecomType | Vast telefoonnummer (code 'LL' from code system 'TelecomDeviceTypes') |
-| ContactInformation.TelephoneNumbers.NumberType | Zakelijk telefoonnummer (code 'WP' from code system 'AddressUse') |
-| ContactInformation.TelephoneNumbers.TelephoneNumber | +31203232000 |
-| ContactInformation.TelephoneNumbers.TelecomType | Vast telefoonnummer (code 'LL' from code system 'TelecomDeviceTypes') |
-| ContactInformation.TelephoneNumbers.NumberType | Zakelijk telefoonnummer (code 'WP' from code system 'AddressUse') |
-| ContactInformation.EmailAddresses.EmailAddress | info@huisartspraktijk.nl |
-| ContactInformation.EmailAddresses.EmailAddressType | Zakelijk e-mailadres (code 'WP' from code system 'AddressUse') |
-| ContactInformation.EmailAddresses.EmailAddress | assistente@huisartspraktijk.nl |
-| ContactInformation.EmailAddresses.EmailAddressType | Zakelijk e-mailadres (code 'WP' from code system 'AddressUse') |
-| AddressInformation.Street | Kastanjelaan |
-| AddressInformation.HouseNumber | 100 |
-| AddressInformation.HouseNumberLetter | a |
-| AddressInformation.HouseNumberAddition | III |
-| AddressInformation.HouseNumberIndication | Bij (code 'by' from code system 'AanduidingBijHuisnummer') |
-| AddressInformation.Postcode | 4000KK |
-| AddressInformation.PlaceOfResidence | Stitswerd |
-| AddressInformation.Municipality | |
-| AddressInformation.Country | Nederland (code 'NL' from code system 'ISO 3166-1 (alpha-2)') |
-| AddressInformation.AdditionalInformation | bedrijfsgebrouw 'De Stits' |
-| AddressInformation.AddressType | Werkadres (code 'WP' from code system 'AddressUse') |
-| OrganizationType | Huisartspraktijk (zelfstandig of groepspraktijk) (code 'Z3' from code system 'RoleCodeNL') |
-
-| | |
-| --- | --- |
-| HealthProviderIdentificationNumber | 75565656 (in identifier system 'Vektis AGB-zorgverlener tabel') |
-| OrganizationName | WijkverplegingOrg Zuid |
-| OrganizationLocation | |
-| DepartmentSpeciality | Thuiszorg, kruiswerk en gezinsverzorging (code '7500' from code system 'Vektis AGB-medische specialismen') |
-| ContactInformation.TelephoneNumbers.TelephoneNumber | |
-| ContactInformation.TelephoneNumbers.TelecomType | |
-| ContactInformation.TelephoneNumbers.NumberType | |
-| ContactInformation.EmailAddresses.EmailAddress | |
-| ContactInformation.EmailAddresses.EmailAddressType | |
-| AddressInformation.Street | |
-| AddressInformation.HouseNumber | |
-| AddressInformation.HouseNumberLetter | |
-| AddressInformation.HouseNumberAddition | |
-| AddressInformation.HouseNumberIndication | |
-| AddressInformation.Postcode | |
-| AddressInformation.PlaceOfResidence | |
-| AddressInformation.Municipality | |
-| AddressInformation.Country | |
-| AddressInformation.AdditionalInformation | |
-| AddressInformation.AddressType | |
-| OrganizationType | Thuiszorg (code 'T2' from code system 'RoleCodeNL') |
