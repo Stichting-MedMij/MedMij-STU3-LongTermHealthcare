@@ -305,7 +305,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Betaler J.L. Teunissen |  |
+| Geselecteerde regel: Betaler J.L. Teunissen | |
 | --- | --- |
 | Naam betaler | J.L. Teunissen |
 | Naam bank | ING |
@@ -405,7 +405,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 
 <br/>
 
-| Naam data-item | Type data-item | Id | Voorbeeld | Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven <br/> (c) niet tonen | Advies weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
+| Naam data-item | Type data-item | Id | Voorbeeld | Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven | Advies weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Contact** | **Rootconcept** | NL-CM:15.1.1 | | a | Contact | | |
 | Contacttype | Item | NL-CM:15.1.2 | Thuis (code 'HH' in codesysteem 'ActCode') | a | Type contact | | M |
@@ -422,7 +422,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 
 <br/>
 
-| Naam data-item | Type data-item | Id | Voorbeeld | Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven <br/> (c) niet tonen | Advies weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
+| Naam data-item | Type data-item | Id | Voorbeeld | Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven | Advies weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Dagrapportage** | **Rootconcept** | lz-dataelement-1 | | a | Dagrapportage | | |
 | RapportageTitel | Item | lz-dataelement-2 | Problemen met mobiliteit en spraak | a | Titel dagrapportage | | M |
@@ -433,7 +433,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 
 <br/>
 
-| Naam data-item | Type data-item | Id | Voorbeeld | Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven <br/> (c) niet tonen | Advies weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
+| Naam data-item | Type data-item | Id | Voorbeeld | Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven | Advies weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Alert** | **Rootconcept** | NL-CM:8.3.1 | | a | Waarschuwing | | |
 | Conditie::Probleem | Item | NL-CM:8.3.3 | | a | Probleem | | M |
@@ -444,7 +444,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 
 <br/>
 
-| Naam data-item | Type data-item | Id | Voorbeeld | Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven <br/> (c) niet tonen | Advies weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
+| Naam data-item | Type data-item | Id | Voorbeeld | Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven | Advies weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Bloeddruk** | **Rootconcept** | NL-CM:12.4.1 | | a | Bloeddruk | | |
 | Meetmethode | Item | NL-CM:12.4.7 | Niet-invasief (code '22762002' in codesysteem 'SNOMED CT') | b | Methode | | M |
@@ -461,7 +461,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 
 <br/>
 
-| Naam data-item | Type data-item | Id | Voorbeeld | Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven <br/> (c) niet tonen | Advies weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
+| Naam data-item | Type data-item | Id | Voorbeeld | Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven | Advies weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Lichaamslengte** | **Rootconcept** | NL-CM:12.2.1 | | a | Lichaamslengte | | |
 | LengteWaarde | Item | NL-CM:12.2.2 | 160 cm | a | Lichaamslengte | | M |
@@ -472,7 +472,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 
 <br/>
 
-| Naam data-item | Type data-item | Id | Voorbeeld | Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven <br/> (c) niet tonen | Advies weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
+| Naam data-item | Type data-item | Id | Voorbeeld | Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven | Advies weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |--- |
 | **Lichaamstemperatuur** | **Rootconcept** | NL-CM:12.6.1 | | a | Lichaamstemperatuur | | |
 | TemperatuurWaarde | Item | NL-CM:12.6.2 | 38,6 | a | Lichaamstemperatuur | | M |
@@ -483,7 +483,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 
 <br/>
 
-| Naam data-item | Type data-item | Id | Voorbeeld | Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven <br/> (c) niet tonen | Advies weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
+| Naam data-item | Type data-item | Id | Voorbeeld | Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven | Advies weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |--- |
 | **Lichaamsgewicht** | **Rootconcept** | NL-CM:12.1.1 | | a | Lichaamsgewicht | | |
 | GewichtWaarde | Item | NL-CM:12.1.2 | 58 kg | a | Lichaamsgewicht | | M |
@@ -494,7 +494,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 
 <br/>
 
-| Naam data-item | Type data-item | Id | Voorbeeld | Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven <br/> (c) niet tonen | Advies weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
+| Naam data-item | Type data-item | Id | Voorbeeld | Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven | Advies weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |--- |
 | **Vochtbalans** | **Rootconcept** | NL-CM:12.15.1 | | a | Vochtbalans | | |
 | Toelichting | Item | NL-CM:12.15.6 | dehydratie | a | Vochtbalans | | M |
@@ -506,7 +506,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 
 <br/>
 
-| Naam data-item | Type data-item | Id | Voorbeeld | Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven <br/> (c) niet tonen | Advies weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
+| Naam data-item | Type data-item | Id | Voorbeeld | Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven | Advies weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |--- |
 | **Woonsituatie** | **Rootconcept** | NL-CM:7.8.1 | | a | Woonsituatie | | |
 | WoningType | Item | NL-CM:7.8.3 | Aanleunwoning (code 'AANLW' in codesysteem '2.16.840.1.113883.2.4.3.11.60.40.4.13.1') | a | Type woning | | M |
@@ -516,7 +516,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 
 <br/>
 
-| Naam data-item | Type data-item | Id | Voorbeeld | Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven <br/> (c) niet tonen | Advies weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
+| Naam data-item | Type data-item | Id | Voorbeeld | Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven | Advies weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |--- |
 | **Voedingsadvies** | **Rootconcept** | NL-CM:7.11.1 | | a | Voedingsadvies | | |
 | DieetType | Item | NL-CM:7.11.2 | lactosevrij | a | Voedingsadvies | | M |
@@ -527,7 +527,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 
 <br/>
 
-| Naam data-item | Type data-item | Id | Voorbeeld | Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven <br/> (c) niet tonen | Advies weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
+| Naam data-item | Type data-item | Id | Voorbeeld | Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven | Advies weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Betaler** | **Rootconcept** | NL-CM:1.1.1 | | a | Verzekeraar | | |
 | **BetalerPersoon** | **Container** | NL-CM:1.1.2 | | b (zie opmerkingen) | Betaler | Als Verzekeraar niet aanwezig is | |
@@ -550,7 +550,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 
 <br/>
 
-| Naam data-item | Type data-item | Id | Voorbeeld | Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven <br/> (c) niet tonen | Advies weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
+| Naam data-item | Type data-item | Id | Voorbeeld | Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven | Advies weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |--- |
 | **Polsfrequentie** | **Rootconcept** | NL-CM:12.7.1 | | a | Polsfrequentie | | |
 | PolsfrequentieWaarde | Item | NL-CM:12.7.2| 67 /min | a | Waarde | | M |
@@ -561,7 +561,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 
 <br/>
 
-| Naam data-item | Type data-item | Id | Voorbeeld | Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven <br/> (c) niet tonen | Advies weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
+| Naam data-item | Type data-item | Id | Voorbeeld | Advies waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven | Advies weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Ademhaling** | **Rootconcept** | | | a | Ademhaling | | |
 | Ademfrequentie | Item | NL-CM:12.5.2 | 15 /min | a | Ademfrequentie | | M |
