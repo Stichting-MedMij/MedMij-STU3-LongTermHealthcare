@@ -414,11 +414,9 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | BeginDatumTijd | Item | NL-CM:15.1.3 | 30-03-2025 10:20 | a | Begindatum en -tijd | | M |
 | EindDatumTijd | Item | NL-CM:15.1.4 | 30-03-2025 10:50 | a | Einddatum en -tijd | | M |
 | **RedenContact** | **Container** | NL-CM:15.1.13 | | b | Reden contact | | |
-| Probleem | Reference | NL-CM:15.1.6 | | b | Probleem | | W |
-| Verrichting | Reference | NL-CM:15.1.11 | | b | Verrichting | | W |
-| AfwijkendeUitslag | Item | NL-CM:15.1.12 | | b | Afwijkende uitslag | | W |
-| Herkomst | Item | NL-CM:15.1.14 | | b | Herkomst | | W |
-| Bestemming | Item | NL-CM:15.1.16 | | b | Bestemming | | W |
+| Probleem | Reference | NL-CM:15.1.6 | | b | Reden contact | | S |
+| Verrichting | Reference | NL-CM:15.1.11 | | b | Reden contact | | S |
+| AfwijkendeUitslag | Item | NL-CM:15.1.12 | Advies over veilige en passende lichaamsbeweging | b | Reden contact | | M |
 
 <br/>
 
