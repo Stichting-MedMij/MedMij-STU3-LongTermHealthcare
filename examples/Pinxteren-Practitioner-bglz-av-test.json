@@ -17,7 +17,7 @@
   },
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <div>\n        <span title=\"Naamsamenstelling: Partnernaam gevolgd door eigennaam\">Nicolaas de Mol-van Pinxteren</span> (Klaas)</div>\n      <div>\n        <a href=\"tel:+31689898989\">+31689898989</a> (,  mobile), <a href=\"tel:+31203232323\">+31203232323</a> (Vast telefoonnummer Werk), <a href=\"mailto:klaas@huisartspraktijk.nl\">klaas@huisartspraktijk.nl</a> (E-mail Werk), <a href=\"mailto:klaas@huisartspraktijk.nl\">klaas@huisartspraktijk.nl</a> (E-mail Werk)</div>\n    </div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <div>\n        <span title=\"Naamsamenstelling: Partnernaam gevolgd door eigennaam\">Nicolaas de Mol-van Pinxteren</span> (Klaas)</div>\n      <div>\n        <a href=\"tel:+31689898989\">+31689898989</a> (,  mobile), <a href=\"tel:+31203232323\">+31203232323</a> (Vast telefoonnummer Werk), <a href=\"mailto:klaas@huisartspraktijk.nl\">klaas@huisartspraktijk.nl</a> (E-mail Werk)</div>\n    </div>"
   },
   "name": [
     {
@@ -119,11 +119,6 @@
       ],
       "system": "phone",
       "value": "+31203232323",
-      "use": "work"
-    },
-    {
-      "system": "email",
-      "value": "klaas@huisartspraktijk.nl",
       "use": "work"
     },
     {
