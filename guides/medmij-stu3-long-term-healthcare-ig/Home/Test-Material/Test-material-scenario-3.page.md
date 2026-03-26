@@ -147,12 +147,16 @@ This test scenario contains test data of both the BgLZ and BgLZ+ (for completene
 
 ## Alert data
 
+## Alert - Drager VRE
+
 | | |
 | --- | --- |
 | Condition | |
 | AlertName | Drager VRE (code '431109006' from code system 'SNOMED CT') |
 | StartDateTime | 18-02-2025 |
 | AlertType | waarschuwing (code '74018-3' from code system 'LOINC') |
+
+## Alert - verhoogd valrisico
 
 | | |
 | --- | --- |
@@ -311,6 +315,8 @@ This test scenario contains test data of both the BgLZ and BgLZ+ (for completene
 
 ## Nursing Report data
 
+## Nursing Report - 17-05-2025
+
 | | |
 | --- | --- |
 | ReportTitle | Dagrapportage |
@@ -319,6 +325,8 @@ This test scenario contains test data of both the BgLZ and BgLZ+ (for completene
 | Performer.HealthcareProvider | WijZorgen Honselerdijk |
 | ReportContent | Mevrouw vertoont toenemende stijfheid bij het opstaan en lopen. Er is sprake van fijne tremor in de rechterhand. Tijdens het ochtendcontact had zij moeite om zich verbaal uit te drukken; gebruikt korte zinnen met lange pauzes. Zelfstandig toiletbezoek is mogelijk, maar met risico op vallen. Advies: looprek binnen handbereik houden en logopedie betrekken voor spraakondersteuning. |
 
+## Nursing Report - 14-05-2025
+
 | | |
 | --- | --- |
 | ReportTitle | Dagrapportage |
@@ -326,6 +334,8 @@ This test scenario contains test data of both the BgLZ and BgLZ+ (for completene
 | Performer.HealthProfessional | |
 | Performer.HealthcareProvider | WijZorgen Honselerdijk |
 | ReportContent | Tijdens de middagdienst werd opgemerkt dat mevrouw vertraagd reageerde op vragen en aanwijzingen. Er is sprake van wisselende alertheid. Mobiliteit was verminderd: traag gangpatroon en neiging tot 'bevriezen' bij het draaien. Mevrouw gaf aan meer last te hebben van stijfheid in de schouders. Er is hulp geboden bij aan- en uitkleden. Geadviseerd om bewegingsoefeningen te stimuleren en fysiotherapie te informeren voor beoordeling van valrisico. |
+
+## Nursing Report - 07-05-2025
 
 | | |
 | --- | --- |
@@ -337,12 +347,16 @@ This test scenario contains test data of both the BgLZ and BgLZ+ (for completene
 
 ## Nutrition Advice data
 
+## Nutrition Advice - lactosevrij
+
 | | |
 | --- | --- |
 | DietType | lactosevrij |
 | Consistency | solide |
 | Comment | naar eigen zeggen lactose-intolerant |
 | DateTime | 23-02-2025 |
+
+## Nutrition Advice - geen selderij
 
 | | |
 | --- | --- |

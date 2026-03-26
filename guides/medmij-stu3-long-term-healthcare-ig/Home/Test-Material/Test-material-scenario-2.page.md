@@ -72,6 +72,8 @@
 
 ## Healthcare Provider data
 
+## Healthcare Provider - Huisarts de Huisarts
+
 | | |
 | --- | --- |
 | HealthProviderIdentificationNumber | 01565656 (in identifier system 'Vektis AGB-zorgverlener tabel') |
@@ -100,6 +102,8 @@
 | AddressInformation.AdditionalInformation | bedrijfsgebouw 'De Stits' |
 | AddressInformation.AddressType | Werkadres (code 'WP' from code system 'AddressUse') |
 | OrganizationType | Huisartspraktijk (zelfstandig of groepspraktijk) (code 'Z3' from code system 'RoleCodeNL') |
+
+## Healthcare Provider - WijkverplegingOrg Zuid
 
 | | |
 | --- | --- |
