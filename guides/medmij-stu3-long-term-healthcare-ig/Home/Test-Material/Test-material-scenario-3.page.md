@@ -166,7 +166,7 @@ This test scenario contains test data of both the BgLZ and BgLZ+ (for completene
 | | |
 | --- | --- |
 | CausativeAgent | selderij (code '256326004' from code system 'SNOMED CT') |
-| AllergyCategory | |
+| AllergyCategory | Voeding (code '418471000' from code system 'SNOMED CT') |
 | AllergyStatus | Actief (code 'active' from code system 'ActStatus') |
 | StartDateTime | 15-05-2015 |
 | Criticality | Matig (code '6736007' from code system 'SNOMED CT') |

@@ -97,7 +97,7 @@
 | AddressInformation.PlaceOfResidence | Stitswerd |
 | AddressInformation.Municipality | |
 | AddressInformation.Country | Nederland (code 'NL' from code system 'ISO 3166-1 (alpha-2)') |
-| AddressInformation.AdditionalInformation | bedrijfsgebrouw 'De Stits' |
+| AddressInformation.AdditionalInformation | bedrijfsgebouw 'De Stits' |
 | AddressInformation.AddressType | Werkadres (code 'WP' from code system 'AddressUse') |
 | OrganizationType | Huisartspraktijk (zelfstandig of groepspraktijk) (code 'Z3' from code system 'RoleCodeNL') |
 
