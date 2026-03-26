@@ -117,7 +117,7 @@ This test scenario contains test data of both the BgLZ and BgLZ+ (for completene
 | NameInformation.LastNamePartner.PartnerLastName | |
 | ContactInformation.TelephoneNumbers.TelephoneNumber | +31645678912 |
 | ContactInformation.TelephoneNumbers.TelecomType | Mobiel telefoonnummer (code 'MC' from code system 'AddressUse') |
-| ContactInformation.TelephoneNumbers.NumberType | |
+| ContactInformation.TelephoneNumbers.NumberType | Telefoonnummer thuis (code 'HP' from code system 'AddressUse') |
 | ContactInformation.EmailAddresses.EmailAddress | jtimmerman@123net.nl |
 | ContactInformation.EmailAddresses.EmailAddressType | Privé e-mailadres (code 'HP' from code system 'AddressUse') |
 | AddressInformation.Street | |

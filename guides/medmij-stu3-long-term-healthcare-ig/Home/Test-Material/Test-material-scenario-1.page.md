@@ -93,6 +93,37 @@
 | AddressInformation.AddressType | |
 | OrganizationType | Thuiszorg (code 'T2' from code system 'RoleCodeNL') |
 
+## Contact Person data
+
+| | |
+| --- | --- |
+| NameInformation.FirstNames | Robert |
+| NameInformation.Initials | R. |
+| NameInformation.GivenName | |
+| NameInformation.NameUsage | Eigen geslachtsnaam (code 'NL1' from code system 'NaamGebruik') |
+| NameInformation.LastName.Prefix | |
+| NameInformation.LastName.LastName | Prins |
+| NameInformation.LastNamePartner.PartnerPrefix | |
+| NameInformation.LastNamePartner.PartnerLastName | |
+| ContactInformation.TelephoneNumbers.TelephoneNumber | 06-34567891 |
+| ContactInformation.TelephoneNumbers.TelecomType | Mobiel telefoonnummer (code 'MC' from code system 'AddressUse') |
+| ContactInformation.TelephoneNumbers.NumberType | Telefoonnummer thuis (code 'HP' from code system 'AddressUse') |
+| ContactInformation.EmailAddresses.EmailAddress | bprins@123net.nl |
+| ContactInformation.EmailAddresses.EmailAddressType | Privé e-mailadres (code 'HP' from code system 'AddressUse') |
+| AddressInformation.Street | |
+| AddressInformation.HouseNumber | |
+| AddressInformation.HouseNumberLetter | |
+| AddressInformation.HouseNumberAddition | |
+| AddressInformation.HouseNumberIndication | |
+| AddressInformation.Postcode | |
+| AddressInformation.PlaceOfResidence | |
+| AddressInformation.Municipality | |
+| AddressInformation.Country | |
+| AddressInformation.AdditionalInformation | |
+| AddressInformation.AddressType | |
+| Role | Eerste relatie/contactpersoon (code '1' from code system 'COD472-VEKT') |
+| Relationship | Zoon (code 'SONC' from code system 'RoleCode') |
+
 ## Alert data
 
 | | |
