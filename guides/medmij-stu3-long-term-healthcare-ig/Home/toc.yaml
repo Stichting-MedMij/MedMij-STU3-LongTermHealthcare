@@ -10,5 +10,7 @@
   filename: Granular-Data-Service-Index
 - name: Dependencies
   filename: Dependencies.page.md
+- name: Test material
+  filename: Test-Material
 - name: Release notes
   filename: Release-notes.page.md
