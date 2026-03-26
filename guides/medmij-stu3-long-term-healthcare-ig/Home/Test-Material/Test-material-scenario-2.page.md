@@ -72,7 +72,7 @@
 
 ## Healthcare Provider data
 
-## Healthcare Provider - Huisarts de Huisarts
+### Healthcare Provider - Huisarts de Huisarts
 
 | | |
 | --- | --- |
@@ -103,7 +103,7 @@
 | AddressInformation.AddressType | Werkadres (code 'WP' from code system 'AddressUse') |
 | OrganizationType | Huisartspraktijk (zelfstandig of groepspraktijk) (code 'Z3' from code system 'RoleCodeNL') |
 
-## Healthcare Provider - WijkverplegingOrg Zuid
+### Healthcare Provider - WijkverplegingOrg Zuid
 
 | | |
 | --- | --- |
