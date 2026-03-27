@@ -18,7 +18,7 @@ topic: NursingReport
 | | |
 | --- | --- |
 | **CIM** | NursingReport (based on the [ANW v2024.1](https://nuts-foundation.gitbook.io/bolts/anw/v2024.1#id-5.2-wegschrijven-van-informatie) specification) |
-| **Functional version** | 1.0.0-beta.2 |
+| **Functional version** | 1.0.0-rc.1 |
 
 The Logical Model is included below.
 
@@ -37,12 +37,12 @@ The Logical Model is included below.
 ## Technical specification
 | | |
 | --- | --- |
-| **FHIR profile(s)** | [http://medmij.nl/fhir/StructureDefinition/lz-NursingReport](https://simplifier.net/resolve?canonical=http://medmij.nl/fhir/StructureDefinition/lz-NursingReport&scope=medmij.fhir.nl.stu3.longtermhealthcare@1.0.0-beta.2) |
-| **FHIR package** | [medmij.fhir.nl.stu3.longtermhealthcare](https://simplifier.net/packages/medmij.fhir.nl.stu3.longtermhealthcare) version 1.0.0-beta.2 or compatible |
+| **FHIR profile(s)** | [http://medmij.nl/fhir/StructureDefinition/lz-NursingReport](https://simplifier.net/resolve?canonical=http://medmij.nl/fhir/StructureDefinition/lz-NursingReport&scope=medmij.fhir.nl.stu3.longtermhealthcare@1.0.0-rc.1) |
+| **FHIR package** | [medmij.fhir.nl.stu3.longtermhealthcare](https://simplifier.net/packages/medmij.fhir.nl.stu3.longtermhealthcare) version 1.0.0-rc.1 or compatible |
 | **FHIR version** | STU3 |
 | **Search request** | `GET [base]/Observation?code=http://snomed.info/sct|11591000146107` |
 | **Must Support** | <ul> <li> `.identifier` <li> `.subject` <li> `.effectiveDateTime` <li> `.performer` (including the [practitionerrole-reference](https://simplifier.net/resolve?canonical=http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference&scope=nictiz.fhir.nl.stu3.zib2017@2.3.2) extension) <li> `.valueString` <li> `.meta.tag` (only the [care type](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-exchange?version=1.1.1#CareType)) |
-| **CapabilityStatement(s)** | [Long-term Healthcare NursingReport Retrieve](https://simplifier.net/resolve?canonical=http://medmij.nl/fhir/CapabilityStatement/lz-NursingReport-Retrieve&scope=medmij.fhir.nl.stu3.longtermhealthcare@1.0.0-beta.2) <br/> [Long-term Healthcare NursingReport Serve](https://simplifier.net/resolve?canonical=http://medmij.nl/fhir/CapabilityStatement/lz-NursingReport-Serve&scope=medmij.fhir.nl.stu3.longtermhealthcare@1.0.0-beta.2) |
+| **CapabilityStatement(s)** | [Long-term Healthcare NursingReport Retrieve](https://simplifier.net/resolve?canonical=http://medmij.nl/fhir/CapabilityStatement/lz-NursingReport-Retrieve&scope=medmij.fhir.nl.stu3.longtermhealthcare@1.0.0-rc.1) <br/> [Long-term Healthcare NursingReport Serve](https://simplifier.net/resolve?canonical=http://medmij.nl/fhir/CapabilityStatement/lz-NursingReport-Serve&scope=medmij.fhir.nl.stu3.longtermhealthcare@1.0.0-rc.1) |
 
 The FHIR profile is included below.
 

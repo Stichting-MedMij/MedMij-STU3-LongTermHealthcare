@@ -8,7 +8,7 @@
   "url": "http://medmij.nl/fhir/StructureDefinition/lz-NursingReport",
   "name": "LzNursingReport",
   "title": "lz NursingReport",
-  "status": "draft",
+  "status": "active",
   "publisher": "MedMij",
   "contact": [
     {
@@ -28,8 +28,8 @@
   "fhirVersion": "3.0.2",
   "mapping": [
     {
-      "identity": "lz-medmij-dataset-100-beta2-20260226",
-      "name": "Dataset Langdurige Zorg MedMij 1.0.0-beta.2 20260226"
+      "identity": "lz-medmij-dataset-100-rc1-20260401",
+      "name": "Dataset Langdurige Zorg MedMij 1.0.0-rc.1 20260401"
     }
   ],
   "kind": "resource",
@@ -49,7 +49,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "identity": "lz-medmij-dataset-100-rc1-20260401",
             "map": "lz-dataelement-1",
             "comment": "NursingReport"
           }
@@ -121,7 +121,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "identity": "lz-medmij-dataset-100-rc1-20260401",
             "map": "lz-dataelement-3",
             "comment": "ReportDateTime"
           }
@@ -149,7 +149,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "identity": "lz-medmij-dataset-100-rc1-20260401",
             "map": "lz-dataelement-4",
             "comment": "Performer"
           }
@@ -186,7 +186,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "identity": "lz-medmij-dataset-100-rc1-20260401",
             "map": "lz-dataelement-19",
             "comment": "ReportContent"
           }
