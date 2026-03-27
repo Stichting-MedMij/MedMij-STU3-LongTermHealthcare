@@ -8,7 +8,7 @@
   "url": "http://medmij.nl/fhir/StructureDefinition/ext-NursingReport.ReportTitle",
   "name": "ExtNursingReportReportTitle",
   "title": "ext NursingReport.ReportTitle",
-  "status": "draft",
+  "status": "active",
   "publisher": "MedMij",
   "contact": [
     {
@@ -28,8 +28,8 @@
   "fhirVersion": "3.0.2",
   "mapping": [
     {
-      "identity": "lz-medmij-dataset-100-beta2-20260226",
-      "name": "Dataset Langdurige Zorg MedMij 1.0.0-beta.2 20260226"
+      "identity": "lz-medmij-dataset-100-rc1-20260401",
+      "name": "Dataset Langdurige Zorg MedMij 1.0.0-rc.1 20260401"
     }
   ],
   "kind": "complex-type",
@@ -70,7 +70,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-medmij-dataset-100-beta2-20260226",
+            "identity": "lz-medmij-dataset-100-rc1-20260401",
             "map": "lz-dataelement-2",
             "comment": "ReportTitle"
           }
