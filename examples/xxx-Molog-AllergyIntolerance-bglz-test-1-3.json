@@ -53,7 +53,9 @@
       }
     ]
   },
-  "category": "food",
+  "category": [
+    "food"
+  ],
   "_category": {
     "extension": [
       {
