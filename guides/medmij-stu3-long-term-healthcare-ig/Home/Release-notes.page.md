@@ -8,7 +8,7 @@
 | Functional design           | The display guidelines has been updated. | [DOSINZAGE1-923](https://medmij.atlassian.net/browse/DOSINZAGE1-923) |
 | Technical design            | The cross-domain data services Alert, Blood pressure, Body height, Body temperature, Body weight, Fluid balance, Living situation, Nutrition advice, Payer, Pulse rate and Respiration have been updated to version 1.0.0-rc.1. | [DOSINZAGE1-915](https://medmij.atlassian.net/browse/DOSINZAGE1-915), [DOSINZAGE1-968](https://medmij.atlassian.net/browse/DOSINZAGE1-968) |
 | Technical design            | Guidance on both patient identification, and the relation between FHIR profiles and Logical Models, has been added. | [DOSINZAGE1-927](https://medmij.atlassian.net/browse/DOSINZAGE1-927) |
-| FHIR artifacts              | The MedMij STU3 Core dependency has been updated to version 1.1.1. | [DOSINZAGE1-928](https://medmij.atlassian.net/browse/DOSINZAGE1-928) |
+| FHIR artifacts              | The MedMij STU3 Core dependency has been updated to version 1.2.0. | [DOSINZAGE1-928](https://medmij.atlassian.net/browse/DOSINZAGE1-928) |
 | Granular data service index | The following granular data services have been updated: <br/> <ul> <li> Retrieve Long-term Healthcare - Nursing report, version 1.0.0-rc.1 | [DOSINZAGE1-968](https://medmij.atlassian.net/browse/DOSINZAGE1-968) |
 | Test material               | Several small errors in the test material have been corrected. | [DOSINZAGE1-924](https://medmij.atlassian.net/browse/DOSINZAGE1-924) |
 | Test material               | The test material has been relocated to the IG. | [DOSINZAGE1-924](https://medmij.atlassian.net/browse/DOSINZAGE1-924) |
