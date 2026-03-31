@@ -499,7 +499,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | VochtTotaalIn | Item | NL-CM:12.15.4 | 1400 ml | a | Totaal vocht in | | M |
 | VochtTotaalUit | Item | NL-CM:12.15.5 | 1000 ml | a | Totaal vocht uit | | M |
 | VochtbalansStarttijd | Item | NL-CM:12.15.2 | 14-03-2025 07:00 | a | Startdatum en -tijd | | M |
-| VochtbalansStoptijd | Item | NL-CM:12.15.3 | 15-03-2025 07:00 | b | Einddatum en -tijd | | M |
+| VochtbalansStoptijd | Item | NL-CM:12.15.3 | 15-03-2025 07:00 | a of b | Einddatum en -tijd | | M |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
 <br/>
@@ -540,7 +540,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | EindDatumTijd | Item | NL-CM:1.1.14 | 17-03-2026 | b | Einddatum | Alleen datum is voldoende | M |
 | Verzekeringssoort | Item | NL-CM:1.1.15 | Basis verzekerd (code 'B' in codesysteem '2.16.840.1.113883.2.4.3.11.60.101.5.1') | b | Soort verzekering | | M |
 | IdentificatieNummer | Item | NL-CM:1.1.7 | 3332 (in identificerend systeem '2.16.840.1.113883.2.4.6.4') | b | Identificatienummer | | M |
-| OrganisatieNaam | Item | NL-CM:1.1.16 | Menzis | a | Naam organisatie | | M |
+| OrganisatieNaam | Item | NL-CM:1.1.16 | Menzis | a of b | Naam organisatie | | M |
 | VerzekerdeNummer | Item | NL-CM:1.1.6 | 6318708200 | b | Nummer verzekerde | | M |
 | Adresgegevens | Subbouwsteen | NL-CM:1.1.17 | | b | | | M |
 | Contactgegevens | Subbouwsteen | NL-CM:1.1.12 | | b | | | M |
