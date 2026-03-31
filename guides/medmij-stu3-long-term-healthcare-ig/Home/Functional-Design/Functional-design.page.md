@@ -93,18 +93,18 @@ De onderstaande tabel geeft een overzicht van alle granulaire gegevensdiensten d
 
 | Id | Gegevensdienstnaam zonder versie | Versie |
 | --- | --- | --- |
-| 900000404 | [Verzamelen MedMij Core - Alert (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Alert?version=1.1.1) | 1.0.0-beta.2 |
-| 900000401 | [Verzamelen MedMij Core - Bloeddruk (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-BloodPressure?version=1.1.1) | 1.0.0-beta.2 |
-| 900000402 | [Verzamelen MedMij Core - Lichaamslengte (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-BodyHeight?version=1.1.1) | 1.0.0-beta.2 |
-| 900000409 | [Verzamelen MedMij Core - Lichaamstemperatuur (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-BodyTemperature?version=1.1.1) | 1.0.0-beta.2 |
-| 900000403 | [Verzamelen MedMij Core - Lichaamsgewicht (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-BodyWeight?version=1.1.1) | 1.0.0-beta.2 |
-| 900000410 | [Verzamelen MedMij Core - Vochtbalans (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-FluidBalance?version=1.1.1) | 1.0.0-beta.2 |
-| 900000406 | [Verzamelen MedMij Core - Woonsituatie (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-LivingSituation?version=1.1.1) | 1.0.0-beta.2 |
-| 900000405 | [Verzamelen MedMij Core - Voedingsadvies (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-NutritionAdvice?version=1.1.1) | 1.0.0-beta.1 |
-| 900000407 | [Verzamelen MedMij Core - Betaler (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Payer?version=1.1.1) | 1.0.0-beta.2 |
-| 900000412 | [Verzamelen MedMij Core - Polsfrequentie (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-PulseRate?version=1.1.1) | 1.0.0-beta.2 |
-| 900000411 | [Verzamelen MedMij Core - Ademhaling (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Respiration?version=1.1.1) | 1.0.0-beta.2 |
+| 900000404 | [Verzamelen MedMij Core - Alert (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Alert?version=1.1.1) | 1.0.0-rc.1 |
+| 900000401 | [Verzamelen MedMij Core - Bloeddruk (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-BloodPressure?version=1.1.1) | 1.0.0-rc.1 |
+| 900000402 | [Verzamelen MedMij Core - Lichaamslengte (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-BodyHeight?version=1.1.1) | 1.0.0-rc.1 |
+| 900000409 | [Verzamelen MedMij Core - Lichaamstemperatuur (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-BodyTemperature?version=1.1.1) | 1.0.0-rc.1 |
+| 900000403 | [Verzamelen MedMij Core - Lichaamsgewicht (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-BodyWeight?version=1.1.1) | 1.0.0-rc.1 |
+| 900000410 | [Verzamelen MedMij Core - Vochtbalans (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-FluidBalance?version=1.1.1) | 1.0.0-rc.1 |
+| 900000406 | [Verzamelen MedMij Core - Woonsituatie (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-LivingSituation?version=1.1.1) | 1.0.0-rc.1 |
+| 900000405 | [Verzamelen MedMij Core - Voedingsadvies (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-NutritionAdvice?version=1.1.1) | 1.0.0-rc.1 |
+| 900000407 | [Verzamelen MedMij Core - Betaler (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Payer?version=1.1.1) | 1.0.0-rc.1 |
+| 900000412 | [Verzamelen MedMij Core - Polsfrequentie (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-PulseRate?version=1.1.1) | 1.0.0-rc.1 |
+| 900000411 | [Verzamelen MedMij Core - Ademhaling (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Respiration?version=1.1.1) | 1.0.0-rc.1 |
 | 900000408 | {{pagelink: Encounter, text: Verzamelen Langdurige Zorg - Contact}} | 1.0.0-beta.1 |
-| 900000413 | {{pagelink: NursingReport, text: Verzamelen Langdurige Zorg - Dagrapportage}} | 1.0.0-beta.1 |
+| 900000413 | {{pagelink: NursingReport, text: Verzamelen Langdurige Zorg - Dagrapportage}} | 1.0.0-rc.1 |
 
 **Tabel 2: Granulaire gegevensdiensten relevant voor BgLZ+**

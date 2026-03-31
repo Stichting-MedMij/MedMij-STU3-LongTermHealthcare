@@ -12,7 +12,7 @@ topic: Encounter
 | **Data service name without version (Dutch)** | Verzamelen Langdurige Zorg - Contact |
 | **Data service version** | 1.0.0-beta.1 |
 | **System role(s)** | LZ-ENR-1.0.0-beta.1-FHIR (PHR) <br/> LZ-ENB-1.0.0-beta.1-FHIR (XIS) |
-| **Relevant domain(s)** | [Long-term Healthcare](https://simplifier.net/medmij-stu3-long-term-healthcare/) |
+| **Used in Implementation Guide(s)** | [Long-term Healthcare](https://simplifier.net/medmij-stu3-long-term-healthcare/) |
 
 ## Functional model
 | | |
