@@ -15,7 +15,7 @@ This index contains all active domain-specific granular data services within Lon
         - the CIM abbreviation consists of exactly two capital letters indicating the English name of the CIM;
         - the Suffix is an optional addition, and is described in more detail [here](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-exchange?version=1.1.1#PublicationGranularDataServices);
         - the Transaction indicator is either 'R' or 'B', indicating a Retrieve (Dutch: Raadplegen) or Serve (Dutch: Beschikbaar stellen) transaction, respectively. The former transaction is intended for the PHR, while the latter is relevant for the XIS. As the corresponding transaction (group) can be derived from the system role, the transactions and transaction groups are not specified on the respective data service pages. Instead, these can be found in the [MedMij Catalogus](https://catalogus.medmij.nl/overzicht/actueel/actuele-catalogus).
-    - **Relevant domain(s)** - the domains in which the granular data service is used, which is always *Long-term Healthcare* in this IG.
+    - **Used in Implementation Guide(s)** - the IGs (and corresponding domains) in which the granular data service is used, which is always *Long-term Healthcare* in this IG.
 - **Functional model**
     - **CIM** - the underlying Clinical Information Model, which is often a zib.
     - **Functional version** - the version of the CIM. For a CIM that is a zib, this version is of the form '*x.y*([zib publication])', e.g. '3.1(2017)'. For CIMs that are defined by MedMij as a Logical Model, the version of the corresponding FHIR package is suitable as the functional version.
