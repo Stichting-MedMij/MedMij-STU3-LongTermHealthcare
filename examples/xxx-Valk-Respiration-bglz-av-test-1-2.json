@@ -9,7 +9,7 @@
     ],
     "tag": [
       {
-        "system": "urn:oid:2.16.840.1.113883.2.4.6.7", 
+        "system": "urn:oid:2.16.840.1.113883.2.4.6.7",
         "code": "7500",
         "display": "Thuiszorg, kruiswerk en gezinsverzorging"
       }
@@ -17,7 +17,7 @@
   },
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <table>\n        <caption>Observatie/bepaling. Subject: Gea G. XXX_Valk, Categorie: <span title=\"Vital Signs (vital-signs - observation-category)\">Vital Signs</span>, Status: definitief<span style=\"display: block;\">Uitvoerende: WijkverplegingOrg Zuid</span>\n        </caption>\n        <tfoot>\n          <tr>\n            <td colspan=\"2\">na het traplopen</td>\n          </tr>\n        </tfoot>\n        <tbody>\n          <tr>\n            <th>Bepalingdatum/tijd</th>\n            <td>2025-05-19</td>\n          </tr>\n          <tr>\n            <th>Code</th>\n            <th>Waarde</th>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"evaluatie van ademhaling (422834003 - SNOMED CT)\">evaluatie van ademhaling</span>\n            </td>\n            <td/>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"Respiratory rate (9279-1 - LOINC)\">Respiratory rate</span>\n            </td>\n            <td>22 breaths per minute</td>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"ademhalingsritme (48064009 - SNOMED CT)\">ademhalingsritme</span>\n            </td>\n            <td>\n              <span title=\"Normaal ademhalingsritme (5467003 - SNOMED CT)\">Normaal ademhalingsritme</span>\n            </td>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"diepte van ademhaling (271626009 - SNOMED CT)\">diepte van ademhaling</span>\n            </td>\n            <td>\n              <span title=\"oppervlakkige ademhaling (386616007 - SNOMED CT)\">oppervlakkige ademhaling</span>\n            </td>\n          </tr>\n        </tbody>\n      </table>\n    </div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <table>\n        <caption>Observatie/bepaling. Subject: Gea G. XXX_Valk, Categorie: <span title=\"Vital Signs (vital-signs - observation-category)\">Vital Signs</span>, Status: definitief<span style=\"display: block;\">Uitvoerende: WijkverplegingOrg Zuid</span>\n        </caption>\n        <tfoot>\n          <tr>\n            <td colspan=\"2\">na het traplopen</td>\n          </tr>\n        </tfoot>\n        <tbody>\n          <tr>\n            <th>Bepalingdatum/tijd</th>\n            <td>2025-05-19</td>\n          </tr>\n          <tr>\n            <th>Code</th>\n            <th>Waarde</th>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"evaluatie van ademhaling (422834003 - SNOMED CT)\">evaluatie van ademhaling</span>\n            </td>\n            <td/>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"Respiratory rate (9279-1 - LOINC)\">Respiratory rate</span>\n            </td>\n            <td>22 breaths per minute</td>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"ademhalingsritme (48064009 - SNOMED CT)\">ademhalingsritme</span>\n            </td>\n            <td>\n              <span title=\"Normaal ademhalingsritme (5467003 - SNOMED CT)\">Normaal ademhalingsritme</span>\n            </td>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"diepte van ademhaling (271626009 - SNOMED CT)\">diepte van ademhaling</span>\n            </td>\n            <td>\n              <span title=\"Oppervlakkige ademhaling (386616007 - SNOMED CT)\">Oppervlakkige ademhaling</span>\n            </td>\n          </tr>\n        </tbody>\n      </table>\n    </div>"
   },
   "extension": [
     {
@@ -130,7 +130,7 @@
           {
             "system": "http://snomed.info/sct",
             "code": "386616007",
-            "display": "oppervlakkige ademhaling"
+            "display": "Oppervlakkige ademhaling"
           }
         ]
       }

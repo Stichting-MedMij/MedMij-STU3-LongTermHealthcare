@@ -10,12 +10,11 @@ The following FHIR profiles have been introduced for the Long-term Healthcare st
 | --- | --- | --- |
 | [Encounter](https://zibs.nl/wiki/Encounter-v3.1(2017EN)) | Encounter | {{pagelink: FHIRProfilesIndex, text: lz-Encounter, anchor: LzEncounter}} |
 | {{pagelink: LogicalModelsIndex, text: NursingReport, anchor: LzLmNursingReport}} | Observation | {{pagelink: FHIRProfilesIndex, text: lz-NursingReport, anchor: LzNursingReport}} |
-| {{pagelink: LogicalModelsIndex, text: NursingReport (ReportTitle), anchor: LzLmNursingReport}} | Extension | {{pagelink: FHIRProfilesIndex, text: ext-NursingReport.ReportTitle, anchor: LzNursingReportReportTitle}} |
+| {{pagelink: LogicalModelsIndex, text: NursingReport (ReportTitle), anchor: LzLmNursingReport}} | Extension | {{pagelink: FHIRProfilesIndex, text: ext-NursingReport.ReportTitle, anchor: ExtNursingReportReportTitle}} |
 
 **Table 1: Relevant long-term healthcare-specific profiles**
 
 Note the following:
-- The CIM Encounter is largely based on zib publication 2017, but is adjusted in the sense that future contacts are in scope as well (which is a pre-adopt of [zib publication 2020](https://zibs.nl/wiki/Encounter-v4.0.1(2020EN))).
 - The [Nictiz Profiling Guidelines for FHIR STU3](https://informatiestandaarden.nictiz.nl/wiki/FHIR:V1.0_FHIR_Profiling_Guidelines_STU3) have been used as guidelines for creating the profiles.
 - The (element) descriptions present in the profiles are taken from the respective Logical Model or CIM the mapped concept originates from.
 - The ['open world' modeling](https://informatiestandaarden.nictiz.nl/wiki/FHIR:V1.0_FHIR_Profiling_Guidelines_STU3#Open_vs._Closed_Modeling) approach is adopted as much as possible. Notable exceptions are cardinalities that have been restricted based on the functional dataset of the MedMij use case, such as several minimum cardinalities.
