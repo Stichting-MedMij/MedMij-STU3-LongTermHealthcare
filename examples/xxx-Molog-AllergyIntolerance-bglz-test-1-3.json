@@ -56,22 +56,24 @@
   "category": [
     "food"
   ],
-  "_category": {
-    "extension": [
-      {
-        "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
-        "valueCodeableConcept": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "418471000",
-              "display": "neiging tot ongewenste reactie op voedsel"
-            }
-          ]
+  "_category": [
+    {
+      "extension": [
+        {
+          "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "418471000",
+                "display": "neiging tot ongewenste reactie op voedsel"
+              }
+            ]
+          }
         }
-      }
-    ]
-  },
+      ]
+    }
+  ],
   "code": {
     "coding": [
       {
