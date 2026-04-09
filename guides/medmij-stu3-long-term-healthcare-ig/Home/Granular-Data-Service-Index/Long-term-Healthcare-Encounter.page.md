@@ -10,8 +10,8 @@ topic: Encounter
 | **Id** | 900000408 |
 | **Data service name without version (English)** | Retrieve Long-term Healthcare - Encounter |
 | **Data service name without version (Dutch)** | Verzamelen Langdurige Zorg - Contact |
-| **Data service version** | 1.0.0-beta.1 |
-| **System role(s)** | LZ-ENR-1.0.0-beta.1-FHIR (PHR) <br/> LZ-ENB-1.0.0-beta.1-FHIR (XIS) |
+| **Data service version** | 1.0.0-beta.2 |
+| **System role(s)** | LZ-ENR-beta.2 (PHR) <br/> LZ-ENB-beta.2 (XIS) |
 | **Used in Implementation Guide(s)** | [Long-term Healthcare](https://simplifier.net/medmij-stu3-long-term-healthcare/) |
 
 ## Functional model
