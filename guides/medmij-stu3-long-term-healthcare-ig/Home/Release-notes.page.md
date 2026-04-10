@@ -1,5 +1,14 @@
 # {{page-title}}
 
+## 1.0.0-rc.2
+
+| Component                   | Description  | Ticket    |
+| --------------------------- | ------------ | --------- |
+| Functional design           | The cross-domain data services Alert, Blood pressure, Body height, Body temperature, Body weight, Fluid balance, Living situation, Nutrition advice, Payer, Pulse rate and Respiration have been updated to version 1.0.0-rc.2. | [DOSINZAGE1-986](https://medmij.atlassian.net/browse/DOSINZAGE1-986) |
+| Technical design            | The cross-domain data services Alert, Blood pressure, Body height, Body temperature, Body weight, Fluid balance, Living situation, Nutrition advice, Payer, Pulse rate and Respiration have been updated to version 1.0.0-rc.2. | [DOSINZAGE1-986](https://medmij.atlassian.net/browse/DOSINZAGE1-986) |
+| FHIR artifacts              | The MedMij STU3 Core dependency has been updated to version 1.2.1. | [DOSINZAGE1-986](https://medmij.atlassian.net/browse/DOSINZAGE1-986) |
+| Granular data service index | The following granular data services have been updated: <br/> <ul> <li> Retrieve Long-term Healthcare - Encounter, version 1.0.0-beta.2 <ul> <li> The system roles have been updated to conform to the 30-character limit. </ul> <li> Retrieve Long-term Healthcare - Nursing report, version 1.0.0-rc.2 <ul> <li> The system roles have been updated to conform to the 30-character limit. </ul> | [DOSINZAGE1-987](https://medmij.atlassian.net/browse/DOSINZAGE1-987) |
+
 ## 1.0.0-rc.1
 
 | Component                   | Description  | Ticket    |
