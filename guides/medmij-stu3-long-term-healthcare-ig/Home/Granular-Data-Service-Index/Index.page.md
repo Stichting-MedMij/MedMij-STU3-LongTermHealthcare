@@ -10,11 +10,12 @@ This index contains all active domain-specific granular data services within Lon
     - **Id** - the id of the data service that is used to uniquely define it in the [MedMij Catalogus](https://catalogus.medmij.nl/overzicht/actueel/actuele-catalogus).
     - **Data service name without version** - the name of the data service, both in English and Dutch, of which the Dutch one, appended with the data service version, is used in the MedMij Catalogus.
     - **Data service version** - the version assigned to the data service as a whole (not to be confused with the version of the corresponding functional model or the package version of the corresponding FHIR profiles).
-    - **System role(s)** - the system roles corresponding to the different transactions within each data service. Each system is of the form 'LZ-[CIM abbreviation]\[Transaction indicator\](-[Suffix])-[Data service version]-FHIR', where:
+    - **System role(s)** - the system roles corresponding to the different transactions within each data service. Each system is of the form 'LZ-[CIM abbreviation]\[Transaction indicator\](-[Suffix])-[Data service version (abbreviated)]', where:
         - 'LZ' refers to Long-term Healthcare (Dutch: Langdurige Zorg);
         - the CIM abbreviation consists of exactly two capital letters indicating the English name of the CIM;
-        - the Suffix is an optional addition, and is described in more detail [here](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-exchange?version=1.2.0#PublicationGranularDataServices);
-        - the Transaction indicator is either 'R' or 'B', indicating a Retrieve (Dutch: Raadplegen) or Serve (Dutch: Beschikbaar stellen) transaction, respectively. The former transaction is intended for the PHR, while the latter is relevant for the XIS. As the corresponding transaction (group) can be derived from the system role, the transactions and transaction groups are not specified on the respective data service pages. Instead, these can be found in the [MedMij Catalogus](https://catalogus.medmij.nl/overzicht/actueel/actuele-catalogus).
+        - the Transaction indicator is either 'R' or 'B', indicating a Retrieve (Dutch: Raadplegen) or Serve (Dutch: Beschikbaar stellen) transaction, respectively. The former transaction is intended for the PHR, while the latter is relevant for the XIS (this is also explicitly indicated for each individual system role). As the corresponding transaction (group) can be derived from the system role, the transactions and transaction groups are not specified on the respective data service pages. Instead, these can be found in the [MedMij Catalogus](https://catalogus.medmij.nl/overzicht/actueel/actuele-catalogus);
+        - the Suffix is an optional addition, and is described in more detail [here](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-exchange?version=1.2.1#PublicationGranularDataServices);
+        - the Data service version is abbreviated for prereleases (i.e. if the data service is released as an alpha, beta or release candidate). For these, only the latter part of the data service version is included. For instance, if the data service version is '1.0.0-alpha.1', the abbreviated version is 'alpha.1'.
     - **Used in Implementation Guide(s)** - the IGs (and corresponding domains) in which the granular data service is used, which is always *Long-term Healthcare* in this IG.
 - **Functional model**
     - **CIM** - the underlying Clinical Information Model, which is often a zib.
@@ -25,6 +26,6 @@ This index contains all active domain-specific granular data services within Lon
     - **FHIR package** - the FHIR package in which the FHIR profiles have been published.
     - **FHIR version** - the version of FHIR in which the profiles corresponding to the CIM have been created, which is always *STU3* in this IG.
     - **Search request** - the request to be executed by the PHR to retrieve the data corresponding to the granular data service.
-    - **Must Support** - the elements that have to be supported in the manner described [here](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-exchange?version=1.2.0#MustSupport).
+    - **Must Support** - the elements that have to be supported in the manner described [here](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-exchange?version=1.2.1#MustSupport).
     - **CapabilityStatement(s)** - the FHIR CapabilityStatements that describe the minimal requirements for a client or server to fulfill the corresponding transaction(s) defined within the data service.
     - Moreover, the relevant FHIR profiles are added in this section.

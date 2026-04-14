@@ -35,8 +35,8 @@
   "fhirVersion": "3.0.2",
   "mapping": [
     {
-      "identity": "lz-medmij-dataset-100-rc1-20260401",
-      "name": "Dataset Langdurige Zorg MedMij 1.0.0-rc.1 20260401"
+      "identity": "lz-medmij-dataset-100-rc2-20260413",
+      "name": "Dataset Langdurige Zorg MedMij 1.0.0-rc.2 20260413"
     },
     {
       "identity": "SNOMED",
@@ -61,7 +61,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-medmij-dataset-100-rc1-20260401",
+            "identity": "lz-medmij-dataset-100-rc2-20260413",
             "map": "lz-dataelement-1",
             "comment": "NursingReport"
           },
@@ -90,7 +90,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-medmij-dataset-100-rc1-20260401",
+            "identity": "lz-medmij-dataset-100-rc2-20260413",
             "map": "lz-dataelement-2",
             "comment": "ReportTitle"
           }
@@ -113,7 +113,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-medmij-dataset-100-rc1-20260401",
+            "identity": "lz-medmij-dataset-100-rc2-20260413",
             "map": "lz-dataelement-3",
             "comment": "ReportDateTime"
           }
@@ -145,7 +145,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-medmij-dataset-100-rc1-20260401",
+            "identity": "lz-medmij-dataset-100-rc2-20260413",
             "map": "lz-dataelement-4",
             "comment": "Performer"
           }
@@ -171,7 +171,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-medmij-dataset-100-rc1-20260401",
+            "identity": "lz-medmij-dataset-100-rc2-20260413",
             "map": "lz-dataelement-5",
             "comment": "HealthProfessional"
           },
@@ -199,7 +199,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-medmij-dataset-100-rc1-20260401",
+            "identity": "lz-medmij-dataset-100-rc2-20260413",
             "map": "lz-dataelement-6",
             "comment": "HealthProfessionalIdentificationNumber"
           }
@@ -222,7 +222,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-medmij-dataset-100-rc1-20260401",
+            "identity": "lz-medmij-dataset-100-rc2-20260413",
             "map": "lz-dataelement-7",
             "comment": "NameInformation"
           }
@@ -245,7 +245,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-medmij-dataset-100-rc1-20260401",
+            "identity": "lz-medmij-dataset-100-rc2-20260413",
             "map": "lz-dataelement-8",
             "comment": "FirstNames"
           }
@@ -268,7 +268,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-medmij-dataset-100-rc1-20260401",
+            "identity": "lz-medmij-dataset-100-rc2-20260413",
             "map": "lz-dataelement-9",
             "comment": "Initials"
           }
@@ -291,7 +291,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-medmij-dataset-100-rc1-20260401",
+            "identity": "lz-medmij-dataset-100-rc2-20260413",
             "map": "lz-dataelement-10",
             "comment": "LastName"
           }
@@ -314,7 +314,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-medmij-dataset-100-rc1-20260401",
+            "identity": "lz-medmij-dataset-100-rc2-20260413",
             "map": "lz-dataelement-11",
             "comment": "Prefix"
           }
@@ -337,7 +337,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-medmij-dataset-100-rc1-20260401",
+            "identity": "lz-medmij-dataset-100-rc2-20260413",
             "map": "lz-dataelement-12",
             "comment": "LastName"
           }
@@ -364,7 +364,7 @@
         },
         "mapping": [
           {
-            "identity": "lz-medmij-dataset-100-rc1-20260401",
+            "identity": "lz-medmij-dataset-100-rc2-20260413",
             "map": "lz-dataelement-13",
             "comment": "Specialty"
           },
@@ -395,7 +395,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-medmij-dataset-100-rc1-20260401",
+            "identity": "lz-medmij-dataset-100-rc2-20260413",
             "map": "lz-dataelement-14",
             "comment": "HealthcareProvider"
           },
@@ -423,7 +423,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-medmij-dataset-100-rc1-20260401",
+            "identity": "lz-medmij-dataset-100-rc2-20260413",
             "map": "lz-dataelement-15",
             "comment": "HealthcareProviderIdentificationNumber"
           }
@@ -446,7 +446,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-medmij-dataset-100-rc1-20260401",
+            "identity": "lz-medmij-dataset-100-rc2-20260413",
             "map": "lz-dataelement-16",
             "comment": "OrganizationName"
           }
@@ -473,7 +473,7 @@
         },
         "mapping": [
           {
-            "identity": "lz-medmij-dataset-100-rc1-20260401",
+            "identity": "lz-medmij-dataset-100-rc2-20260413",
             "map": "lz-dataelement-17",
             "comment": "DepartmentSpecialty"
           }
@@ -500,7 +500,7 @@
         },
         "mapping": [
           {
-            "identity": "lz-medmij-dataset-100-rc1-20260401",
+            "identity": "lz-medmij-dataset-100-rc2-20260413",
             "map": "lz-dataelement-18",
             "comment": "OrganizationType"
           }
@@ -523,7 +523,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-medmij-dataset-100-rc1-20260401",
+            "identity": "lz-medmij-dataset-100-rc2-20260413",
             "map": "lz-dataelement-19",
             "comment": "ReportContent"
           }
