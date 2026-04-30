@@ -413,10 +413,12 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Contact** | **Rootconcept** | NL-CM:15.1.1 | | a | Contact | | |
 | Contacttype | Item | NL-CM:15.1.2 | Thuis (code 'HH' in codesysteem 'ActCode') | a | Type contact | | M |
-| ContactMet::Zorgverlener | Reference | NL-CM:15.1.7 | Julia van den Bos | a of b | Contact met | | Zorgverlener naam: M <br/> Overige datavelden: W |
-| Locatie::Zorgaanbieder | Reference | NL-CM:15.1.8 | IJsselheem | a | Locatie | Liefst geen afkortingen | M |
-| BeginDatumTijd | Item | NL-CM:15.1.3 | 30-03-2025 10:20 | a | Begindatum en -tijd | | M |
-| EindDatumTijd | Item | NL-CM:15.1.4 | 30-03-2025 10:50 | b | Einddatum en -tijd | | M |
+| ContactMet::Zorgverlener | Reference | NL-CM:15.1.7 | Julia van den Bos | a of b | Contact met (of Zorgverlener) | | Zorgverlener naam: M <br/> Overige datavelden: W |
+| Locatie::Zorgaanbieder | Reference | NL-CM:15.1.8 | IJsselheem | a | Locatie (of Zorgorganisatie) | Liefst geen afkortingen | M |
+| BeginDatumTijd | Item | NL-CM:15.1.3 | 30-03-2025 10:20 | a | Begindatum en -tijd (Weergeven in twee velden
+Begindatum en Begintijd) | BeginDatumTijd en EindDatumTijd mogen ook als periode in 1 veld getoond worden | M |
+| EindDatumTijd | Item | NL-CM:15.1.4 | 30-03-2025 10:50 | b | Einddatum en -tijd of (Weergeven in twee velden
+Einddatum en Eindtijd)| BeginDatumTijd en EindDatumTijd mogen ook als periode in 1 veld getoond worden | M |
 | **RedenContact** | **Container** | NL-CM:15.1.13 | | b | Reden contact | | |
 | Probleem | Reference | NL-CM:15.1.6 | | b | Reden contact | | S |
 | Verrichting | Reference | NL-CM:15.1.11 | | b | Reden contact | | S |
