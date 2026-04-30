@@ -155,7 +155,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 | Methode | Niet-invasief |
 | Manchettype | Klein |
 | Locatie meting | Linker bovenarm |
-| Korotkofftoon | Fade IV |
+| Korotkofftoon | Fase IV |
 | Bovendruk | 160 mmHg |
 | Onderdruk | 92 mmHg |
 | Gemiddelde bloeddruk | 109 mmHg |
