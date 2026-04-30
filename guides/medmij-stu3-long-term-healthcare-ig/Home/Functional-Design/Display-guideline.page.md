@@ -69,6 +69,10 @@ Dit detailscherm krijgt een PGO-gebruiker te zien na het selecteren van een spec
 
 **Figuur 3: Voorbeeld Detailscherm Langdurige zorg**
 
+| Nr | Acceptatiecriteria |
+| --- | --- |
+| 1 | De datavelden in het detailscherm zijn begrijpelijk en gebruiksvriendelijk geformuleerd. Zie de {{pagelink: Weergaverichtlijn, text: Tabel met specificaties, anchor: TabelSpecificaties}} voor de aanbevolen termen per opgehaald dataveld. |
+
 ### Langdurigezorggegevens per CIM
 Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in tabelvorm weergegeven. De zorgaanbieder in het overzichtsscherm en detailscherm is alleen nodig voor scenario 1. Deze is niet nodig voor scenario 2.
 
