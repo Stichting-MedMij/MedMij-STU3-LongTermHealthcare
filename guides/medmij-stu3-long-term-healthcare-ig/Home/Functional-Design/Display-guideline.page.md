@@ -533,9 +533,9 @@ Einddatum en Eindtijd)| BeginDatumTijd en EindDatumTijd mogen ook als periode in
 
 | Naam data-item | Type data-item | Id | Voorbeeld | Waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven | Weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Betaler** | **Rootconcept** | NL-CM:1.1.1 | | a | Verzekeraar | | |
+| **Betaler** | **Rootconcept** | NL-CM:1.1.1 | | a | Betaler | | |
 | **BetalerPersoon** | **Container** | NL-CM:1.1.2 | | a (zie opmerkingen) | Betaler | Als Verzekeraar niet aanwezig is | |
-| BetalerNaam | Item | NL-CM:1.1.5 | | a | Naam | | M |
+| BetalerNaam | Item | NL-CM:1.1.5 | | a | Naam betaler| | M |
 | **Bankgegevens** | **Container** | NL-CM:1.1.4 | | b | Bankgegevens | | |
 | BankNaam | Item | NL-CM:1.1.9 | ING | b | Naam bank | | M |
 | Bankcode | Item | NL-CM:1.1.10 | INGBNL2A | b | Code bank | | M |
@@ -546,7 +546,7 @@ Einddatum en Eindtijd)| BeginDatumTijd en EindDatumTijd mogen ook als periode in
 | EindDatumTijd | Item | NL-CM:1.1.14 | 17-03-2026 | b | Einddatum | Alleen datum is voldoende | M |
 | Verzekeringssoort | Item | NL-CM:1.1.15 | Basis verzekerd (code 'B' in codesysteem '2.16.840.1.113883.2.4.3.11.60.101.5.1') | b | Soort verzekering | | M |
 | IdentificatieNummer | Item | NL-CM:1.1.7 | 3332 (in identificerend systeem '2.16.840.1.113883.2.4.6.4') | b | Identificatienummer | | M |
-| OrganisatieNaam | Item | NL-CM:1.1.16 | Menzis | a of b | Naam organisatie | | M |
+| OrganisatieNaam | Item | NL-CM:1.1.16 | Menzis | a of b | Naam verzekeraar | | M |
 | VerzekerdeNummer | Item | NL-CM:1.1.6 | 6318708200 | b | Nummer verzekerde | | M |
 | Adresgegevens | Subbouwsteen | NL-CM:1.1.17 | | b | | | M |
 | Contactgegevens | Subbouwsteen | NL-CM:1.1.12 | | b | | | M |
