@@ -54,7 +54,7 @@ De acceptatiecriteria voor de overzichtsschermen van elke CIM is als volgt.
 | Nr | Acceptatiecriteria |
 | --- | --- |
 | 1 | Standaard worden alle beschikbaar gestelde gegevens van de zorgaanbieders(s) overzichtelijk weergegeven, gesorteerd op datum van nieuw naar oud. |
-| 2 | Je kunt zoeken op (delen van) de gegevens of op informatie uit de andere datavelden in het overzichtsscherm. De datum vormt hierop een uitzondering, omdat hiervoor al een periode kan worden opgegeven. |
+| 2 | Je kunt zoeken op (delen van) de gegevens of op informatie uit de datavelden in het overzichtsscherm. De datum vormt hierop een uitzondering, omdat hiervoor al een periode kan worden opgegeven. |
 | 3 | Voor de datavelden in het overzichtsscherm is het mogelijk om te filteren op één of meerdere waarden. De datum vormt hierop een uitzondering, omdat hiervoor al een periode kan worden opgegeven. |
 | 4 | Voor het datumveld in het overzichtsscherm kun je een specifieke periode selecteren. |
 | 5 | In het overzichtsscherm kan minimaal op datum worden gesorteerd, maar bij voorkeur is sorteren op alle datavelden mogelijk. |
@@ -71,7 +71,7 @@ Dit detailscherm krijgt een PGO-gebruiker te zien na het selecteren van een spec
 
 | Nr | Acceptatiecriteria |
 | --- | --- |
-| 1 | De datavelden in het detailscherm zijn begrijpelijk en gebruiksvriendelijk geformuleerd. Zie de {{pagelink: Weergaverichtlijn, text: Tabel met specificaties, anchor: TabelSpecificaties}} voor de aanbevolen termen per opgehaald dataveld.|
+| 1 | De datavelden in het detailscherm zijn begrijpelijk en gebruiksvriendelijk geformuleerd. Zie de {{pagelink: Weergaverichtlijn, text: Tabel met specificaties, anchor: TabelSpecificaties}} voor de aanbevolen termen per opgehaald dataveld. |
 
 ### Langdurigezorggegevens per CIM
 Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in tabelvorm weergegeven. De zorgaanbieder in het overzichtsscherm en detailscherm is alleen nodig voor scenario 1. Deze is niet nodig voor scenario 2.
@@ -415,10 +415,10 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | Contacttype | Item | NL-CM:15.1.2 | Thuis (code 'HH' in codesysteem 'ActCode') | a | Type contact | | M |
 | ContactMet::Zorgverlener | Reference | NL-CM:15.1.7 | Julia van den Bos | a of b | Contact met (of Zorgverlener) | | Zorgverlener naam: M <br/> Overige datavelden: W |
 | Locatie::Zorgaanbieder | Reference | NL-CM:15.1.8 | IJsselheem | a | Locatie (of Zorgorganisatie) | Liefst geen afkortingen | M |
-| BeginDatumTijd | Item | NL-CM:15.1.3 | 30-03-2025 10:20 | a | Begindatum en -tijd (Of weergeven in twee velden
-Begindatum en Begintijd) | BeginDatumTijd en EindDatumTijd mogen ook als periode in 1 veld getoond worden | M |
-| EindDatumTijd | Item | NL-CM:15.1.4 | 30-03-2025 10:50 | b | Einddatum en -tijd of (Of weergeven in twee velden
-Einddatum en Eindtijd)| BeginDatumTijd en EindDatumTijd mogen ook als periode in 1 veld getoond worden | M |
+| BeginDatumTijd | Item | NL-CM:15.1.3 | 30-03-2025 10:20 | a | Begindatum en -tijd (of weergeven in twee velden
+Begindatum en Begintijd) | BeginDatumTijd en EindDatumTijd mogen ook samen als periode in één veld getoond worden | M |
+| EindDatumTijd | Item | NL-CM:15.1.4 | 30-03-2025 10:50 | b | Einddatum en -tijd of (of weergeven in twee velden
+Einddatum en Eindtijd) | BeginDatumTijd en EindDatumTijd mogen ook samen als periode in één veld getoond worden | M |
 | **RedenContact** | **Container** | NL-CM:15.1.13 | | b | Reden contact | | |
 | Probleem | Reference | NL-CM:15.1.6 | | b | Reden contact | | S |
 | Verrichting | Reference | NL-CM:15.1.11 | | b | Reden contact | | S |
@@ -468,7 +468,7 @@ Einddatum en Eindtijd)| BeginDatumTijd en EindDatumTijd mogen ook als periode in
 | Naam data-item | Type data-item | Id | Voorbeeld | Waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven | Weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Lichaamslengte** | **Rootconcept** | NL-CM:12.2.1 | | a | Lichaamslengte | | |
-| LengteWaarde | Item | NL-CM:12.2.2 | 160 cm | a | Lichaamslengte (https://terminologie.nictiz.nl/art-decor/loinc?conceptId=8302-2) | | M |
+| LengteWaarde | Item | NL-CM:12.2.2 | 160 cm | a | [Lichaamslengte](https://terminologie.nictiz.nl/art-decor/loinc?conceptId=8302-2) | | M |
 | LengteDatumTijd | Item | NL-CM:12.2.4 | 15-03-2025 13:30 | a | Datum en tijd | | M |
 | Toelichting | Item | NL-CM:12.2.3 | zonder schoenen aan | b | Toelichting | | M |
 | Positie | Item | NL-CM:12.2.5 | Staande positie (code '10904000' in codesysteem 'SNOMED CT') | b | Positie | | S |
@@ -479,7 +479,7 @@ Einddatum en Eindtijd)| BeginDatumTijd en EindDatumTijd mogen ook als periode in
 | Naam data-item | Type data-item | Id | Voorbeeld | Waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven | Weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |--- |
 | **Lichaamstemperatuur** | **Rootconcept** | NL-CM:12.6.1 | | a | Lichaamstemperatuur | | |
-| TemperatuurWaarde | Item | NL-CM:12.6.2 | 38,6 | a | Lichaamstemperatuur (https://terminologie.nictiz.nl/art-decor/loinc?conceptId=8310-5) | | M |
+| TemperatuurWaarde | Item | NL-CM:12.6.2 | 38,6 | a | [Lichaamstemperatuur](https://terminologie.nictiz.nl/art-decor/loinc?conceptId=8310-5) | | M |
 | TemperatuurDatumTijd | Item | NL-CM:12.6.4 | 17-03-2025 07:00 | a | Datum en tijd | | M |
 | Toelichting | Item | NL-CM:12.6.3 | voeten voelen heel koud aan | b | Toelichting | | M |
 | TemperatuurType | Item | NL-CM:12.6.5 | Orale temperatuur (onder de tong) (code '415945006' in codesysteem 'SNOMED CT') | b | Type temperatuur | | M |
@@ -490,7 +490,7 @@ Einddatum en Eindtijd)| BeginDatumTijd en EindDatumTijd mogen ook als periode in
 | Naam data-item | Type data-item | Id | Voorbeeld | Waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven | Weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |--- |
 | **Lichaamsgewicht** | **Rootconcept** | NL-CM:12.1.1 | | a | Lichaamsgewicht | | |
-| GewichtWaarde | Item | NL-CM:12.1.2 | 58 kg | a | Lichaamsgewicht (https://terminologie.nictiz.nl/art-decor/loinc?conceptId=29463-7) | | M |
+| GewichtWaarde | Item | NL-CM:12.1.2 | 58 kg | a | [Lichaamsgewicht](https://terminologie.nictiz.nl/art-decor/loinc?conceptId=29463-7) | | M |
 | Toelichting | Item | NL-CM:12.1.3 | mevrouw is aan het aansterken | b | Toelichting | | M |
 | GewichtDatumTijd | Item | NL-CM:12.1.4 | 12-03-2025 14:30 | a | Datum en tijd | | M |
 | Kleding | Item | NL-CM:12.1.5 | Lichte kleding/ondergoed (code 'MINIMAL' in codesysteem '2.16.840.1.113883.2.4.3.11.60.40.4.8.1') | b | Kleding | | M |
