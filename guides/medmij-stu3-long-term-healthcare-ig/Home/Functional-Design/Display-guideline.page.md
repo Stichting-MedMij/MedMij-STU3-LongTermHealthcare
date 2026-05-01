@@ -468,7 +468,7 @@ Einddatum en Eindtijd)| BeginDatumTijd en EindDatumTijd mogen ook als periode in
 | Naam data-item | Type data-item | Id | Voorbeeld | Waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven | Weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Lichaamslengte** | **Rootconcept** | NL-CM:12.2.1 | | a | Lichaamslengte | | |
-| LengteWaarde | Item | NL-CM:12.2.2 | 160 cm | a | Lichaamslengte | | M |
+| LengteWaarde | Item | NL-CM:12.2.2 | 160 cm | a | Lichaamslengte (https://terminologie.nictiz.nl/art-decor/loinc?conceptId=8302-2) | | M |
 | LengteDatumTijd | Item | NL-CM:12.2.4 | 15-03-2025 13:30 | a | Datum en tijd | | M |
 | Toelichting | Item | NL-CM:12.2.3 | zonder schoenen aan | b | Toelichting | | M |
 | Positie | Item | NL-CM:12.2.5 | Staande positie (code '10904000' in codesysteem 'SNOMED CT') | b | Positie | | S |
@@ -479,7 +479,7 @@ Einddatum en Eindtijd)| BeginDatumTijd en EindDatumTijd mogen ook als periode in
 | Naam data-item | Type data-item | Id | Voorbeeld | Waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven | Weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |--- |
 | **Lichaamstemperatuur** | **Rootconcept** | NL-CM:12.6.1 | | a | Lichaamstemperatuur | | |
-| TemperatuurWaarde | Item | NL-CM:12.6.2 | 38,6 | a | Lichaamstemperatuur | | M |
+| TemperatuurWaarde | Item | NL-CM:12.6.2 | 38,6 | a | Lichaamstemperatuur (https://terminologie.nictiz.nl/art-decor/loinc?conceptId=8310-5) | | M |
 | TemperatuurDatumTijd | Item | NL-CM:12.6.4 | 17-03-2025 07:00 | a | Datum en tijd | | M |
 | Toelichting | Item | NL-CM:12.6.3 | voeten voelen heel koud aan | b | Toelichting | | M |
 | TemperatuurType | Item | NL-CM:12.6.5 | Orale temperatuur (onder de tong) (code '415945006' in codesysteem 'SNOMED CT') | b | Type temperatuur | | M |
@@ -490,7 +490,7 @@ Einddatum en Eindtijd)| BeginDatumTijd en EindDatumTijd mogen ook als periode in
 | Naam data-item | Type data-item | Id | Voorbeeld | Waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven | Weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |--- |
 | **Lichaamsgewicht** | **Rootconcept** | NL-CM:12.1.1 | | a | Lichaamsgewicht | | |
-| GewichtWaarde | Item | NL-CM:12.1.2 | 58 kg | a | Lichaamsgewicht | | M |
+| GewichtWaarde | Item | NL-CM:12.1.2 | 58 kg | a | Lichaamsgewicht (https://terminologie.nictiz.nl/art-decor/loinc?conceptId=29463-7) | | M |
 | Toelichting | Item | NL-CM:12.1.3 | mevrouw is aan het aansterken | b | Toelichting | | M |
 | GewichtDatumTijd | Item | NL-CM:12.1.4 | 12-03-2025 14:30 | a | Datum en tijd | | M |
 | Kleding | Item | NL-CM:12.1.5 | Lichte kleding/ondergoed (code 'MINIMAL' in codesysteem '2.16.840.1.113883.2.4.3.11.60.40.4.8.1') | b | Kleding | | M |
