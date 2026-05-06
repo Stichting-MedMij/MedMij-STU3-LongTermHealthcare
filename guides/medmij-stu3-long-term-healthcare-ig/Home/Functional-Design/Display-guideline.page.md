@@ -454,7 +454,7 @@ Einddatum en Eindtijd) | BeginDatumTijd en EindDatumTijd mogen ook samen als per
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Bloeddruk** | **Rootconcept** | NL-CM:12.4.1 | | a | Bloeddruk | | |
 | Meetmethode | Item | NL-CM:12.4.7 | Niet-invasief (code '22762002' in codesysteem 'SNOMED CT') | b | Methode | | M |
-| ManchetType | Item | NL-CM:12.4.9 | Klein (code 'S' in codesysteem '2.16.840.1.113883.2.4.3.11.60.40.4.15.1') | b | Manchettype | | M |
+| ManchetType | Item | NL-CM:12.4.9 | Klein (code 'S' in codesysteem 'ManchetType') | b | Manchettype | | M |
 | MeetLocatie | Item | NL-CM:12.4.10 | Linker bovenarm (code '368208006' in codesysteem 'SNOMED CT') | b | Locatie meting | | M |
 | DiastolischEindpunt | Item | NL-CM:12.4.8 | Fase IV (code '225271000' in codesysteem 'SNOMED CT') | b | Korotkofftoon | | M |
 | SystolischeBloeddruk | Item | NL-CM:12.4.2 | 160 mmHg | a | Bovendruk | | M |
@@ -495,7 +495,7 @@ Einddatum en Eindtijd) | BeginDatumTijd en EindDatumTijd mogen ook samen als per
 | GewichtWaarde | Item | NL-CM:12.1.2 | 58 kg | a | [Lichaamsgewicht](https://terminologie.nictiz.nl/art-decor/loinc?conceptId=29463-7) | | M |
 | Toelichting | Item | NL-CM:12.1.3 | mevrouw is aan het aansterken | b | Toelichting | | M |
 | GewichtDatumTijd | Item | NL-CM:12.1.4 | 12-03-2025 14:30 | a | Datum en tijd | | M |
-| Kleding | Item | NL-CM:12.1.5 | Lichte kleding/ondergoed (code 'MINIMAL' in codesysteem '2.16.840.1.113883.2.4.3.11.60.40.4.8.1') | b | Kleding | | M |
+| Kleding | Item | NL-CM:12.1.5 | Lichte kleding/ondergoed (code 'MINIMAL' in codesysteem 'ContextKleding') | b | Kleding | | M |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
 <br/>
@@ -515,7 +515,7 @@ Einddatum en Eindtijd) | BeginDatumTijd en EindDatumTijd mogen ook samen als per
 | Naam data-item | Type data-item | Id | Voorbeeld | Waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven | Weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |--- |
 | **Woonsituatie** | **Rootconcept** | NL-CM:7.8.1 | | a | Woonsituatie | | |
-| WoningType | Item | NL-CM:7.8.3 | Aanleunwoning (code 'AANLW' in codesysteem '2.16.840.1.113883.2.4.3.11.60.40.4.13.1') | a | Type woning | | M |
+| WoningType | Item | NL-CM:7.8.3 | Aanleunwoning (code 'AANLW' in codesysteem 'WoningType') | a | Type woning | | M |
 | DatumTijd | Item | NL-CM:0.0.14 | 15-03-2024 | a | Datum | Alleen datum is voldoende | M |
 | Toelichting | Item | NL-CM:7.8.2 | Woning is op de begane grond | a of b | Toelichting | | M |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
@@ -546,8 +546,8 @@ Einddatum en Eindtijd) | BeginDatumTijd en EindDatumTijd mogen ook samen als per
 | **Verzekering** | **Container** | NL-CM:1.1.8 | | a of b | Verzekering | | |
 | BeginDatumTijd | Item | NL-CM:1.1.13 | 18-03-2023 | b | Begindatum | Alleen datum is voldoende | M |
 | EindDatumTijd | Item | NL-CM:1.1.14 | 17-03-2026 | b | Einddatum | Alleen datum is voldoende | M |
-| Verzekeringssoort | Item | NL-CM:1.1.15 | Basis verzekerd (code 'B' in codesysteem '2.16.840.1.113883.2.4.3.11.60.101.5.1') | b | Soort verzekering | | M |
-| IdentificatieNummer | Item | NL-CM:1.1.7 | 3332 (in identificerend systeem '2.16.840.1.113883.2.4.6.4') | b | Identificatienummer | | M |
+| Verzekeringssoort | Item | NL-CM:1.1.15 | Basis verzekerd (code 'B' in codesysteem 'Verzekeringssoort') | b | Soort verzekering | | M |
+| IdentificatieNummer | Item | NL-CM:1.1.7 | 3332 (in identificerend systeem 'UZOVI') | b | Identificatienummer | | M |
 | OrganisatieNaam | Item | NL-CM:1.1.16 | Menzis | a of b | Naam verzekeraar | | M |
 | VerzekerdeNummer | Item | NL-CM:1.1.6 | 6318708200 | b | Nummer verzekerde | | M |
 | Adresgegevens | Subbouwsteen | NL-CM:1.1.17 | | b | | | M |
