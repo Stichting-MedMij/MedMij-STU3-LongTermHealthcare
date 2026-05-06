@@ -319,6 +319,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 | Begindatum | |
 | Einddatum | |
 | Soort verzekering | |
+| Identificatienummer | |
 | Nummer verzekerde | |
 | Zorgorganisatie | IJsselheem |
 
@@ -334,6 +335,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 | Begindatum | 01-01-2025 |
 | Einddatum | 31-12-2025 |
 | Soort verzekering | Basis verzekerd |
+| Identificatienummer | 3332 |
 | Nummer verzekerde | 12345678 |
 | Zorgorganisatie | IJsselheem |
 
