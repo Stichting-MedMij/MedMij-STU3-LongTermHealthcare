@@ -1,5 +1,6 @@
 ---
 topic: LzLmNursingReport
+canonical: http://medmij.nl/fhir/StructureDefinition/lz-lm-NursingReport
 ---
 
 # Nursing Report
@@ -7,6 +8,9 @@ topic: LzLmNursingReport
 <tabs>
     <tab title="Tree view" active="true">
       {{tree:http://medmij.nl/fhir/StructureDefinition/lz-lm-NursingReport, buttons}}
+    </tab>
+    <tab title="Mappings">
+      {{page:fql-get-mappings}}
     </tab>
     <tab title="Xml">
       {{xml:http://medmij.nl/fhir/StructureDefinition/lz-lm-NursingReport}}
