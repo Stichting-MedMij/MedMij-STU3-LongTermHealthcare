@@ -1,6 +1,6 @@
 ---
 topic: ExtNursingReportReportTitle
-canonical: http://medmij.nl/fhir/StructureDefinition/lz-NursingReport.Title
+canonical: http://medmij.nl/fhir/StructureDefinition/ext-NursingReport.ReportTitle
 ---
 
 # Nursing Report (Report Title)
