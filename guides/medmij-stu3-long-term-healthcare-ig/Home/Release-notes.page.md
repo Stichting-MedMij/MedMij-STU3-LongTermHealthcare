@@ -4,7 +4,7 @@
 
 | Component                   | Description  | Ticket    |
 | --------------------------- | ------------ | --------- |
-| FHIR artifacts              | For each Logical Model and FHIR profile, the mappings have been added in the IG. Moreover, for each FHIR profile, (links to) the corresponding examples have been added in the IG. | [PG-1015](https://medmij.atlassian.net/browse/PG-1015) |
+| FHIR artifacts              | For each Logical Model and FHIR profile, the mappings have been added in the IG. Moreover, for each FHIR profile, (links to) the corresponding examples have been added in the IG. | [DOSINZAGE1-1015](https://medmij.atlassian.net/browse/DOSINZAGE1-1015) |
 
 ## 1.0.0-rc.2
 
