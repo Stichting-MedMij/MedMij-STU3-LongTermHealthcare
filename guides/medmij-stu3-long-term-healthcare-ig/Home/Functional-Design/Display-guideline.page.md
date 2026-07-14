@@ -87,7 +87,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Contact Advies over de veilige en passende lichaamsbeweging | Waarde |
+| Geselecteerde regel: Advies over veilige en passende lichaamsbeweging | Waarde |
 | --- | --- |
 | Type contact | Thuis |
 | Begindatum | 30-03-2025 |
@@ -112,7 +112,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Dagrapportage 15-03-2025 12:00 | Waarde |
+| Geselecteerde regel: Problemen met mobiliteit en spraak | Waarde |
 | --- | --- |
 | Titel dagrapportage | Problemen met mobiliteit en spraak |
 | Dagverslag | Mevrouw vertoont toenemende stijfheid bij het opstaan en lopen. Er is sprake van fijne tremor in de rechterhand. Tijdens het ochtendcontact had zij moeite om zich verbaal uit te drukken; gebruikt korte zinnen met lange pauzes. Zelfstandig toiletbezoek is mogelijk, maar met risico op vallen. Advies: looprek binnen handbereik houden en logopedie betrekken voor spraakondersteuning. |
@@ -134,7 +134,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Waarschuwing 15-03-2025 | Waarde |
+| Geselecteerde regel: Drager VRE | Waarde |
 | --- | --- |
 | Waarschuwing | Drager VRE |
 | Waarschuwing actief sinds | 15-03-2025 |
@@ -154,7 +154,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Bloeddruk 15-03-2025 | Waarde |
+| Geselecteerde regel: 160/92 mmHg | Waarde |
 | --- | --- |
 | Methode | Niet-invasief |
 | Manchettype | Klein |
@@ -181,7 +181,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Lichaamslengte 15-03-2025 | Waarde |
+| Geselecteerde regel: 160 cm | Waarde |
 | --- | --- |
 | Lichaamslengte | 160 cm |
 | Datum | 15-03-2025 |
@@ -203,7 +203,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Lichaamstemperatuur 15-03-2025 | Waarde |
+| Geselecteerde regel: 37,2 graden | Waarde |
 | --- | --- |
 | Lichaamstemperatuur | 37,2 graden |
 | Datum | 15-03-2025 |
@@ -224,7 +224,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Lichaamsgewicht 15-03-2025 | Waarde |
+| Geselecteerde regel: 58 kg | Waarde |
 | --- | --- |
 | Lichaamsgewicht | 58 kg |
 | Datum | 15-03-2025 |
@@ -246,7 +246,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Vochtbalans 15-03-2025 | Waarde |
+| Geselecteerde regel: 1400 ml / 1000 ml | Waarde |
 | --- | --- |
 | Vochtinname totaal | 1400 ml |
 | Vochtuitscheiding totaal | 1000 ml |
@@ -267,7 +267,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Woonsituatie 15-03-2024 | Waarde |
+| Geselecteerde regel: Aanleunwoning | Waarde |
 | --- | --- |
 | Type woning | Aanleunwoning |
 | Datum | 15-03-2024 |
@@ -287,7 +287,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Voedingsadvies Lactosevrij | Waarde |
+| Geselecteerde regel: Lactosevrij | Waarde |
 | --- | --- |
 | Voedingsadvies | Lactosevrij |
 | Datum | 15-03-2025 |
@@ -309,7 +309,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Betaler J.L. Teunissen | |
+| Geselecteerde regel: J.L. Teunissen | |
 | --- | --- |
 | Naam betaler | J.L. Teunissen |
 | Naam bank | ING |
@@ -325,7 +325,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Betaler Trias | Waarde |
+| Geselecteerde regel: Trias | Waarde |
 | --- | --- |
 | Naam betaler | |
 | Naam bank | |
@@ -352,7 +352,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Polsfrequentie 15-03-2025 | Waarde |
+| Geselecteerde regel: 96 /min | Waarde |
 | --- | --- |
 | Polsfrequentie | 96 /min |
 | Datum | 15-03-2025 |
@@ -374,7 +374,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Ademhaling 15-03-2025 | Waarde |
+| Geselecteerde regel: 18 /min | Waarde |
 | --- | --- |
 | Ademhaling | 18 /min |
 | Datum | 15-03-2025 |
