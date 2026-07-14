@@ -55,7 +55,7 @@ De acceptatiecriteria voor de overzichtsschermen van elke CIM is als volgt.
 | --- | --- |
 | 1 | Standaard worden alle beschikbaar gestelde gegevens van de zorgaanbieders(s) overzichtelijk weergegeven, gesorteerd op datum van nieuw naar oud. |
 | 2 | Je kunt zoeken op (delen van) de gegevens of op informatie uit de datavelden in het overzichtsscherm. De datum vormt hierop een uitzondering, omdat hiervoor al een periode kan worden opgegeven. |
-| 3 | Voor de datavelden in het overzichtsscherm is het mogelijk om te filteren op één of meerdere waarden. De datum vormt hierop een uitzondering, omdat hiervoor al een periode kan worden opgegeven. Ook datavelden die leiden tot een te lange lijst van filterwaarden vormen een uitzondering.|
+| 3 | Voor de datavelden in het overzichtsscherm is het mogelijk om te filteren op één of meerdere waarden. De datum vormt hierop een uitzondering, omdat hiervoor al een periode kan worden opgegeven. Ook datavelden die leiden tot een te lange lijst van filterwaarden vormen een uitzondering. |
 | 4 | Voor het datumveld in het overzichtsscherm kun je een specifieke periode selecteren. |
 | 5 | In het overzichtsscherm kan minimaal op datum worden gesorteerd, maar bij voorkeur is sorteren op alle datavelden mogelijk. |
 | 6 | De datavelden in het overzichtsscherm zijn begrijpelijk en gebruiksvriendelijk geformuleerd. Zie de {{pagelink: Weergaverichtlijn, text: Tabel met specificaties, anchor: TabelSpecificaties}} voor de aanbevolen termen per opgehaald dataveld. In verband met beperkte schermruimte op mobiele apparaten mogen de labelnamen van de datavelden in het overzichtsscherm worden weggelaten. |
@@ -403,7 +403,7 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 | M(ust have) | Nodig voor de basisfunctionaliteit van de toepassing en moet worden geïmplementeerd om het proces succesvol te laten verlopen. |
 | S(hould have) | Belangrijke functionaliteit die niet vereist is, maar die voordelen biedt voor gebruikers en de algehele gebruikservaring. |
 | C(ould have) | Gewenste functionaliteit die waarde toevoegt, maar minder kritisch is en indien nodig kan worden uitgesteld. |
-| W(on't have) | Functionaliteiten die nu buiten scope zijn maar mogelijk in de toekomst worden overwogen. PGO’s hebben de vrijheid om deze datavelden desondanks toch te tonen. Het uitgangspunt is echter dat deze velden niet primair worden weergegeven, zodat de gebruiker deze informatie niet direct ziet. De gegevens zijn alleen beschikbaar wanneer de gebruiker hier expliciet naar zoekt of doorklikt, aangezien deze datavelden geen duidelijke meerwaarde hebben voor directe weergave. |
+| W(on't have) | Functionaliteiten die nu buiten scope zijn maar mogelijk in de toekomst worden overwogen. PGO's hebben de vrijheid om deze datavelden desondanks toch te tonen. Het uitgangspunt is echter dat deze velden niet primair worden weergegeven, zodat de gebruiker deze informatie niet direct ziet. De gegevens zijn alleen beschikbaar wanneer de gebruiker hier expliciet naar zoekt of doorklikt, aangezien deze datavelden geen duidelijke meerwaarde hebben voor directe weergave. |
 
 <br/>
 
@@ -417,10 +417,8 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | Contacttype | Item | NL-CM:15.1.2 | Thuis (code 'HH' in codesysteem 'ActCode') | a | Type contact | Als de (gecodeerde) waarde van dit data-item gelijk is aan de NullFlavor *OTH*, wordt de specifieke omschrijving via het FHIR-element `Encounter.type(.text)` uitgewisseld. | M |
 | ContactMet::Zorgverlener | Reference | NL-CM:15.1.7 | Julia van den Bos | a of b | Contact met (of Zorgverlener) | | Zorgverlener naam: M <br/> Overige datavelden: W |
 | Locatie::Zorgaanbieder | Reference | NL-CM:15.1.8 | IJsselheem | a | Locatie (of Zorgorganisatie) | Liefst geen afkortingen | M |
-| BeginDatumTijd | Item | NL-CM:15.1.3 | 30-03-2025 10:20 | a | Begindatum en -tijd (of weergeven in twee velden
-Begindatum en Begintijd) | BeginDatumTijd en EindDatumTijd mogen ook samen als periode in één veld getoond worden | M |
-| EindDatumTijd | Item | NL-CM:15.1.4 | 30-03-2025 10:50 | b | Einddatum en -tijd of (of weergeven in twee velden
-Einddatum en Eindtijd) | BeginDatumTijd en EindDatumTijd mogen ook samen als periode in één veld getoond worden | M |
+| BeginDatumTijd | Item | NL-CM:15.1.3 | 30-03-2025 10:20 | a | Begindatum en -tijd (of weergeven in twee velden Begindatum en Begintijd) | BeginDatumTijd en EindDatumTijd mogen ook samen als periode in één veld getoond worden | M |
+| EindDatumTijd | Item | NL-CM:15.1.4 | 30-03-2025 10:50 | b | Einddatum en -tijd of (of weergeven in twee velden Einddatum en Eindtijd) | BeginDatumTijd en EindDatumTijd mogen ook samen als periode in één veld getoond worden | M |
 | **RedenContact** | **Container** | NL-CM:15.1.13 | | b | Reden contact | | |
 | Probleem | Reference | NL-CM:15.1.6 | | b | Reden contact | | S |
 | Verrichting | Reference | NL-CM:15.1.11 | | b | Reden contact | | S |
