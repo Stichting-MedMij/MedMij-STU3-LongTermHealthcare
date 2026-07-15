@@ -65,7 +65,7 @@
   "rest": [
     {
       "mode": "server",
-      "documentation": "Minimal requirements for a server to fulfill the 'Serve Encounter' transaction within Long-term Healthcare (system role: LZ-ENB-beta.2).",
+      "documentation": "Minimal requirements for a server to fulfill the 'Serve Encounter' transaction within Long-term Healthcare (system role: LZ-ENB-beta.3).",
       "resource": [
         {
           "type": "Encounter",
