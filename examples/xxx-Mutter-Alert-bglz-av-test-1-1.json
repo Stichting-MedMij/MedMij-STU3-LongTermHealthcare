@@ -17,7 +17,7 @@
   },
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <table>\n        <caption>Attentievlag. Subject: Fiona XXX_Mutter. Categorie: <span title=\"waarschuwing (74018-3 - LOINC)\">waarschuwing</span>, Status: actief</caption>\n        <tbody>\n          <tr>\n            <th>Categorie</th>\n            <td>\n              <span title=\"waarschuwing (74018-3 - LOINC)\">waarschuwing</span>\n            </td>\n          </tr>\n          <tr>\n            <th>Code</th>\n            <td>\n              <span title=\"Drager MRSA (432415000 - SNOMED CT)\">Drager MRSA</span>\n            </td>\n          </tr>\n          <tr>\n            <th>Periode</th>\n            <td>Vanaf 2025-04-30</td>\n          </tr>\n        </tbody>\n      </table>\n    </div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <table>\n        <caption>Attentievlag. Subject: Fiona XXX_Mutter. Categorie: <span title=\"Type alert [type] (74018-3 - LOINC)\">Type alert [type]</span>, Status: actief</caption>\n        <tbody>\n          <tr>\n            <th>Code</th>\n            <td>\n              <span title=\"drager van MRSA (432415000 - SNOMED CT)\">drager van MRSA</span>\n            </td>\n          </tr>\n          <tr>\n            <th>Periode</th>\n            <td>Vanaf 2025-04-30</td>\n          </tr>\n        </tbody>\n      </table>\n    </div>"
   },
   "identifier": [
     {
@@ -31,7 +31,7 @@
       {
         "system": "http://loinc.org",
         "code": "74018-3",
-        "display": "waarschuwing"
+        "display": "Type alert [type]"
       }
     ]
   },
@@ -40,7 +40,7 @@
       {
         "system": "http://snomed.info/sct",
         "code": "432415000",
-        "display": "Drager MRSA"
+        "display": "drager van MRSA"
       }
     ]
   },

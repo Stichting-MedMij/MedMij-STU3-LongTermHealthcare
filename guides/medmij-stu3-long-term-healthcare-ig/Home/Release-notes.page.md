@@ -5,6 +5,7 @@
 | Component                   | Description  | Ticket    |
 | --------------------------- | ------------ | --------- |
 | FHIR artifacts              | For each Logical Model and FHIR profile, the mappings have been added in the IG. Moreover, for each FHIR profile, (links to) the corresponding examples have been added in the IG. | [DOSINZAGE1-1015](https://medmij.atlassian.net/browse/DOSINZAGE1-1015) |
+| Test material               | Several (incorrect) `.display`s of LOINC and SNOMED CT codes have been corrected, and translated to Dutch (if possible). | [DOSINZAGE1-1013](https://medmij.atlassian.net/browse/DOSINZAGE1-1013) |
 
 ## 1.0.0-rc.2
 
