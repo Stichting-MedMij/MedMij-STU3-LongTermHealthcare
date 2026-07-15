@@ -435,7 +435,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Alert** | **Rootconcept** | NL-CM:8.3.1 | | a | Waarschuwing | | |
 | Conditie::Probleem | Item | NL-CM:8.3.3 | | a | Probleem | | M |
-| AlertNaam |Item| NL-CM:8.3.4 | Drager VRE (code '431109006' in codesysteem 'SNOMED CT') | a | Waarschuwing | | M |
+| AlertNaam | Item | NL-CM:8.3.4 | Drager VRE (code '431109006' in codesysteem 'SNOMED CT') | a | Waarschuwing | | M |
 | BeginDatumTijd | Item | NL-CM:8.3.5 | 18-02-2025 | b | Waarschuwing actief sinds | | M |
 | AlertType | Item | NL-CM:8.3.6 | Waarschuwing (code '74018-3' in codesysteem 'LOINC') | b | Type | | M |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
