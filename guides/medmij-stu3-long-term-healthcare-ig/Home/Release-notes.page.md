@@ -5,6 +5,7 @@
 | Component                   | Description  | Ticket    |
 | --------------------------- | ------------ | --------- |
 | Functional design           | The cross-domain data services Alert, Blood pressure, Body height, Body temperature, Body weight, Fluid balance, Living situation, Nutrition advice, Payer, Pulse rate and Respiration have been updated to version 1.0.0-rc.3. | [MC-4](https://medmij.atlassian.net/browse/MC-4), [DOSINZAGE1-1041](https://medmij.atlassian.net/browse/DOSINZAGE1-1041) |
+| Functional design           | Updated guidance on and links to the relevant transactions. | [DOSINZAGE1-1041](https://medmij.atlassian.net/browse/DOSINZAGE1-1041) |
 | Technical design            | The cross-domain data services Alert, Blood pressure, Body height, Body temperature, Body weight, Fluid balance, Living situation, Nutrition advice, Payer, Pulse rate and Respiration have been updated to version 1.0.0-rc.3. | [MC-4](https://medmij.atlassian.net/browse/MC-4), [DOSINZAGE1-1041](https://medmij.atlassian.net/browse/DOSINZAGE1-1041) |
 | FHIR artifacts              | The MedMij STU3 Core dependency has been updated to version 1.3.0. | [MC-4](https://medmij.atlassian.net/browse/MC-4), [DOSINZAGE1-1041](https://medmij.atlassian.net/browse/DOSINZAGE1-1041) |
 | FHIR artifacts              | For each Logical Model and FHIR profile, the mappings have been added in the IG. Moreover, for each FHIR profile, (links to) the corresponding examples have been added in the IG. | [DOSINZAGE1-1015](https://medmij.atlassian.net/browse/DOSINZAGE1-1015) |
