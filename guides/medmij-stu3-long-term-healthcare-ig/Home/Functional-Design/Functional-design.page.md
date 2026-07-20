@@ -21,13 +21,13 @@ De doelgroep voor deze pagina wijkt niet af van de [algemene doelgroep](https://
 ### Kaders en uitgangspunten
 
 ### Richtlijn en proces
-Dit ontwerp is conform specificaties genoemd in de [algemene inleiding](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.02/Ontwerpen#Richtlijn) van de functionele onderwerpen binnn MedMij.
+Dit ontwerp is conform specificaties genoemd in de [algemene inleiding](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.02/Ontwerpen#Richtlijn) van de functionele onderwerpen binnen MedMij.
 
 ### Reikwijdte
 De reikwijdte van dit ontwerp beslaat de functionele beschrijvingen en de dataset voor de gegevensuitwisselingen die voortvloeien uit uitgevoerde langdurige zorg.
 
 ### Infrastructuur
-Geen nadere specificatie, anders dan genoemd in de [algemene inleiding](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.02/Ontwerpen#Infrastructuur) van de functionele onderwerpen binnn MedMij.
+Geen nadere specificatie, anders dan genoemd in de [algemene inleiding](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.02/Ontwerpen#Infrastructuur) van de functionele onderwerpen binnen MedMij.
 
 ### Geografische reikwijdte
 Geen nadere specificatie, anders dan genoemd in de [algemene inleiding](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2020.02/Ontwerpen#Geografische_reikwijdte) van de functionele onderwerpen binnen MedMij.
