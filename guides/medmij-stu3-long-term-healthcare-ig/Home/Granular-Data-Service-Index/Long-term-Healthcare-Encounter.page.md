@@ -25,12 +25,12 @@ The functional model can be found on [ART-DECOR](https://decor.nictiz.nl/pub/zib
 ## Technical specification
 | | |
 | --- | --- |
-| **FHIR profile(s)** | [http://medmij.nl/fhir/StructureDefinition/lz-Encounter](https://simplifier.net/resolve?canonical=http://medmij.nl/fhir/StructureDefinition/lz-Encounter&scope=medmij.fhir.nl.stu3.longtermhealthcare@1.0.0-rc.2) |
-| **FHIR package** | [medmij.fhir.nl.stu3.longtermhealthcare](https://simplifier.net/packages/medmij.fhir.nl.stu3.longtermhealthcare) version 1.0.0-rc.2 or compatible |
+| **FHIR profile(s)** | [http://medmij.nl/fhir/StructureDefinition/lz-Encounter](https://simplifier.net/resolve?canonical=http://medmij.nl/fhir/StructureDefinition/lz-Encounter&scope=medmij.fhir.nl.stu3.longtermhealthcare@1.0.0-rc.3) |
+| **FHIR package** | [medmij.fhir.nl.stu3.longtermhealthcare](https://simplifier.net/packages/medmij.fhir.nl.stu3.longtermhealthcare) version 1.0.0-rc.3 or compatible |
 | **FHIR version** | STU3 |
 | **Search request** | `GET [base]/Encounter` |
 | **Must Support** | <ul> <li> `.identifier` <li> `.subject` <li> `.period` <li> `.participant.individual` (only reference to [http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner](https://simplifier.net/resolve?canonical=http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner&scope=nictiz.fhir.nl.stu3.zib2017@2.3.2), including the [practitionerrole-reference](https://simplifier.net/resolve?canonical=http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference&scope=nictiz.fhir.nl.stu3.zib2017@2.3.2) extension) <li> `.serviceProvider` <li> `.diagnosis.condition` <li> `.meta.tag` (only the [care type](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-exchange?version=1.3.0#CareType)) |
-| **CapabilityStatement(s)** | [Long-term Healthcare Encounter Retrieve](https://simplifier.net/resolve?canonical=http://medmij.nl/fhir/CapabilityStatement/lz-Encounter-Retrieve&scope=medmij.fhir.nl.stu3.longtermhealthcare@1.0.0-rc.2) <br/> [Long-term Healthcare Encounter Serve](https://simplifier.net/resolve?canonical=http://medmij.nl/fhir/CapabilityStatement/lz-Encounter-Serve&scope=medmij.fhir.nl.stu3.longtermhealthcare@1.0.0-rc.2) |
+| **CapabilityStatement(s)** | [Long-term Healthcare Encounter Retrieve](https://simplifier.net/resolve?canonical=http://medmij.nl/fhir/CapabilityStatement/lz-Encounter-Retrieve&scope=medmij.fhir.nl.stu3.longtermhealthcare@1.0.0-rc.3) <br/> [Long-term Healthcare Encounter Serve](https://simplifier.net/resolve?canonical=http://medmij.nl/fhir/CapabilityStatement/lz-Encounter-Serve&scope=medmij.fhir.nl.stu3.longtermhealthcare@1.0.0-rc.3) |
 
 The FHIR profile is included below.
 

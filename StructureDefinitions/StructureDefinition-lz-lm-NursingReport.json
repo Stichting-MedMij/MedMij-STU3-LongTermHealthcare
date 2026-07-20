@@ -35,8 +35,8 @@
   "fhirVersion": "3.0.2",
   "mapping": [
     {
-      "identity": "lz-dataset-100-rc2-20260413",
-      "name": "Dataset Langdurige Zorg MedMij 1.0.0-rc.2 20260413"
+      "identity": "lz-dataset-100-rc3-2026xxyy",
+      "name": "Dataset Langdurige Zorg MedMij 1.0.0-rc.3 2026xxyy"
     },
     {
       "identity": "SNOMED",
@@ -61,7 +61,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-dataset-100-rc2-20260413",
+            "identity": "lz-dataset-100-rc3-2026xxyy",
             "map": "lz-dataelement-1",
             "comment": "NursingReport"
           },
@@ -90,7 +90,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-dataset-100-rc2-20260413",
+            "identity": "lz-dataset-100-rc3-2026xxyy",
             "map": "lz-dataelement-2",
             "comment": "ReportTitle"
           }
@@ -113,7 +113,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-dataset-100-rc2-20260413",
+            "identity": "lz-dataset-100-rc3-2026xxyy",
             "map": "lz-dataelement-3",
             "comment": "ReportDateTime"
           }
@@ -141,7 +141,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-dataset-100-rc2-20260413",
+            "identity": "lz-dataset-100-rc3-2026xxyy",
             "map": "lz-dataelement-4",
             "comment": "Performer"
           }
@@ -164,7 +164,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-dataset-100-rc2-20260413",
+            "identity": "lz-dataset-100-rc3-2026xxyy",
             "map": "lz-dataelement-19",
             "comment": "ReportContent"
           }

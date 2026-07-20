@@ -1,7 +1,7 @@
 {
   "name": "medmij.fhir.nl.stu3.longtermhealthcare",
-  "version": "1.0.0-rc.2",
-  "description": "Package of FHIR STU3 conformance resources for MedMij Long-term Healthcare version 1.0.0-rc.2.",
+  "version": "1.0.0-rc.3",
+  "description": "Package of FHIR STU3 conformance resources for MedMij Long-term Healthcare version 1.0.0-rc.3.",
   "author": "MedMij",
   "license": "CC0-1.0",
   "title": "FHIR implementation of Long-term Healthcare",
