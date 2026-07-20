@@ -54,7 +54,7 @@ The table below gives an overview of all granular data services that are applica
 | 900000412 | [Retrieve MedMij Core - Pulse rate (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-PulseRate?version=1.3.0) | Verzamelen MedMij Core - Polsfrequentie (zib2017/STU3) | 1.0.0-rc.3 |
 | 900000411 | [Retrieve MedMij Core - Respiration (zib2017/STU3)](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-Data-Service-Index/MedMij-Core-Respiration?version=1.3.0) | Verzamelen MedMij Core - Ademhaling (zib2017/STU3) | 1.0.0-rc.3 |
 | 900000408 | {{pagelink: Encounter, text: Retrieve Long-term Healthcare - Encounter}} | Verzamelen Langdurige Zorg - Contact | 1.0.0-beta.3 |
-| 900000413 | {{pagelink: NursingReport, text: Retrieve Long-term Healthcare - Nursing report}} | Verzamelen Langdurige Zorg - Dagrapportage | 1.0.0-rc.2 |
+| 900000413 | {{pagelink: NursingReport, text: Retrieve Long-term Healthcare - Nursing report}} | Verzamelen Langdurige Zorg - Dagrapportage | 1.0.0-rc.3 |
 
 **Table 2: Granular data services applicable for BgLZ+**
 

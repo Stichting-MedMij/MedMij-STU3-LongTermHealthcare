@@ -10,15 +10,15 @@ topic: NursingReport
 | **Id** | 900000413 |
 | **Data service name without version (English)** | Retrieve Long-term Healthcare - Nursing report |
 | **Data service name without version (Dutch)** | Verzamelen Langdurige Zorg - Dagrapportage |
-| **Data service version** | 1.0.0-rc.2 |
-| **System role(s)** | LZ-NRR-rc.2 (PHR) <br/> LZ-NRB-rc.2 (XIS) |
+| **Data service version** | 1.0.0-rc.3 |
+| **System role(s)** | LZ-NRR-rc.3 (PHR) <br/> LZ-NRB-rc.3 (XIS) |
 | **Used in Implementation Guide(s)** | [Long-term Healthcare](https://simplifier.net/medmij-stu3-long-term-healthcare/) |
 
 ## Functional model
 | | |
 | --- | --- |
 | **CIM** | NursingReport (based on the [ANW v2024.1](https://nuts-foundation.gitbook.io/bolts/anw/v2024.1#id-5.2-wegschrijven-van-informatie) specification) |
-| **Functional version** | 1.0.0-rc.2 |
+| **Functional version** | 1.0.0-rc.3 |
 
 The Logical Model is included below.
 
