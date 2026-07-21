@@ -4,6 +4,7 @@
 
 | Component                   | Description  | Ticket    |
 | --------------------------- | ------------ | --------- |
+| Functional design           | The display guideline has been updated: <br/> <ul> <li> Guidance on the exchange of the CIM Encounter with other contact types (i.e. with ContactType equal to NullFlavor *OTH*) has been added. <li> The acceptance criteria for the overview have been updated, while the acceptance criteria for the detail view have been added. <li> The definition of 'Won't have' in the MoSCoW method has been finetuned. | [DOSINZAGE1-1003](https://medmij.atlassian.net/browse/DOSINZAGE1-1003) |
 | FHIR artifacts              | For each Logical Model and FHIR profile, the mappings have been added in the IG. Moreover, for each FHIR profile, (links to) the corresponding examples have been added in the IG. | [DOSINZAGE1-1015](https://medmij.atlassian.net/browse/DOSINZAGE1-1015) |
 | Test material               | Several (incorrect) `.display`s of LOINC and SNOMED CT codes have been corrected, and translated to Dutch (if possible). | [DOSINZAGE1-1013](https://medmij.atlassian.net/browse/DOSINZAGE1-1013) |
 
