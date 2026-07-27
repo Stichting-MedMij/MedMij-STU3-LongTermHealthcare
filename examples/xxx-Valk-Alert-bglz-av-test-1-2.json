@@ -17,7 +17,7 @@
   },
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <table>\n        <caption>Attentievlag. Subject: Gea G. XXX_Valk. Categorie: <span title=\"waarschuwing (74018-3 - LOINC)\">waarschuwing</span>, Status: actief</caption>\n        <tbody>\n          <tr>\n            <th>Categorie</th>\n            <td>\n              <span title=\"waarschuwing (74018-3 - LOINC)\">waarschuwing</span>\n            </td>\n          </tr>\n          <tr>\n            <th>Code</th>\n            <td>\n              <span title=\"Anders ernstige claustrofobie (OTH - http://hl7.org/fhir/v3/NullFlavor)\">Anders ernstige claustrofobie</span>\n            </td>\n          </tr>\n          <tr>\n            <th>Periode</th>\n            <td>Vanaf 2025-02-02</td>\n          </tr>\n        </tbody>\n      </table>\n    </div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <table>\n        <caption>Attentievlag. Subject: Gea G. XXX_Valk. Categorie: <span title=\"Type alert [type] (74018-3 - LOINC)\">Type alert [type]</span>, Status: actief</caption>\n        <tbody>\n          <tr>\n            <th>Code</th>\n            <td>\n              <span title=\"Anders ernstige claustrofobie (OTH - http://hl7.org/fhir/v3/NullFlavor)\">Anders ernstige claustrofobie</span>\n            </td>\n          </tr>\n          <tr>\n            <th>Periode</th>\n            <td>Vanaf 2025-02-02</td>\n          </tr>\n        </tbody>\n      </table>\n    </div>"
   },
   "identifier": [
     {
@@ -31,7 +31,7 @@
       {
         "system": "http://loinc.org",
         "code": "74018-3",
-        "display": "waarschuwing"
+        "display": "Type alert [type]"
       }
     ]
   },

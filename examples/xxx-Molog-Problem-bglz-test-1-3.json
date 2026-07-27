@@ -17,7 +17,7 @@
   },
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <table>\n        <caption>Aandoening. Subject: Maria XXX_Molog. Categorie: <span title=\"Diagnose (282291009 - SNOMED CT)\">Diagnose</span>, Status: actief / bevestigd</caption>\n        <tfoot>\n          <tr>\n            <td colspan=\"2\">naast beven ook somberheid en moeheid</td>\n          </tr>\n        </tfoot>\n        <tbody>\n          <tr>\n            <th>Code</th>\n            <td>\n              <span title=\"ziekte van Parkinson (49049000 - SNOMED CT)\">ziekte van Parkinson</span>\n            </td>\n          </tr>\n          <tr>\n            <th>Eerste symptomen</th>\n            <td>2022-05-15</td>\n          </tr>\n        </tbody>\n      </table>\n    </div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <table>\n        <caption>Aandoening. Subject: Maria XXX_Molog. Categorie: <span title=\"interpretatie van diagnose (282291009 - SNOMED CT)\">interpretatie van diagnose</span>, Status: actief / bevestigd</caption>\n        <tfoot>\n          <tr>\n            <td colspan=\"2\">naast beven ook somberheid en moeheid</td>\n          </tr>\n        </tfoot>\n        <tbody>\n          <tr>\n            <th>Code</th>\n            <td>\n              <span title=\"ziekte van Parkinson (49049000 - SNOMED CT)\">ziekte van Parkinson</span>\n            </td>\n          </tr>\n          <tr>\n            <th>Eerste symptomen</th>\n            <td>2022-05-15</td>\n          </tr>\n        </tbody>\n      </table>\n    </div>"
   },
   "identifier": [
     {
@@ -35,7 +35,7 @@
             {
               "system": "http://snomed.info/sct",
               "code": "55561003",
-              "display": "Actueel"
+              "display": "actief"
             }
           ]
         }
@@ -48,7 +48,7 @@
         {
           "system": "http://snomed.info/sct",
           "code": "282291009",
-          "display": "Diagnose"
+          "display": "interpretatie van diagnose"
         }
       ]
     }

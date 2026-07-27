@@ -17,7 +17,7 @@
   },
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <table>\n        <caption>Observatie/bepaling. Subject: Fiona XXX_Mutter. Status: definitief</caption>\n        <tfoot>\n          <tr>\n            <td colspan=\"2\">meneer lijkt angstig</td>\n          </tr>\n        </tfoot>\n        <tbody>\n          <tr>\n            <th>Bepalingdatum/tijd</th>\n            <td>2025-05-17T14:45:00+01:00</td>\n          </tr>\n          <tr>\n            <th>Code</th>\n            <th>Waarde</th>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"Respiratory assessment (422834003 - SNOMED CT)\">Respiratory assessment</span>\n            </td>\n            <td/>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"Ritme (48064009 - SNOMED CT)\">Ritme</span>\n            </td>\n            <td>\n              <span title=\"Abnormaal ademhalingsritme (85617008 - SNOMED CT)\">Abnormaal ademhalingsritme</span>\n            </td>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"Diepte (271626009 - SNOMED CT)\">Diepte</span>\n            </td>\n            <td>\n              <span title=\"Normale ademhalingsdiepte (301284009 - SNOMED CT)\">Normale ademhalingsdiepte</span>\n            </td>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"Ademfrequentie (9279-1 - LOINC)\">Ademfrequentie</span>\n            </td>\n            <td>18 breaths per minute</td>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"Ademhalingspatroon (278907009 - SNOMED CT)\">Ademhalingspatroon</span>\n            </td>\n            <td>\n              <span title=\"Apneu (1023001 - SNOMED CT)\">Apneu</span>\n            </td>\n          </tr>\n        </tbody>\n      </table>\n    </div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <table>\n        <caption>Observatie/bepaling. Subject: Fiona XXX_Mutter. Status: definitief</caption>\n        <tfoot>\n          <tr>\n            <td colspan=\"2\">meneer lijkt angstig</td>\n          </tr>\n        </tfoot>\n        <tbody>\n          <tr>\n            <th>Bepalingdatum/tijd</th>\n            <td>2025-05-17T14:45:00+01:00</td>\n          </tr>\n          <tr>\n            <th>Code</th>\n            <th>Waarde</th>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"evaluatie van ademhaling (422834003 - SNOMED CT)\">evaluatie van ademhaling</span>\n            </td>\n            <td/>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"ademhalingsritme (48064009 - SNOMED CT)\">ademhalingsritme</span>\n            </td>\n            <td>\n              <span title=\"abnormaal ademhalingsritme (85617008 - SNOMED CT)\">abnormaal ademhalingsritme</span>\n            </td>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"diepte van ademhaling (271626009 - SNOMED CT)\">diepte van ademhaling</span>\n            </td>\n            <td>\n              <span title=\"normale ademhalingsdiepte (301284009 - SNOMED CT)\">normale ademhalingsdiepte</span>\n            </td>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"Respiratory rate (9279-1 - LOINC)\">Respiratory rate</span>\n            </td>\n            <td>18 breaths per minute</td>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"ademhalingspatroon (278907009 - SNOMED CT)\">ademhalingspatroon</span>\n            </td>\n            <td>\n              <span title=\"apneu (1023001 - SNOMED CT)\">apneu</span>\n            </td>\n          </tr>\n        </tbody>\n      </table>\n    </div>"
   },
   "identifier": [
     {
@@ -59,7 +59,7 @@
       {
         "system": "http://snomed.info/sct",
         "code": "422834003",
-        "display": "Respiratory assessment"
+        "display": "evaluatie van ademhaling"
       }
     ]
   },
@@ -82,7 +82,7 @@
           {
             "system": "http://snomed.info/sct",
             "code": "48064009",
-            "display": "Ritme"
+            "display": "ademhalingsritme"
           }
         ]
       },
@@ -91,7 +91,7 @@
           {
             "system": "http://snomed.info/sct",
             "code": "85617008",
-            "display": "Abnormaal ademhalingsritme"
+            "display": "abnormaal ademhalingsritme"
           }
         ]
       }
@@ -102,7 +102,7 @@
           {
             "system": "http://snomed.info/sct",
             "code": "271626009",
-            "display": "Diepte"
+            "display": "diepte van ademhaling"
           }
         ]
       },
@@ -111,7 +111,7 @@
           {
             "system": "http://snomed.info/sct",
             "code": "301284009",
-            "display": "Normale ademhalingsdiepte"
+            "display": "normale ademhalingsdiepte"
           }
         ]
       }
@@ -122,7 +122,7 @@
           {
             "system": "http://loinc.org",
             "code": "9279-1",
-            "display": "Ademfrequentie"
+            "display": "Respiratory rate"
           }
         ]
       },
@@ -139,7 +139,7 @@
           {
             "system": "http://snomed.info/sct",
             "code": "278907009",
-            "display": "Ademhalingspatroon"
+            "display": "ademhalingspatroon"
           }
         ]
       },
@@ -148,7 +148,7 @@
           {
             "system": "http://snomed.info/sct",
             "code": "1023001",
-            "display": "Apneu"
+            "display": "apneu"
           }
         ]
       }

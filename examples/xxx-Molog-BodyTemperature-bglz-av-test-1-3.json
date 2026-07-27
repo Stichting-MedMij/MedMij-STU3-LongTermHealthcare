@@ -17,7 +17,7 @@
   },
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <table>\n        <caption>Observatie/bepaling. Subject: Maria XXX_Molog. Categorie: <span title=\"Vital Signs (vital-signs - observation-category)\">Vital Signs</span>, Status: definitief</caption>\n        <tfoot>\n          <tr>\n            <td colspan=\"2\">voeten voelen heel koud aan</td>\n          </tr>\n        </tfoot>\n        <tbody>\n          <tr>\n            <th>Bepalingdatum/tijd</th>\n            <td>2025-03-17T07:00:00+01:00</td>\n          </tr>\n          <tr>\n            <th>Methode</th>\n            <td>\n              <span title=\"Tympanische temperatuur (415974002 - SNOMED CT)\">Tympanische temperatuur</span>\n            </td>\n          </tr>\n          <tr>\n            <th>Code</th>\n            <th>Waarde</th>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"Body temperature (8310-5 - LOINC)\">Body temperature</span>\n            </td>\n            <td>38.6 Cel</td>\n          </tr>\n        </tbody>\n      </table>\n    </div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <table>\n        <caption>Observatie/bepaling. Subject: Maria XXX_Molog. Categorie: <span title=\"Vital Signs (vital-signs - observation-category)\">Vital Signs</span>, Status: definitief</caption>\n        <tfoot>\n          <tr>\n            <td colspan=\"2\">voeten voelen heel koud aan</td>\n          </tr>\n        </tfoot>\n        <tbody>\n          <tr>\n            <th>Bepalingdatum/tijd</th>\n            <td>2025-03-17T07:00:00+01:00</td>\n          </tr>\n          <tr>\n            <th>Methode</th>\n            <td>\n              <span title=\"tympanische temperatuur (415974002 - SNOMED CT)\">tympanische temperatuur</span>\n            </td>\n          </tr>\n          <tr>\n            <th>Code</th>\n            <th>Waarde</th>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"Lichaamstemperatuur [temperatuur] (8310-5 - LOINC)\">Lichaamstemperatuur [temperatuur]</span>\n            </td>\n            <td>38.6 Cel</td>\n          </tr>\n        </tbody>\n      </table>\n    </div>"
   },
   "identifier": [
     {
@@ -42,7 +42,7 @@
       {
         "system": "http://loinc.org",
         "code": "8310-5",
-        "display": "Body temperature"
+        "display": "Lichaamstemperatuur [temperatuur]"
       }
     ]
   },
@@ -69,7 +69,7 @@
       {
         "system": "http://snomed.info/sct",
         "code": "415974002",
-        "display": "Tympanische temperatuur"
+        "display": "tympanische temperatuur"
       }
     ]
   }

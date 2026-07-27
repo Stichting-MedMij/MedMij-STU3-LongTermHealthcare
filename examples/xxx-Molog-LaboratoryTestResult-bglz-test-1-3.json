@@ -17,7 +17,7 @@
   },
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <table>\n        <caption>Observatie/bepaling. Subject: Maria XXX_Molog, Categorie: <span title=\"bevinding betreffende laboratoriumonderzoek (49581000146104 - SNOMED CT)\">bevinding betreffende laboratoriumonderzoek</span>, <span title=\"Klinische chemie (275711006 - SNOMED CT)\">Klinische chemie</span>, Status: definitief</caption>\n        <tfoot>\n          <tr>\n            <td colspan=\"4\">Verhoogde homocysteïne geassocieerd met langdurig levodopa-gebruik bij Parkinson. Overweeg suppletie met B-vitamines.</td>\n          </tr>\n        </tfoot>\n        <tbody>\n          <tr>\n            <th>Bepalingdatum/tijd</th>\n            <td colspan=\"3\">2025-05-10</td>\n          </tr>\n          <tr>\n            <th>Code</th>\n            <th>Waarde</th>\n            <th>Interpretatie</th>\n            <th>Referentiewaarden</th>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"Homocysteine [Moles/volume] in Serum or Plasma (13965-9 - LOINC)\">Homocysteine [Moles/volume] in Serum or Plasma</span>\n            </td>\n            <td>18.2 mmol/L</td>\n            <td>\n              <span title=\"High (H - v2/0078)\">High</span>\n            </td>\n            <td>\n              <div> - 15 mmol/L</div>\n            </td>\n          </tr>\n        </tbody>\n      </table>\n    </div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <table>\n        <caption>Observatie/bepaling. Subject: Maria XXX_Molog, Categorie: <span title=\"bevinding betreffende laboratoriumonderzoek (49581000146104 - SNOMED CT)\">bevinding betreffende laboratoriumonderzoek</span>, <span title=\"bloedtest (275711006 - SNOMED CT)\">bloedtest</span>, Status: definitief</caption>\n        <tfoot>\n          <tr>\n            <td colspan=\"4\">Verhoogde homocysteïne geassocieerd met langdurig levodopa-gebruik bij Parkinson. Overweeg suppletie met B-vitamines.</td>\n          </tr>\n        </tfoot>\n        <tbody>\n          <tr>\n            <th>Bepalingdatum/tijd</th>\n            <td colspan=\"3\">2025-05-10</td>\n          </tr>\n          <tr>\n            <th>Code</th>\n            <th>Waarde</th>\n            <th>Interpretatie</th>\n            <th>Referentiewaarden</th>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"Homocysteine [Moles/volume] in Serum or Plasma (13965-9 - LOINC)\">Homocysteine [Moles/volume] in Serum or Plasma</span>\n            </td>\n            <td>18.2 mmol/L</td>\n            <td>\n              <span title=\"High (H - v2/0078)\">High</span>\n            </td>\n            <td>\n              <div> - 15 mmol/L</div>\n            </td>\n          </tr>\n        </tbody>\n      </table>\n    </div>"
   },
   "identifier": [
     {
@@ -41,7 +41,7 @@
         {
           "system": "http://snomed.info/sct",
           "code": "275711006",
-          "display": "Klinische chemie"
+          "display": "bloedtest"
         }
       ]
     }
@@ -76,7 +76,7 @@
       {
         "system": "http://snomed.info/sct",
         "code": "281302008",
-        "display": "Boven referentiewaarde"
+        "display": "verhoogd"
       }
     ]
   },
