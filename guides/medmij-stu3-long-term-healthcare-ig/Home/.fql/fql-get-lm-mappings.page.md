@@ -1,5 +1,5 @@
 ---
-topic: fql-get-mappings
+topic: fql-get-lm-mappings
 ---
 
 <fql>
@@ -11,10 +11,10 @@ topic: fql-get-mappings
     differential.element
   select
     id, join mapping {identity, map, comment}
+  order by identity
   select
     'Mapping name': identity,
     'Concept id': map,
-    'FHIR element': id,
+    'Logical element': id.replace('lz-lm-', ''),
     Comments: comment
-  order by identity
 </fql>
