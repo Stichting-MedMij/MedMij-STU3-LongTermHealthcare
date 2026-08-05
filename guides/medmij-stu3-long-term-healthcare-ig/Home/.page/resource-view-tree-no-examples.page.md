@@ -6,6 +6,9 @@ topic: resource-view-tree-no-examples
     <tab title="Tree view" active="true">
       {{tree, buttons}}
     </tab>
+    <tab title="Mappings">
+      {{page:fql-get-mappings}}
+    </tab>
     <tab title="Xml">
       {{xml}}
     </tab>

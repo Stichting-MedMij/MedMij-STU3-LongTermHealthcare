@@ -15,4 +15,7 @@ topic: resource-view-tree
     <tab title="Json">
       {{json}}
     </tab>
+    <tab title="Examples">
+      {{page:fql-get-examples}}
+    </tab>
 </tabs>
