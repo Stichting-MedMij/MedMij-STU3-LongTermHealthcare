@@ -34,4 +34,23 @@ The functional model can be found on [ART-DECOR](https://decor.nictiz.nl/pub/zib
 
 The FHIR profile is included below.
 
-{{page:resource-view-tree, canonical:http://medmij.nl/fhir/StructureDefinition/lz-Encounter}}
+<tabs>
+    <tab title="Tree view" active="true">
+      {{tree:http://medmij.nl/fhir/StructureDefinition/lz-Encounter, buttons}}
+    </tab>
+    <tab title="Mappings">
+      {{page:fql-get-mappings, canonical:http://medmij.nl/fhir/StructureDefinition/lz-Encounter}}
+    </tab>
+    <tab title="Mappings (zib profile)">
+      {{page:fql-get-mappings-zib, canonical:http://nictiz.nl/fhir/StructureDefinition/zib-Encounter}}
+    </tab>
+    <tab title="Xml">
+      {{xml:http://medmij.nl/fhir/StructureDefinition/lz-Encounter}}
+    </tab>
+    <tab title="Json">
+      {{json:http://medmij.nl/fhir/StructureDefinition/lz-Encounter}}
+    </tab>
+    <tab title="Examples">
+      {{page:fql-get-examples, canonical:http://medmij.nl/fhir/StructureDefinition/lz-Encounter}}
+    </tab>
+</tabs>
