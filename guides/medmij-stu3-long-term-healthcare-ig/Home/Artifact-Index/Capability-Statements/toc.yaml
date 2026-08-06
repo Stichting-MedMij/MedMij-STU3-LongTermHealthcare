@@ -1,0 +1,10 @@
+- name: Index
+  filename: Index.page.md
+- name: Encounter (Retrieve)
+  filename: EncounterRetrieve.page.md
+- name: Encounter (Serve)
+  filename: EncounterServe.page.md
+- name: Nursing Report (Retrieve)
+  filename: NursingReportRetrieve.page.md
+- name: Nursing Report (Serve)
+  filename: NursingReportServe.page.md
