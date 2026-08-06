@@ -433,7 +433,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | RapportageDatumTijd | Item | lz-dataelement-3 | 17-05-2025 07:00 | a | Datum en tijd | | M |
 | Uitvoerder | Reference | lz-dataelement-4 (indien Uitvoerder een referentie naar Zorgverlener bevat) | Julia van den Bos | b | Zorgverlener | | M |
 | RapportageInhoud | Item | lz-dataelement-19 | Mevrouw vertoont toenemende stijfheid bij het opstaan en lopen. Er is sprake van fijne tremor in de rechterhand. Tijdens het ochtendcontact had zij moeite om zich verbaal uit te drukken; gebruikt korte zinnen met lange pauzes. Zelfstandig toiletbezoek is mogelijk, maar met risico op vallen. Advies: looprek binnen handbereik houden en logopedie betrekken voor spraakondersteuning. | b | Dagverslag | | M |
-| Zorgaanbieder | Reference | lz-dataelement-4 (indien Uitvoerder een referentie naar Zorgaanbieder bevat) <br/> lz-dataelement-4 --> NL-CM:17.1.1 --> NL-CM:17.1.6 (indien Uitvoerder een referentie naar Zorgverlener bevat) | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
+| Zorgaanbieder | Reference | lz-dataelement-4 (indien Uitvoerder een referentie naar Zorgaanbieder bevat) <br/> <br/> lz-dataelement-4 --> NL-CM:17.1.1 --> NL-CM:17.1.6 (indien Uitvoerder een referentie naar Zorgverlener bevat) | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
 <br/>
 
