@@ -15,7 +15,7 @@
   },
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <table>\n        <caption>Aandoening. Subject: Maria XXX_Molog. Categorie: <span title=\"symptoom gerapporteerd door patiënt of andere bron van voorgeschiedenis (418799008 - SNOMED CT)\">symptoom gerapporteerd door patiënt of andere bron van voorgeschiedenis</span>, Status: actief / bevestigd</caption>\n        <tfoot>\n          <tr>\n            </tr>\n        </tfoot>\n        <tbody>\n          <tr>\n            <th>Code</th>\n            <td>\n              <span title=\"benauwdheid (267036007 - SNOMED CT)\">benauwdheid</span>\n            </td>\n          </tr>\n          <tr>\n            <th>Eerste symptomen</th>\n            <td>2014-12-31</td>\n          </tr>\n        </tbody>\n      </table>\n    </div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <table>\n        <caption>Aandoening. Subject: Maria XXX_Molog. Categorie: <span title=\"symptoom gerapporteerd door patiënt of andere bron van voorgeschiedenis (418799008 - SNOMED CT)\">symptoom gerapporteerd door patiënt of andere bron van voorgeschiedenis</span>, Status: actief / bevestigd</caption>\n        <tbody>\n          <tr>\n            <th>Code</th>\n            <td>\n              <span title=\"benauwdheid (267036007 - SNOMED CT)\">benauwdheid</span>\n            </td>\n          </tr>\n          <tr>\n            <th>Eerste symptomen</th>\n            <td>2014-12-31</td>\n          </tr>\n        </tbody>\n      </table>\n    </div>"
   },
   "identifier": [
     {

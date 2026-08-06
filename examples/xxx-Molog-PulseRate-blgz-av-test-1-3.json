@@ -49,19 +49,21 @@
     "display": "Maria XXX_Molog"
   },
   "effectiveDateTime": "2024-06-02T22:00:00+00:00",
-  "performer": {
-    "extension": [
-      {
-        "url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
-        "valueReference": {
-          "reference": "PractitionerRole/PractitionerRole-bglz-av-test-Bos",
-          "display": "Julia van den Bos, Verpleegkundige, niet nader gespecificeerd"
+  "performer": [
+    {
+      "extension": [
+        {
+          "url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
+          "valueReference": {
+            "reference": "PractitionerRole/PractitionerRole-bglz-av-test-Bos",
+            "display": "Julia van den Bos, Verpleegkundige, niet nader gespecificeerd"
+          }
         }
-      }
-    ],
-    "reference": "Practitioner/Practitioner-bglz-av-test-Bos",
-    "display": "Julia van den Bos"
-  },
+      ],
+      "reference": "Practitioner/Practitioner-bglz-av-test-Bos",
+      "display": "Julia van den Bos"
+    }
+  ],
   "valueQuantity": {
     "value": 67,
     "unit": "/min",

@@ -58,17 +58,19 @@
     "reference": "Device/Respiration-Device-bglz-av-test-1-3",
     "display": "Maria XXX_Molog"
   },
-  "indication": {
-    "extension": [
-      {
-        "url": "http://nictiz.nl/fhir/StructureDefinition/zib-MedicalDevice-Problem",
-        "valueReference": {
-          "reference": "Condition/Problem-bglz-test-1-3-02",
-          "display": "benauwdheid"
+  "indication": [
+    {
+      "extension": [
+        {
+          "url": "http://nictiz.nl/fhir/StructureDefinition/zib-MedicalDevice-Problem",
+          "valueReference": {
+            "reference": "Condition/Problem-bglz-test-1-3-02",
+            "display": "benauwdheid"
+          }
         }
-      }
-    ]
-  },
+      ]
+    }
+  ],
   "bodySite": {
     "coding": [
       {
@@ -78,7 +80,9 @@
       }
     ]
   },
-  "note": {
-    "text": "Neusbril alleen in de ochtend en avond gebruiken"
-  }
+  "note": [
+    {
+      "text": "Neusbril alleen in de ochtend en avond gebruiken"
+    }
+  ]
 }

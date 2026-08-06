@@ -40,7 +40,9 @@
     "reference": "Patient/Patient-bglz-test-1-3",
     "display": "Maria XXX_Molog"
   },
-  "note": {
-    "text": "Nuflow-neusbril, groot"
-  }
+  "note": [
+    {
+      "text": "Nuflow-neusbril, groot"
+    }
+  ]
 }
