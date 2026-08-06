@@ -431,8 +431,8 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | **Dagrapportage** | **Rootconcept** | lz-dataelement-1 | | a | Dagrapportage | | |
 | RapportageTitel | Item | lz-dataelement-2 | Problemen met mobiliteit en spraak | a | Titel dagrapportage | | M |
 | RapportageDatumTijd | Item | lz-dataelement-3 | 17-05-2025 07:00 | a | Datum en tijd | | M |
-| Uitvoerder::Zorgverlener | Reference | lz-dataelement-4 | Julia van den Bos | b | Zorgverlener | | M |
-| Uitvoerder::Zorgaanbieder | Reference | lz-dataelement-14 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | M |
+| Uitvoerder::Zorgverlener | Reference | lz-dataelement-4 (indien Uitvoerder een referentie naar Zorgverlener bevat) | Julia van den Bos | b | Zorgverlener | | M |
+| Uitvoerder::Zorgaanbieder | Reference | lz-dataelement-4 (indien Uitvoerder een referentie naar Zorgaanbieder bevat) <br/> <br/> lz-dataelement-4 --> NL-CM:17.1.1 --> NL-CM:17.1.6 (indien Uitvoerder een referentie naar Zorgverlener bevat) | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 | RapportageInhoud | Item | lz-dataelement-19 | Mevrouw vertoont toenemende stijfheid bij het opstaan en lopen. Er is sprake van fijne tremor in de rechterhand. Tijdens het ochtendcontact had zij moeite om zich verbaal uit te drukken; gebruikt korte zinnen met lange pauzes. Zelfstandig toiletbezoek is mogelijk, maar met risico op vallen. Advies: looprek binnen handbereik houden en logopedie betrekken voor spraakondersteuning. | b | Dagverslag | | M |
 
 <br/>
