@@ -2,8 +2,6 @@
   "resourceType": "Observation",
   "id": "BloodPressure-bgzl-av-test-1-2",
   "meta": {
-    "versionId": "5",
-    "lastUpdated": "2025-05-16T02:11:32.97+00:00",
     "profile": [
       "http://nictiz.nl/fhir/StructureDefinition/zib-BloodPressure"
     ],

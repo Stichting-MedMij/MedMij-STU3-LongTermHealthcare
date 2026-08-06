@@ -2,8 +2,6 @@
   "resourceType": "Observation",
   "id": "PulseRate-bglz-av-test-1-2",
   "meta": {
-    "versionId": "1",
-    "lastUpdated": "2025-05-21T02:06:20.591+00:00",
     "profile": [
       "http://nictiz.nl/fhir/StructureDefinition/zib-PulseRate"
     ],

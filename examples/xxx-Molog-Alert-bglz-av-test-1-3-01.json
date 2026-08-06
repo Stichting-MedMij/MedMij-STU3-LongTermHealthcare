@@ -2,8 +2,6 @@
   "resourceType": "Flag",
   "id": "Alert-bglz-av-test-1-3-01",
   "meta": {
-    "versionId": "5",
-    "lastUpdated": "2025-03-10T06:25:54.458+00:00",
     "profile": [
       "http://nictiz.nl/fhir/StructureDefinition/zib-Alert"
     ],

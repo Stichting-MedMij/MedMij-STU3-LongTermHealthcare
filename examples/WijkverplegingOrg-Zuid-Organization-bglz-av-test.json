@@ -2,8 +2,6 @@
   "resourceType": "Organization",
   "id": "Organization-bglz-av-test-WijkverplegingOrg-Zuid",
   "meta": {
-    "versionId": "1",
-    "lastUpdated": "2025-02-28T06:58:05.199+00:00",
     "profile": [
       "http://fhir.nl/fhir/StructureDefinition/nl-core-organization"
     ],

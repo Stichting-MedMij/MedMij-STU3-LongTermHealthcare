@@ -2,8 +2,6 @@
   "resourceType": "Practitioner",
   "id": "Practitioner-bglz-av-test-Pinxteren",
   "meta": {
-    "versionId": "2",
-    "lastUpdated": "2025-02-28T06:59:03.595+00:00",
     "profile": [
       "http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner"
     ],

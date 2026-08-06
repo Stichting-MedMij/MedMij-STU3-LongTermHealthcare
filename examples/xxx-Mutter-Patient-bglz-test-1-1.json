@@ -2,8 +2,6 @@
   "resourceType": "Patient",
   "id": "Patient-bglz-test-1-1",
   "meta": {
-    "versionId": "2",
-    "lastUpdated": "2025-02-18T10:35:17.572+00:00",
     "profile": [
       "http://fhir.nl/fhir/StructureDefinition/nl-core-patient"
     ],
@@ -271,7 +269,7 @@
           "url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
           "valueReference": {
             "reference": "PractitionerRole/PractitionerRole-bglz-av-test-Lanen",
-            "display": "Huisarts"
+            "display": "Laura Lanen, Huisarts"
           }
         }
       ],

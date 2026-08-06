@@ -155,6 +155,7 @@ This test scenario contains test data of both the BgLZ and BgLZ+ (for completene
 | AlertName | Drager VRE (code '431109006' from code system 'SNOMED CT') |
 | StartDateTime | 18-02-2025 |
 | AlertType | waarschuwing (code '74018-3' from code system 'LOINC') |
+| Author | |
 
 ### Alert - verhoogd valrisico
 
@@ -164,6 +165,17 @@ This test scenario contains test data of both the BgLZ and BgLZ+ (for completene
 | AlertName | Anders (code 'OTH' from code system 'NullFlavor'): verhoogd valrisico |
 | StartDateTime | 10-03-2015 |
 | AlertType | waarschuwing (code '74018-3' from code system 'LOINC') |
+| Author | |
+
+### Alert - ziekte van Parkinson
+
+| | |
+| --- | --- |
+| Condition | ziekte van Parkinson |
+| AlertName | |
+| StartDateTime | 15-05-2022 |
+| AlertType | conditie (code '75323-6' from code system 'LOINC') |
+| Author | Julia van den Bos |
 
 ## Allergy Intolerance data
 
@@ -197,6 +209,7 @@ This test scenario contains test data of both the BgLZ and BgLZ+ (for completene
 | BloodPressureDateTime | 15-03-2025 13:45 |
 | Comment | mevrouw gebruikt medicatie |
 | Position | Zittende positie (code '33586001' from code system 'SNOMED CT') |
+| Author | Julia van den Bos |
 
 ## Body Height data
 
@@ -205,7 +218,8 @@ This test scenario contains test data of both the BgLZ and BgLZ+ (for completene
 | HeightValue | 160 cm |
 | HeightDateTime | 15-03-2025 12:30 |
 | Comment | zonder schoenen aan |
-| Position | |
+| Position | Staande positie (code '10904000' from code system 'SNOMED CT') |
+| Author | Julia van den Bos |
 
 ## Body Temperature data
 
@@ -215,6 +229,7 @@ This test scenario contains test data of both the BgLZ and BgLZ+ (for completene
 | TemperatureDateTime | 17-03-2025 06:00 |
 | Comment | voeten voelen heel koud aan |
 | TemperatureType | Tympanische temperatuur (code '415974002' from code system 'SNOMED CT') |
+| Author | Julia van den Bos |
 
 ## Body Weight data
 
@@ -224,21 +239,23 @@ This test scenario contains test data of both the BgLZ and BgLZ+ (for completene
 | Comment | mevrouw is aan het aansterken |
 | WeightDateTime | 12-03-2025 13:30 |
 | Clothing | Lichte kleding/ondergoed (code 'MINIMAL' from code system 'ContextKleding') |
+| Author | Julia van den Bos |
 
 ## Encounter data
 
 | | |
 | --- | --- |
-| ContactType | Thuis (code 'HH' from code system 'ActCode') |
+| ContactType | Anders (code 'OTH' from code system 'NullFlavor'): Opname in verpleeghuis |
 | ContactWith | Julia van den Bos |
+| ContactWith.HealthProfessionalRole | Uitvoerder (code 'PRF' from code system 'ParticipationType') |
 | Location | |
 | StartDateTime | 30-03-2025 10:20 |
 | EndDateTime | |
-| ContactReason.Problem | |
+| ContactReason.Problem | ziekte van Parkinson |
 | ContactReason.Procedure | |
-| ContactReason.DeviatingResult | advies over veilige en passende lichaamsbeweging |
-| Origin | |
-| Destination | |
+| ContactReason.DeviatingResult | |
+| Origin | Eigen woonomgeving (code '264362003' from code system 'SNOMED CT') |
+| Destination | Instelling voor verpleging/verzorging (code '42665001' from code system 'SNOMED CT') |
 
 ## Fluid Balance data
 
@@ -249,6 +266,7 @@ This test scenario contains test data of both the BgLZ and BgLZ+ (for completene
 | FluidTotalOut | 1000 mL |
 | FluidBalanceStartTime | 14-03-2025 05:00 |
 | FluidBalanceStopTime | 15-03-2025 05:00 |
+| Author | Julia van den Bos |
 
 ## Laboratory Test Result data
 
@@ -292,6 +310,7 @@ This test scenario contains test data of both the BgLZ and BgLZ+ (for completene
 | --- | --- |
 | Comment | woning is op de begane grond |
 | HouseType | Aanleunwoning (code 'AANLW' from code system 'WoningType') |
+| Author | Julia van den Bos |
 
 ## Nursing Intervention data
 
@@ -321,8 +340,7 @@ This test scenario contains test data of both the BgLZ and BgLZ+ (for completene
 | --- | --- |
 | ReportTitle | Dagrapportage |
 | ReportDateTime | 17-05-2025 06:00 |
-| Performer.HealthProfessional | |
-| Performer.HealthcareProvider | WijZorgen Honselerdijk |
+| Performer | WijZorgen Honselerdijk |
 | ReportContent | Mevrouw vertoont toenemende stijfheid bij het opstaan en lopen. Er is sprake van fijne tremor in de rechterhand. Tijdens het ochtendcontact had zij moeite om zich verbaal uit te drukken; gebruikt korte zinnen met lange pauzes. Zelfstandig toiletbezoek is mogelijk, maar met risico op vallen. Advies: looprek binnen handbereik houden en logopedie betrekken voor spraakondersteuning. |
 
 ### Nursing Report - 14-05-2025
@@ -331,8 +349,7 @@ This test scenario contains test data of both the BgLZ and BgLZ+ (for completene
 | --- | --- |
 | ReportTitle | Dagrapportage |
 | ReportDateTime | 14-05-2025 12:45 |
-| Performer.HealthProfessional | |
-| Performer.HealthcareProvider | WijZorgen Honselerdijk |
+| Performer | WijZorgen Honselerdijk |
 | ReportContent | Tijdens de middagdienst werd opgemerkt dat mevrouw vertraagd reageerde op vragen en aanwijzingen. Er is sprake van wisselende alertheid. Mobiliteit was verminderd: traag gangpatroon en neiging tot 'bevriezen' bij het draaien. Mevrouw gaf aan meer last te hebben van stijfheid in de schouders. Er is hulp geboden bij aan- en uitkleden. Geadviseerd om bewegingsoefeningen te stimuleren en fysiotherapie te informeren voor beoordeling van valrisico. |
 
 ### Nursing Report - 07-05-2025
@@ -341,8 +358,7 @@ This test scenario contains test data of both the BgLZ and BgLZ+ (for completene
 | --- | --- |
 | ReportTitle | Dagrapportage |
 | ReportDateTime | 07-05-2025 20:00 |
-| Performer.HealthProfessional | |
-| Performer.HealthcareProvider | WijZorgen Honselerdijk |
+| Performer | Julia van den Bos |
 | ReportContent | Tijdens het avondmoment was mevrouw alert en aanspreekbaar, maar gaf aan toenemende vermoeidheid te ervaren na lichte inspanning. Lichte rigiditeit bij het opstaan vanuit stoel waargenomen. Geen tremoren zichtbaar. Gesprek verliep traag maar begrijpelijk. Zelfstandig gebruik van loophulpmiddel bij toiletgang zonder incidenten. Advies: rustmomenten inbouwen overdag en monitoren of vermoeidheid toeneemt. |
 
 ## Nutrition Advice data
@@ -355,6 +371,7 @@ This test scenario contains test data of both the BgLZ and BgLZ+ (for completene
 | Consistency | solide |
 | Comment | naar eigen zeggen lactose-intolerant |
 | DateTime | 23-02-2025 |
+| Author | |
 
 ### Nutrition Advice - geen selderij
 
@@ -364,8 +381,21 @@ This test scenario contains test data of both the BgLZ and BgLZ+ (for completene
 | Consistency | |
 | Comment | in verband met allergie |
 | DateTime | 17-03-2015 |
+| Author | Julia van den Bos |
+
+### Nutrition Advice - Energieverrijkt
+
+| | |
+| --- | --- |
+| DietType | Energieverrijkt |
+| Consistency | Fijngemalen noten |
+| Comment | |
+| DateTime | 17-02-2025 |
+| Author | Julia van den Bos |
 
 ## Payer data
+
+### Payer - Menzis
 
 | | |
 | --- | --- |
@@ -396,7 +426,40 @@ This test scenario contains test data of both the BgLZ and BgLZ+ (for completene
 | ContactInformation.EmailAddresses.EmailAddress | |
 | ContactInformation.EmailAddresses.EmailAddressType | |
 
+### Payer - Johan Timmerman
+
+| | |
+| --- | --- |
+| PayerPerson.PayerName | Johan Timmerman |
+| PayerPerson.BankInformation.BankName | RABO |
+| PayerPerson.BankInformation.BankCode | RABO21NL |
+| PayerPerson.BankInformation.AccountNumber | NL21RABO0001234567 |
+| InsuranceCompany.Insurance.StartDateTime | |
+| InsuranceCompany.Insurance.EndDateTime | |
+| InsuranceCompany.Insurance.InsuranceType | |
+| InsuranceCompany.IdentificationNumber | |
+| InsuranceCompany.OrganizationName | |
+| InsuranceCompany.InsurantNumber | |
+| AddressInformation.Street | |
+| AddressInformation.HouseNumber | |
+| AddressInformation.HouseNumberLetter | |
+| AddressInformation.HouseNumberAddition | |
+| AddressInformation.HouseNumberIndication | |
+| AddressInformation.Postcode | |
+| AddressInformation.PlaceOfResidence | |
+| AddressInformation.Municipality | |
+| AddressInformation.Country | |
+| AddressInformation.AdditionalInformation | |
+| AddressInformation.AddressType | |
+| ContactInformation.TelephoneNumbers.TelephoneNumber | +31645678912 |
+| ContactInformation.TelephoneNumbers.TelecomType | Mobiel telefoonnummer (code 'MC' from code system 'AddressUse') |
+| ContactInformation.TelephoneNumbers.NumberType | Telefoonnummer thuis (code 'HP' from code system 'AddressUse') |
+| ContactInformation.EmailAddresses.EmailAddress | jtimmerman@123net.nl |
+| ContactInformation.EmailAddresses.EmailAddressType | Privé e-mailadres (code 'HP' from code system 'AddressUse') |
+
 ## Problem data
+
+### Problem - ziekte van Parkinson
 
 | | |
 | --- | --- |
@@ -409,6 +472,20 @@ This test scenario contains test data of both the BgLZ and BgLZ+ (for completene
 | ProblemStatus | Actueel (code '55561003' from code system 'SNOMED CT') |
 | VerificationStatus | |
 | Comment | naast beven ook somberheid en moeheid |
+
+### Problem - benauwdheid
+
+| | |
+| --- | --- |
+| ProblemAnatomicalLocation | |
+| ProblemLaterality | |
+| ProblemType | Symptoom (code '418799008' from code system 'SNOMED CT') |
+| ProblemName | benauwdheid (code '267036007' from code system 'SNOMED CT') |
+| ProblemStartDate | 31-12-2014 23:00 |
+| ProblemEndDate | |
+| ProblemStatus | Actueel (code '55561003' from code system 'SNOMED CT') |
+| VerificationStatus | |
+| Comment | |
 
 ## Procedure data
 
@@ -434,6 +511,7 @@ This test scenario contains test data of both the BgLZ and BgLZ+ (for completene
 | PulseRateDateTime | 02-06-2024 22:00 |
 | Comment | |
 | PulseRegularity | Polsslag regelmatig (code '271636001' from code system 'SNOMED CT') |
+| Author | Julia van den Bos |
 
 ## Respiration data
 
@@ -448,16 +526,17 @@ This test scenario contains test data of both the BgLZ and BgLZ+ (for completene
 | Comment | |
 | AdministeredOxygen.FlowRate | 2 l/min |
 | AdministeredOxygen.FiO2 | 0.29 |
-| AdministeredOxygen.AdministrationDevice.Product.ProductID | |
+| AdministeredOxygen.AdministrationDevice.Product.ProductID | (01)4060139400092 (in identifier system 'GTIN') |
 | AdministeredOxygen.AdministrationDevice.Product.ProductType | neusbril (code '336623009' from code system 'SNOMED CT') |
-| AdministeredOxygen.AdministrationDevice.ProductDescription | |
+| AdministeredOxygen.AdministrationDevice.ProductDescription | Nuflow-neusbril, groot |
 | AdministeredOxygen.AdministrationDevice.StartDate | 17-02-2015 |
-| AdministeredOxygen.AdministrationDevice.Indication | |
-| AdministeredOxygen.AdministrationDevice.Comment | |
-| AdministeredOxygen.AdministrationDevice.AnatomicalLocation | |
+| AdministeredOxygen.AdministrationDevice.Indication | benauwdheid |
+| AdministeredOxygen.AdministrationDevice.Comment | Neusbril alleen in de ochtend en avond gebruiken |
+| AdministeredOxygen.AdministrationDevice.AnatomicalLocation | structuur van neus (code '45206002' from code system 'SNOMED CT') |
 | AdministeredOxygen.AdministrationDevice.Laterality | |
-| AdministeredOxygen.AdministrationDevice.Location | |
-| AdministeredOxygen.AdministrationDevice.HealthProfessional | |
+| AdministeredOxygen.AdministrationDevice.Location | WijZorgen Honselerdijk |
+| AdministeredOxygen.AdministrationDevice.HealthProfessional | Julia van den Bos |
+| Author | Julia van den Bos |
 
 ## Treatment Directive data
 

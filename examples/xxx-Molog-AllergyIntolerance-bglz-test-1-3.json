@@ -2,8 +2,6 @@
   "resourceType": "AllergyIntolerance",
   "id": "AllergyIntolerance-bglz-test-1-3",
   "meta": {
-    "versionId": "1",
-    "lastUpdated": "2025-05-15T02:08:24.532+00:00",
     "profile": [
       "http://nictiz.nl/fhir/StructureDefinition/zib-AllergyIntolerance"
     ]

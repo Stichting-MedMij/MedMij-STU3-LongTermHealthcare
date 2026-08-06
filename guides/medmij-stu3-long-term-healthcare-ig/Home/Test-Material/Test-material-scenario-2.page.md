@@ -137,6 +137,7 @@
 | AlertName | Anders (code 'OTH' from code system 'NullFlavor'): ernstige claustrofobie |
 | StartDateTime | 02-02-2025 |
 | AlertType | waarschuwing (code '74018-3' from code system 'LOINC') |
+| Author | |
 
 ## Blood Pressure data
 
@@ -152,6 +153,7 @@
 | BloodPressureDateTime | 26-04-2025 13:45 |
 | Comment | mevrouw gebruikt medicatie |
 | Position | Trendelenburgligging (code '34106002' from code system 'SNOMED CT') |
+| Author | WijkverplegingOrg Zuid |
 
 ## Body Height data
 
@@ -160,7 +162,8 @@
 | HeightValue | 165 cm |
 | HeightDateTime | 14-04-2025 15:30 |
 | Comment | in de ochtend gemeten |
-| Position | |
+| Position | Liggende positie (code '102538003' from code system 'SNOMED CT') |
+| Author | WijkverplegingOrg Zuid |
 
 ## Body Temperature data
 
@@ -170,6 +173,7 @@
 | TemperatureDateTime | 07-05-2025 10:00 |
 | Comment | een koude dag |
 | TemperatureType | Orale temperatuur (onder de tong) (code '415945006' from code system 'SNOMED CT') |
+| Author | WijkverplegingOrg Zuid |
 
 ## Body Weight data
 
@@ -179,6 +183,7 @@
 | Comment | gemeten op nuchtere maag |
 | WeightDateTime | 14-04-2025 15:30 |
 | Clothing | Lichte kleding/ondergoed (code 'MINIMAL' from code system 'ContextKleding') |
+| Author | WijkverplegingOrg Zuid |
 
 ## Encounter data
 
@@ -186,12 +191,13 @@
 | --- | --- |
 | ContactType | Poliklinisch (code 'AMB' from code system 'ActCode') |
 | ContactWith | N. van Pinxteren-de Mol |
+| ContactWith.HealthProfessionalRole | |
 | Location | Huisarts de Huisarts |
 | StartDateTime | 26-05-2025 |
 | EndDateTime | |
 | ContactReason.Problem | |
 | ContactReason.Procedure | |
-| ContactReason.DeviatingResult | |
+| ContactReason.DeviatingResult | advies over veilige en passende lichaamsbeweging |
 | Origin | |
 | Destination | |
 
@@ -204,6 +210,7 @@
 | FluidTotalOut | 900 mL |
 | FluidBalanceStartTime | 14-05-2025 05:00 |
 | FluidBalanceStopTime | 15-05-2025 05:00 |
+| Author | WijkverplegingOrg Zuid |
 
 ## Living Situation data
 
@@ -211,6 +218,7 @@
 | --- | --- |
 | Comment | woont tijdelijk in hotel |
 | HouseType | Anders (code 'OTH' from code system 'NullFlavor'): hotel |
+| Author | WijkverplegingOrg Zuid |
 
 ## Nursing Report data
 
@@ -218,8 +226,7 @@
 | --- | --- |
 | ReportTitle | Dagrapportage |
 | ReportDateTime | 17-05-2025 15:45 |
-| Performer.HealthProfessional | |
-| Performer.HealthcareProvider | WijkverplegingOrg Zuid |
+| Performer | WijkverplegingOrg Zuid |
 | ReportContent | Bij inspectie van de huid tijdens de ochtend is een decubituswond stadium 2 vastgesteld op de linkerhiel. De huid is open met oppervlakkige beschadiging, roodheid en vochtige wondranden. Wond is gereinigd met NaCl 0.9%, bedekt met schuimverband. Patiënt ervaart lichte pijn bij aanraking. Extra kussens geplaatst om druk te verminderen. Wondverpleegkundige is geconsulteerd. |
 
 ## Nutrition Advice data
@@ -230,6 +237,7 @@
 | Consistency | |
 | Comment | |
 | DateTime | 11-01-2025 |
+| Author | |
 
 ## Payer data
 
@@ -270,6 +278,7 @@
 | PulseRateDateTime | 30-01-2020 22:00 |
 | Comment | |
 | PulseRegularity | Polsslag regelmatig (code '271636001' from code system 'SNOMED CT') |
+| Author | WijkverplegingOrg Zuid |
 
 ## Respiration data
 
@@ -294,3 +303,4 @@
 | AdministeredOxygen.AdministrationDevice.Laterality | |
 | AdministeredOxygen.AdministrationDevice.Location | |
 | AdministeredOxygen.AdministrationDevice.HealthProfessional | |
+| Author | WijkverplegingOrg Zuid |
