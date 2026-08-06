@@ -14,6 +14,7 @@
 | FHIR artifacts              | The CapabilityStatements have been added to the Artifact index. | [DOSINZAGE1-1087](https://medmij.atlassian.net/browse/DOSINZAGE1-1087) |
 | Granular data service index | The following granular data services have been updated: <br/> <ul> <li> Retrieve Long-term Healthcare - Encounter, version 1.0.0-beta.3 <ul> <li> The link to the functional model on ART-DECOR has been updated, which now includes the applicable cardinalities. <li> The FHIR profile mappings have been added. </ul> <li> Retrieve Long-term Healthcare - Nursing report, version 1.0.0-rc.3 <ul> <li> The explicit modeling of the HealthProfessional and HealthcareProvider within the Performer concept has been replaced by references to MedMij Core Logical Models. <li> The Logical Model and FHIR profile mappings have been added. <li> The ext-NursingReport.ReportTitle extension has been added explicitly. </ul> | [DOSINZAGE1-1041](https://medmij.atlassian.net/browse/DOSINZAGE1-1041), [DOSINZAGE1-1087](https://medmij.atlassian.net/browse/DOSINZAGE1-1087) |
 | Test material               | Several (incorrect) `.display`s of LOINC and SNOMED CT codes have been corrected, and translated to Dutch (if possible). | [DOSINZAGE1-1013](https://medmij.atlassian.net/browse/DOSINZAGE1-1013) |
+| Test material               | The test material has been extended by specifying concepts that were not yet present. | [DOSINZAGE1-1085](https://medmij.atlassian.net/browse/DOSINZAGE1-1085) |
 
 ## 1.0.0-rc.2
 
