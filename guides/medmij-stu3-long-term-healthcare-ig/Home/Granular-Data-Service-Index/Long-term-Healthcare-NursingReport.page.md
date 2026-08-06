@@ -34,6 +34,8 @@ The Logical Model is included below.
 | **Must Support** | <ul> <li> `.identifier` <li> `.subject` <li> `.effectiveDateTime` <li> `.performer` (including the [practitionerrole-reference](https://simplifier.net/resolve?canonical=http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference&scope=nictiz.fhir.nl.stu3.zib2017@2.3.2) extension) <li> `.valueString` <li> `.meta.tag` (only the [care type](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-exchange?version=1.3.0#CareType)) |
 | **CapabilityStatement(s)** | {{pagelink: CapabilityStatementsIndex, text: Nursing Report (Retrieve), anchor: NursingReportRetrieve}} <br/> {{pagelink: CapabilityStatementsIndex, text: Nursing Report (Serve), anchor: NursingReportServe}} |
 
-The FHIR profile is included below.
+The FHIR profiles are included below.
 
 {{page:resource-view-tree, canonical:http://medmij.nl/fhir/StructureDefinition/lz-NursingReport}}
+
+{{page:resource-view-tree-no-examples, canonical:http://medmij.nl/fhir/StructureDefinition/ext-NursingReport.ReportTitle}}
