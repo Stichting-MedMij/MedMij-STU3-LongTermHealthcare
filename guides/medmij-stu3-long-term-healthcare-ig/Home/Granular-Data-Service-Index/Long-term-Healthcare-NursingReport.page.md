@@ -22,17 +22,7 @@ topic: NursingReport
 
 The Logical Model is included below.
 
-<tabs>
-    <tab title="Tree view" active="true">
-      {{tree:http://medmij.nl/fhir/StructureDefinition/lz-lm-NursingReport, buttons}}
-    </tab>
-    <tab title="Xml">
-      {{xml:http://medmij.nl/fhir/StructureDefinition/lz-lm-NursingReport}}
-    </tab>
-    <tab title="Json">
-      {{json:http://medmij.nl/fhir/StructureDefinition/lz-lm-NursingReport}}
-    </tab>
-</tabs>
+{{page:resource-lm-view-tree, canonical:http://medmij.nl/fhir/StructureDefinition/lz-lm-NursingReport}}
 
 ## Technical specification
 | | |
@@ -42,18 +32,10 @@ The Logical Model is included below.
 | **FHIR version** | STU3 |
 | **Search request** | `GET [base]/Observation?code=http://snomed.info/sct|11591000146107` |
 | **Must Support** | <ul> <li> `.identifier` <li> `.subject` <li> `.effectiveDateTime` <li> `.performer` (including the [practitionerrole-reference](https://simplifier.net/resolve?canonical=http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference&scope=nictiz.fhir.nl.stu3.zib2017@2.3.2) extension) <li> `.valueString` <li> `.meta.tag` (only the [care type](https://simplifier.net/guide/medmij-stu3-core-ig/Home/Granular-exchange?version=1.3.0#CareType)) |
-| **CapabilityStatement(s)** | [Long-term Healthcare NursingReport Retrieve](https://simplifier.net/resolve?canonical=http://medmij.nl/fhir/CapabilityStatement/lz-NursingReport-Retrieve&scope=medmij.fhir.nl.stu3.longtermhealthcare@1.0.0-rc.3) <br/> [Long-term Healthcare NursingReport Serve](https://simplifier.net/resolve?canonical=http://medmij.nl/fhir/CapabilityStatement/lz-NursingReport-Serve&scope=medmij.fhir.nl.stu3.longtermhealthcare@1.0.0-rc.3) |
+| **CapabilityStatement(s)** | {{pagelink: CapabilityStatementsIndex, text: Nursing Report (Retrieve), anchor: NursingReportRetrieve}} <br/> {{pagelink: CapabilityStatementsIndex, text: Nursing Report (Serve), anchor: NursingReportServe}} |
 
-The FHIR profile is included below.
+The FHIR profiles are included below.
 
-<tabs>
-    <tab title="Tree view" active="true">
-      {{tree:http://medmij.nl/fhir/StructureDefinition/lz-NursingReport, buttons}}
-    </tab>
-    <tab title="Xml">
-      {{xml:http://medmij.nl/fhir/StructureDefinition/lz-NursingReport}}
-    </tab>
-    <tab title="Json">
-      {{json:http://medmij.nl/fhir/StructureDefinition/lz-NursingReport}}
-    </tab>
-</tabs>
+{{page:resource-view-tree, canonical:http://medmij.nl/fhir/StructureDefinition/lz-NursingReport}}
+
+{{page:resource-view-tree-no-examples, canonical:http://medmij.nl/fhir/StructureDefinition/ext-NursingReport.ReportTitle}}
