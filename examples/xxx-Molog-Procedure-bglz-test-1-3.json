@@ -2,8 +2,6 @@
   "resourceType": "Procedure",
   "id": "Procedure-bglz-test-1-3",
   "meta": {
-    "versionId": "1",
-    "lastUpdated": "2025-02-18T10:35:04.3+00:00",
     "profile": [
       "http://nictiz.nl/fhir/StructureDefinition/zib-Procedure"
     ],
@@ -58,7 +56,7 @@
   ],
   "reasonReference": [
     {
-      "reference": "Condition/Problem-bglz-test-1-3",
+      "reference": "Condition/Problem-bglz-test-1-3-01",
       "display": "ziekte van Parkinson"
     }
   ]

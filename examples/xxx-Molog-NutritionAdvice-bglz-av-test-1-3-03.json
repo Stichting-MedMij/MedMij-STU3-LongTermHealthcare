@@ -1,6 +1,6 @@
 {
   "resourceType": "NutritionOrder",
-  "id": "NutritionAdvice-bglz-av-test-1-3-02",
+  "id": "NutritionAdvice-bglz-av-test-1-3-03",
   "meta": {
     "profile": [
       "http://nictiz.nl/fhir/StructureDefinition/zib-NutritionAdvice"
@@ -20,13 +20,7 @@
   "identifier": [
     {
       "system": "urn:oid:2.16.840.1.113883.2.4.3.11.999.7.6",
-      "value": "6080f0ec-fe28-49bd-9aff-890843b3d6e1"
-    }
-  ],
-  "extension": [
-    {
-      "url": "http://nictiz.nl/fhir/StructureDefinition/zib-NutritionAdvice-Explanation",
-      "valueString": "in verband met allergie"
+      "value": "232c371c-8d49-4287-8e3c-4031001007ed"
     }
   ],
   "status": "active",
@@ -34,7 +28,7 @@
     "reference": "Patient/Patient-bglz-test-1-3",
     "display": "Maria XXX_Molog"
   },
-  "dateTime": "2015-03-17",
+  "dateTime": "2025-02-17",
   "orderer": {
     "extension": [
       {
@@ -51,7 +45,14 @@
   "oralDiet": {
     "type": [
       {
-        "text": "geen selderij"
+        "text": "Energieverrijkt"
+      }
+    ],
+    "texture": [
+      {
+        "foodType": {
+          "text": "Fijngemalen noten"
+        }
       }
     ]
   }

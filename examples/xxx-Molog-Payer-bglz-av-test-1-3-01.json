@@ -1,9 +1,7 @@
 {
   "resourceType": "Coverage",
-  "id": "Payer-bglz-av-test-1-3",
+  "id": "Payer-bglz-av-test-1-3-01",
   "meta": {
-    "versionId": "6",
-    "lastUpdated": "2025-03-17T09:36:13.335+00:00",
     "profile": [
       "http://nictiz.nl/fhir/StructureDefinition/zib-Payer"
     ],

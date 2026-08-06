@@ -2,8 +2,6 @@
   "resourceType": "Observation",
   "id": "BodyHeight-bglz-av-test-1-2",
   "meta": {
-    "versionId": "6",
-    "lastUpdated": "2025-03-17T09:36:39.826+00:00",
     "profile": [
       "http://nictiz.nl/fhir/StructureDefinition/zib-BodyHeight"
     ],
@@ -43,6 +41,11 @@
         "system": "http://loinc.org",
         "code": "8302-2",
         "display": "Lichaamslengte [afmeting]"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "8306-3",
+        "display": "Body height --lying"
       }
     ]
   },
