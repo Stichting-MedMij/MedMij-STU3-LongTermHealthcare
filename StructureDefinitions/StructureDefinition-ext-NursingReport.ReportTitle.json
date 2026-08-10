@@ -28,8 +28,8 @@
   "fhirVersion": "3.0.2",
   "mapping": [
     {
-      "identity": "lz-dataset-100-rc3-2026xxyy",
-      "name": "Dataset Langdurige Zorg MedMij 1.0.0-rc.3 2026xxyy"
+      "identity": "lz-dataset-100-rc3-20260811",
+      "name": "Dataset Langdurige Zorg MedMij 1.0.0-rc.3 20260811"
     }
   ],
   "kind": "complex-type",
@@ -70,7 +70,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-dataset-100-rc3-2026xxyy",
+            "identity": "lz-dataset-100-rc3-20260811",
             "map": "lz-dataelement-2",
             "comment": "ReportTitle"
           }

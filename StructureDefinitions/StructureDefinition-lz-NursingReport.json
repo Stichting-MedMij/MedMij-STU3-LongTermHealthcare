@@ -28,8 +28,8 @@
   "fhirVersion": "3.0.2",
   "mapping": [
     {
-      "identity": "lz-dataset-100-rc3-2026xxyy",
-      "name": "Dataset Langdurige Zorg MedMij 1.0.0-rc.3 2026xxyy"
+      "identity": "lz-dataset-100-rc3-20260811",
+      "name": "Dataset Langdurige Zorg MedMij 1.0.0-rc.3 20260811"
     }
   ],
   "kind": "resource",
@@ -49,7 +49,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-dataset-100-rc3-2026xxyy",
+            "identity": "lz-dataset-100-rc3-20260811",
             "map": "lz-dataelement-1",
             "comment": "NursingReport"
           }
@@ -121,7 +121,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-dataset-100-rc3-2026xxyy",
+            "identity": "lz-dataset-100-rc3-20260811",
             "map": "lz-dataelement-3",
             "comment": "ReportDateTime"
           }
@@ -149,7 +149,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-dataset-100-rc3-2026xxyy",
+            "identity": "lz-dataset-100-rc3-20260811",
             "map": "lz-dataelement-4",
             "comment": "Performer"
           }
@@ -186,7 +186,7 @@
         ],
         "mapping": [
           {
-            "identity": "lz-dataset-100-rc3-2026xxyy",
+            "identity": "lz-dataset-100-rc3-20260811",
             "map": "lz-dataelement-19",
             "comment": "ReportContent"
           }
