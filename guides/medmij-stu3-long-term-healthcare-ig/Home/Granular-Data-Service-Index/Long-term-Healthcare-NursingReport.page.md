@@ -27,7 +27,7 @@ The Logical Model is included below.
 ## Technical specification
 | | |
 | --- | --- |
-| **FHIR profile(s)** | [http://medmij.nl/fhir/StructureDefinition/lz-NursingReport](https://simplifier.net/resolve?canonical=http://medmij.nl/fhir/StructureDefinition/lz-NursingReport&scope=medmij.fhir.nl.stu3.longtermhealthcare@1.0.0-rc.3) |
+| **FHIR profile(s)** | {{pagelink: FHIRProfilesIndex, text: [http://medmij.nl/fhir/StructureDefinition/lz-NursingReport](http://medmij.nl/fhir/StructureDefinition/lz-NursingReport), anchor: LzNursingReport}} |
 | **FHIR package** | [medmij.fhir.nl.stu3.longtermhealthcare](https://simplifier.net/packages/medmij.fhir.nl.stu3.longtermhealthcare) version 1.0.0-rc.3 or compatible |
 | **FHIR version** | STU3 |
 | **Search request** | `GET [base]/Observation?code=http://snomed.info/sct|11591000146107` |

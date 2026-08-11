@@ -25,7 +25,7 @@ The functional model can be found on [ART-DECOR](https://decor.nictiz.nl/pub/zib
 ## Technical specification
 | | |
 | --- | --- |
-| **FHIR profile(s)** | [http://medmij.nl/fhir/StructureDefinition/lz-Encounter](https://simplifier.net/resolve?canonical=http://medmij.nl/fhir/StructureDefinition/lz-Encounter&scope=medmij.fhir.nl.stu3.longtermhealthcare@1.0.0-rc.3) |
+| **FHIR profile(s)** | {{pagelink: FHIRProfilesIndex, text: [lz-Encounter](http://medmij.nl/fhir/StructureDefinition/lz-Encounter), anchor: LzEncounter}} |
 | **FHIR package** | [medmij.fhir.nl.stu3.longtermhealthcare](https://simplifier.net/packages/medmij.fhir.nl.stu3.longtermhealthcare) version 1.0.0-rc.3 or compatible |
 | **FHIR version** | STU3 |
 | **Search request** | `GET [base]/Encounter` |
