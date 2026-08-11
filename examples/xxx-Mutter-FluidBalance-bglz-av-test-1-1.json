@@ -2,8 +2,6 @@
   "resourceType": "Observation",
   "id": "FluidBalance-bglz-av-test-1-1",
   "meta": {
-    "versionId": "1",
-    "lastUpdated": "2025-05-20T02:10:58.823+00:00",
     "profile": [
       "http://nictiz.nl/fhir/StructureDefinition/zib-FluidBalance"
     ],
@@ -17,7 +15,7 @@
   },
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <table>\n        <caption>Observatie/bepaling. Subject: Fiona XXX_Mutter. Status: voorlopig</caption>\n        <tbody>\n          <tr>\n            <th>Bepalingdatum/tijd</th>\n            <td>2025-05-14T07:00:00+02:00 - 2025-05-15T07:00:00+02:00</td>\n          </tr>\n          <tr>\n            <th>Code</th>\n            <th>Waarde</th>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"Fluid balance observable (364396009 - SNOMED CT)\">Fluid balance observable</span>\n            </td>\n            <td/>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"Total fluid input (251852001 - SNOMED CT)\">Total fluid input</span>\n            </td>\n            <td>1400 mL</td>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"Total fluid output (251841007 - SNOMED CT)\">Total fluid output</span>\n            </td>\n            <td>1000 mL</td>\n          </tr>\n        </tbody>\n      </table>\n    </div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <table>\n        <caption>Observatie/bepaling. Subject: Fiona XXX_Mutter. Status: voorlopig</caption>\n        <tbody>\n          <tr>\n            <th>Bepalingdatum/tijd</th>\n            <td>2025-05-14T07:00:00+02:00 - 2025-05-15T07:00:00+02:00</td>\n          </tr>\n          <tr>\n            <th>Code</th>\n            <th>Waarde</th>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"observatie betreffende vochtbalans (364396009 - SNOMED CT)\">observatie betreffende vochtbalans</span>\n            </td>\n            <td/>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"totale vochtinname (251852001 - SNOMED CT)\">totale vochtinname</span>\n            </td>\n            <td>1400 mL</td>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"totale vochtuitscheiding (251841007 - SNOMED CT)\">totale vochtuitscheiding</span>\n            </td>\n            <td>1000 mL</td>\n          </tr>\n        </tbody>\n      </table>\n    </div>"
   },
   "identifier": [
     {
@@ -31,7 +29,7 @@
       {
         "system": "http://snomed.info/sct",
         "code": "364396009",
-        "display": "Fluid balance observable"
+        "display": "observatie betreffende vochtbalans"
       }
     ]
   },
@@ -56,7 +54,7 @@
           {
             "system": "http://snomed.info/sct",
             "code": "251852001",
-            "display": "Total fluid input"
+            "display": "totale vochtinname"
           }
         ]
       },
@@ -73,7 +71,7 @@
           {
             "system": "http://snomed.info/sct",
             "code": "251841007",
-            "display": "Total fluid output"
+            "display": "totale vochtuitscheiding"
           }
         ]
       },

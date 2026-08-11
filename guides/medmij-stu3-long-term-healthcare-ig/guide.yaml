@@ -1,6 +1,6 @@
-title: MedMij STU3 Long-term Healthcare IG 1.0.0-rc.2
+title: MedMij STU3 Long-term Healthcare IG 1.0.0-rc.3
 description: 'FHIR IG for MedMij Long-term Healthcare (Dutch: Basisgegevens Langdurige Zorg+ or BgLZ+).'
-version: 1.0.0-rc.2
+version: 1.0.0-rc.3
 style-root: project
 style-name: MedMij
 numbered-headings: true

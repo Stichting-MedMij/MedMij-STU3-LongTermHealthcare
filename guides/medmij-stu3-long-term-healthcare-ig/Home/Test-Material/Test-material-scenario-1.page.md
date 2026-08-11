@@ -132,6 +132,7 @@
 | AlertName | Drager MRSA (code '432415000' from code system 'SNOMED CT') |
 | StartDateTime | 30-04-2025 |
 | AlertType | waarschuwing (code '74018-3' from code system 'LOINC') |
+| Author | |
 
 ## Blood Pressure data
 
@@ -147,6 +148,7 @@
 | BloodPressureDateTime | 26-04-2025 13:45 |
 | Comment | mevrouw gebruikt medicatie |
 | Position | Liggende positie (code '102538003' from code system 'SNOMED CT') |
+| Author | ThuiszorgOrg Noord |
 
 ## Body Height data
 
@@ -156,6 +158,7 @@
 | HeightDateTime | 15-05-2025 13:30 |
 | Comment | zonder schoenen aan |
 | Position | |
+| Author | ThuiszorgOrg Noord |
 
 ## Body Temperature data
 
@@ -165,6 +168,7 @@
 | TemperatureDateTime | 16-05-2025 06:00 |
 | Comment | hoofd voelt heel warm aan |
 | TemperatureType | Tympanische temperatuur (code '415974002' from code system 'SNOMED CT') |
+| Author | ThuiszorgOrg Noord |
 
 ## Body Weight data
 
@@ -174,6 +178,7 @@
 | Comment | meneer volgt afvaldieet |
 | WeightDateTime | 15-05-2025 13:30 |
 | Clothing | Volledig gekleed, inclusief schoenen (code 'FULL' from code system 'ContextKleding') |
+| Author | ThuiszorgOrg Noord |
 
 ## Encounter data
 
@@ -181,9 +186,10 @@
 | --- | --- |
 | ContactType | Home (code 'HH' from code system 'ActCode') |
 | ContactWith | W. Bloem |
+| ContactWith.HealthProfessionalRole | Hoofdbehandelaar (code 'RESP' from code system 'ParticipationType') |
 | Location | |
 | StartDateTime | 01-06-2025 14:15 |
-| EndDateTime | |
+| EndDateTime | 01-06-2025 14:45 |
 | ContactReason.Problem | |
 | ContactReason.Procedure | |
 | ContactReason.DeviatingResult | Controle voortgang revalidatie |
@@ -199,6 +205,7 @@
 | FluidTotalOut | 1010 mL |
 | FluidBalanceStartTime | 14-05-2025 05:00 |
 | FluidBalanceStopTime | 15-05-2025 05:00 |
+| Author | ThuiszorgOrg Noord |
 
 ## Living Situation data
 
@@ -206,6 +213,7 @@
 | --- | --- |
 | Comment | woning is op derde verdieping, is gelijkvloers en er is een lift aanwezig |
 | HouseType | Appartement of flatwoning (code 'FLATW' from code system 'WoningType') |
+| Author | ThuiszorgOrg Noord |
 
 ## Nursing Report data
 
@@ -213,8 +221,7 @@
 | --- | --- |
 | ReportTitle | Dagrapportage |
 | ReportDateTime | 17-05-2025 15:45 |
-| Performer.HealthProfessional | |
-| Performer.HealthcareProvider | ThuiszorgOrg Noord |
+| Performer | ThuiszorgOrg Noord |
 | ReportContent | Patiënt heeft moeite met het begrijpen en produceren van gesproken taal. Tijdens het ochtendcontact kon ze haar behoefte aan hulp bij het wassen niet verbaal aangeven, maar maakte gebruik van gebaren. Er is ondersteuning geboden bij ADL. Geadviseerd om pictogrammen te gebruiken en overleg met logopedie is aangevraagd. |
 
 ## Nutrition Advice data
@@ -225,6 +232,7 @@
 | Consistency | dik vloeibaar |
 | Comment | eet naar eigen keuze minder vlees |
 | DateTime | 20-05-2025 |
+| Author | |
 
 ## Payer data
 
@@ -263,8 +271,9 @@
 | --- | --- |
 | PulseRateValue | 72 /min|
 | PulseRateDateTime | 28-03-2023 22:00 |
-| Comment | |
+| Comment | Sportvrouw |
 | PulseRegularity | Polsslag onregelmatig (code '61086009' from code system 'SNOMED CT') |
+| Author | ThuiszorgOrg Noord |
 
 ## Respiration data
 
@@ -289,3 +298,4 @@
 | AdministeredOxygen.AdministrationDevice.Laterality | |
 | AdministeredOxygen.AdministrationDevice.Location | |
 | AdministeredOxygen.AdministrationDevice.HealthProfessional | |
+| Author | ThuiszorgOrg Noord |

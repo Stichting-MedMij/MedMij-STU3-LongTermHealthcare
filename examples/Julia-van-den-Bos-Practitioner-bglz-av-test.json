@@ -2,8 +2,6 @@
   "resourceType": "Practitioner",
   "id": "Practitioner-bglz-av-test-Bos",
   "meta": {
-    "versionId": "2",
-    "lastUpdated": "2025-02-28T10:40:05.904+00:00",
     "profile": [
       "http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner"
     ],

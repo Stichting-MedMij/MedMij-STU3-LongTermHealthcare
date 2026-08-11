@@ -2,8 +2,6 @@
   "resourceType": "Observation",
   "id": "BloodPressure-bglz-av-test-1-3",
   "meta": {
-    "versionId": "6",
-    "lastUpdated": "2025-03-17T09:36:34.615+00:00",
     "profile": [
       "http://nictiz.nl/fhir/StructureDefinition/zib-BloodPressure"
     ],
@@ -17,7 +15,7 @@
   },
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <table>\n        <caption>Observatie/bepaling. Subject: Maria XXX_Molog. Categorie: <span title=\"Vital Signs (vital-signs - observation-category)\">Vital Signs</span>, Status: definitief</caption>\n        <tfoot>\n          <tr>\n            <td colspan=\"2\">mevrouw gebruikt medicatie</td>\n          </tr>\n        </tfoot>\n        <tbody>\n          <tr>\n            <th>Bepalingdatum/tijd</th>\n            <td>2025-03-15T14:45:00+01:00</td>\n          </tr>\n          <tr>\n            <th>Methode</th>\n            <td>\n              <span title=\"Niet-invasief (22762002 - SNOMED CT)\">Niet-invasief</span>\n            </td>\n          </tr>\n          <tr>\n            <th>Deel van lichaam</th>\n            <td>\n              <span title=\"Linker bovenarm (368208006 - SNOMED CT)\">Linker bovenarm</span>\n            </td>\n          </tr>\n          <tr>\n            <th>Code</th>\n            <th>Waarde</th>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"Blood pressure panel with all children optional (85354-9 - LOINC)\">Blood pressure panel with all children optional</span>\n            </td>\n            <td/>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"Systolic blood pressure (8480-6 - LOINC)\">Systolic blood pressure</span>\n            </td>\n            <td>160 mmHg</td>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"Diastolic blood pressure (8462-4 - LOINC)\">Diastolic blood pressure</span>\n            </td>\n            <td>92 mmHg</td>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"Mean blood pressure (8478-0 - LOINC)\">Mean blood pressure</span>\n            </td>\n            <td>109 mmHg</td>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"Blood pressure device Cuff size (8358-4 - LOINC)\">Blood pressure device Cuff size</span>\n            </td>\n            <td>\n              <span title=\"Klein (S - 2.16.840.1.113883.2.4.3.11.60.40.4.15.1)\">Klein</span>\n            </td>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"Body position with respect to gravity (8361-8 - LOINC)\">Body position with respect to gravity</span>\n            </td>\n            <td>\n              <span title=\"Zittende positie (33586001 - SNOMED CT)\">Zittende positie</span>\n            </td>\n          </tr>\n        </tbody>\n      </table>\n    </div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <table>\n        <caption>Observatie/bepaling. Subject: Maria XXX_Molog. Categorie: <span title=\"Vital Signs (vital-signs - observation-category)\">Vital Signs</span>, Status: definitief</caption>\n        <tfoot>\n          <tr>\n            <td colspan=\"2\">mevrouw gebruikt medicatie</td>\n          </tr>\n        </tfoot>\n        <tbody>\n          <tr>\n            <th>Bepalingdatum/tijd</th>\n            <td>2025-03-15T14:45:00+01:00</td>\n          </tr>\n          <tr>\n            <th>Methode</th>\n            <td>\n              <span title=\"non-invasief (22762002 - SNOMED CT)\">non-invasief</span>\n            </td>\n          </tr>\n          <tr>\n            <th>Deel van lichaam</th>\n            <td>\n              <span title=\"structuur van linker bovenarm (368208006 - SNOMED CT)\">structuur van linker bovenarm</span>\n            </td>\n          </tr>\n          <tr>\n            <th>Code</th>\n            <th>Waarde</th>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"Bloeddruk panel waarvan alle leden optioneel in arterieel vaatstelsel (85354-9 - LOINC)\">Bloeddruk panel waarvan alle leden optioneel in arterieel vaatstelsel</span>\n            </td>\n            <td/>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"Intravasculaire systolische bloeddruk [druk] in arterieel vaatstelsel (8480-6 - LOINC)\">Intravasculaire systolische bloeddruk [druk] in arterieel vaatstelsel</span>\n            </td>\n            <td>160 mmHg</td>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"Intravasculaire diastolische bloeddruk [druk] in arterieel vaatstelsel (8462-4 - LOINC)\">Intravasculaire diastolische bloeddruk [druk] in arterieel vaatstelsel</span>\n            </td>\n            <td>92 mmHg</td>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"gemiddelde bloeddruk (6797001 - SNOMED CT)\">gemiddelde bloeddruk</span>\n            </td>\n            <td>109 mmHg</td>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"bloeddrukmanchet (70665002 - SNOMED CT)\">bloeddrukmanchet</span>\n            </td>\n            <td>\n              <span title=\"Klein (S - 2.16.840.1.113883.2.4.3.11.60.40.4.15.1)\">Klein</span>\n            </td>\n          </tr>\n          <tr>\n            <td>\n              <span title=\"lichaamspositie voor bepalen van bloeddruk (424724000 - SNOMED CT)\">lichaamspositie voor bepalen van bloeddruk</span>\n            </td>\n            <td>\n              <span title=\"zittende positie (33586001 - SNOMED CT)\">zittende positie</span>\n            </td>\n          </tr>\n        </tbody>\n      </table>\n    </div>"
   },
   "identifier": [
     {
@@ -42,7 +40,7 @@
       {
         "system": "http://loinc.org",
         "code": "85354-9",
-        "display": "Blood pressure panel with all children optional"
+        "display": "Bloeddruk panel waarvan alle leden optioneel in arterieel vaatstelsel"
       }
     ]
   },
@@ -52,8 +50,17 @@
   },
   "performer": [
     {
-      "reference": "Organization/Organization-bglz-av-test-WijZorgen",
-      "display": "WijZorgen Honselerdijk"
+      "extension": [
+        {
+          "url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
+          "valueReference": {
+            "reference": "PractitionerRole/PractitionerRole-bglz-av-test-Bos",
+            "display": "Julia van den Bos, Verpleegkundige, niet nader gespecificeerd"
+          }
+        }
+      ],
+      "reference": "Practitioner/Practitioner-bglz-av-test-Bos",
+      "display": "Julia van den Bos"
     }
   ],
   "effectiveDateTime": "2025-03-15T13:45:00+00:00",
@@ -63,7 +70,7 @@
       {
         "system": "http://snomed.info/sct",
         "code": "368208006",
-        "display": "Linker bovenarm"
+        "display": "structuur van linker bovenarm"
       }
     ]
   },
@@ -72,7 +79,7 @@
       {
         "system": "http://snomed.info/sct",
         "code": "22762002",
-        "display": "Niet-invasief"
+        "display": "non-invasief"
       }
     ]
   },
@@ -83,7 +90,7 @@
           {
             "system": "http://loinc.org",
             "code": "8480-6",
-            "display": "Systolic blood pressure"
+            "display": "Intravasculaire systolische bloeddruk [druk] in arterieel vaatstelsel"
           }
         ]
       },
@@ -100,7 +107,7 @@
           {
             "system": "http://loinc.org",
             "code": "8462-4",
-            "display": "Diastolic blood pressure"
+            "display": "Intravasculaire diastolische bloeddruk [druk] in arterieel vaatstelsel"
           }
         ]
       },
@@ -115,9 +122,9 @@
       "code": {
         "coding": [
           {
-            "system": "http://loinc.org",
-            "code": "8478-0",
-            "display": "Mean blood pressure"
+            "system": "http://snomed.info/sct",
+            "code": "6797001",
+            "display": "gemiddelde bloeddruk"
           }
         ]
       },
@@ -132,9 +139,9 @@
       "code": {
         "coding": [
           {
-            "system": "http://loinc.org",
-            "code": "8358-4",
-            "display": "Blood pressure device Cuff size"
+            "system": "http://snomed.info/sct",
+            "code": "70665002",
+            "display": "bloeddrukmanchet"
           }
         ]
       },
@@ -152,9 +159,9 @@
       "code": {
         "coding": [
           {
-            "system": "http://loinc.org",
-            "code": "8361-8",
-            "display": "Body position with respect to gravity"
+            "system": "http://snomed.info/sct",
+            "code": "424724000",
+            "display": "lichaamspositie voor bepalen van bloeddruk"
           }
         ]
       },
@@ -163,7 +170,7 @@
           {
             "system": "http://snomed.info/sct",
             "code": "33586001",
-            "display": "Zittende positie"
+            "display": "zittende positie"
           }
         ]
       }

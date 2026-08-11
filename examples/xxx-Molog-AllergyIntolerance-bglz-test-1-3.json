@@ -2,15 +2,13 @@
   "resourceType": "AllergyIntolerance",
   "id": "AllergyIntolerance-bglz-test-1-3",
   "meta": {
-    "versionId": "1",
-    "lastUpdated": "2025-05-15T02:08:24.532+00:00",
     "profile": [
       "http://nictiz.nl/fhir/StructureDefinition/zib-AllergyIntolerance"
     ]
   },
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <table>\n        <caption>Allergie/intolerantie. Patiënt: Maria XXX_Molog / bevestigd</caption>\n        <tfoot>\n          <tr>\n            <td colspan=\"2\">betreft zowel gekookte als rauwe selderij</td>\n          </tr>\n        </tfoot>\n        <tbody>\n          <tr>\n            <th>Code</th>\n            <td>\n              <span title=\"selderij (256326004 - SNOMED CT)\">selderij</span>\n            </td>\n          </tr>\n          <tr>\n            <th>Eerste symptomen</th>\n            <td>2015-05-15</td>\n          </tr>\n          <tr>\n            <th>Reactie</th>\n            <td>\n              <ul>\n                <li>\n                  <div>\n                    <span title=\"Misselijk en braken (16932000 - SNOMED CT)\">Misselijk en braken</span>\n                  </div>\n                  <div>Misselijkheid en braken</div>\n                </li>\n              </ul>\n            </td>\n          </tr>\n        </tbody>\n      </table>\n    </div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <table>\n        <caption>Allergie/intolerantie. Patiënt: Maria XXX_Molog / bevestigd</caption>\n        <tfoot>\n          <tr>\n            <td colspan=\"2\">betreft zowel gekookte als rauwe selderij</td>\n          </tr>\n        </tfoot>\n        <tbody>\n          <tr>\n            <th>Code</th>\n            <td>\n              <span title=\"selderij (256326004 - SNOMED CT)\">selderij</span>\n            </td>\n          </tr>\n          <tr>\n            <th>Eerste symptomen</th>\n            <td>2015-05-15</td>\n          </tr>\n          <tr>\n            <th>Reactie</th>\n            <td>\n              <ul>\n                <li>\n                  <div>\n                    <span title=\"misselijkheid en overgeven (16932000 - SNOMED CT)\">misselijkheid en overgeven</span>\n                  </div>\n                  <div>Misselijkheid en braken</div>\n                </li>\n              </ul>\n            </td>\n          </tr>\n        </tbody>\n      </table>\n    </div>"
   },
   "identifier": [
     {
@@ -46,7 +44,7 @@
             {
               "system": "http://snomed.info/sct",
               "code": "6736007",
-              "display": "Matig"
+              "display": "matig"
             }
           ]
         }
@@ -66,7 +64,7 @@
               {
                 "system": "http://snomed.info/sct",
                 "code": "418471000",
-                "display": "neiging tot ongewenste reactie op voedsel"
+                "display": "voedselovergevoeligheid"
               }
             ]
           }
@@ -101,7 +99,7 @@
             {
               "system": "http://snomed.info/sct",
               "code": "16932000",
-              "display": "Misselijk en braken"
+              "display": "misselijkheid en overgeven"
             }
           ]
         }

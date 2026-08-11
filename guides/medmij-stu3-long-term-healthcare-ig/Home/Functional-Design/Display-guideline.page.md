@@ -54,11 +54,11 @@ De acceptatiecriteria voor de overzichtsschermen van elke CIM is als volgt.
 | Nr | Acceptatiecriteria |
 | --- | --- |
 | 1 | Standaard worden alle beschikbaar gestelde gegevens van de zorgaanbieders(s) overzichtelijk weergegeven, gesorteerd op datum van nieuw naar oud. |
-| 2 | Je kunt zoeken op (delen van) de gegevens of op informatie uit de andere datavelden in het overzichtsscherm. De gebruiker moet minimaal 3 karakters invoeren. |
-| 3 | Voor de datavelden in het overzichtsscherm is het mogelijk om te filteren op één of meerdere waarden. |
+| 2 | Je kunt zoeken op (delen van) de gegevens of op informatie uit de datavelden in het overzichtsscherm. De datum vormt hierop een uitzondering, omdat hiervoor al een periode kan worden opgegeven. |
+| 3 | Voor de datavelden in het overzichtsscherm is het mogelijk om te filteren op één of meerdere waarden. De datum vormt hierop een uitzondering, omdat hiervoor al een periode kan worden opgegeven. Ook datavelden die leiden tot een te lange lijst van filterwaarden vormen een uitzondering. |
 | 4 | Voor het datumveld in het overzichtsscherm kun je een specifieke periode selecteren. |
-| 5 | Alle datavelden in het overzichtsscherm zijn sorteerbaar. |
-| 6 | De datavelden in het overzichtsscherm zijn begrijpelijk en gebruiksvriendelijk geformuleerd. Zie de {{pagelink: Weergaverichtlijn, text: Tabel met specificaties, anchor: TabelSpecificaties}} voor de aanbevolen termen per opgehaald dataveld. |
+| 5 | In het overzichtsscherm kan minimaal op datum worden gesorteerd, maar bij voorkeur is sorteren op alle datavelden mogelijk. |
+| 6 | De datavelden in het overzichtsscherm zijn begrijpelijk en gebruiksvriendelijk geformuleerd. Zie de {{pagelink: Weergaverichtlijn, text: Tabel met specificaties, anchor: TabelSpecificaties}} voor de aanbevolen termen per opgehaald dataveld. In verband met beperkte schermruimte op mobiele apparaten mogen de labelnamen van de datavelden in het overzichtsscherm worden weggelaten. |
 
 #### Detailscherm langdurige zorg
 Dit detailscherm krijgt een PGO-gebruiker te zien na het selecteren van een specifieke regel in het overzichtsscherm. De in de mock-up weergegeven gegevens dienen uitsluitend ter demonstratie.
@@ -68,6 +68,10 @@ Dit detailscherm krijgt een PGO-gebruiker te zien na het selecteren van een spec
 {{render: guides/medmij-stu3-long-term-healthcare-ig/images/Detailscherm Langdurige zorg.png}}
 
 **Figuur 3: Voorbeeld Detailscherm Langdurige zorg**
+
+| Nr | Acceptatiecriteria |
+| --- | --- |
+| 1 | De datavelden in het detailscherm zijn begrijpelijk en gebruiksvriendelijk geformuleerd. Zie de {{pagelink: Weergaverichtlijn, text: Tabel met specificaties, anchor: TabelSpecificaties}} voor de aanbevolen termen per opgehaald dataveld. |
 
 ### Langdurigezorggegevens per CIM
 Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in tabelvorm weergegeven. De zorgaanbieder in het overzichtsscherm en detailscherm is alleen nodig voor scenario 1. Deze is niet nodig voor scenario 2.
@@ -83,7 +87,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Contact Advies over de veilige en passende lichaamsbeweging | Waarde |
+| Geselecteerde regel: Advies over veilige en passende lichaamsbeweging | Waarde |
 | --- | --- |
 | Type contact | Thuis |
 | Begindatum | 30-03-2025 |
@@ -108,7 +112,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Dagrapportage 15-03-2025 12:00 | Waarde |
+| Geselecteerde regel: Problemen met mobiliteit en spraak | Waarde |
 | --- | --- |
 | Titel dagrapportage | Problemen met mobiliteit en spraak |
 | Dagverslag | Mevrouw vertoont toenemende stijfheid bij het opstaan en lopen. Er is sprake van fijne tremor in de rechterhand. Tijdens het ochtendcontact had zij moeite om zich verbaal uit te drukken; gebruikt korte zinnen met lange pauzes. Zelfstandig toiletbezoek is mogelijk, maar met risico op vallen. Advies: looprek binnen handbereik houden en logopedie betrekken voor spraakondersteuning. |
@@ -130,7 +134,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Waarschuwing 15-03-2025 | Waarde |
+| Geselecteerde regel: Drager VRE | Waarde |
 | --- | --- |
 | Waarschuwing | Drager VRE |
 | Waarschuwing actief sinds | 15-03-2025 |
@@ -150,12 +154,12 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Bloeddruk 15-03-2025 | Waarde |
+| Geselecteerde regel: 160/92 mmHg | Waarde |
 | --- | --- |
 | Methode | Niet-invasief |
 | Manchettype | Klein |
 | Locatie meting | Linker bovenarm |
-| Korotkofftoon | Fade IV |
+| Korotkofftoon | Fase IV |
 | Bovendruk | 160 mmHg |
 | Onderdruk | 92 mmHg |
 | Gemiddelde bloeddruk | 109 mmHg |
@@ -177,7 +181,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Lichaamslengte 15-03-2025 | Waarde |
+| Geselecteerde regel: 160 cm | Waarde |
 | --- | --- |
 | Lichaamslengte | 160 cm |
 | Datum | 15-03-2025 |
@@ -199,7 +203,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Lichaamstemperatuur 15-03-2025 | Waarde |
+| Geselecteerde regel: 37,2 graden | Waarde |
 | --- | --- |
 | Lichaamstemperatuur | 37,2 graden |
 | Datum | 15-03-2025 |
@@ -220,7 +224,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Lichaamsgewicht 15-03-2025 | Waarde |
+| Geselecteerde regel: 58 kg | Waarde |
 | --- | --- |
 | Lichaamsgewicht | 58 kg |
 | Datum | 15-03-2025 |
@@ -242,7 +246,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Vochtbalans 15-03-2025 | Waarde |
+| Geselecteerde regel: 1400 ml / 1000 ml | Waarde |
 | --- | --- |
 | Vochtinname totaal | 1400 ml |
 | Vochtuitscheiding totaal | 1000 ml |
@@ -263,7 +267,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Woonsituatie 15-03-2024 | Waarde |
+| Geselecteerde regel: Aanleunwoning | Waarde |
 | --- | --- |
 | Type woning | Aanleunwoning |
 | Datum | 15-03-2024 |
@@ -283,7 +287,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Voedingsadvies Lactosevrij | Waarde |
+| Geselecteerde regel: Lactosevrij | Waarde |
 | --- | --- |
 | Voedingsadvies | Lactosevrij |
 | Datum | 15-03-2025 |
@@ -305,7 +309,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Betaler J.L. Teunissen | |
+| Geselecteerde regel: J.L. Teunissen | |
 | --- | --- |
 | Naam betaler | J.L. Teunissen |
 | Naam bank | ING |
@@ -315,12 +319,13 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 | Begindatum | |
 | Einddatum | |
 | Soort verzekering | |
+| Identificatienummer | |
 | Nummer verzekerde | |
 | Zorgorganisatie | IJsselheem |
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Betaler Trias | Waarde |
+| Geselecteerde regel: Trias | Waarde |
 | --- | --- |
 | Naam betaler | |
 | Naam bank | |
@@ -330,6 +335,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 | Begindatum | 01-01-2025 |
 | Einddatum | 31-12-2025 |
 | Soort verzekering | Basis verzekerd |
+| Identificatienummer | 3332 |
 | Nummer verzekerde | 12345678 |
 | Zorgorganisatie | IJsselheem |
 
@@ -346,7 +352,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Polsfrequentie 15-03-2025 | Waarde |
+| Geselecteerde regel: 96 /min | Waarde |
 | --- | --- |
 | Polsfrequentie | 96 /min |
 | Datum | 15-03-2025 |
@@ -368,7 +374,7 @@ Hieronder wordt voor alle CIM's relevant voor langdurige zorg een voorbeeld in t
 
 <u>Detailscherm</u>
 
-| Geselecteerde regel: Ademhaling 15-03-2025 | Waarde |
+| Geselecteerde regel: 18 /min | Waarde |
 | --- | --- |
 | Ademhaling | 18 /min |
 | Datum | 15-03-2025 |
@@ -397,7 +403,7 @@ De prioriteit van de te tonen datavelden wordt vastgesteld volgens de MoSCoW-met
 | M(ust have) | Nodig voor de basisfunctionaliteit van de toepassing en moet worden geïmplementeerd om het proces succesvol te laten verlopen. |
 | S(hould have) | Belangrijke functionaliteit die niet vereist is, maar die voordelen biedt voor gebruikers en de algehele gebruikservaring. |
 | C(ould have) | Gewenste functionaliteit die waarde toevoegt, maar minder kritisch is en indien nodig kan worden uitgesteld. |
-| W(on't have) | Functionaliteiten die nu buiten scope zijn maar mogelijk in de toekomst worden overwogen. |
+| W(on't have) | Functionaliteiten die nu buiten scope zijn maar mogelijk in de toekomst worden overwogen. PGO's hebben de vrijheid om deze datavelden desondanks toch te tonen. Het uitgangspunt is echter dat deze velden niet primair worden weergegeven, zodat de gebruiker deze informatie niet direct ziet. De gegevens zijn alleen beschikbaar wanneer de gebruiker hier expliciet naar zoekt of doorklikt, aangezien deze datavelden geen duidelijke meerwaarde hebben voor directe weergave. |
 
 <br/>
 
@@ -408,11 +414,11 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | Naam data-item | Type data-item | Id | Voorbeeld | Waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven | Weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Contact** | **Rootconcept** | NL-CM:15.1.1 | | a | Contact | | |
-| Contacttype | Item | NL-CM:15.1.2 | Thuis (code 'HH' in codesysteem 'ActCode') | a | Type contact | | M |
-| ContactMet::Zorgverlener | Reference | NL-CM:15.1.7 | Julia van den Bos | a of b | Contact met | | Zorgverlener naam: M <br/> Overige datavelden: W |
-| Locatie::Zorgaanbieder | Reference | NL-CM:15.1.8 | IJsselheem | a | Locatie | Liefst geen afkortingen | M |
-| BeginDatumTijd | Item | NL-CM:15.1.3 | 30-03-2025 10:20 | a | Begindatum en -tijd | | M |
-| EindDatumTijd | Item | NL-CM:15.1.4 | 30-03-2025 10:50 | b | Einddatum en -tijd | | M |
+| Contacttype | Item | NL-CM:15.1.2 | Thuis (code 'HH' in codesysteem 'ActCode') | a | Type contact | Als de (gecodeerde) waarde van dit data-item gelijk is aan de NullFlavor *OTH*, wordt de specifieke omschrijving via het FHIR-element `Encounter.type(.text)` uitgewisseld. | M |
+| ContactMet::Zorgverlener | Reference | NL-CM:15.1.7 | Julia van den Bos | a of b | Contact met (of Zorgverlener) | | Zorgverlener naam: M <br/> Overige datavelden: W |
+| Locatie::Zorgaanbieder | Reference | NL-CM:15.1.8 | IJsselheem | a | Locatie (of Zorgorganisatie) | Liefst geen afkortingen | M |
+| BeginDatumTijd | Item | NL-CM:15.1.3 | 30-03-2025 10:20 | a | Begindatum en -tijd (of weergeven in twee velden Begindatum en Begintijd) | BeginDatumTijd en EindDatumTijd mogen ook samen als periode in één veld getoond worden | M |
+| EindDatumTijd | Item | NL-CM:15.1.4 | 30-03-2025 10:50 | b | Einddatum en -tijd of (of weergeven in twee velden Einddatum en Eindtijd) | BeginDatumTijd en EindDatumTijd mogen ook samen als periode in één veld getoond worden | M |
 | **RedenContact** | **Container** | NL-CM:15.1.13 | | b | Reden contact | | |
 | Probleem | Reference | NL-CM:15.1.6 | | b | Reden contact | | S |
 | Verrichting | Reference | NL-CM:15.1.11 | | b | Reden contact | | S |
@@ -425,8 +431,8 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | **Dagrapportage** | **Rootconcept** | lz-dataelement-1 | | a | Dagrapportage | | |
 | RapportageTitel | Item | lz-dataelement-2 | Problemen met mobiliteit en spraak | a | Titel dagrapportage | | M |
 | RapportageDatumTijd | Item | lz-dataelement-3 | 17-05-2025 07:00 | a | Datum en tijd | | M |
-| Uitvoerder::Zorgverlener | Reference | lz-dataelement-4 | Julia van den Bos | b | Zorgverlener | | M |
-| Uitvoerder::Zorgaanbieder | Reference | lz-dataelement-14 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | M |
+| Uitvoerder::Zorgverlener | Reference | lz-dataelement-4 (indien Uitvoerder een referentie naar Zorgverlener bevat) | Julia van den Bos | b | Zorgverlener | | M |
+| Uitvoerder::Zorgaanbieder | Reference | lz-dataelement-4 (indien Uitvoerder een referentie naar Zorgaanbieder bevat) <br/> <br/> lz-dataelement-4 --> NL-CM:17.1.1 --> NL-CM:17.1.6 (indien Uitvoerder een referentie naar Zorgverlener bevat) | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 | RapportageInhoud | Item | lz-dataelement-19 | Mevrouw vertoont toenemende stijfheid bij het opstaan en lopen. Er is sprake van fijne tremor in de rechterhand. Tijdens het ochtendcontact had zij moeite om zich verbaal uit te drukken; gebruikt korte zinnen met lange pauzes. Zelfstandig toiletbezoek is mogelijk, maar met risico op vallen. Advies: looprek binnen handbereik houden en logopedie betrekken voor spraakondersteuning. | b | Dagverslag | | M |
 
 <br/>
@@ -435,7 +441,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Alert** | **Rootconcept** | NL-CM:8.3.1 | | a | Waarschuwing | | |
 | Conditie::Probleem | Item | NL-CM:8.3.3 | | a | Probleem | | M |
-| AlertNaam |Item| NL-CM:8.3.4 | Drager VRE (code '431109006' in codesysteem 'SNOMED CT') | a | Waarschuwing | | M |
+| AlertNaam | Item | NL-CM:8.3.4 | Drager VRE (code '431109006' in codesysteem 'SNOMED CT') | a | Waarschuwing | | M |
 | BeginDatumTijd | Item | NL-CM:8.3.5 | 18-02-2025 | b | Waarschuwing actief sinds | | M |
 | AlertType | Item | NL-CM:8.3.6 | Waarschuwing (code '74018-3' in codesysteem 'LOINC') | b | Type | | M |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
@@ -446,7 +452,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Bloeddruk** | **Rootconcept** | NL-CM:12.4.1 | | a | Bloeddruk | | |
 | Meetmethode | Item | NL-CM:12.4.7 | Niet-invasief (code '22762002' in codesysteem 'SNOMED CT') | b | Methode | | M |
-| ManchetType | Item | NL-CM:12.4.9 | Klein (code 'S' in codesysteem '2.16.840.1.113883.2.4.3.11.60.40.4.15.1') | b | Manchettype | | M |
+| ManchetType | Item | NL-CM:12.4.9 | Klein (code 'S' in codesysteem 'ManchetType') | b | Manchettype | | M |
 | MeetLocatie | Item | NL-CM:12.4.10 | Linker bovenarm (code '368208006' in codesysteem 'SNOMED CT') | b | Locatie meting | | M |
 | DiastolischEindpunt | Item | NL-CM:12.4.8 | Fase IV (code '225271000' in codesysteem 'SNOMED CT') | b | Korotkofftoon | | M |
 | SystolischeBloeddruk | Item | NL-CM:12.4.2 | 160 mmHg | a | Bovendruk | | M |
@@ -462,7 +468,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | Naam data-item | Type data-item | Id | Voorbeeld | Waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven | Weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Lichaamslengte** | **Rootconcept** | NL-CM:12.2.1 | | a | Lichaamslengte | | |
-| LengteWaarde | Item | NL-CM:12.2.2 | 160 cm | a | Lichaamslengte | | M |
+| LengteWaarde | Item | NL-CM:12.2.2 | 160 cm | a | [Lichaamslengte](https://terminologie.nictiz.nl/art-decor/loinc?conceptId=8302-2) | | M |
 | LengteDatumTijd | Item | NL-CM:12.2.4 | 15-03-2025 13:30 | a | Datum en tijd | | M |
 | Toelichting | Item | NL-CM:12.2.3 | zonder schoenen aan | b | Toelichting | | M |
 | Positie | Item | NL-CM:12.2.5 | Staande positie (code '10904000' in codesysteem 'SNOMED CT') | b | Positie | | S |
@@ -473,7 +479,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | Naam data-item | Type data-item | Id | Voorbeeld | Waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven | Weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |--- |
 | **Lichaamstemperatuur** | **Rootconcept** | NL-CM:12.6.1 | | a | Lichaamstemperatuur | | |
-| TemperatuurWaarde | Item | NL-CM:12.6.2 | 38,6 | a | Lichaamstemperatuur | | M |
+| TemperatuurWaarde | Item | NL-CM:12.6.2 | 38,6 | a | [Lichaamstemperatuur](https://terminologie.nictiz.nl/art-decor/loinc?conceptId=8310-5) | | M |
 | TemperatuurDatumTijd | Item | NL-CM:12.6.4 | 17-03-2025 07:00 | a | Datum en tijd | | M |
 | Toelichting | Item | NL-CM:12.6.3 | voeten voelen heel koud aan | b | Toelichting | | M |
 | TemperatuurType | Item | NL-CM:12.6.5 | Orale temperatuur (onder de tong) (code '415945006' in codesysteem 'SNOMED CT') | b | Type temperatuur | | M |
@@ -484,10 +490,10 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | Naam data-item | Type data-item | Id | Voorbeeld | Waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven | Weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |--- |
 | **Lichaamsgewicht** | **Rootconcept** | NL-CM:12.1.1 | | a | Lichaamsgewicht | | |
-| GewichtWaarde | Item | NL-CM:12.1.2 | 58 kg | a | Lichaamsgewicht | | M |
+| GewichtWaarde | Item | NL-CM:12.1.2 | 58 kg | a | [Lichaamsgewicht](https://terminologie.nictiz.nl/art-decor/loinc?conceptId=29463-7) | | M |
 | Toelichting | Item | NL-CM:12.1.3 | mevrouw is aan het aansterken | b | Toelichting | | M |
 | GewichtDatumTijd | Item | NL-CM:12.1.4 | 12-03-2025 14:30 | a | Datum en tijd | | M |
-| Kleding | Item | NL-CM:12.1.5 | Lichte kleding/ondergoed (code 'MINIMAL' in codesysteem '2.16.840.1.113883.2.4.3.11.60.40.4.8.1') | b | Kleding | | M |
+| Kleding | Item | NL-CM:12.1.5 | Lichte kleding/ondergoed (code 'MINIMAL' in codesysteem 'ContextKleding') | b | Kleding | | M |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
 
 <br/>
@@ -507,7 +513,7 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | Naam data-item | Type data-item | Id | Voorbeeld | Waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven | Weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- |--- |
 | **Woonsituatie** | **Rootconcept** | NL-CM:7.8.1 | | a | Woonsituatie | | |
-| WoningType | Item | NL-CM:7.8.3 | Aanleunwoning (code 'AANLW' in codesysteem '2.16.840.1.113883.2.4.3.11.60.40.4.13.1') | a | Type woning | | M |
+| WoningType | Item | NL-CM:7.8.3 | Aanleunwoning (code 'AANLW' in codesysteem 'WoningType') | a | Type woning | | M |
 | DatumTijd | Item | NL-CM:0.0.14 | 15-03-2024 | a | Datum | Alleen datum is voldoende | M |
 | Toelichting | Item | NL-CM:7.8.2 | Woning is op de begane grond | a of b | Toelichting | | M |
 | Zorgaanbieder | Reference | NL-CM:0.0.7 --> NL-CM:17.1.1 --> NL-CM:17.1.6 | IJsselheem | a | Zorgorganisatie | Liefst geen afkortingen | Organisatienaam: M <br/> Overige datavelden: W |
@@ -527,9 +533,9 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 
 | Naam data-item | Type data-item | Id | Voorbeeld | Waar te tonen in PGO <br/> (a) in overzicht en als detailgegeven <br/> (b) als detailgegeven | Weergavetekst in PGO | Opmerkingen | Prioriteit (MoSCoW) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Betaler** | **Rootconcept** | NL-CM:1.1.1 | | a | Verzekeraar | | |
+| **Betaler** | **Rootconcept** | NL-CM:1.1.1 | | a | Betaler | | |
 | **BetalerPersoon** | **Container** | NL-CM:1.1.2 | | a (zie opmerkingen) | Betaler | Als Verzekeraar niet aanwezig is | |
-| BetalerNaam | Item | NL-CM:1.1.5 | | a | Naam | | M |
+| BetalerNaam | Item | NL-CM:1.1.5 | | a | Naam betaler| | M |
 | **Bankgegevens** | **Container** | NL-CM:1.1.4 | | b | Bankgegevens | | |
 | BankNaam | Item | NL-CM:1.1.9 | ING | b | Naam bank | | M |
 | Bankcode | Item | NL-CM:1.1.10 | INGBNL2A | b | Code bank | | M |
@@ -538,9 +544,9 @@ Merk op dat in onderstaande tabellen het dataitem Zorgaanbieder (van type Refere
 | **Verzekering** | **Container** | NL-CM:1.1.8 | | a of b | Verzekering | | |
 | BeginDatumTijd | Item | NL-CM:1.1.13 | 18-03-2023 | b | Begindatum | Alleen datum is voldoende | M |
 | EindDatumTijd | Item | NL-CM:1.1.14 | 17-03-2026 | b | Einddatum | Alleen datum is voldoende | M |
-| Verzekeringssoort | Item | NL-CM:1.1.15 | Basis verzekerd (code 'B' in codesysteem '2.16.840.1.113883.2.4.3.11.60.101.5.1') | b | Soort verzekering | | M |
-| IdentificatieNummer | Item | NL-CM:1.1.7 | 3332 (in identificerend systeem '2.16.840.1.113883.2.4.6.4') | b | Identificatienummer | | M |
-| OrganisatieNaam | Item | NL-CM:1.1.16 | Menzis | a of b | Naam organisatie | | M |
+| Verzekeringssoort | Item | NL-CM:1.1.15 | Basis verzekerd (code 'B' in codesysteem 'Verzekeringssoort') | b | Soort verzekering | | M |
+| IdentificatieNummer | Item | NL-CM:1.1.7 | 3332 (in identificerend systeem 'UZOVI') | b | Identificatienummer | | M |
+| OrganisatieNaam | Item | NL-CM:1.1.16 | Menzis | a of b | Naam verzekeraar | | M |
 | VerzekerdeNummer | Item | NL-CM:1.1.6 | 6318708200 | b | Nummer verzekerde | | M |
 | Adresgegevens | Subbouwsteen | NL-CM:1.1.17 | | b | | | M |
 | Contactgegevens | Subbouwsteen | NL-CM:1.1.12 | | b | | | M |
