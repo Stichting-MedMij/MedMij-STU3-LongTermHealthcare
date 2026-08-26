@@ -68,7 +68,7 @@ Op aanraden van zijn dochter heeft Peter nu een eigen gekozen PGO. In zijn PGO w
 - In de PGO van de patiënt worden de opgevraagde gegevens overzichtelijk en begrijpelijk getoond.
 
 ### Bedrijfsrollen
-Deze usecase onderscheidt twee bedrijfsrollen, namelijk de *Patiënt* en de *Zorgaanbieder*, zoals te zien in onderstaande tabel.
+Deze usecase onderscheidt twee bedrijfsrollen, namelijk de _Patiënt_ en de _Zorgaanbieder_, zoals te zien in onderstaande tabel.
 
 | Bedrijfsrol (actor) | Beschrijving |
 | --- | --- |
